@@ -1,5 +1,5 @@
 import React from "react";
-import axios from 'axios';
+import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
 import { useState } from "react";
 import Footer from "../../components/Footer/Footer";
@@ -32,32 +32,40 @@ function Hifiform() {
 
   const bookapp = async (e) => {
     e.preventDefault();
-    const resultresp = await appointform({
-      uid: uid,
-      date: date,
-      Mode: mode,
-      phone: phone,
-      Docid: id,
-      Status: "pending",
-    });
+    try {
+      const resultresp = await appointform({
+        uid: uid,
+        date: date,
+        Mode: mode,
+        phone: phone,
+        Docid: id,
+        Status: "pending",
+      });
 
-    await axios.post("https://sheetdb.io/api/v1/725wae185vaj2", {
-      data: [
+      const resultExcelEntry = await axios.post(
+        "https://sheetdb.io/api/v1/725wae185vaj2",
         {
-          Name: cname,
-          Date: date,
-          Contact: phone,
-          Mode: mode,
-          Form_For: "doc-appoint",
-        },
-      ],
-    });
-    if (resultresp) {
-      navigate("/appointsuccess");
+          data: [
+            {
+              Name: cname,
+              Date: date,
+              Contact: phone,
+              Mode: mode,
+              Form_For: "doc-appoint",
+            },
+          ],
+        }
+      );
+      if (resultresp) {
+        navigate("/appointsuccess");
+      }
+      setCname("");
+      setPhone("");
+      // Handle success, if needed
+    } catch (error) {
+      console.error("An error occurred:", error);
+      // Handle the error, such as logging or showing a user-friendly message
     }
-    console.log(resultresp);
-    setCname("");
-    setPhone("");
   };
   return (
     <div class="hifi-appform">
