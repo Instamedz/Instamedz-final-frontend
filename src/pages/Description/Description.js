@@ -63,6 +63,7 @@ function Description() {
             <p className='pt-2'>{diseasedetails.symptoms}</p>
           </div>
         </div>
+        </div>
         <div className="desc-row ">
             <div class="desc-col desc-card" onClick={()=>redirectpage("test")}>
                 <img src={descimg1} alt="" />
@@ -77,7 +78,6 @@ function Description() {
                 <p>Connect with Doctor</p>
             </div>
         </div>
-      </div>
       <Footer />
     </div>
 
