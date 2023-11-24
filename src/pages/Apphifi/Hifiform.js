@@ -47,7 +47,7 @@ function Hifiform() {
           Date: date,
           Contact: phone,
           Mode: mode,
-          formfor: "doc-appoint",
+          Form_For: "doc-appoint",
         },
       ],
     });
