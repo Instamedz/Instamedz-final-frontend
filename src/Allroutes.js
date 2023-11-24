@@ -16,6 +16,11 @@ import Fitinfinity from './pages/Fitinfinity/Fitinfinity'
 import Forgot from './pages/ForgotP/Forgot'
 import Home from './pages/Home/homepage'
 import Impulse from './pages/Impulse/Impulse'
+import Diseases from './pages/Diseases/Diseases';
+import Quest from './pages/Questionnaire/Questionnaire';
+import Description from './pages/Description/Description';
+import QuestResult from './pages/Questionnaire/QuestResult';
+import Remedies from './pages/Remedies/Remedies';
 
 
 
@@ -31,7 +36,12 @@ function Allroutes() {
         <Route path="/auth/forgot" element={<Forgot/>}> </Route>
         <Route path="/fitinfinity" element={<Fitinfinity/>}> </Route>
         <Route path="/about" element={<About/>}> </Route>
-        
+        <Route path="/diseases" element={<Diseases />}> </Route>
+        <Route path='/quest' element={<Quest />}></Route>
+        <Route path='/desc' element={<Description />}></Route>
+        <Route path='/result' element={<QuestResult />}></Route>
+        <Route path='/remedies' element={<Remedies />}></Route>
+    
         <Route path="*" element={<Nomatch/>}></Route>
         {/* route for login user only */}
         <Route element={<PrivateRoutes/>}>
