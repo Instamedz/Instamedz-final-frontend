@@ -1,6 +1,7 @@
 import React from 'react'
 import {useNavigate} from 'react-router-dom';
 import './Diseases.css';
+import {useEffect} from 'react';
 import diseaseList from "../../sources/DiseaseList"
 import img1 from'../../assets/questionnaire/img1.png'
 import img2 from'../../assets/questionnaire/img2.png'
@@ -13,6 +14,9 @@ function Diseases() {
   const redirectpage = (id) => {
     navigate('/desc',{state:{id:id.name}});
   };
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
   return (
     <div>
       <Navbar/>
@@ -34,12 +38,11 @@ function Diseases() {
         <div className="diseases-row">
             {diseaseList.map(function(disease) {
               return (
-                <div className=" diseases-col diseases-cardbox">
+                <div className=" diseases-cardbox">
                   <h1 className="diseases-cardtitle">{disease.name}</h1>
                   <p className='diseases-cardcontext'>{disease.description}</p> 
                   <button className="diseases-cardbtn" onClick={()=>redirectpage(disease)}>Know more</button>
                 </div>
-                
               )
             })}
           </div>

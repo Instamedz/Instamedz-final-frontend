@@ -5,25 +5,24 @@
 }
 .diseases-col {
     float: left;
-    width: 50%;
+    width: 100%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 300px; 
 }
 .diseases-left{
     padding-left: 60px;
     width: 25%;
 } 
 .diseases-right{
-    padding-left: 60px;
+    padding-left: 5px;
     width: 25%;
 } 
 .diseases-middle {
     width: 50%;
     padding-top: 50px;
 }
-
 .diseases-titlebg{
-    width: 100%;
+    width: auto;
     height: 30%;
     display: flex;
     background: #D9D9D9;
@@ -43,10 +42,10 @@
     font-size: 20px;
 }
 .diseases-cardbox{
-    width: 40%;
+    width: 80%;
     height: 20%;
     padding: 20px;
-    margin:50px;
+    margin:70px;
     margin-top: 20px;
     border-radius: 10px;
     background-image: url("../../assets/questionnaire/boxbg.png");
@@ -77,7 +76,7 @@
     font-size: 13px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     .diseases-middle {
         height: 10%;
         width: 50%;
