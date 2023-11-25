@@ -29,6 +29,23 @@
 .display-card span{
   color: #32C0D4;
 }
+.display-input{
+  color: #143566;
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.display-input input{
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display:flex;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
 .display-list {
   list-style: none;
   margin-top: 15px;
@@ -52,6 +69,9 @@
     font-size: 16px;
     font-weight: bold;
     border-radius: 24px;
+}
+.display-btn:focus {
+  background-color: #22838f;
 }
 .display-question {
   color: #143566;

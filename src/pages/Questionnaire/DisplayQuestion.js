@@ -1,4 +1,5 @@
 import React from 'react'
+import axios from 'axios';
 import { useState } from 'react';
 import {useNavigate} from 'react-router-dom';
 import './Questionnaire.css';
@@ -36,15 +37,51 @@ function DisplayQuestion(props) {
     }
   };
 
-  const submitClicked =() =>{
-    console.log(score);
-    if(score < questions.length/2){
-      flag=1
+    const disease=props.diseasename
+    const [email,setemail]=useState("")
+    const [cname,setCname]=useState("")
+    const [phone,setPhone]=useState("")
+    let feedback;
+    const onsubmit=async()=>{
+      if(score<questions.length/2){
+        flag=1
+        feedback="Remedies"
+      }
+      else feedback="Connect Doctor"
+
+        const resultresp=await axios.post("https://sheetdb.io/api/v1/725wae185vaj2",{
+             data:[{
+                Name:cname,
+                Email:email,
+                Contact:phone,
+                Feedback:feedback,
+                Form_For:'soulcare / '+disease
+            }]
+        })
+        if(resultresp){
+          navigate('/result',{state:{id:flag}});
+        }
+        console.log(resultresp)
+        setCname("")
+        setPhone("")
+        setemail("")
     }
-    navigate('/result',{state:{id:flag}});
-  };
+
   return (
     <div className="display-card">
+      <div className='display-input'>
+        <label for="name" >Name</label>
+        <input type="text" id="name" onChange={(e)=>setCname(e.target.value)}   value={cname} />
+      </div>
+      <div className='display-input'>
+      <label for="phone">Mobile</label>
+      <input type="tel" id="phone" onChange={(e)=>setPhone(e.target.value)}   value={phone} maxlength="10" pattern="[1-9]{1}[0-9]{9}"/>
+      </div>
+      <div className='display-input'>
+      <label for="email">Email</label>
+      <input type="email" id="email" onChange={(e)=>setemail(e.target.value)}   value={email} aria-describedby="emailHelp" />
+      </div>
+
       {questions.map((question, index) => (
         <div key={index} className="display-question">
           <p>{question.text}</p>
@@ -68,11 +105,7 @@ function DisplayQuestion(props) {
           </ol>
         </div>
       ))}
-      <div className="text-center">
-      <button onClick={submitClicked} className='display-btn'>Submit Test</button>
-      </div>
-      
-
+      <button onClick={onsubmit}  class="display-btn" id="callback">Submit</button>        
     </div>
     
     );
