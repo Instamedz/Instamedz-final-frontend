@@ -71,15 +71,15 @@ function DisplayQuestion(props) {
     <div className="display-card">
       <div className='display-input'>
         <label for="name" >Name</label>
-        <input type="text" id="name" onChange={(e)=>setCname(e.target.value)}   value={cname} />
+        <input type="text" id="name" onChange={(e)=>setCname(e.target.value)}   value={cname} required/>
       </div>
       <div className='display-input'>
       <label for="phone">Mobile</label>
-      <input type="tel" id="phone" onChange={(e)=>setPhone(e.target.value)}   value={phone} maxlength="10" pattern="[1-9]{1}[0-9]{9}"/>
+      <input type="tel" id="phone" onChange={(e)=>setPhone(e.target.value)}   value={phone} maxlength="10" pattern="[1-9]{1}[0-9]{9}" required/>
       </div>
       <div className='display-input'>
       <label for="email">Email</label>
-      <input type="email" id="email" onChange={(e)=>setemail(e.target.value)}   value={email} aria-describedby="emailHelp" />
+      <input type="email" id="email" onChange={(e)=>setemail(e.target.value)}   value={email} aria-describedby="emailHelp" required/>
       </div>
 
       {questions.map((question, index) => (
@@ -96,6 +96,7 @@ function DisplayQuestion(props) {
                     checked={answers[index] === optionIndex}
                     onClick={() => calculateScore(option.isCorrect)}
                     onChange={() => handleAnswerSelect(index, optionIndex,)}
+                    required
                   />
                   &nbsp;
                   {option.text}
