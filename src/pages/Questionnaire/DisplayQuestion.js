@@ -36,6 +36,10 @@ function DisplayQuestion(props) {
       setScore(score+1);
     }
   };
+  const isFormValid = () => {
+    return cname.trim() !== '' && phone.trim() !== '' && email.trim() !== '' && answers.every(answer => answer !== null);
+  };
+  
 
     const disease=props.diseasename
     const [email,setemail]=useState("")
@@ -43,6 +47,8 @@ function DisplayQuestion(props) {
     const [phone,setPhone]=useState("")
     let feedback;
     const onsubmit=async()=>{
+
+      if (isFormValid()) {
       if(score<questions.length/2){
         flag=1
         feedback="Remedies"
@@ -66,20 +72,24 @@ function DisplayQuestion(props) {
         setPhone("")
         setemail("")
     }
+    else {
+      alert('Please fill in all fields and answer all questions before submitting.');
+    }
+  } 
 
   return (
     <div className="display-card">
       <div className='display-input'>
         <label for="name" >Name</label>
-        <input type="text" id="name" onChange={(e)=>setCname(e.target.value)}   value={cname} required/>
+        <input required type="text" id="name" onChange={(e)=>setCname(e.target.value)}   value={cname}/>
       </div>
       <div className='display-input'>
       <label for="phone">Mobile</label>
-      <input type="tel" id="phone" onChange={(e)=>setPhone(e.target.value)}   value={phone} maxlength="10" pattern="[1-9]{1}[0-9]{9}" required/>
+      <input required type="tel" id="phone" onChange={(e)=>setPhone(e.target.value)}   value={phone} maxlength="10" pattern="[1-9]{1}[0-9]{9}"/>
       </div>
       <div className='display-input'>
       <label for="email">Email</label>
-      <input type="email" id="email" onChange={(e)=>setemail(e.target.value)}   value={email} aria-describedby="emailHelp" required/>
+      <input required type="email" id="email" onChange={(e)=>setemail(e.target.value)}   value={email} aria-describedby="emailHelp"/>
       </div>
 
       {questions.map((question, index) => (
@@ -90,13 +100,13 @@ function DisplayQuestion(props) {
               <li key={optionIndex} className='display-list'>
                 <label>
                   <input
+                    required
                     type="radio"
                     id="radiobtn"
                     name={`question${index}`}
                     checked={answers[index] === optionIndex}
                     onClick={() => calculateScore(option.isCorrect)}
                     onChange={() => handleAnswerSelect(index, optionIndex,)}
-                    required
                   />
                   &nbsp;
                   {option.text}
