@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useState } from 'react';
 import {useNavigate} from 'react-router-dom';
 import './Questionnaire.css';
-import { Anxiety,Depression } from '../../sources/SoulCare'
+import {SoulCare} from '../../sources/SoulCare'
 import {useEffect} from 'react';
 
 function DisplayQuestion(props) {
@@ -14,12 +14,30 @@ function DisplayQuestion(props) {
 
   const navigate = useNavigate();
   const [questions] = useState(() =>{
-    if((props.diseasename)==="Anxiety"){
-      return Anxiety
-    }
-    else{
-      return Depression
-    }
+      switch(props.diseasename) {
+        case "Anxiety":
+          return SoulCare[0];
+        case "Depression":
+          return SoulCare[1];
+        case "PanicAttack":
+          return SoulCare[2];
+        case "OCD":
+          return SoulCare[3];
+        case "Phobia":
+          return SoulCare[4];
+        case "Insomnia":
+          return SoulCare[5];
+        case "Fatique":
+          return SoulCare[6];
+        case "Autism":
+          return SoulCare[7];
+        case "BipolarDisorder":
+          return SoulCare[8];
+        case "Hallucination":
+          return SoulCare[9];
+        default:
+          return SoulCare[0];
+      }
   });
   var flag=0;
   const [score, setScore] = useState(0);
@@ -90,6 +108,16 @@ function DisplayQuestion(props) {
       <div className='display-input'>
       <label for="email">Email</label>
       <input required type="email" id="email" onChange={(e)=>setemail(e.target.value)}   value={email} aria-describedby="emailHelp"/>
+      </div>
+      <div className='display-input'>
+        <label for="gender" >Gender
+        <select>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="nonbinary">Non-Binary</option>
+          <option value="prefernot">Prefer Not to Say</option>
+        </select>
+        </label>
       </div>
 
       {questions.map((question, index) => (

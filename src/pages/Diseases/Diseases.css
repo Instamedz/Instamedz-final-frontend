@@ -32,6 +32,9 @@
     font-size: 50px;
     text-align: center;   
 }
+.diseases-heading{
+    padding: 20px;
+}
 .diseases-imgpos{
     text-align: center; 
 }
@@ -42,11 +45,11 @@
     font-size: 20px;
 }
 .diseases-cardbox{
-    width: 80%;
+    width: 40%;
+    display: inline-block;
     height: 20%;
     padding: 20px;
-    margin:70px;
-    margin-top: 20px;
+    margin: 10px 60px 15px;
     border-radius: 10px;
     background-image: url("../../assets/questionnaire/boxbg.png");
     background-size: cover; 
@@ -66,14 +69,52 @@
     font-size: 15px;
 }
 .diseases-cardbtn{
-    width: 100px;
-    height:30px;
+    width: 80px;
+    height:20px;
     border-radius: 20px;
     background: #32C0D4;
     border: 1px solid #32C0D4;
     color: #FFF;
     text-align: center;
     font-size: 13px;
+}
+@media (max-width:1200px){
+    .diseases-middle {
+        height: 10%;
+        width: 50%;
+    }
+    .diseases-bg {
+        height: auto;
+        width: 100%;
+    }
+    .diseases-title {
+        font-size: 40px;
+        padding-top: 0%;
+    }
+    .diseases-subtitle {
+        width:100%;
+        font-size: 15px;
+    }
+    .diseases-imgpos{
+        height: 50%;
+        width: 100%;
+    }
+    .diseases-cardbox {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+    .diseases-cardtitle {
+        font-size: 20px;
+    }
+
+    .diseases-titlebg{
+        height: auto;
+    }
+    .diseases-cardcontext {
+        font-size: 10px;
+    }
+
 }
 
 @media (max-width: 600px) {

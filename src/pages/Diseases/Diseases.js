@@ -2,7 +2,7 @@ import React from 'react'
 import {useNavigate} from 'react-router-dom';
 import './Diseases.css';
 import {useEffect} from 'react';
-import diseaseList from "../../sources/DiseaseList"
+import {diseaseList} from "../../sources/SoulCare"
 import img1 from'../../assets/questionnaire/img1.png'
 import img2 from'../../assets/questionnaire/img2.png'
 import Footer from '../../components/Footer/Footer'
@@ -34,14 +34,16 @@ function Diseases() {
           </div>
         </div>
       </div>
-
-        <div className="diseases-row">
+      <div className="diseases-heading">
+      <h2>Choose a disease below to know about</h2>
+      </div>
+        <div>
             {diseaseList.map(function(disease) {
               return (
-                <div className=" diseases-cardbox">
+                <div className=" diseases-cardbox" onClick={()=>redirectpage(disease)}>
                   <h1 className="diseases-cardtitle">{disease.name}</h1>
                   <p className='diseases-cardcontext'>{disease.description}</p> 
-                  <button className="diseases-cardbtn" onClick={()=>redirectpage(disease)}>Know more</button>
+                  <button className="diseases-cardbtn">Know more</button>
                 </div>
               )
             })}
