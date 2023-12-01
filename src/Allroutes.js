@@ -21,6 +21,7 @@ import Quest from './pages/Questionnaire/Questionnaire';
 import Description from './pages/Description/Description';
 import QuestResult from './pages/Questionnaire/QuestResult';
 import Remedies from './pages/Remedies/Remedies';
+import ComingSoon from './pages/ComingSoon/ComingSoon'
 
 
 
@@ -41,6 +42,7 @@ function Allroutes() {
         <Route path='/desc' element={<Description />}></Route>
         <Route path='/result' element={<QuestResult />}></Route>
         <Route path='/remedies' element={<Remedies />}></Route>
+        <Route path='/comingsoon' element={<ComingSoon/>}></Route>
     
         <Route path="*" element={<Nomatch/>}></Route>
         {/* route for login user only */}

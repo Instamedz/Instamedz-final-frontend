@@ -85,17 +85,17 @@ function Description() {
             <div class="desc-col desc-card" onClick={()=>redirectpage("test")}>
                 <img src={descimg1} alt="" />
                 <h3>Take Screening Test</h3>
-                <p>Find possible health problems or diseases through test </p>
+                <p>Take the first step towards wellbeing with our screening tests, a gateway to understanding and managing your health. </p>
             </div>
             <div class="desc-col desc-card" onClick={()=>redirectpage("remedies")}>
                 <img src={descimg2} alt="" />
                 <h3>Get Remedies</h3>
-                <p>Home remedies to get your health improved and feel better</p>
+                <p>Empowering health through knowledge and care, our remedies are crafted with precision to embrace the art of healing </p>
             </div>
             <div class="desc-col desc-card" onClick={()=>redirectpage("doctor")}>
                 <img src={descimg3} alt="" />
                 <h3>Connect with Doctor</h3>
-                <p>Book an appointment with the doctor now</p>
+                <p>Expert care for every ailment,personalized and just a click away. Trust our dedicated doctors to guide you through the journey of healing and well-being.</p>
             </div>
         </div>
       <Footer />

@@ -8,7 +8,9 @@ function Service() {
   const navigate=useNavigate()
   const handleClick=(str)=>{
     const care=str.split(" ")[0].toLowerCase()
-    navigate(`/diseases`)
+    console.log(care)
+    if(care=="soul") navigate(`/diseases`)
+    else navigate(`/comingsoon`)
   }
   return (
     <section id="services" class="service">

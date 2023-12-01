@@ -41,7 +41,7 @@ function Apphifi() {
           <div class="app-header-title">
             <h1>Connect with our doctor </h1>
        
-            <a href={`/appointdoctor/${care}`}>Connect now >></a>
+            <a href={`/appointdoctor/${care}`}>Connect now</a>
           </div>
         </header>
         <section class="apphf-concern-cardcontainer">
