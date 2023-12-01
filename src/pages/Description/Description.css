@@ -83,7 +83,7 @@
 }
 .desc-cardsection{
     margin: auto;
-    padding: 0 80px 20px;
+    padding: 0 60px 20px;
 }
 .desc-card img{
     width: 160px;
@@ -95,7 +95,18 @@
     transform: scale(1.1);
 }
 /* Responsive columns */
-
+@media (max-width: 1200px){
+    .desc-col {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .desc-card {
+        width: 50%;
+        margin:10px;
+        margin-bottom: 30px;   
+    }
+}
 @media (max-width: 767px) {
     .desc-col {
         width: 100%;
@@ -119,8 +130,7 @@
 
     .desc-card {
         margin:auto;
-        margin-bottom: 10px; 
-        
+        margin-bottom: 30px;    
     }
     .desc-box {
         width: 100%;

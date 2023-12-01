@@ -36,6 +36,7 @@
 {
   .remedies-card{
     padding-bottom: 30%;
+    margin: 10px;
   }
   .remedies-card h2{
     font-size: 24px;
@@ -44,6 +45,7 @@
     width: auto;
     height: auto;
     font-size: 16px;
+    padding-bottom: 20px;
   }
   .remedies-btn{
     width: 150px;
@@ -52,8 +54,7 @@
   }
   .remedies-img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
     width: 50%;
     padding-top: 100px;
   }

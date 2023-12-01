@@ -27,7 +27,7 @@ function Description() {
         return  diseaseList[0];
       case "Depression":
         return  diseaseList[1];
-      case "PanicAttack":
+      case "Panic Attack":
         return  diseaseList[2];
       case "OCD":
         return  diseaseList[3];
@@ -39,7 +39,7 @@ function Description() {
         return  diseaseList[6];
       case "Autism":
         return  diseaseList[7];
-      case "BipolarDisorder":
+      case "Bipolar Disorder":
         return  diseaseList[8];
       case "Hallucination":
         return  diseaseList[9];
