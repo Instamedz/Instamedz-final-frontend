@@ -23,11 +23,12 @@ const Footer = () => {
     setOverview(ov)
     setProduct(pr)
     setService(sr)
-
-
-    
+ 
   }
-
+  const careClicked=(data)=>{
+    if(data==="soul") navigate("/diseases")
+    else navigate("/comingsoon")
+  }
   
   return (
     <footer>
@@ -56,12 +57,12 @@ const Footer = () => {
         </span>
         {(service || dynamicWidth >1000) && 
         <ul>
-          <li><a href="/consult">Covid Care</a></li>
-          <li><a href="/consult">Soul Care</a></li>
-          <li><a href="/consult">Heart Care</a></li>
-          <li><a href="/consult">Nutri Care</a></li>
-          <li><a href="/consult">Dental Care</a></li>
-          <li><a href="/consult">Eye Care</a></li>
+          <li onClick={()=>careClicked("other")}>Covid Care</li>
+          <li onClick={()=>careClicked("soul")}>Soul Care</li>
+          <li onClick={()=>careClicked("other")}>Heart Care</li>
+          <li onClick={()=>careClicked("other")}>Nutri Care</li>
+          <li onClick={()=>careClicked("other")}>Dental Care</li>
+          <li onClick={()=>careClicked("other")}>Eye Care</li>
         </ul>
         }
       </div>
