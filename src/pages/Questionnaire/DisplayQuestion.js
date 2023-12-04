@@ -42,11 +42,18 @@ function DisplayQuestion(props) {
   var flag=0;
   const [score, setScore] = useState(0);
   const [answers, setAnswers] = useState(Array(questions.length).fill(null));
+  const [answersText, setAnswersText] = useState(Array.from({ length: 6 }, () => ""));
 
   const handleAnswerSelect = (questionIndex, optionIndex) => {
     const newAnswers = [...answers];
     newAnswers[questionIndex] = optionIndex;
     setAnswers(newAnswers);
+  };
+
+  const handleTextAnswerChange = (questionIndex, text) => {
+    const newAnswersText = [...answersText];
+    newAnswersText[questionIndex] = text;
+    setAnswersText(newAnswersText);
   };
 
   const calculateScore = (isCorrect) => {   
@@ -126,20 +133,43 @@ function DisplayQuestion(props) {
           <ol>
             {question.options.map((option, optionIndex) => (
               <li key={optionIndex} className='display-list'>
-                <label>
-                  <input
-                    required
-                    type="radio"
-                    id="radiobtn"
-                    name={`question${index}`}
-                    checked={answers[index] === optionIndex}
-                    onClick={() => calculateScore(option.isCorrect)}
-                    onChange={() => handleAnswerSelect(index, optionIndex,)}
-                  />
-                  &nbsp;
-                  {option.text}
-                </label>
-              </li>
+              <label>
+                {option.text === "Others" ? (
+                  <>
+                    <input
+                      required
+                      type="radio"
+                      id={`radiobtn${optionIndex}`}
+                      name={`question${index}`}
+                      checked={answersText[index]}
+                      onChange={() => handleAnswerSelect(index, optionIndex)}
+                    />
+                    Others
+                    &nbsp;
+                    <input
+                      type="text"
+                      value={answersText[index] || ""}
+                      onChange={(e) => handleTextAnswerChange(index, e.target.value)}
+                      onClick={() => calculateScore(option.isCorrect)}
+                    />
+                  </>
+                ) : (
+                  <>
+                    <input
+                      required
+                      type="radio"
+                      id={`radiobtn${optionIndex}`}
+                      name={`question${index}`}
+                      checked={answers[index] === optionIndex}
+                      onClick={() => calculateScore(option.isCorrect)}
+                      onChange={() =>  handleAnswerSelect(index, optionIndex)}
+                    />
+                    &nbsp;
+                    {option.text}
+                  </>
+                )}
+              </label>
+            </li>
             ))}
           </ol>
         </div>

@@ -96,6 +96,8 @@ const Anxiety = [
         { id: 1, text: "Ophidiophobia (fear of snakes)", isCorrect: true },
         { id: 2, text: "Trypophobia (fear of clustered holes)", isCorrect: true },
         { id: 3, text: "Aviophobia (fear of flying)", isCorrect: true },
+        { id: 4, text: "None of the above", isCorrect: false },
+        { id: 5, text: "Others", isCorrect: true },
       ],
     },
     {
@@ -105,6 +107,8 @@ const Anxiety = [
         { id: 1, text: "Distress", isCorrect: true },
         { id: 2, text: "Disruption", isCorrect: true },
         { id: 3, text: "Anxiety", isCorrect: true },
+        { id: 4, text: "None of the above", isCorrect: false },
+        { id: 5, text: "Others", isCorrect: true },
       ],
     },
     {
@@ -115,6 +119,8 @@ const Anxiety = [
         { id: 2, text: "Spiders", isCorrect: true },
         { id: 3, text: "Flying", isCorrect: true },
         { id: 4, text: "Public Speaking", isCorrect: true },
+        { id: 4, text: "None of the above", isCorrect: false },
+        { id: 5, text: "Others", isCorrect: true },
       ],
     },
     {
@@ -124,6 +130,8 @@ const Anxiety = [
         { id: 1, text: "Occasionally", isCorrect: true },
         { id: 2, text: "Frequently", isCorrect: true },
         { id: 3, text: "Almost always", isCorrect: true},
+        { id: 4, text: "None of the above", isCorrect: false },
+        { id: 5, text: "Others", isCorrect: true },
       ],
     },
     {
@@ -133,6 +141,8 @@ const Anxiety = [
         { id: 1, text: "Difficulty sleeping", isCorrect: true },
         { id: 2, text: "Fatigue", isCorrect: true },
         { id: 3, text: "Muscle tension", isCorrect: true },
+        { id: 4, text: "None of the above", isCorrect: false },
+        { id: 5, text: "Others", isCorrect: true },
       ],
     },
     {
@@ -140,9 +150,10 @@ const Anxiety = [
     options: [
       { id: 0, text: "Chest pain", isCorrect: true },
       { id: 1, text: "Stomach pain", isCorrect: true },
-      { id: 2, text: "None of the above", isCorrect: false },
-      { id: 3, text: "Prefer not to say", isCorrect: true },
-        ],
+      { id: 2, text: "Prefer not to say", isCorrect: true },
+      { id: 3, text: "None of the above", isCorrect: false },
+      { id: 4, text: "Others", isCorrect: true },
+     ],
     },
     {
     text: "Does your heart rate increase or do you experience any symptoms like Sweating, Digestive issues, Bloating and gas may be present alongside anxiety?",
@@ -151,7 +162,9 @@ const Anxiety = [
       { id: 1, text: "Sweating", isCorrect: true },
       { id: 2, text: "Digestive issues", isCorrect: true },
       { id: 3, text: "Bloating and gas", isCorrect: true },
-        ],
+      { id: 4, text: "None of the above", isCorrect: false },
+      { id: 5, text: "Others", isCorrect: true },
+      ],
     },
     {
     text: "Do you worry excessively about being judged or criticized by others?",
@@ -160,7 +173,9 @@ const Anxiety = [
       { id: 1, text: "Doubt", isCorrect: true },
       { id: 2, text: "Concern", isCorrect: true },
       { id: 3, text: "Unease", isCorrect: true},
-        ],
+      { id: 4, text: "None of the above", isCorrect: false },
+      { id: 5, text: "Others", isCorrect: true },
+      ],
     },
     {
     text: "Have you ever sought professional help or therapy for your anxiety?",
@@ -169,8 +184,10 @@ const Anxiety = [
       { id: 1, text: "Medication prescribed by a psychiatrist.", isCorrect: true },
       { id: 2, text: "Support groups for individuals with anxiety.", isCorrect: true },
       { id: 3, text: "Mindfulness and relaxation techniques, like meditation or yoga.", isCorrect: true },
-        ],
+      { id: 4, text: "Others", isCorrect: true },
+      ],
     },
+
     
 ];
 const Depression = [
@@ -260,6 +277,7 @@ const Depression = [
     options: [
       { id: 0, text: "No", isCorrect: false },
       { id: 1, text: "Yes", isCorrect: true },
+      { id: 2, text: "Others", isCorrect: true },
       ],
     },
     
@@ -272,6 +290,7 @@ const PanicAttack = [
       { id: 1, text: "Occasionally", isCorrect: true },
       { id: 2, text: "Frequently", isCorrect: true },
       { id: 3, text: "Almost all the time", isCorrect: true },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -281,6 +300,7 @@ const PanicAttack = [
       { id: 1, text: "Occasionally", isCorrect: true },
       { id: 2, text: "Frequently", isCorrect: true },
       { id: 3, text: "Almost all the time", isCorrect: true },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -290,6 +310,7 @@ const PanicAttack = [
       { id: 1, text: "Occasionally", isCorrect: true },
       { id: 2, text: "Frequently", isCorrect: true },
       { id: 3, text: "Almost all the time", isCorrect: true },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -299,6 +320,7 @@ const PanicAttack = [
       { id: 1, text: "Occasionally", isCorrect: true },
       { id: 2, text: "Frequently", isCorrect: true},
       { id: 3, text: "Almost all the time", isCorrect: true },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -308,6 +330,7 @@ const PanicAttack = [
       { id: 1, text: "Occasionally", isCorrect: true },
       { id: 2, text: "Frequently", isCorrect: true },
       { id: 3, text: "Almost all the time", isCorrect: true },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -328,6 +351,16 @@ const PanicAttack = [
       { id: 3, text: "Almost all the time", isCorrect: true },
     ],
   },
+  {
+    text: " Have you sought professional help for your panic attacks",
+    options: [
+      { id: 0, text: "Yes, I am currently receiving treatment", isCorrect: true },
+      { id: 1, text: "Yes, but I am not currently receiving treatment", isCorrect: true },
+      { id: 2, text: "No, but I am considering seeking help", isCorrect: true },
+      { id: 3, text: "No, I have not considered seeking help", isCorrect: true },
+      { id: 4, text: "Others", isCorrect: true },
+    ],
+  },
 ];
 const OCD = [
   {
@@ -346,6 +379,7 @@ const OCD = [
       { id: 1, text: "Occasionally",isCorrect: true },
       { id: 2, text: "Frequently", isCorrect: true},
       { id: 3, text: "Almost all the time", isCorrect: true },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -355,6 +389,7 @@ const OCD = [
       { id: 1, text: "1-3 hours", isCorrect: true },
       { id: 2, text: "3-6 hours", isCorrect: true },
       { id: 3, text: "More than 6 hours", isCorrect: true },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -364,6 +399,7 @@ const OCD = [
       { id: 1, text: "Mild interference", isCorrect: true },
       { id: 2, text: "Moderate interference", isCorrect: true },
       { id: 3, text: "Severe interference", isCorrect: true },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -373,6 +409,7 @@ const OCD = [
       { id: 1, text: "Yes, sometimes", isCorrect: true },
       { id: 2, text: "No, rarely", isCorrect: true },
       { id: 3, text: "No, never", isCorrect: true },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -382,6 +419,7 @@ const OCD = [
       { id: 1, text: "Occasionally", isCorrect: true },
       { id: 2, text: "Frequently", isCorrect: true },
       { id: 3, text: "Almost all the time", isCorrect: true },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -391,6 +429,7 @@ const OCD = [
       { id: 1, text: "Occasionally", isCorrect: true},
       { id: 2, text: "Frequently", isCorrect: true },
       { id: 3, text: "Almost all the time", isCorrect: true },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -400,6 +439,7 @@ const OCD = [
       { id: 1, text: "Yes, sometimes", isCorrect: true},
       { id: 2, text: "No, rarely", isCorrect: true },
       { id: 3, text: "No, never", isCorrect: true },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -409,6 +449,15 @@ const OCD = [
       { id: 1, text: "1-6 months", isCorrect: true },
       { id: 2, text: "6 months to 1 year", isCorrect: true },
       { id: 3, text: "More than 1 year",isCorrect: true},
+      { id: 4, text: "Others", isCorrect: true },
+    ],
+  },
+  {
+    text: " Have you ever been diagnosed with OCD by a healthcare professional?",
+    options: [
+      { id: 0, text: "Yes", isCorrect: true },
+      { id: 1, text: "No", isCorrect: true },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
 ];
@@ -426,20 +475,20 @@ const Phobia = [
     text: "Have your phobias affected your ability to work or attend social events?",
     options: [
       { id: 0, text: "Never", isCorrect: false },
-      { id: 1, text: "Occasionally", isCorrect: true},
-      { id: 2, text: "Frequently", isCorrect: true},
+      { id: 1, text: "Significantly", isCorrect: true},
+      { id: 2, text: "Moderately", isCorrect: true},
     ],
   },
   {
     text: " Do you actively avoid situations or places that trigger your phobias?",
     options: [
       { id: 0, text: "Never", isCorrect: false },
-      { id: 1, text: "Occasionally", isCorrect: true},
-      { id: 2, text: "Frequently", isCorrect: true},
+      { id: 1, text: "Significantly", isCorrect: true},
+      { id: 2, text: "Moderately", isCorrect: true},
     ],
   },
   {
-    text: "Please select any specific phobias you believe you may have",
+    text: "Please select the most suitable phobia you believe you may have",
     options: [
       { id: 0, text: "Heights", isCorrect: true },
       { id: 1, text: "Public Speaking", isCorrect: true },
@@ -449,6 +498,23 @@ const Phobia = [
       { id: 5, text: "Animals", isCorrect: true },
       { id: 6, text: "Water", isCorrect: true },
       { id: 7, text: "Blood or Needle", isCorrect: true },
+      { id: 8, text: "None of the above", isCorrect: false },
+      { id: 9, text: "Others", isCorrect: true },
+    ],
+  },
+  {
+    text: "On a scale of 1 to 10, how would you rate the severity of your phobia symptoms?",
+    options: [
+      { id: 0, text: "1", isCorrect: false },
+      { id: 1, text: "2", isCorrect: false },
+      { id: 2, text: "3", isCorrect: false },
+      { id: 3, text: "4", isCorrect: false },
+      { id: 4, text: "5", isCorrect: true },
+      { id: 5, text: "6", isCorrect: true },
+      { id: 6, text: "7", isCorrect: true },
+      { id: 7, text: "8", isCorrect: true },
+      { id: 8, text: "9", isCorrect: true },
+      { id: 9, text: "10", isCorrect: true },
     ],
   },
 ];
@@ -460,6 +526,7 @@ const Insomnia = [
       { id: 1, text: "Several times a week", isCorrect: true },
       { id: 2, text: "About once a week", isCorrect: true },
       { id: 3, text: "Rarely or never", isCorrect: false },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -469,6 +536,7 @@ const Insomnia = [
       { id: 1, text: "Several times a week", isCorrect: true },
       { id: 2, text: "About once a week", isCorrect: true },
       { id: 3, text: "Rarely or never", isCorrect: false },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -478,6 +546,7 @@ const Insomnia = [
       { id: 1, text: "Several times a week", isCorrect: true },
       { id: 2, text: "About once a week", isCorrect: true },
       { id: 3, text: "Rarely or never", isCorrect: false },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -487,6 +556,7 @@ const Insomnia = [
       { id: 1, text: "15-30 minutes", isCorrect: true },
       { id: 2, text: "30 minutes to 1 hour", isCorrect: true},
       { id: 3, text: "More than 1 hour", isCorrect: true},
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -496,6 +566,7 @@ const Insomnia = [
       { id: 1, text: "6 hours", isCorrect: true },
       { id: 2, text: "7 hours", isCorrect: false },
       { id: 3, text: "8 hours or more", isCorrect: false },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -512,6 +583,7 @@ const Insomnia = [
       { id: 0, text: "Yes, significantly", isCorrect: true },
       { id: 1, text: "Yes, moderately", isCorrect: true },
       { id: 2, text: "No, not really", isCorrect: false },
+      { id: 3, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -521,6 +593,21 @@ const Insomnia = [
       { id: 1, text: "1-3months", isCorrect: true },
       { id: 2, text: "3-6months", isCorrect: true },
       { id: 3, text: "6 months to 1 year", isCorrect: true },
+      { id: 4, text: "Others", isCorrect: true },
+    ],
+  },
+  {
+    text: "Have you tried any remedies or strategies to improve your sleep (e.g., relaxation techniques, herbal supplements, sleep apps) and found them ineffective?",
+    options: [
+      { id: 0, text: "Yes", isCorrect:true},
+      { id: 1, text: "No", isCorrect: true },
+    ],
+  },
+  {
+    text: "Do you have a history of mental health conditions or chronic illnesses that might be contributing to your sleep problems?",
+    options: [
+      { id: 0, text: "Yes", isCorrect:true},
+      { id: 1, text: "No", isCorrect: true },
     ],
   },
 
@@ -565,6 +652,7 @@ const Autism = [
       { id: 1, text: "Occasionally", isCorrect: true },
       { id: 2, text: "Often", isCorrect: true },
       { id: 3, text: "Very often", isCorrect: true },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -574,6 +662,7 @@ const Autism = [
       { id: 1, text: "Occasionally", isCorrect: true },
       { id: 2, text: "Often", isCorrect: true },
       { id: 3, text: "Very often", isCorrect: true },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -583,6 +672,7 @@ const Autism = [
       { id: 1, text: "Occasionally", isCorrect: true },
       { id: 2, text: "Often", isCorrect: true},
       { id: 3, text: "Very often", isCorrect:true },
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -592,6 +682,7 @@ const Autism = [
       { id: 1, text: "Occasionally", isCorrect: true},
       { id: 2, text: "Often", isCorrect: true},
       { id: 3, text: "Very often", isCorrect: true},
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -601,6 +692,7 @@ const Autism = [
       { id: 1, text: "Occasionally", isCorrect: true},
       { id: 2, text: "Often", isCorrect: true},
       { id: 3, text: "Very often", isCorrect: true},
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -610,6 +702,7 @@ const Autism = [
       { id: 1, text: "Occasionally", isCorrect: true},
       { id: 2, text: "Often", isCorrect: true},
       { id: 3, text: "Very often", isCorrect: true},
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -619,6 +712,7 @@ const Autism = [
       { id: 1, text: "Occasionally", isCorrect: true},
       { id: 2, text: "Often", isCorrect: true},
       { id: 3, text: "Very often", isCorrect: true},
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -628,6 +722,7 @@ const Autism = [
       { id: 1, text: "Occasionally", isCorrect: true},
       { id: 2, text: "Often", isCorrect: true},
       { id: 3, text: "Very often", isCorrect: true},
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -637,6 +732,7 @@ const Autism = [
       { id: 1, text: "Occasionally", isCorrect: true},
       { id: 2, text: "Often", isCorrect: true},
       { id: 3, text: "Very often", isCorrect: true},
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
   {
@@ -646,6 +742,7 @@ const Autism = [
       { id: 1, text: "Occasionally", isCorrect: true},
       { id: 2, text: "Often", isCorrect: true},
       { id: 3, text: "Very often", isCorrect: true},
+      { id: 4, text: "Others", isCorrect: true },
     ],
   },
 ];
@@ -655,8 +752,8 @@ const BipolarDisorder = [
     options: [
       { id: 0, text: "Not at all", isCorrect:false},
       { id: 1, text: "Occasionally", isCorrect: true},
-      { id: 2, text: "Often", isCorrect: true},
-      { id: 3, text: "Very often", isCorrect: true},
+      { id: 2, text: "Frequently", isCorrect: true},
+      { id: 3, text: "Almost every day", isCorrect: true},
     ],
   },
   {
@@ -664,8 +761,8 @@ const BipolarDisorder = [
     options: [
       { id: 0, text: "Not at all", isCorrect:false},
       { id: 1, text: "Occasionally", isCorrect: true},
-      { id: 2, text: "Often", isCorrect: true},
-      { id: 3, text: "Very often", isCorrect: true},
+      { id: 2, text: "Frequently", isCorrect: true},
+      { id: 3, text: "Almost every day", isCorrect: true},
     ],
   },
   {
@@ -673,8 +770,8 @@ const BipolarDisorder = [
     options: [
       { id: 0, text: "Not at all", isCorrect:false},
       { id: 1, text: "Occasionally", isCorrect: true},
-      { id: 2, text: "Often", isCorrect: true},
-      { id: 3, text: "Very often", isCorrect: true},
+      { id: 2, text: "Frequently", isCorrect: true},
+      { id: 3, text: "Almost every day", isCorrect: true},
     ],
   },
   {
@@ -682,8 +779,8 @@ const BipolarDisorder = [
     options: [
       { id: 0, text: "Not at all", isCorrect:false},
       { id: 1, text: "Occasionally", isCorrect: true},
-      { id: 2, text: "Often", isCorrect: true},
-      { id: 3, text: "Very often", isCorrect: true},
+      { id: 2, text: "Frequently", isCorrect: true},
+      { id: 3, text: "Almost every day", isCorrect: true},
     ],
   },
   {
@@ -691,8 +788,8 @@ const BipolarDisorder = [
     options: [
       { id: 0, text: "Not at all", isCorrect:false},
       { id: 1, text: "Occasionally", isCorrect: true},
-      { id: 2, text: "Often", isCorrect: true},
-      { id: 3, text: "Very often", isCorrect: true},
+      { id: 2, text: "Frequently", isCorrect: true},
+      { id: 3, text: "Almost every day", isCorrect: true},
     ],
   },
   {
@@ -700,8 +797,8 @@ const BipolarDisorder = [
     options: [
       { id: 0, text: "Not at all", isCorrect:false},
       { id: 1, text: "Occasionally", isCorrect: true},
-      { id: 2, text: "Often", isCorrect: true},
-      { id: 3, text: "Very often", isCorrect: true},
+      { id: 2, text: "Frequently", isCorrect: true},
+      { id: 3, text: "Almost every day", isCorrect: true},
     ],
   },
   {
@@ -709,8 +806,8 @@ const BipolarDisorder = [
     options: [
       { id: 0, text: "Not at all", isCorrect:false},
       { id: 1, text: "Occasionally", isCorrect: true},
-      { id: 2, text: "Often", isCorrect: true},
-      { id: 3, text: "Very often", isCorrect: true},
+      { id: 2, text: "Frequently", isCorrect: true},
+      { id: 3, text: "Almost every day", isCorrect: true},
     ],
   },
   {
@@ -749,6 +846,13 @@ const Hallucination = [
   },
   {
     text: " Have you ever been diagnosed with a mental health disorder or a neurological condition?",
+    options: [
+      { id: 0, text: "Yes", isCorrect:true },
+      { id: 1, text: "No", isCorrect: false },
+    ],
+  },
+  {
+    text: "Are you currently taking medication for a mental health condition or any other medical condition?",
     options: [
       { id: 0, text: "Yes", isCorrect:true },
       { id: 1, text: "No", isCorrect: false },

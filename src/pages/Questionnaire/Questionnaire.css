@@ -138,6 +138,11 @@
   .display-question{
     padding-left: 20px;
   }
+  .display-text{
+    border: 'none';
+    border-bottom: '1px solid #000';
+    outline: 'none';
+  }
   .result-card{
     margin: 10px;
     padding-bottom: 30%;
