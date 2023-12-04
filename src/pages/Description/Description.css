@@ -73,7 +73,7 @@
     color: #143566;
     background-color: #ececec;
     padding: 20px;
-    margin: 60px;
+    margin: 10px;
     text-align: center;
     transition: transform .2s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -82,8 +82,7 @@
     color: #000000;
 }
 .desc-cardsection{
-    margin: auto;
-    padding: 0 60px 20px;
+    padding:0 15% 20px;
 }
 .desc-card img{
     width: 160px;
@@ -94,20 +93,12 @@
 .desc-card:hover{
     transform: scale(1.1);
 }
-/* Responsive columns */
-@media (max-width: 1200px){
-    .desc-col {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-    }
-    .desc-card {
-        width: 50%;
-        margin:10px;
-        margin-bottom: 30px;   
+@media (max-width: 1300px){
+    .desc-cardsection{
+        padding:0 10% 20px;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
     .desc-col {
         width: 100%;
         display: block;

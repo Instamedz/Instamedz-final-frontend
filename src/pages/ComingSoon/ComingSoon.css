@@ -1,9 +1,11 @@
 .coms-card{
     text-align: center;
-    padding: 50px;
+    padding: 3%;
     height: auto;
     width: 95%;
-    margin: 40px;
+    margin:auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
     background-color: #e4e4e4;
   }
   .coms-card h2{
@@ -19,6 +21,8 @@
   }
   .coms-img{
     margin: auto;
+    height: 25%;
+    width: 25%;
   }
   .coms-btn{
     width: 200px;

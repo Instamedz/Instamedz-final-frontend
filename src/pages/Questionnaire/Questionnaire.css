@@ -79,15 +79,23 @@
   font-size: 18px;
   font-weight: 700;
 }
+.display-textfield  {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
 #radiobtn {
   accent-color: #32C0D4;
 }
 .result-card{
   text-align: center;
-  padding: 50px;
+  padding: 3%;
   height: auto;
   width: 95%;
-  margin: 40px;
+  margin:auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
   background-color: #e4e4e4;
 }
 .result-card h2{

@@ -144,9 +144,11 @@ function DisplayQuestion(props) {
                       checked={answersText[index]}
                       onChange={() => handleAnswerSelect(index, optionIndex)}
                     />
-                    Others
+                    &nbsp;
+                    Others :
                     &nbsp;
                     <input
+                      className='display-textfield'
                       type="text"
                       value={answersText[index] || ""}
                       onChange={(e) => handleTextAnswerChange(index, e.target.value)}
