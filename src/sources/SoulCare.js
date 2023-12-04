@@ -92,29 +92,29 @@ const Anxiety = [
     {
       text: "What specific fears or phobias are causing you anxiety?",
       options: [
-        { id: 0, text: "Arachnophobia (fear of spiders)", isCorrect: false },
+        { id: 0, text: "Arachnophobia (fear of spiders)", isCorrect: true },
         { id: 1, text: "Ophidiophobia (fear of snakes)", isCorrect: true },
-        { id: 2, text: "Trypophobia (fear of clustered holes)", isCorrect: false },
-        { id: 3, text: "Aviophobia (fear of flying)", isCorrect: false },
+        { id: 2, text: "Trypophobia (fear of clustered holes)", isCorrect: true },
+        { id: 3, text: "Aviophobia (fear of flying)", isCorrect: true },
       ],
     },
     {
       text: "How do these fears affect your daily life and activities?",
       options: [
-        { id: 0, text: "Avoidance", isCorrect: false },
+        { id: 0, text: "Avoidance", isCorrect: true },
         { id: 1, text: "Distress", isCorrect: true },
-        { id: 2, text: "Disruption", isCorrect: false },
-        { id: 3, text: "Anxiety", isCorrect: false },
+        { id: 2, text: "Disruption", isCorrect: true },
+        { id: 3, text: "Anxiety", isCorrect: true },
       ],
     },
     {
       text: "Are there any specific situations or triggers that intensify your anxiety related to fears or phobias?",
       options: [
-        { id: 0, text: "Heights", isCorrect: false },
+        { id: 0, text: "Heights", isCorrect: true },
         { id: 1, text: "Crowds", isCorrect: true },
-        { id: 2, text: "Spiders", isCorrect: false },
-        { id: 3, text: "Flying", isCorrect: false },
-        { id: 4, text: "Public Speaking", isCorrect: false },
+        { id: 2, text: "Spiders", isCorrect: true },
+        { id: 3, text: "Flying", isCorrect: true },
+        { id: 4, text: "Public Speaking", isCorrect: true },
       ],
     },
     {
@@ -122,53 +122,53 @@ const Anxiety = [
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
         { id: 1, text: "Occasionally", isCorrect: true },
-        { id: 2, text: "Frequently", isCorrect: false },
-        { id: 3, text: "Almost always", isCorrect: false },
+        { id: 2, text: "Frequently", isCorrect: true },
+        { id: 3, text: "Almost always", isCorrect: true},
       ],
     },
     {
       text: "Have you noticed any physical symptoms accompanying your excessive worry, such as restlessness or difficulty sleeping?",
       options: [
-        { id: 0, text: "Restlessness", isCorrect: false },
+        { id: 0, text: "Restlessness", isCorrect: true },
         { id: 1, text: "Difficulty sleeping", isCorrect: true },
-        { id: 2, text: "Fatigue", isCorrect: false },
-        { id: 3, text: "Muscle tension", isCorrect: false },
+        { id: 2, text: "Fatigue", isCorrect: true },
+        { id: 3, text: "Muscle tension", isCorrect: true },
       ],
     },
     {
     text: "Have you ever experienced chest pain, Stomach pain during anxiety Episode?",
     options: [
-      { id: 0, text: "Chest pain", isCorrect: false },
+      { id: 0, text: "Chest pain", isCorrect: true },
       { id: 1, text: "Stomach pain", isCorrect: true },
       { id: 2, text: "None of the above", isCorrect: false },
-      { id: 3, text: "Prefer not to say", isCorrect: false },
+      { id: 3, text: "Prefer not to say", isCorrect: true },
         ],
     },
     {
     text: "Does your heart rate increase or do you experience any symptoms like Sweating, Digestive issues, Bloating and gas may be present alongside anxiety?",
     options: [
-      { id: 0, text: "Increased heart rate", isCorrect: false },
+      { id: 0, text: "Increased heart rate", isCorrect: true },
       { id: 1, text: "Sweating", isCorrect: true },
-      { id: 2, text: "Digestive issues", isCorrect: false },
-      { id: 3, text: "Bloating and gas", isCorrect: false },
+      { id: 2, text: "Digestive issues", isCorrect: true },
+      { id: 3, text: "Bloating and gas", isCorrect: true },
         ],
     },
     {
     text: "Do you worry excessively about being judged or criticized by others?",
     options: [
-      { id: 0, text: "Insecurity", isCorrect: false },
+      { id: 0, text: "Insecurity", isCorrect: true},
       { id: 1, text: "Doubt", isCorrect: true },
-      { id: 2, text: "Concern", isCorrect: false },
-      { id: 3, text: "Unease", isCorrect: false },
+      { id: 2, text: "Concern", isCorrect: true },
+      { id: 3, text: "Unease", isCorrect: true},
         ],
     },
     {
     text: "Have you ever sought professional help or therapy for your anxiety?",
     options: [
-      { id: 0, text: "Talk therapy with a psychologist or therapist.", isCorrect: false },
+      { id: 0, text: "Talk therapy with a psychologist or therapist.", isCorrect: true },
       { id: 1, text: "Medication prescribed by a psychiatrist.", isCorrect: true },
-      { id: 2, text: "Support groups for individuals with anxiety.", isCorrect: false },
-      { id: 3, text: "Mindfulness and relaxation techniques, like meditation or yoga.", isCorrect: false },
+      { id: 2, text: "Support groups for individuals with anxiety.", isCorrect: true },
+      { id: 3, text: "Mindfulness and relaxation techniques, like meditation or yoga.", isCorrect: true },
         ],
     },
     
@@ -179,8 +179,8 @@ const Depression = [
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
         { id: 1, text: "Several days", isCorrect: true },
-        { id: 2, text: "More than half the days", isCorrect: false },
-        { id: 3, text: "Nearly every day", isCorrect: false },
+        { id: 2, text: "More than half the days", isCorrect: true },
+        { id: 3, text: "Nearly every day", isCorrect: true },
       ],
     },
     {
@@ -188,8 +188,8 @@ const Depression = [
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
         { id: 1, text: "Several days", isCorrect: true },
-        { id: 2, text: "More than half the days", isCorrect: false },
-        { id: 3, text: "Nearly every day", isCorrect: false },
+        { id: 2, text: "More than half the days", isCorrect: true },
+        { id: 3, text: "Nearly every day", isCorrect: true },
       ],
     },
     {
@@ -197,8 +197,8 @@ const Depression = [
       options: [
         { id: 0, text: "No", isCorrect: false },
         { id: 1, text: "Yes, weight loss", isCorrect: true },
-        { id: 2, text: "Yes, weight gain", isCorrect: false },
-        { id: 3, text: "Maybe", isCorrect: false },
+        { id: 2, text: "Yes, weight gain", isCorrect: true },
+        { id: 3, text: "Maybe", isCorrect: true },
       ],
     },
     {
@@ -206,8 +206,8 @@ const Depression = [
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
         { id: 1, text: "Several days", isCorrect: true },
-        { id: 2, text: "More than half the days", isCorrect: false },
-        { id: 3, text: "Nearly every day", isCorrect: false },
+        { id: 2, text: "More than half the days", isCorrect: true },
+        { id: 3, text: "Nearly every day", isCorrect: true },
       ],
     },
     {
@@ -215,8 +215,8 @@ const Depression = [
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
         { id: 1, text: "Several days", isCorrect: true },
-        { id: 2, text: "More than half the days", isCorrect: false },
-        { id: 3, text: "Nearly every day", isCorrect: false },
+        { id: 2, text: "More than half the days", isCorrect: true },
+        { id: 3, text: "Nearly every day", isCorrect: true },
       ],
     },
     {
@@ -224,8 +224,8 @@ const Depression = [
     options: [
       { id: 0, text: "Not at all", isCorrect: false },
       { id: 1, text: "Several days", isCorrect: true },
-      { id: 2, text: "More than half the days", isCorrect: false },
-      { id: 3, text: "Nearly every day", isCorrect: false },
+      { id: 2, text: "More than half the days", isCorrect: true },
+      { id: 3, text: "Nearly every day", isCorrect: true },
       ],
     },
     {
@@ -233,8 +233,8 @@ const Depression = [
     options: [
       { id: 0, text: "Not at all", isCorrect: false },
       { id: 1, text: "Several days", isCorrect: true },
-      { id: 2, text: "More than half the days", isCorrect: false },
-      { id: 3, text: "Nearly every day", isCorrect: false },
+      { id: 2, text: "More than half the days", isCorrect: true },
+      { id: 3, text: "Nearly every day", isCorrect: true },
       ],
     },
     {
@@ -242,8 +242,8 @@ const Depression = [
     options: [
       { id: 0, text: "Not at all", isCorrect: false },
       { id: 1, text: "Several days", isCorrect: true },
-      { id: 2, text: "More than half the days", isCorrect: false },
-      { id: 3, text: "Nearly every day", isCorrect: false },
+      { id: 2, text: "More than half the days", isCorrect: true },
+      { id: 3, text: "Nearly every day", isCorrect: true },
       ],
     },
     {
@@ -251,8 +251,8 @@ const Depression = [
     options: [
       { id: 0, text: "No", isCorrect: false },
       { id: 1, text: "Mild distress or impairment", isCorrect: true },
-      { id: 2, text: "Moderate distress or impairment", isCorrect: false },
-      { id: 3, text: "Severe distress or impairment", isCorrect: false },
+      { id: 2, text: "Moderate distress or impairment", isCorrect: true },
+      { id: 3, text: "Severe distress or impairment", isCorrect: true },
         ],
     },
     {
@@ -268,64 +268,64 @@ const PanicAttack = [
   {
     text: " I have experienced sudden and intense feelings of fear or discomfort.",
     options: [
-      { id: 0, text: "Not at all", isCorrect: true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Frequently", isCorrect: false },
-      { id: 3, text: "Almost all the time", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect: false },
+      { id: 1, text: "Occasionally", isCorrect: true },
+      { id: 2, text: "Frequently", isCorrect: true },
+      { id: 3, text: "Almost all the time", isCorrect: true },
     ],
   },
   {
     text: " During a panic attack, I have had a racing heartbeat or palpitations.",
     options: [
-      { id: 0, text: "Not at all", isCorrect: true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Frequently", isCorrect: false },
-      { id: 3, text: "Almost all the time", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect: false },
+      { id: 1, text: "Occasionally", isCorrect: true },
+      { id: 2, text: "Frequently", isCorrect: true },
+      { id: 3, text: "Almost all the time", isCorrect: true },
     ],
   },
   {
     text: "  I have had difficulty breathing or felt like I was choking during a panic attack.",
     options: [
-      { id: 0, text: "Not at all", isCorrect: true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Frequently", isCorrect: false },
-      { id: 3, text: "Almost all the time", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect: false },
+      { id: 1, text: "Occasionally", isCorrect: true },
+      { id: 2, text: "Frequently", isCorrect: true },
+      { id: 3, text: "Almost all the time", isCorrect: true },
     ],
   },
   {
     text: "  I have felt dizzy, lightheaded, or faint during a panic attack.",
     options: [
-      { id: 0, text: "Not at all", isCorrect: true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Frequently", isCorrect: false },
-      { id: 3, text: "Almost all the time", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect: false },
+      { id: 1, text: "Occasionally", isCorrect: true },
+      { id: 2, text: "Frequently", isCorrect: true},
+      { id: 3, text: "Almost all the time", isCorrect: true },
     ],
   },
   {
     text: " I have experienced trembling or shaking during a panic attack",
     options: [
-      { id: 0, text: "Not at all", isCorrect: true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Frequently", isCorrect: false },
-      { id: 3, text: "Almost all the time", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect: false },
+      { id: 1, text: "Occasionally", isCorrect: true },
+      { id: 2, text: "Frequently", isCorrect: true },
+      { id: 3, text: "Almost all the time", isCorrect: true },
     ],
   },
   {
     text: " I have had chest pain or discomfort during a panic attack",
     options: [
-      { id: 0, text: "Not at all", isCorrect: true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Frequently", isCorrect: false },
-      { id: 3, text: "Almost all the time", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect: false },
+      { id: 1, text: "Occasionally", isCorrect: true },
+      { id: 2, text: "Frequently", isCorrect: true },
+      { id: 3, text: "Almost all the time", isCorrect: true },
     ],
   },
   {
     text: " I have avoided situations or places because I was afraid of having a panic attack",
     options: [
-      { id: 0, text: "Not at all", isCorrect: true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Frequently", isCorrect: false },
-      { id: 3, text: "Almost all the time", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect: false },
+      { id: 1, text: "Occasionally", isCorrect: true },
+      { id: 2, text: "Frequently", isCorrect: true},
+      { id: 3, text: "Almost all the time", isCorrect: true },
     ],
   },
 ];
@@ -405,7 +405,7 @@ const OCD = [
   {
     text: " How long have you been experiencing these symptoms?",
     options: [
-      { id: 0, text: "Less than 1 month", isCorrect: false },
+      { id: 0, text: "Less than 1 month", isCorrect: true },
       { id: 1, text: "1-6 months", isCorrect: true },
       { id: 2, text: "6 months to 1 year", isCorrect: true },
       { id: 3, text: "More than 1 year",isCorrect: true},
@@ -416,26 +416,26 @@ const Phobia = [
   {
     text: "Do you experience intense, irrational fears that disrupt your daily life?",
     options: [
-      { id: 0, text: "Never", isCorrect: true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Frequently", isCorrect: false },
-      { id: 3, text: "Rarely", isCorrect: false },
+      { id: 0, text: "Never", isCorrect: false },
+      { id: 1, text: "Occasionally", isCorrect: true },
+      { id: 2, text: "Frequently", isCorrect: true },
+      { id: 3, text: "Rarely", isCorrect: true },
     ],
   },
   {
     text: "Have your phobias affected your ability to work or attend social events?",
     options: [
-      { id: 0, text: "Never", isCorrect: true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Frequently", isCorrect: false },
+      { id: 0, text: "Never", isCorrect: false },
+      { id: 1, text: "Occasionally", isCorrect: true},
+      { id: 2, text: "Frequently", isCorrect: true},
     ],
   },
   {
     text: " Do you actively avoid situations or places that trigger your phobias?",
     options: [
-      { id: 0, text: "Never", isCorrect: true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Frequently", isCorrect: false },
+      { id: 0, text: "Never", isCorrect: false },
+      { id: 1, text: "Occasionally", isCorrect: true},
+      { id: 2, text: "Frequently", isCorrect: true},
     ],
   },
   {
@@ -456,100 +456,104 @@ const Insomnia = [
   {
     text: "How often do you have trouble falling asleep?",
     options: [
-      { id: 0, text: "Not at all", isCorrect: true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Frequently", isCorrect: false },
-      { id: 3, text: "Almost all the time", isCorrect: false },
+      { id: 0, text: "Every Night", isCorrect: true },
+      { id: 1, text: "Several times a week", isCorrect: true },
+      { id: 2, text: "About once a week", isCorrect: true },
+      { id: 3, text: "Rarely or never", isCorrect: false },
     ],
   },
   {
     text: "How often do you have trouble staying asleep (waking up in the middle of the night or early morning)?",
     options: [
-      { id: 0, text: "Not at all", isCorrect: true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Frequently", isCorrect: false },
-      { id: 3, text: "Almost all the time", isCorrect: false },
+      { id: 0, text: "Every Night", isCorrect: true },
+      { id: 1, text: "Several times a week", isCorrect: true },
+      { id: 2, text: "About once a week", isCorrect: true },
+      { id: 3, text: "Rarely or never", isCorrect: false },
     ],
   },
   {
     text: "How often do you wake up feeling not refreshed in the morning, even if you have had enough sleep?",
     options: [
-      { id: 0, text: "Not at all", isCorrect: true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Frequently", isCorrect: false },
-      { id: 3, text: "Almost all the time", isCorrect: false },
+      { id: 0, text: "Every Night", isCorrect: true },
+      { id: 1, text: "Several times a week", isCorrect: true },
+      { id: 2, text: "About once a week", isCorrect: true },
+      { id: 3, text: "Rarely or never", isCorrect: false },
     ],
   },
   {
     text: "How long does it usually take you to fall asleep once you are in bed?",
     options: [
-      { id: 0, text: "Not at all", isCorrect: true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Frequently", isCorrect: false },
-      { id: 3, text: "Almost all the time", isCorrect: false },
+      { id: 0, text: "Less than 15 minutes", isCorrect: false },
+      { id: 1, text: "15-30 minutes", isCorrect: true },
+      { id: 2, text: "30 minutes to 1 hour", isCorrect: true},
+      { id: 3, text: "More than 1 hour", isCorrect: true},
     ],
   },
   {
     text: " How many hours of sleep do you get on an average night?",
     options: [
-      { id: 0, text: "Not at all", isCorrect: true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Frequently", isCorrect: false },
-      { id: 3, text: "Almost all the time", isCorrect: false },
+      { id: 0, text: "5 hours or less", isCorrect: true },
+      { id: 1, text: "6 hours", isCorrect: true },
+      { id: 2, text: "7 hours", isCorrect: false },
+      { id: 3, text: "8 hours or more", isCorrect: false },
     ],
   },
   {
     text: "Do you often feel irritable, anxious, or have difficulty concentrating during the day due to lack of sleep?",
     options: [
-      { id: 0, text: "Not at all", isCorrect: true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Frequently", isCorrect: false },
-      { id: 3, text: "Almost all the time", isCorrect: false },
+      { id: 0, text: "Yes, frequently", isCorrect: true },
+      { id: 1, text: "Yes, occasionally", isCorrect: true },
+      { id: 3, text: "No, not usually", isCorrect: false },
     ],
   },
   {
     text: "Have you noticed a significant decrease in your ability to function at work, school, or in your daily activities due to lack of sleep?",
     options: [
-      { id: 0, text: "Yes, significantly", isCorrect: false },
-      { id: 1, text: "Yes, moderately", isCorrect: false },
-      { id: 2, text: "No, not really", isCorrect: true },
-      { id: 3, text: "No, never", isCorrect: true },
+      { id: 0, text: "Yes, significantly", isCorrect: true },
+      { id: 1, text: "Yes, moderately", isCorrect: true },
+      { id: 2, text: "No, not really", isCorrect: false },
     ],
   },
   {
     text: "How long have you been experiencing these sleep problems?",
     options: [
-      { id: 0, text: "Less than 1 month", isCorrect:false },
-      { id: 1, text: "1-3months", isCorrect: false },
-      { id: 2, text: "3-6months", isCorrect: false },
-      { id: 3, text: "6 months to 1 year", isCorrect: false },
+      { id: 0, text: "Less than 1 month", isCorrect:true},
+      { id: 1, text: "1-3months", isCorrect: true },
+      { id: 2, text: "3-6months", isCorrect: true },
+      { id: 3, text: "6 months to 1 year", isCorrect: true },
     ],
   },
 
 ];
 const Fatique = [
   {
+    text: "On a scale of 1 to 10, how would you rate your overall energy levels during the past week? (1 being extremely low energy, 10 being extremely high energy) ",
+    options: [
+      { id: 0, text: "1-4", isCorrect: false },
+      { id: 1, text: "5-10", isCorrect: true },
+    ],
+  },
+  {
     text: "How often do you feel fatigued during the day?",
     options: [
-      { id: 0, text: "Rarely", isCorrect: true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Frequently", isCorrect: false },
-      { id: 3, text: "Constantly", isCorrect: false },
+      { id: 0, text: "Rarely", isCorrect: false },
+      { id: 1, text: "Occasionally", isCorrect: true },
+      { id: 2, text: "Frequently", isCorrect: true},
+      { id: 3, text: "Constantly", isCorrect: true },
     ],
   },
   {
     text: "Do you find it challenging to concentrate or stay focused due to fatigue?",
     options: [
-      { id: 0, text: "Yes", isCorrect: true },
-      { id: 1, text: "No", isCorrect: false },
-      { id: 2, text: "Maybe", isCorrect: false },
+      { id: 0, text: "Yes", isCorrect: false },
+      { id: 1, text: "No", isCorrect: true },
     ],
   },
   {
     text: "Have you experienced any unexplained weight changes recently?",
     options: [
-      { id: 0, text: "Yes", isCorrect: true },
-      { id: 1, text: "No", isCorrect: false },
+      { id: 0, text: "Yes", isCorrect: false },
+      { id: 1, text: "No", isCorrect: true },
     ],
   },
 ];
@@ -557,91 +561,91 @@ const Autism = [
   {
     text: " I find it difficult to initiate or maintain conversations with others",
     options: [
-      { id: 0, text: "Not at all", isCorrect:true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Often", isCorrect: false },
-      { id: 3, text: "Very often", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect:false },
+      { id: 1, text: "Occasionally", isCorrect: true },
+      { id: 2, text: "Often", isCorrect: true },
+      { id: 3, text: "Very often", isCorrect: true },
     ],
   },
   {
     text: " I have difficulty understanding jokes or sarcasm.",
     options: [
-      { id: 0, text: "Not at all", isCorrect:true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Often", isCorrect: false },
-      { id: 3, text: "Very often", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect:false },
+      { id: 1, text: "Occasionally", isCorrect: true },
+      { id: 2, text: "Often", isCorrect: true },
+      { id: 3, text: "Very often", isCorrect: true },
     ],
   },
   {
     text: " I struggle to understand social cues and body language",
     options: [
-      { id: 0, text: "Not at all", isCorrect:true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Often", isCorrect: false },
-      { id: 3, text: "Very often", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect:false },
+      { id: 1, text: "Occasionally", isCorrect: true },
+      { id: 2, text: "Often", isCorrect: true},
+      { id: 3, text: "Very often", isCorrect:true },
     ],
   },
   {
     text: "  I prefer to engage in activities alone rather than with others",
     options: [
-      { id: 0, text: "Not at all", isCorrect:true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Often", isCorrect: false },
-      { id: 3, text: "Very often", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect:false},
+      { id: 1, text: "Occasionally", isCorrect: true},
+      { id: 2, text: "Often", isCorrect: true},
+      { id: 3, text: "Very often", isCorrect: true},
     ],
   },
   {
     text: " I have specific routines and get upset if they are disrupted",
     options: [
-      { id: 0, text: "Not at all", isCorrect:true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Often", isCorrect: false },
-      { id: 3, text: "Very often", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect:false},
+      { id: 1, text: "Occasionally", isCorrect: true},
+      { id: 2, text: "Often", isCorrect: true},
+      { id: 3, text: "Very often", isCorrect: true},
     ],
   },
   {
     text: " I engage in repetitive movements or activities (e.g., hand flapping, rocking)",
     options: [
-      { id: 0, text: "Not at all", isCorrect:true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Often", isCorrect: false },
-      { id: 3, text: "Very often", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect:false},
+      { id: 1, text: "Occasionally", isCorrect: true},
+      { id: 2, text: "Often", isCorrect: true},
+      { id: 3, text: "Very often", isCorrect: true},
     ],
   },
   {
     text: "I am unusually sensitive to lights, sounds, textures, or smells",
     options: [
-      { id: 0, text: "Not at all", isCorrect:true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Often", isCorrect: false },
-      { id: 3, text: "Very often", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect:false},
+      { id: 1, text: "Occasionally", isCorrect: true},
+      { id: 2, text: "Often", isCorrect: true},
+      { id: 3, text: "Very often", isCorrect: true},
     ],
   },
   {
     text: "  I find it difficult to tolerate certain fabrics or clothing textures",
     options: [
-      { id: 0, text: "Not at all", isCorrect:true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Often", isCorrect: false },
-      { id: 3, text: "Very often", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect:false},
+      { id: 1, text: "Occasionally", isCorrect: true},
+      { id: 2, text: "Often", isCorrect: true},
+      { id: 3, text: "Very often", isCorrect: true},
     ],
   },
   {
     text: "I have intense interests in specific topics and can talk about them for hours",
     options: [
-      { id: 0, text: "Not at all", isCorrect:true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Often", isCorrect: false },
-      { id: 3, text: "Very often", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect:false},
+      { id: 1, text: "Occasionally", isCorrect: true},
+      { id: 2, text: "Often", isCorrect: true},
+      { id: 3, text: "Very often", isCorrect: true},
     ],
   },
   {
     text: "I engage in repetitive play or activities that involve specific patterns or sequences",
     options: [
-      { id: 0, text: "Not at all", isCorrect:true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Often", isCorrect: false },
-      { id: 3, text: "Very often", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect:false},
+      { id: 1, text: "Occasionally", isCorrect: true},
+      { id: 2, text: "Often", isCorrect: true},
+      { id: 3, text: "Very often", isCorrect: true},
     ],
   },
 ];
@@ -649,73 +653,72 @@ const BipolarDisorder = [
   {
     text: " Over the past two weeks, have you experienced periods of unusually elevated mood, energy, or irritability that lasted for several days and were different from your typical behavior?",
     options: [
-      { id: 0, text: "Not at all", isCorrect:true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Often", isCorrect: false },
-      { id: 3, text: "Very often", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect:false},
+      { id: 1, text: "Occasionally", isCorrect: true},
+      { id: 2, text: "Often", isCorrect: true},
+      { id: 3, text: "Very often", isCorrect: true},
     ],
   },
   {
     text: "Have you experienced periods of feeling excessively sad, hopeless, or lacking interest or pleasure in most activities, lasting for several days and interfering with your daily functioning?",
     options: [
-      { id: 0, text: "Not at all", isCorrect:true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Often", isCorrect: false },
-      { id: 3, text: "Very often", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect:false},
+      { id: 1, text: "Occasionally", isCorrect: true},
+      { id: 2, text: "Often", isCorrect: true},
+      { id: 3, text: "Very often", isCorrect: true},
     ],
   },
   {
     text: "During elevated or manic periods, have you engaged in impulsive or risky activities such as excessive spending, reckless driving, or risky behavior?",
     options: [
-      { id: 0, text: "Not at all", isCorrect:true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Often", isCorrect: false },
-      { id: 3, text: "Very often", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect:false},
+      { id: 1, text: "Occasionally", isCorrect: true},
+      { id: 2, text: "Often", isCorrect: true},
+      { id: 3, text: "Very often", isCorrect: true},
     ],
   },
   {
     text: "Have you noticed significant changes in your sleep patterns, such as insomnia (difficulty falling or staying asleep) or hypersomnia (excessive sleep), during these mood episodes?",
     options: [
-      { id: 0, text: "Not at all", isCorrect:true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Often", isCorrect: false },
-      { id: 3, text: "Very often", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect:false},
+      { id: 1, text: "Occasionally", isCorrect: true},
+      { id: 2, text: "Often", isCorrect: true},
+      { id: 3, text: "Very often", isCorrect: true},
     ],
   },
   {
     text: "Do you experience racing thoughts, rapid speech, or an inability to concentrate during elevated periods, which is significantly different from your usual behavior?",
     options: [
-      { id: 0, text: "Not at all", isCorrect:true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Often", isCorrect: false },
-      { id: 3, text: "Very often", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect:false},
+      { id: 1, text: "Occasionally", isCorrect: true},
+      { id: 2, text: "Often", isCorrect: true},
+      { id: 3, text: "Very often", isCorrect: true},
     ],
   },
   {
     text: "Have you ever had thoughts of death or suicide, or have you made suicide attempts, during periods of depression or low mood?",
     options: [
-      { id: 0, text: "Not at all", isCorrect:true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Often", isCorrect: false },
-      { id: 3, text: "Very often", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect:false},
+      { id: 1, text: "Occasionally", isCorrect: true},
+      { id: 2, text: "Often", isCorrect: true},
+      { id: 3, text: "Very often", isCorrect: true},
     ],
   },
   {
     text: "Have your mood swings caused significant distress or impairment in your social, occupational, or other important areas of functioning?",
     options: [
-      { id: 0, text: "Not at all", isCorrect:true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Often", isCorrect: false },
-      { id: 3, text: "Very often", isCorrect: false },
+      { id: 0, text: "Not at all", isCorrect:false},
+      { id: 1, text: "Occasionally", isCorrect: true},
+      { id: 2, text: "Often", isCorrect: true},
+      { id: 3, text: "Very often", isCorrect: true},
     ],
   },
   {
     text: "Have you received a diagnosis of bipolar disorder from a mental health professional in the past?",
     options: [
-      { id: 0, text: "Not at all", isCorrect:true },
-      { id: 1, text: "Occasionally", isCorrect: false },
-      { id: 2, text: "Often", isCorrect: false },
-      { id: 3, text: "Very often", isCorrect: false },
+      { id: 0, text: "No", isCorrect:false},
+      { id: 1, text: "Yes", isCorrect: true},
+  
     ],
   },
 ];
@@ -730,8 +733,11 @@ const Hallucination = [
   {
     text: " How frequently do these hallucinations occur?",
     options: [
-      { id: 0, text: "Yes", isCorrect:true },
-      { id: 1, text: "No", isCorrect: false },
+      { id: 0, text: "Rarely(Once a month or less)", isCorrect:true },
+      { id: 1, text: "Occasionally(Several times a month)", isCorrect:true },
+      { id: 2, text: "Frequently(Several times a week)", isCorrect:true },
+      { id: 3, text: "Constantly(Every day)", isCorrect:true },
+      { id: 4, text: "Never", isCorrect: false },
     ],
   },
   {
