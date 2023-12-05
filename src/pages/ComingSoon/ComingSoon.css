@@ -36,19 +36,11 @@
     font-size:medium;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
   }
-@media screen and (max-width: 900px)
-{
-  .coms-card{
-    padding-bottom: 30%;
-    margin: 10px;
-    height: 100vh;
-  }
-}
 @media screen and (max-width: 768px)
 {
   .coms-card{
-    margin: 10px;
     padding-bottom: 30%;
+    margin: 10px;
   }
   .coms-card h2{
     font-size: 24px;
