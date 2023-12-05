@@ -95,7 +95,7 @@ function Description() {
             <div class="desc-col desc-card" onClick={()=>redirectpage("doctor")}>
                 <img src={descimg3} alt="" />
                 <h3>Connect with Doctor</h3>
-                <p>Expert care for every ailment,personalized and just a click away. Trust our dedicated doctors to guide you through the journey of healing and well-being.</p>
+                <p>Expert care for every ailment. Trust our dedicated doctors to guide you through the journey of healing and well-being.</p>
             </div>
         </div>
       <Footer />
