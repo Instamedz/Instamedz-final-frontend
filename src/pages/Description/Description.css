@@ -68,8 +68,8 @@
     background-size: 100%;
 }
 .desc-card{
-    width: 300px;
-    height:350px;
+    width: 30%;
+    height:30%;
     color: #143566;
     background-color: #ececec;
     padding: 20px;
@@ -82,6 +82,7 @@
     color: #000000;
 }
 .desc-cardsection{
+    width: 100%;
     padding:0 15% 20px;
 }
 .desc-card img{
@@ -93,12 +94,17 @@
 .desc-card:hover{
     transform: scale(1.1);
 }
-@media (max-width: 1300px){
+@media (max-width:475px){
     .desc-cardsection{
-        padding:0 10% 20px;
+        max-width: 475px;
     }
 }
-@media (max-width: 1200px) {
+@media (max-width:640px){
+    .desc-cardsection{
+        max-width: 640px;
+    }
+}
+@media (max-width:900px){
     .desc-col {
         width: 100%;
         display: block;
@@ -157,4 +163,21 @@
     .desc-symptoms p {
         font-size: 15px;
     }
+    .desc-cardsection{
+        max-width: 768px;
+    }
 }
+@media (max-width:1068px){
+    .desc-cardsection{
+        max-width: 1068px;
+        padding:0 0 20px;
+    }
+    
+}
+@media (max-width:1280px){
+    .desc-cardsection{
+        max-width: 1280px;
+        padding:0 5% 20px;
+    }
+}
+
