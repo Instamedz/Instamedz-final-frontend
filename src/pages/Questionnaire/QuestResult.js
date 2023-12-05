@@ -5,8 +5,13 @@ import img3 from'../../assets/questionnaire/img3.png'
 import {useNavigate} from 'react-router-dom';
 import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
+import {useEffect} from 'react';
 
 function QuestResult() {
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
+
   const location=useLocation();
   const flag=location.state.id;
   const showPosResults = flag;
