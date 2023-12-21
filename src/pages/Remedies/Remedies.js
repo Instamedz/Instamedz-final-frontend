@@ -1,18 +1,35 @@
-import React from 'react'
-import img4 from'../../assets/questionnaire/toaster.png'
+import React, { useEffect } from 'react'
+import {useNavigate} from 'react-router-dom';
 import './Remedies.css'
+import gifimage from '../../assets/remedies/remediesgif.gif'
 import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 
 function Remedies() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo({top: 13, left: 0, behavior: 'smooth'});
+    const timer = setTimeout(() => {
+      navigate('/disremedies');
+    }, 5000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div className='remedies-bg'>
+    <div>
       <Navbar/>
-        <div className='mt-5 remedies-card text-center'>
-          <img src={img4} alt="" className='remedies-img'/>
-          <h2>Coming Soon</h2>
-          <p>Your remedies are getting cooked, come again later.</p>
+      <div class="remedies-bg">
+        <div>
+          <h1>REMEDIES</h1>
         </div>
+        <div>
+          <p>Please wait,Your remedy is being cooked...</p>
+        </div>
+        <div className='remedies-imgdiv'>
+          <img src={gifimage} alt="image" />
+        </div>
+      </div>
       <Footer />
     </div> 
   )

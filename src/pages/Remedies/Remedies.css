@@ -1,63 +1,126 @@
-.remedies-card{
+.remedies-bg{
+  background-image: url("../../assets/remedies/remediesbg.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 90vh;
+}
+.remedies-bg h1{
+  color:#143566;
+  padding: 20px;
+  font-size: 35px;
+}
+.remedies-bg p{
+  text-align: center;
+  padding-top: 150px;
+  font-weight: 700;
+  font-size: 30px;
+}
+.remedies-bg img{
+  text-align: center;
+  margin:0;
+  padding: 0 ;
+}
+.remedies-imgdiv{
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+.dremedies-bg{
+  background-image: url("../../assets/remedies/remediesdispl.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.dremedies-bg h1{
+  color:#143566;
+  padding: 20px;
+  font-size: 35px;
+}
+.dremedies-h{
+  color:#016C4D;
+  text-align: center;
+  font-weight: 700;
+  padding: 20px;
+  font-size: 20px;
+}
+.dremedies-b1{
+  text-align: center;
+  font-weight: 800;
+  padding: 40px;
+  font-size: 20px;
+}
+.dremedies-b2{
+  font-weight: 700;
+  color: black;
+  padding: 40px;
+  font-size: 15px;
+}
+.dremedies-box{
+  width: 65%;
+  height: auto;
+  margin: auto;
+  border-radius: 10px;
+  border: 47px solid #D1D1D1;
+  background: #FFFCFC;
+}
+.dremedies-btn{
+  border-radius: 20px;
+  padding: 15px;
+  background: #32C0D4;
+  border: 1px solid #32C0D4;
+  color: #FFF;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+.dremedies-btncontainer{
+  position: relative;
+  width: 100%;
+  padding: 20px;
+}
+@media (max-width: 1000px){
+  .dremedies-b1{
     text-align: center;
-    padding: 3%;
-    height: auto;
+    font-weight: 800;
+    padding: 20px;
+    font-size: 15px;
+  }
+  .dremedies-b2{
+    font-weight: 800;
+    padding: 20px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .dremedies-box {
     width: 95%;
-    margin:auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    background-color: #e4e4e4;
-  }
-  .remedies-card h2{
-    color:#143566;
-    font-weight:700;
-  }
-  .remedies-card p{
-    width: 100%;
-    color: #000000;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 700;
-  }
-  .remedies-img{
-    margin: auto;
-  }
-  .remedies-btn{
-    width: 200px;
-    height: 60px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: #32C0D4;
-    background: #32C0D4;
-    color: white;
-    font-weight: 700;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+    max-width: none; /* Remove maximum width for smaller screens */
   }
 
-@media screen and (max-width: 768px)
-{
-  .remedies-card{
-    padding-bottom: 30%;
-    margin: 10px;
+  .dremedies-btn {
+    position: static; /* Remove absolute positioning for better flow on smaller screens */
+    margin-top: 10px; /* Add margin for better spacing */
+    right: 0;
   }
-  .remedies-card h2{
-    font-size: 24px;
+  .dremedies-h{
+    color:#016C4D;
+    text-align: center;
+    font-weight: 700;
+    padding: 20px;
+    font-size: 20px;
   }
-  .remedies-card p{
-    width: auto;
-    height: auto;
-    font-size: 16px;
-    padding-bottom: 20px;
+  .dremedies-b1{
+    text-align: center;
+    font-weight: 800;
+    padding: 20px;
+    font-size: 15px;
   }
-  .remedies-btn{
-    width: 150px;
-    height: 50px;
-    font-size: 14px;
+  .dremedies-b2{
+    font-weight: 800;
+    padding: 20px;
+    font-size: 15px;
   }
-  .remedies-img{
-    display: block;
-    margin:auto;
-    width: 50%;
-    padding-top: 100px;
-  }
-} 
+}
