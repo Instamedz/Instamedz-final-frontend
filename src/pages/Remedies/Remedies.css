@@ -30,6 +30,7 @@
   background-image: url("../../assets/remedies/remediesdispl.png");
   background-repeat: no-repeat;
   height: 100vh;
+  
 }
 .dremedies-bg h1{
   color:#143566;
@@ -46,22 +47,27 @@
 .dremedies-b1{
   text-align: center;
   font-weight: 800;
-  padding: 40px;
+  padding: 30px;
   font-size: 20px;
 }
 .dremedies-b2{
   font-weight: 700;
   color: black;
-  padding: 40px;
+  padding: 30px;
   font-size: 15px;
 }
 .dremedies-box{
-  width: 65%;
+  width: 80%;
   height: auto;
   margin: auto;
   border-radius: 10px;
   border: 47px solid #D1D1D1;
   background: #FFFCFC;
+}
+.dremedies-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .dremedies-btn{
   border-radius: 20px;
@@ -76,10 +82,14 @@
   top: 20px;
   right: 10px;
 }
+.dremedies-img img{
+  width: 200px;
+  height: 200px;
+}
 .dremedies-btncontainer{
   position: relative;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
 }
 @media (max-width: 1000px){
   .dremedies-b1{
@@ -93,16 +103,31 @@
     padding: 20px;
     font-size: 15px;
   }
+  .dremedies-box{
+    width: 90%;
+  }
+  .dremedies-img img{
+    width: 100px;
+    height: 100px;
+  }
 }
 @media (max-width: 768px) {
+ 
   .dremedies-box {
-    width: 95%;
-    max-width: none; /* Remove maximum width for smaller screens */
+    width: 100%;
   }
 
+  .dremedies-row {
+    flex-direction: column;
+  }
+
+  .dremedies-img img {
+    width: 50px;
+    height: auto;
+  }
   .dremedies-btn {
-    position: static; /* Remove absolute positioning for better flow on smaller screens */
-    margin-top: 10px; /* Add margin for better spacing */
+    position: static; 
+    margin-top: 10px; 
     right: 0;
   }
   .dremedies-h{
@@ -121,6 +146,7 @@
   .dremedies-b2{
     font-weight: 800;
     padding: 20px;
-    font-size: 15px;
+    font-size: 10px;
   }
+  
 }

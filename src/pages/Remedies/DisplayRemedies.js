@@ -33,7 +33,7 @@ function DisplayRemedies({ history }) {
   }
 
     return (
-      <div>
+      <>
         <Navbar/>
         <div class="dremedies-bg">
           <div>
@@ -47,6 +47,7 @@ function DisplayRemedies({ history }) {
             <div className='dremedies-b1'>
               <p>{currentTip.bodydesc}</p>
             </div>
+            <div className="dremedies-row">
             <div className='dremedies-b2'>
               <h3>To Know More</h3>
                 <ul>
@@ -59,6 +60,10 @@ function DisplayRemedies({ history }) {
                 ))}
               </ul>
             </div>
+            <div className="dremedies-img">
+              <img src={currentTip.imgurl} alt="" />
+            </div>
+          </div>
           </div>
           )}
           <div className='dremedies-btncontainer'>
@@ -66,7 +71,7 @@ function DisplayRemedies({ history }) {
           </div>
         </div>
         <Footer />
-      </div> 
+      </> 
     )
   }
   export default DisplayRemedies

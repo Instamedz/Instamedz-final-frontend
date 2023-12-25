@@ -19,7 +19,7 @@ function DisplayQuestion(props) {
           return SoulCare[0];
         case "Depression":
           return SoulCare[1];
-        case "PanicAttack":
+        case "Panic Attack":
           return SoulCare[2];
         case "OCD":
           return SoulCare[3];
@@ -31,7 +31,7 @@ function DisplayQuestion(props) {
           return SoulCare[6];
         case "Autism":
           return SoulCare[7];
-        case "BipolarDisorder":
+        case "Bipolar Disorder":
           return SoulCare[8];
         case "Hallucination":
           return SoulCare[9];

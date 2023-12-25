@@ -630,6 +630,13 @@ const Fatique = [
     ],
   },
   {
+    text: "Are there specific times of the day when you feel more fatigued?Please describe.",
+    options: [
+      { id: 0, text: "True", isCorrect: true },
+      { id: 1, text: "False", isCorrect: false},
+    ],
+  },
+  {
     text: "Do you find it challenging to concentrate or stay focused due to fatigue?",
     options: [
       { id: 0, text: "Yes", isCorrect: false },
@@ -641,6 +648,13 @@ const Fatique = [
     options: [
       { id: 0, text: "Yes", isCorrect: false },
       { id: 1, text: "No", isCorrect: true },
+    ],
+  },
+  {
+    text: "Is there anything else you would like to share about your current state of fatigue or any factors that you believe may be contributing to it?",
+    options: [
+      { id: 0, text: "True", isCorrect: true },
+      { id: 1, text: "False", isCorrect: false},
     ],
   },
 ];
@@ -745,6 +759,13 @@ const Autism = [
       { id: 4, text: "Others", isCorrect: true },
     ],
   },
+  {
+    text: "Is there anything else you would like to share about your experiences, concerns, or challenges related to autism spectrum disorder?",
+    options: [
+      { id: 0, text: "True", isCorrect:true},
+      { id: 1, text: "False", isCorrect: false},
+    ],
+  },
 ];
 const BipolarDisorder = [
   {
@@ -828,6 +849,13 @@ const Hallucination = [
     ],
   },
   {
+    text: "If you answered 'YES' to the previous question, please specify the nature of your hallucinations(eg.,auditory,visual,olfactory,tactile,gustatory,mixed)",
+    options: [
+      { id: 0, text: "True", isCorrect:true },
+      { id: 1, text: "False", isCorrect: false },
+    ],
+  },
+  {
     text: " How frequently do these hallucinations occur?",
     options: [
       { id: 0, text: "Rarely(Once a month or less)", isCorrect:true },
@@ -852,6 +880,13 @@ const Hallucination = [
     ],
   },
   {
+    text: "If you answered 'YES' ,please specify",
+    options: [
+      { id: 0, text: "True", isCorrect:true },
+      { id: 1, text: "False", isCorrect: false },
+    ],
+  },
+  {
     text: "Are you currently taking medication for a mental health condition or any other medical condition?",
     options: [
       { id: 0, text: "Yes", isCorrect:true },
@@ -863,6 +898,13 @@ const Hallucination = [
     options: [
       { id: 0, text: "Yes", isCorrect:true },
       { id: 1, text: "No", isCorrect: false },
+    ],
+  },
+  {
+    text: "Is there anything else you would like to share about your experiences, with hallucinations?",
+    options: [
+      { id: 0, text: "True", isCorrect:true},
+      { id: 1, text: "False", isCorrect: false},
     ],
   },
 
