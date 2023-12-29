@@ -1,14 +1,11 @@
-import React from 'react'
-import { useLocation } from 'react-router-dom';
-import { useState } from 'react';
-import {useNavigate} from 'react-router-dom';
-import {useEffect} from 'react';
+import React,{useEffect} from 'react'
+import { useLocation,useNavigate } from 'react-router-dom';
 import './Description.css'
 import img5 from "../../assets/questionnaire/img5.png";
 import descimg1 from "../../assets/questionnaire/descimg1.jpg"
 import descimg2 from "../../assets/questionnaire/descimg2.jpg"
 import descimg3 from "../../assets/questionnaire/descimg3.jpg"
-import {diseaseList} from '../../sources/SoulCare';
+import diseaseList from '../../sources/DiseaseList';
 import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 
@@ -19,37 +16,16 @@ function Description() {
   }, []);
 
   const navigate = useNavigate();
+
   const location=useLocation();
-  const disease=location.state.id;
-  const [diseasedetails] = useState(() =>{
-    switch(disease) {
-      case "Anxiety":
-        return  diseaseList[0];
-      case "Depression":
-        return  diseaseList[1];
-      case "Panic Attack":
-        return  diseaseList[2];
-      case "OCD":
-        return  diseaseList[3];
-      case "Phobia":
-        return  diseaseList[4];
-      case "Insomnia":
-        return  diseaseList[5];
-      case "Fatique":
-        return  diseaseList[6];
-      case "Autism":
-        return  diseaseList[7];
-      case "Bipolar Disorder":
-        return  diseaseList[8];
-      case "Hallucination":
-        return  diseaseList[9];
-      default:
-        return  diseaseList[0];
-    }
-  });
+  const {id,care}=location.state;
+  const diseaseSet = diseaseList[care]
+  const diseasedetails=diseaseSet.find(disease=> disease.name.split(" ")[0] === id);
+
   const redirectpage = (flag) => {
+    const idname=diseasedetails.name;
     if(flag==='test') navigate('/quest',{state:{id:diseasedetails.name}});
-    if(flag==='remedies') navigate('/remedies');
+    if(flag==='remedies') navigate('/remedies',{state:{id:idname.split(" ")[0]}});
     if(flag==='doctor') navigate('/appointdoctor/soul');
   };
 
@@ -95,7 +71,7 @@ function Description() {
             <div class="desc-col desc-card" onClick={()=>redirectpage("doctor")}>
                 <img src={descimg3} alt="" />
                 <h3>Connect with Doctor</h3>
-                <p>Expert care for every ailment. Trust our dedicated doctors to guide you through the journey of healing and well-being.</p>
+                <p>Expert care for every ailment. Trust our dedicated doctors to guide you through the journey of healing and process of well-being.</p>
             </div>
         </div>
       <Footer />

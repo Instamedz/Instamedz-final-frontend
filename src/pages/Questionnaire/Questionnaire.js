@@ -13,7 +13,8 @@ function Quest() {
   }, []);
 
   const location=useLocation();
-  const diseasename=location.state.id;
+  const disease=location.state.id;
+  const diseasename=disease.split(" ")[0];
 
   return (
     <div>

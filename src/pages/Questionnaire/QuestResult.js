@@ -13,12 +13,14 @@ function QuestResult() {
   }, []);
 
   const location=useLocation();
-  const flag=location.state.id;
+  const {flag,diseasename}=location.state;
   const showPosResults = flag;
   const navigate = useNavigate();
 
+
+
   const handleClick =(flag)=>{
-    if(flag==="remedies") navigate('/remedies');
+    if(flag==="remedies") navigate('/remedies',{state:{id:diseasename.split(" ")[0]}});
     if(flag==="doctor") navigate('/appointdoctor/soul');
   }
   return (

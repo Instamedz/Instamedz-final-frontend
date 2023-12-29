@@ -112,9 +112,17 @@
   }
 }
 @media (max-width: 768px) {
- 
+  .remedies-bg p{
+    text-align: center;
+    padding-top: 150px;
+    font-weight: 700;
+    font-size: 20px;
+  }
   .dremedies-box {
-    width: 100%;
+    margin-top: 40px;
+    width: 90%;
+    border-radius: 5px;
+    border: 35px solid #D1D1D1;
   }
 
   .dremedies-row {
@@ -122,31 +130,34 @@
   }
 
   .dremedies-img img {
-    width: 50px;
+    width: 80px;
     height: auto;
   }
   .dremedies-btn {
-    position: static; 
-    margin-top: 10px; 
-    right: 0;
+    font-size: 12px;
   }
   .dremedies-h{
     color:#016C4D;
     text-align: center;
     font-weight: 700;
     padding: 20px;
-    font-size: 20px;
+    font-size: 12px;
   }
   .dremedies-b1{
     text-align: center;
     font-weight: 800;
     padding: 20px;
-    font-size: 15px;
+    font-size: 12px;
   }
   .dremedies-b2{
     font-weight: 800;
     padding: 20px;
     font-size: 10px;
+  }
+  .dremedies-b2 h3{
+    font-size: 12px;
+    font-weight: 800;
+
   }
   
 }

@@ -1,18 +1,23 @@
-import React from 'react'
-import {useNavigate} from 'react-router-dom';
+import React,{useEffect} from 'react'
+import {useNavigate, useLocation} from 'react-router-dom';
+import diseaseList from "../../sources/DiseaseList"
+import titleCard from "../../sources/TitleCard"
 import './Diseases.css';
-import {useEffect} from 'react';
-import {diseaseList} from "../../sources/SoulCare"
-import img1 from'../../assets/questionnaire/img1.png'
-import img2 from'../../assets/questionnaire/img2.png'
 import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 
 function Diseases() {
   const navigate = useNavigate();
 
+  const location=useLocation();
+  const cardId=location.state.id;
+  const Card=titleCard.find(card => card.id === cardId);
+  const diseaseDetails=diseaseList[cardId];
+
   const redirectpage = (id) => {
-    navigate('/desc',{state:{id:id.name}});
+    const idname=id.name;
+    if(cardId==='soul') navigate('/desc',{state:{id:idname.split(" ")[0],care:cardId}});
+    else navigate('/comingsoon')
   };
   useEffect(() => {
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
@@ -23,14 +28,14 @@ function Diseases() {
       <div className="diseases-titlebg">
         <div className="diseases-row">
           <div className="diseases-col diseases-left">
-            <img src={img1} alt="" className="diseases-imgpos" />
+            <img src={Card.img1} alt="" className="diseases-imgpos" />
           </div>
           <div className="diseases-col diseases-middle">
-            <h4 className="diseases-title">SOUL CARE</h4>
-            <p className="diseases-subtitle">Get assistance on your mental health issues, including stress, anxiety, and depression, with our specialists</p>
+            <h4 className="diseases-title">{Card.title}</h4>
+            <p className="diseases-subtitle">{Card.subtitle}</p>
           </div>
           <div className="diseases-col diseases-right">
-          <img src={img2} alt="" className="diseases-imgpos" />
+          <img src={Card.img2} alt="" className="diseases-imgpos" />
           </div>
         </div>
       </div>
@@ -38,7 +43,7 @@ function Diseases() {
       <h2>Choose a disease below to know about</h2>
       </div>
         <div>
-            {diseaseList.map(function(disease) {
+            {diseaseDetails.map(function(disease) {
               return (
                 <div className=" diseases-cardbox" onClick={()=>redirectpage(disease)}>
                   <h1 className="diseases-cardtitle">{disease.name}</h1>

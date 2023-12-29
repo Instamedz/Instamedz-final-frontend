@@ -1,4 +1,6 @@
-export const Anxiety=[
+const diseaseRemedies = {
+    
+Anxiety:[
     {
         heading: "Breathing for Inner Calm",
         bodydesc:"Practice 5 minutes of mindful breathing. Deep, slow breaths activate the parasympathetic nervous system, promoting relaxation and reducing stress",
@@ -35,8 +37,8 @@ export const Anxiety=[
         bodysrc:["https://www.healthline.com/health/natural-ways-to-reduce-anxiety#natural-remedies"],
         imgurl:"https://tintyoga.com/wp-content/uploads/2022/03/18_Balasana.jpg"
     },
-];
-export const Depression=[
+],
+Depression:[
     {
         heading: "Acupuncture The Gateway to Holistic Wellbeing",
         bodydesc:"Restore balance and find deep relaxation with acupuncture. This ancient practice can help manage stress, pain, and improve overall well-being. Find inner peace and vitality through the wisdom of the ages.",
@@ -73,8 +75,8 @@ export const Depression=[
         bodysrc:["https://www.healthline.com/health/beating-depression-naturally#kava "],
         imgurl:"https://static.vecteezy.com/system/resources/previews/002/401/868/original/cartoon-illustration-of-young-pretty-woman-in-headphones-listening-music-music-lover-relaxing-when-enjoying-her-favorite-song-woman-character-holding-smartphone-in-her-hand-radio-podcast-vector.jpg"
     },
-];
-export const Autism=[
+],
+Autism:[
     {
         heading: "Supercharge Your Immunity and Wellbeing with Vitamin C",
         bodydesc:"Incorporate a daily ritual of Vitamin C intake to fortify your body's natural defenses. Enjoy a variety of fruits and vegetables rich in this essential nutrient, like citrus fruits, leafy greens, and bell peppers.",
@@ -111,8 +113,8 @@ export const Autism=[
         bodysrc:["https://psychcentral.com/autism/autism-treatment-adults "],
         imgurl:"https://media.istockphoto.com/id/1222105488/vector/vector-illustration-jogging-people.jpg?s=612x612&w=0&k=20&c=2IffbQ8mLTVCx1IFzPPQxGN186V-H7YHqaq_7lSoi-4="
     },
-];
-export const Fatique=[
+],
+Fatique:[
     {
         heading: "Boost Your Brainpower with Nature's Sweetness",
         bodydesc:"Glucose, the brain's preferred fuel, plays a critical role in optimizing cognitive function and boosting energy levels. By incorporating more glucose into your routine, you can unlock a world of sharper thinking, improved memory, and enhanced mental well-being.",
@@ -149,8 +151,8 @@ export const Fatique=[
         bodysrc:["https://www.nhs.uk/live-well/sleep-and-tiredness/self-help-tips-to-fight-fatigue/"],
         imgurl:"https://media.istockphoto.com/id/1222105488/vector/vector-illustration-jogging-people.jpg?s=612x612&w=0&k=20&c=2IffbQ8mLTVCx1IFzPPQxGN186V-H7YHqaq_7lSoi-4="
     },
-];
-export const PanicAttack=[
+],
+Panic:[
     {
         heading: "4-7-8 Blissful Breathing",
         bodydesc:"Incorporate the calming power of 4-7-8 breathing into your daily routine. Inhale quietly for a count of 4, hold your breath for 7 counts, and exhale audibly for 8 counts. This deep-breathing technique promotes relaxation, reduces stress, and fosters a sense of tranquility. Integrate this mindful practice to soothe your mind and uplift your well-being.",
@@ -187,8 +189,8 @@ export const PanicAttack=[
         bodysrc:["https://www.healthline.com/health/how-to-stop-a-panic-attack#faq"],
         imgurl:"https://previews.123rf.com/images/topvectors/topvectors1910/topvectors191001740/134691553-woman-safe-the-balance-with-meditation-relaxation-cartoon-vector-illustration.jpg"
     },
-];
-export const OCD=[
+],
+OCD:[
     {
         heading: "4-7-8 Blissful Breathing",
         bodydesc:"Incorporate the calming power of 4-7-8 breathing into your daily routine. Inhale quietly for a count of 4, hold your breath for 7 counts, and exhale audibly for 8 counts. This deep-breathing technique promotes relaxation, reduces stress, and fosters a sense of tranquility. Integrate this mindful practice to soothe your mind and uplift your well-being.",
@@ -198,7 +200,7 @@ export const OCD=[
     {
         heading: "Nature's Healing Touch",
         bodydesc:"Take a walk in the park for 20 minutes. Immerse yourself in nature's beauty to reduce stress, improve mood, and boost creativity.",
-        bodysrc:["https://www.ocduk.org/get-involved/fundraising/walking/benefits-of-walking/#:~:text=Walking%20and%20exercise%20can%20boost,and%20improve%20positive%20self%2Dimage.&text=For%20some%2C%20exercise%20can%20lead,the%20quality%20of%20your%20sleep"],
+        bodysrc:["https://www.ocduk.org/get-involved/fundraising/walking/benefits-of-walking/"],
         imgurl:"https://cdn.dribbble.com/users/4671489/screenshots/15407031/design_2___________________1.png"
     },
     {
@@ -222,11 +224,11 @@ export const OCD=[
     {
         heading: "Find Serenity with Guided Imagery for Inner Peace",
         bodydesc:"This technique uses visualization to promote relaxation and reduce anxiety. Simply find a quiet place, close your eyes, and follow along with a guided script to create calming images in your mind. Let go of tension and find inner peace with this gentle practice.",
-        bodysrc:["https://www.mind.org.uk/information-support/types-of-mental-health-problems/obsessive-compulsive-disorder-ocd/self-care-for-ocd/#:~:text=Focus%20on%20what%20you%20can,those%20of%20us%20with%20OCD"],
+        bodysrc:["https://www.mind.org.uk/information-support/types-of-mental-health-problems/obsessive-compulsive-disorder-ocd/self-care-for-ocd/"],
         imgurl:"https://tintyoga.com/wp-content/uploads/2022/03/18_Balasana.jpg"
     },
-];
-export const Phobia=[
+],
+Phobia:[
     {
         heading: "4-7-8 Blissful Breathing",
         bodydesc:"Incorporate the calming power of 4-7-8 breathing into your daily routine. Inhale quietly for a count of 4, hold your breath for 7 counts, and exhale audibly for 8 counts. This deep-breathing technique promotes relaxation, reduces stress, and fosters a sense of tranquility. Integrate this mindful practice to soothe your mind and uplift your well-being.",
@@ -263,8 +265,8 @@ export const Phobia=[
         bodysrc:["https://www.nhs.uk/mental-health/conditions/phobias/self-help/"],
         imgurl:"https://img.freepik.com/premium-vector/cartoon-illustration-kid-sleeping_29937-9370.jpg?w=2000"
     },
-];
-export const Insomnia=[
+],
+Insomnia:[
     {
         heading: "Sleep Mastery",
         bodydesc:"Transform your bedroom into a haven of tranquility by adopting the Stimulus Control technique. Eliminate distractions, maintain a consistent sleep schedule, and if sleep proves elusive, step out of the bedroom instead of tossing and turning.",
@@ -301,8 +303,8 @@ export const Insomnia=[
         bodysrc:["https://www.webmd.com/sleep-disorders/insomnia-latest-research"],
         imgurl:"https://img.freepik.com/premium-vector/adult-woman-doing-breathing-exercises-female-deep-inhales-exhales-air-relaxation-stress-relief_503113-766.jpg"
     },
-];
-export const BipolarDisorder=[
+],
+Bipolar:[
     {
         heading: "Optimize Wellness",
         bodydesc:"Embrace Omega-3 Supplements for Holistic Support. Elevate your overall well-being with these essential fatty acids, known for their potential benefits. Incorporate Omega-3s into your routine for a natural boost to your health and vitality.",
@@ -339,8 +341,8 @@ export const BipolarDisorder=[
         bodysrc:["https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3876031/"],
         imgurl:"https://i.pinimg.com/1200x/89/07/5f/89075f0d986022036834c7eb7fc433f7.jpg"
     },
-];
-export const Hallucination=[
+],
+Hallucination:[
     {
         heading: "Hum Away the Halos",
         bodydesc:"Create a soothing rhythm by humming or singing a familiar song several times. This auditory grounding technique offers a calming and comforting anchor during challenging moments.",
@@ -377,4 +379,8 @@ export const Hallucination=[
         bodysrc:["https://www.wikihow.com/Treat-Hallucinations"],
         imgurl:"https://i.pinimg.com/736x/c4/dd/3f/c4dd3f0696ccc6790f6ee84ff22ae636.jpg"
     },
-];
+],
+
+};
+
+export default diseaseRemedies;

@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useState } from 'react';
 import {useNavigate} from 'react-router-dom';
 import './Questionnaire.css';
-import {SoulCare} from '../../sources/SoulCare'
+import SoulCare from '../../sources/SoulCare'
 import {useEffect} from 'react';
 
 function DisplayQuestion(props) {
@@ -13,32 +13,9 @@ function DisplayQuestion(props) {
   }, []);
 
   const navigate = useNavigate();
-  const [questions] = useState(() =>{
-      switch(props.diseasename) {
-        case "Anxiety":
-          return SoulCare[0];
-        case "Depression":
-          return SoulCare[1];
-        case "Panic Attack":
-          return SoulCare[2];
-        case "OCD":
-          return SoulCare[3];
-        case "Phobia":
-          return SoulCare[4];
-        case "Insomnia":
-          return SoulCare[5];
-        case "Fatique":
-          return SoulCare[6];
-        case "Autism":
-          return SoulCare[7];
-        case "Bipolar Disorder":
-          return SoulCare[8];
-        case "Hallucination":
-          return SoulCare[9];
-        default:
-          return SoulCare[0];
-      }
-  });
+  const diseasename=props.diseasename;
+  const questions= SoulCare[diseasename];
+  
   var flag=0;
   const [score, setScore] = useState(0);
   const [answers, setAnswers] = useState(Array(questions.length).fill(null));
@@ -66,36 +43,35 @@ function DisplayQuestion(props) {
   };
   
 
-    const disease=props.diseasename
-    const [email,setemail]=useState("")
-    const [cname,setCname]=useState("")
-    const [phone,setPhone]=useState("")
-    let feedback;
-    const onsubmit=async()=>{
+  const disease=props.diseasename
+  const [email,setemail]=useState("")
+  const [cname,setCname]=useState("")
+  const [phone,setPhone]=useState("")
+  let feedback;
+  const onsubmit=async()=>{
 
-      if (isFormValid()) {
+    if (isFormValid()) {
       if(score<questions.length/2){
         flag=1
         feedback="Remedies"
       }
-      else feedback="Connect Doctor"
-
-        const resultresp=await axios.post("https://sheetdb.io/api/v1/725wae185vaj2",{
-             data:[{
-                Name:cname,
-                Email:email,
-                Contact:phone,
-                Feedback:feedback,
-                Form_For:'soulcare / '+disease
-            }]
-        })
-        if(resultresp){
-          navigate('/result',{state:{id:flag}});
-        }
-        console.log(resultresp)
-        setCname("")
-        setPhone("")
-        setemail("")
+    else feedback="Connect Doctor"
+    const resultresp=await axios.post("https://sheetdb.io/api/v1/725wae185vaj2",{
+      data:[{
+        Name:cname,
+        Email:email,
+        Contact:phone,
+        Feedback:feedback,
+        Form_For:'soulcare / '+disease
+      }]
+    })
+    if(resultresp){
+      navigate('/result',{state:{flag:flag,diseasename:diseasename}});
+    }
+    console.log(resultresp)
+    setCname("")
+    setPhone("")
+    setemail("")
     }
     else {
       alert('Please fill in all fields and answer all questions before submitting.');

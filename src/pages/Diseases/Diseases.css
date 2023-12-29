@@ -119,34 +119,42 @@
 
 @media (max-width: 600px) {
     .diseases-middle {
-        height: 10%;
-        width: 50%;
+        width: 70%;
+        padding-bottom: 5%;
+    }
+    .diseases-right, .diseases-left {
+        height: 0;
+        width: 0;
     }
     .diseases-bg {
         height: auto;
         width: 100%;
     }
     .diseases-title {
-        font-size: 40px;
-        padding-top: 0%;
+        font-size: 40px;   
+    }
+    .diseases-heading{
+        padding: 20px;
+        font-size: 10px;
     }
     .diseases-subtitle {
         width:100%;
-        font-size: 15px;
+        font-size: 11px;
+        padding-bottom: 5%;
     }
     .diseases-imgpos{
         display: none;
     }
     .diseases-cardbox {
-        width: 100%;
+        width: 80%;
         height: auto;
-        margin: 10px;
+        margin: 30px;
     }
     .diseases-cardtitle {
         font-size: 20px;
     }
     .diseases-titlebg{
-        height:300px;
+        height:30%;
     }
     .diseases-cardcontext {
         font-size: 10px;

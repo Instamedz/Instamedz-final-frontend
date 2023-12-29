@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Service.css"
 import data from "./data"
-import {AiOutlineLeft,AiOutlineRight} from "react-icons/ai"
 import { useNavigate } from 'react-router-dom'
 
 function Service() {
@@ -9,8 +8,7 @@ function Service() {
   const handleClick=(str)=>{
     const care=str.split(" ")[0].toLowerCase()
     console.log(care)
-    if(care=="soul") navigate(`/diseases`)
-    else navigate(`/comingsoon`)
+    navigate(`/diseases`,{state:{id:care}})
   }
   return (
     <section id="services" class="service">

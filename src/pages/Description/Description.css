@@ -129,6 +129,13 @@
         margin:auto;
         margin-bottom: 30px;    
     }
+    .desc-card h3{
+        font-size: 15px;    
+    }
+    .desc-card p{
+        font-size: 12px;
+        margin: 5%; 
+    }
     .desc-box {
         width: 100%;
         height: auto;
@@ -148,19 +155,31 @@
     }
 
     .desc-title h2 {
-        font-size: 40px;
+        font-size: 25px;
+        margin: 3%;
     }
     .desc-title p{
-        font-size: 15px;
+        font-size: 12px;
+        text-align: justify;
+        margin: 3%;
     }
 
     .desc-types li {
         padding-top: 5px;
-        font-size: 15px;
-        padding-bottom: 10px;
+        font-size: 12px;
+        margin: 0 5% 3% 5%;
+        text-align: justify;
     }
 
     .desc-symptoms p {
+        font-size: 12px;
+        margin: 3%;
+        text-align: justify;
+    }
+    .desc-types h4{
+        font-size: 15px;
+    }
+    .desc-symptoms h4{
         font-size: 15px;
     }
     .desc-cardsection{

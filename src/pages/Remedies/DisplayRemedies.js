@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
-import {Anxiety} from "../../sources/Remedies"
+import { useLocation } from 'react-router-dom';
+import diseaseRemedies from "../../sources/RemediesList"
 import './Remedies.css'
 import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
@@ -10,6 +11,10 @@ function DisplayRemedies({ history }) {
   const [currentTip, setCurrentTip] = useState(null);
 
   const navigate = useNavigate();
+  const location=useLocation();
+  const diseasename=location.state.id;
+  console.log(diseasename)
+  const remedyArray= diseaseRemedies[diseasename];
 
   useEffect(() => {
     window.scrollTo({top: 60, left: 0, behavior: 'smooth'});
@@ -24,12 +29,12 @@ function DisplayRemedies({ history }) {
   }, [history]);
 
   const getRandomTip = () => {
-    const randomIndex = Math.floor(Math.random() * Anxiety.length);
-    setCurrentTip(Anxiety[randomIndex]);
+    const randomIndex = Math.floor(Math.random() * remedyArray.length);
+    setCurrentTip(remedyArray[randomIndex]);
   }
 
   const handleClick=()=>{
-    navigate('/remedies');
+    navigate('/remedies',{state:{id:diseasename}});
   }
 
     return (
