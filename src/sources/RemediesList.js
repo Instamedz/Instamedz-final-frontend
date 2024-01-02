@@ -1147,24 +1147,87 @@ Cold:[
 Facial:[
     {
         heading: "Salty Serenity Rinse",
-        bodydesc: "Experience the Salty Serenity Rinse, a therapeutic wave of relief for dental distress. Perform a gentle saltwater rinse to cleanse and soothe the affected area. This inexpensive remedy ensures a clean and healing environment, promoting recovery with each rinse.",
+        bodydesc:"Experience the Salty Serenity Rinse, a therapeutic wave of relief for dental distress. Perform a gentle saltwater rinse to cleanse and soothe the affected area. This inexpensive remedy ensures a clean and healing environment, promoting recovery with each rinse.",
         bodysrc: "https://www.jacksonavedental.com/post/how-to-get-rid-of-a-swollen-face-from-tooth-infection#viewer-a12g1"
     },
     {
         heading: "Arctic Aura Compress",
-        bodydesc: "Immerse yourself in the Arctic Aura Compress, a frosty remedy to subdue facial swelling. Apply an ice pack in 15-minute intervals, alternating with 15-minute breaks. Feel the cool compression easing the discomfort and numbing the affected area. Repeat as needed to ride the waves of relief.",
+        bodydesc:"Immerse yourself in the Arctic Aura Compress, a frosty remedy to subdue facial swelling. Apply an ice pack in 15-minute intervals, alternating with 15-minute breaks. Feel the cool compression easing the discomfort and numbing the affected area. Repeat as needed to ride the waves of relief.",
         bodysrc: "https://www.jacksonavedental.com/post/how-to-get-rid-of-a-swollen-face-from-tooth-infection#viewer-a12g1"
     },
     {
         heading: "Cavity Combatant Toothpaste",
-        bodydesc: "Engage in the Cavity Combatant Toothpaste regimen, choosing fluoride or hydroxyapatite formulations. These toothpaste heroes possess the power to stop and reverse cavities. Bid farewell to the dental invaders, and let your toothpaste be a stalwart guardian of your oral fortress.",
+        bodydesc:"Engage in the Cavity Combatant Toothpaste regimen, choosing fluoride or hydroxyapatite formulations. These toothpaste heroes possess the power to stop and reverse cavities. Bid farewell to the dental invaders, and let your toothpaste be a stalwart guardian of your oral fortress.",
         bodysrc: "https://www.jacksonavedental.com/post/how-to-get-rid-of-a-swollen-face-from-tooth-infection#viewer-a12g1"
     },
     {
         heading: "Sugar Detox Maneuver",
-        bodydesc: "Execute the Sugar Detox Maneuver to starve the bacteria causing distress. Minimize sugar intake and reduce carbohydrates to create an inhospitable environment for these oral invaders. Embrace alternatives like Xylitol, a sweet warrior that doesn't fuel bacterial mischief.",
+        bodydesc:"Execute the Sugar Detox Maneuver to starve the bacteria causing distress. Minimize sugar intake and reduce carbohydrates to create an inhospitable environment for these oral invaders. Embrace alternatives like Xylitol, a sweet warrior that doesn't fuel bacterial mischief.",
         bodysrc: "https://www.jacksonavedental.com/post/how-to-get-rid-of-a-swollen-face-from-tooth-infection#viewer-a12g1"
-    }
+    },
+    {
+        heading: "Fenugreek Frost Elixir",
+        bodydesc:"Sip on the icy embrace of cold fenugreek tea thrice daily for a refreshing assault on discomfort.",
+        bodysrc: "https://www.healthline.com/health/home-remedies-for-abscess-tooth"
+    },
+    {
+        heading: "Thyme Oil Touchdown",
+        bodydesc:"Dilute thyme oil and apply with precision using a cotton ball or swab to soothe the affected area.",
+        bodysrc: "https://www.healthline.com/health/home-remedies-for-abscess-tooth"
+    },
+    {
+        heading: "Hydrogen Peroxide Rinse",
+        bodydesc:"Use a hydrogen peroxide mouthwash to eliminate bacteria in and around  teeth, preventing potential infection and promoting oral hygiene.",
+        bodysrc: "https://www.healthline.com/health/home-remedies-for-abscess-tooth"
+    },
+    {
+        heading: "Saltwater Gargle",
+        bodydesc:"Gargle with warm saltwater to draw out bacteria and support gum strength. This natural disinfectant can aid in maintaining oral health.",
+        bodysrc: "https://www.healthline.com/health/home-remedies-for-abscess-tooth"
+    },
+],
+Gum:[
+    {
+        heading: "Green Tea Guardian",
+        bodydesc:"Sip on green tea daily, a delightful alternative to coffee, to boost overall health.",
+        bodysrc: "https://www.guardianlife.com/individuals-families/dental-insurance/dental-care/10-home-remedies-gum-disease"
+    },
+    {
+        heading: "Hydrogen Peroxide Harmony",
+        bodydesc:"Swish with diluted hydrogen peroxide to soothe mouth irritations and combat gum-detrimental bacteria.",
+        bodysrc: "https://www.guardianlife.com/individuals-families/dental-insurance/dental-care/10-home-remedies-gum-disease"
+    },
+    {
+        heading: "Aloe Vera Alleviation",
+        bodydesc:"Apply aloe vera gel directly to gently massage around the gums for a soothing effect.",
+        bodysrc: "https://www.guardianlife.com/individuals-families/dental-insurance/dental-care/10-home-remedies-gum-disease"
+    },
+    {
+        heading: "Turmeric Triumph",
+        bodydesc:"Incorporate turmeric supplements or add it to your diet for an anti-inflammatory ally.",
+        bodysrc: "https://www.guardianlife.com/individuals-families/dental-insurance/dental-care/10-home-remedies-gum-disease"
+    },
+    {
+        heading: "Sage Solution Splash",
+        bodydesc:"Craft a sage mouthwash by simmering fresh or dried sage, then rinse twice daily for 30 seconds to reduce plaque-causing bacteria.",
+        bodysrc: "https://www.guardianlife.com/individuals-families/dental-insurance/dental-care/10-home-remedies-gum-disease"
+    },
+    {
+        heading: "Lemongrass Oil Lullaby",
+        bodydesc:"Create a potent lemongrass oil rinse by adding a few drops to water. Swish, spit, and experience the refreshing solution.",
+        bodysrc: "https://www.guardianlife.com/individuals-families/dental-insurance/dental-care/10-home-remedies-gum-disease"
+    },
+    {
+        heading: "Baking Soda Bliss",
+        bodydesc:"Mix baking soda with water to form a paste, gently brush on your teeth, and apply to your gums for a refreshing experience.",
+        bodysrc: "https://www.guardianlife.com/individuals-families/dental-insurance/dental-care/10-home-remedies-gum-disease"
+    },
+    {
+        heading: "Saltwater Serenity",
+        bodydesc:"Harness the natural disinfectant power of saltwater to eliminate bacteria and promote healing in inflamed mouth tissue.",
+        bodysrc: "https://www.guardianlife.com/individuals-families/dental-insurance/dental-care/10-home-remedies-gum-disease"
+    },
+
 ],
 //HeartCare
 Heart:[
@@ -1501,6 +1564,9 @@ Congestive:[
         bodysrc: "https://www.peacehealth.org/medical-topics/id/hn-1193009"
     }
 ],
+High:[],
+Shortness:[],
+Peripheral:[],
 //ChildCare
 Common:[
     {

@@ -182,7 +182,47 @@ heart:[
     "Right-Sided Heart Failure: Affects the heart's ability to pump blood returning from the body to the lungs for oxygenation."
     ],
     symptoms:"Shortness of Breath: Especially during physical activity or when lying down,Persistent Coughing: Resulting from fluid accumulation in the lungs,Fatigue and Weakness: Due to inadequate blood flow to vital organs,Swelling (Edema): Particularly in the legs, ankles, and abdomen,Rapid or Irregular Heartbeat: Palpitations may occur."
-  }
+  },
+  {
+    name: "High Blood Pressure",
+    description: "High Blood Pressure, or Hypertension, is a common medical condition where the force of blood against artery walls is consistently too high.",
+    definition: "High Blood Pressure occurs when the long-term force exerted by blood against the walls of arteries is elevated. This condition, often asymptomatic, can lead to severe health issues, including heart disease and stroke. Lifestyle factors such as a high-sodium diet, lack of physical activity, and smoking can contribute.",
+    types: [
+      "Primary (Essential) Hypertension: Develops gradually over time with no identifiable cause.",
+      "Secondary Hypertension: Results from an underlying condition like kidney disease or hormonal disorders."
+    ],
+    symptoms: "Headaches, Shortness of Breath, Chest Pain,Vision Issues,Fatigue, Irregular Heartbeat"
+  },
+  {
+    name: "Shortness of Breath",
+    description: "Shortness of breath, or dyspnea, is the sensation of difficulty or discomfort in breathing, often indicating an underlying medical condition.",
+    definition: "Shortness of breath can result from various factors, including respiratory or cardiovascular issues, anxiety, or strenuous physical activity. It may present as a feeling of breathlessness, tightness in the chest, or rapid breathing. Underlying causes range from asthma, chronic obstructive pulmonary disease (COPD), to heart problems.",
+    types: [
+      "Acute Shortness of Breath: Sudden onset, often requiring immediate medical attention.",
+      "Chronic Shortness of Breath: Persistent and prolonged, indicating a long-term condition."
+    ],
+    symptoms: "Rapid Breathing, Chest Tightness, Wheezing, Inability to Take Deep Breaths, Feeling Suffocated"
+  },
+  {
+    name: "Peripheral Artery Disease (PAD)",
+    description: "Peripheral Artery Disease (PAD) is a circulatory condition where narrowed arteries reduce blood flow to the limbs, typically the legs.",
+    definition:"Peripheral Artery Disease involves the gradual buildup of plaque in the arteries, restricting blood flow to the extremities. Commonly affecting the legs, PAD can lead to pain, numbness, and, in severe cases, tissue damage. Risk factors include smoking, diabetes, high blood pressure, and aging.",
+    types: [
+      "Atherosclerotic PAD: Caused by atherosclerosis, a buildup of plaque in the arteries.",
+      "Functional PAD: Resulting from blood vessel spasms or inflammation."
+    ],
+    symptoms: "Leg Pain or Discomfort, Numbness or Weakness, Coolness or Discoloration of the Legs, Slow-to-Heal Sores on Feet, Shiny Skin on Legs, Erectile Dysfunction (in men)"
+  },
+  {
+    name: "Coronary Artery Disease (CAD)",
+    description: "Coronary Artery Disease (CAD) is a cardiovascular condition characterized by the narrowing or blockage of the coronary arteries, leading to reduced blood flow to the heart muscle.",
+    definition: "Coronary Artery Disease develops when cholesterol-containing deposits (plaques) accumulate in the coronary arteries, impairing blood flow to the heart. This reduced blood supply can cause chest pain (angina) and, in severe cases, lead to heart attacks. Risk factors include high blood pressure, high cholesterol, smoking, diabetes, and a sedentary lifestyle. ",
+    types: [
+      "Atherosclerosis: Buildup of plaques in the coronary arteries",
+      "Coronary Artery Spasm: Temporary tightening or narrowing of the coronary arteries."
+    ],
+    symptoms: "Chest Pain or Discomfort (Angina),Shortness of Breath, Fatigue,Heart Attack Symptoms (Pressure, Fullness, or Pain in the Chest),Pain or Discomfort in the Arms, Neck, Jaw, Shoulder, or Back"
+  },
 ],
 eye:[
   {
@@ -574,6 +614,30 @@ dental:[
       "Localized Sensitivity: Focused on specific teeth."
     ],
     symptoms: "Discomfort or Pain: When consuming hot or cold substances. Sharp, Shooting Pain: Experienced in response to stimuli. Gum Recession: Exposing dentin and nerve endings. Enamel Wear: Resulting from aggressive brushing or acidic foods. Cavities or Fractures: Contributing to dentin exposure. Heightened Sensitivity during Dental Procedures: Temporary sensitivity."
+  },
+  {
+    name: "Facial Swelling",
+    description: "Facial swelling related to dental problems can occur due to various oral issues, affecting the face's appearance and requiring prompt dental attention.",
+    definition: "Facial swelling resulting from dental problems may stem from conditions such as infected teeth, abscesses, or gum infections. These issues can lead to the accumulation of pus, causing localized swelling in the face. The severity of swelling may vary, ranging from mild to pronounced, and can be accompanied by pain and redness. ",
+    types: [
+      "Gum Abscess: Infection in the gums leading to pus accumulation.",
+      "Tooth Abscess: Infection within a tooth causing swelling and pain.",
+      "Pericoronitis: Inflammation around a partially erupted wisdom tooth."
+    ],
+    symptoms: "Swelling in the Face, Pain or Discomfort, Redness and Warmth, Difficulty in Opening the Mouth, Fever (in severe cases)"
+  },
+  {
+    name: "Gum Problems in Diabetic Patients",
+    description: "Diabetes increases the risk of oral health issues, affecting the gums and teeth, but proper dental care and diabetes management can mitigate these risks.",
+    definition: "Diabetes can impact oral health, elevating the risk of gum infections, cavities, and bone-related issues. Individuals over 50 with diabetes face heightened risks. Unmanaged diabetes can lead to dry mouth, fostering conditions like soreness, ulcers, and tooth decay. Gum inflammation (gingivitis) and periodontitis become more severe due to compromised immunity and restricted blood flow. ",
+    types: [
+      "Dry Mouth: Reduced saliva flow, leading to soreness and increased vulnerability to infections.",
+      "Gum Inflammation (Gingivitis) and Periodontitis: Increased severity due to compromised immunity and impaired blood flow.",
+      "Poor Healing of Oral Tissues: Delayed recovery after dental procedures.",
+      "Thrush: Fungal infection, prevalent in individuals with unmanaged diabetes.",
+      "Burning Mouth and/or Tongue: Caused by the presence of thrush"
+    ],
+    symptoms: "Dry Mouth, Gum Inflammation, Periodontal Issues, Delayed Healing, Fungal Infections, Burning Sensation"
   }
   
 ],
