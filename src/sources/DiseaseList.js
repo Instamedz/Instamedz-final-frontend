@@ -400,7 +400,38 @@ child:[
       "Non-Allergic Asthma: Triggered by factors other than allergens."
     ],
     symptoms:"Wheezing (whistling sound during breathing),Shortness of Breath, Coughing especially at night,Chest Tightness,Fatigue,Difficulty Performing Physical Activities"
-  }
+  },
+  {
+    name: "Gastroenteritis",
+    description: "Gastroenteritis in children is typically caused by viral or bacterial infections. Rotavirus is a common viral cause in young children. Symptoms include diarrhea, vomiting, abdominal pain, and sometimes fever. It spreads through contaminated food, water, or contact with infected individuals.",
+    types: [
+      "Viral Gastroenteritis: Often caused by rotavirus or norovirus.",
+      "Bacterial Gastroenteritis: Caused by bacteria like Salmonella or Escherichia coli (E. coli)."
+    ],
+    symptoms:"Diarrhea,Vomiting,Abdominal Pain,Fever,Dehydration (Signs include dry mouth, sunken eyes, and reduced urine output)"
+  },
+  {
+    name: "Allergies",
+    description: "Allergies in children occur when the immune system reacts to substances like pollen, pet dander, or certain foods, triggering symptoms ranging from sneezing and itching to more severe reactions.",
+    definition: "Childhood allergies result from the immune system's hypersensitivity to certain substances, known as allergens. Common allergens include pollen, mold spores, animal dander, insect bites, certain foods, and medications.",
+    types: [
+      "Seasonal Allergies: Triggered by pollen during specific seasons.",
+      "Food Allergies: Reactions to certain foods like nuts, milk, or eggs.",
+      "Allergic Rhinitis: Inflammation of the nasal passages due to allergens.",
+      "Eczema (Atopic Dermatitis): Skin allergy causing red, itchy rashes."
+    ],
+    symptoms:"Sneezing,Runny or Stuffy Nose,Itchy or Watery Eyes,Skin Rashes or Hives,Shortness of Breath (in severe cases)"
+  },
+  {
+    name: "Measles",
+    description: "Measles, a highly contagious viral infection, primarily affects children and is characterized by a distinctive rash, fever, and respiratory symptoms.",
+    definition: "Measles is caused by the measles virus and is one of the most contagious infectious diseases. It spreads through respiratory droplets and manifests with symptoms such as high fever, cough, runny nose, and a distinctive red rash.",
+    types: [
+      "Typical Measles: Classic form with characteristic symptoms.",
+      "Modified Measles: Occurs in partially immune individuals, leading to milder symptoms."
+    ],
+    symptoms:"High Fever,Cough,Runny Nose,Red, Blotchy Rash,Photophobia (Sensitivity to Light)"
+  }  
   
 ],
 nutri:[
@@ -463,7 +494,7 @@ nutri:[
 ],
 covid:[
   {
-    name: "Shortness of Breath",
+    name: "Dyspnea or Shortness of breath",
     description: "Shortness of breath is the sensation of difficulty or discomfort in breathing, often indicating an underlying medical condition.",
     definition: "Shortness of breath can result from various factors, including respiratory or cardiovascular issues, anxiety, or strenuous physical activity. It may present as a feeling of breathlessness, tightness in the chest, or rapid breathing. Underlying causes range from asthma, chronic obstructive pulmonary disease (COPD), to heart problems. Timely evaluation by a healthcare professional is crucial to determine the cause and initiate appropriate treatment.",
     types: [
@@ -523,7 +554,7 @@ covid:[
     symptoms:"Inability to Taste Food,Loss of Sense of Smell,Altered Perception of Flavors,No Sensation of Smelling Odors,Associated COVID-19 Symptoms (e.g., Fever, Cough)"
   },  
   {
-    name: "High Fever",
+    name: "Fever",
     description: "High fever, an elevated body temperature, is a common symptom that can indicate various underlying infections or illnesses.",
     definition: "High fever is characterized by an abnormal increase in body temperature, often as a response to infections such as viral or bacterial illnesses. In the context of infectious diseases like COVID-19, high fever is a prevalent symptom and can be accompanied by other flu-like symptoms. It is essential to monitor body temperature, stay hydrated, and seek medical attention if the fever persists or is associated with severe symptoms.",
     types: [
@@ -533,6 +564,7 @@ covid:[
     ],
     symptoms:"Elevated Body Temperature,Chills or Sweating,Headache,Muscle Aches,Fatigue"
   }  
+  
 ],
 dental:[
   {
