@@ -1,13 +1,13 @@
 import React,{useEffect} from 'react'
 import { useLocation,useNavigate } from 'react-router-dom';
 import './Description.css'
-import img5 from "../../assets/questionnaire/img5.png";
 import descimg1 from "../../assets/questionnaire/descimg1.jpg"
 import descimg2 from "../../assets/questionnaire/descimg2.jpg"
 import descimg3 from "../../assets/questionnaire/descimg3.jpg"
 import diseaseList from '../../sources/DiseaseList';
 import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
+import titleCard from '../../sources/TitleCard';
 
 function Description() {
 
@@ -21,12 +21,16 @@ function Description() {
   const {id,care}=location.state;
   const diseaseSet = diseaseList[care]
   const diseasedetails=diseaseSet.find(disease=> disease.name.split(" ")[0] === id);
+  const disease=titleCard.find(card => card.id === care);
 
   const redirectpage = (flag) => {
     const idname=diseasedetails.name;
-    if(flag==='test') navigate('/quest',{state:{id:diseasedetails.name}});
+    if(flag==='test'){
+      if(care==='soul')  navigate('/quest',{state:{id:diseasedetails.name}});
+      else navigate('/comingsoon');
+    }
     if(flag==='remedies') navigate('/remedies',{state:{id:idname.split(" ")[0]}});
-    if(flag==='doctor') navigate('/appointdoctor/soul');
+    if(flag==='doctor') navigate(`/appointdoctor/${care}`);
   };
 
   return (
@@ -38,7 +42,7 @@ function Description() {
           <p>{diseasedetails.definition}</p>
         </div>
         <div>
-          <img src={img5} alt="" className='desc-col-right desc-imgpos'/>
+          <img src={disease.img3} alt="" className='desc-col-right desc-imgpos'/>
         </div>
       </div>
       <div className='desc-bg'>

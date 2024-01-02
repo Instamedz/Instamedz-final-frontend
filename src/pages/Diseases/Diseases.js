@@ -16,8 +16,7 @@ function Diseases() {
 
   const redirectpage = (id) => {
     const idname=id.name;
-    if(cardId==='soul') navigate('/desc',{state:{id:idname.split(" ")[0],care:cardId}});
-    else navigate('/comingsoon')
+    navigate('/desc',{state:{id:idname.split(" ")[0],care:cardId}});
   };
   useEffect(() => {
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});

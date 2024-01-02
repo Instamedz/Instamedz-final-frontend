@@ -242,7 +242,7 @@ eye:[
       symptoms: "Blurry Vision for Nearby Objects: Difficulty seeing things up close. Squinting: Necessary to achieve clear vision. Eyestrain: Burning eyes, aching around the eyes. General Eye Discomfort: Discomfort or headaches after close tasks. Trouble Focusing on Nearby Objects: Challenges with tasks like reading or computer work. Headaches: Resulting from eye strain. Fatigue: After engaging in close-up tasks such as reading."
     },
     {
-      name: "Short-Sightedness (Myopia)",
+      name: "Shortsightedness (Myopia)",
       description: "Myopia or short-sightedness, affects the ability to see distant objects clearly, causing light to focus in front of the retina.",
       definition: "Short-sightedness, or myopia, results in blurry vision for distant objects due to the eye being slightly too long. When viewing close objects, such as reading a book, the light rays enter the eye at a slight outward angle, focusing further back in the eye than rays from distant objects. Myopia typically begins in childhood, around ages 6 to 13, but can also develop in adults. Symptoms include blurry vision, the need to squint, headaches, and eyestrain. In children, signs may include difficulty seeing classroom materials, squinting, excessive blinking, or sitting close to screens.",
       types: [
@@ -387,7 +387,7 @@ nutri:[
     symptoms:"Reduced Body Mass, Improved Energy Levels,Enhanced Physical Fitness,Positive Changes in Body Composition, Better Overall Well-being"
   },  
   {
-    name: "Healthy Vision",
+    name: "Perfect Vision",
     description: "Maintaining healthy vision involves adopting habits and practices that support optimal eye health, reducing the risk of vision problems and preserving visual acuity.",
     definition: "Healthy vision encompasses practices and behaviors that contribute to the well-being of the eyes. This includes regular eye examinations, protection against harmful UV rays, maintaining a balanced diet rich in eye-friendly nutrients, proper hydration, and minimizing eye strain from screen time. Adequate rest, proper lighting, and avoiding smoking are also crucial for promoting long-term eye health. Taking proactive measures to care for the eyes contributes to clear vision and reduces the risk of age-related conditions such as macular degeneration and cataracts.",
     types: [
@@ -454,7 +454,7 @@ covid:[
     symptoms:"Pain or Pressure in the Head,Throbbing Sensation (in migraines),Sensitivity to Light or Sound,Nausea or Vomiting,Tightness in Neck and Shoulders (tension headaches)"
   },
   {
-    name: "Sore Throat",
+    name: "SoreThroat",
     description: "A sore throat is a discomfort or pain in the throat often caused by viral or bacterial infections.",
     definition: "A sore throat is a common symptom of various conditions, including viral infections like the common cold or flu, as well as bacterial infections such as strep throat. It can also result from irritants like smoke, allergies, or dry air. The hallmark of a sore throat is pain or scratchiness in the throat, making swallowing uncomfortable. Depending on the cause, additional symptoms like fever, cough, or swollen glands may be present.",
     types: [
@@ -542,7 +542,7 @@ dental:[
     symptoms: "Blood during Brushing or Flossing: The primary indicator of bleeding gums. Swollen or Inflamed Gums: Signs of underlying inflammation. Redness in the Gums: Increased blood flow and inflammation. Tender Gums: Discomfort or sensitivity in the gum tissues. Bad Breath: Associated with bacterial activity in the mouth. Receding Gums: Gums pulling away from the teeth."
   },
   {
-    name: "Mobility/Loose Teeth",
+    name: "Mobility or Loose Teeth",
     description: "Mobility are a dental concern characterized by abnormal movement or shifting of teeth within the gums.",
     definition: "As the condition progresses, individuals may experience increased tooth mobility, changes in bite alignment, and potential discomfort. Prompt dental evaluation is essential to identify the cause and implement appropriate treatments to stabilize or address the mobility of the affected teeth.",
     types: [

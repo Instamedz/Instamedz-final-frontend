@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 import { useLocation } from 'react-router-dom';
-import diseaseRemedies from "../../sources/RemediesList"
+import RemediesList from "../../sources/RemediesList"
 import './Remedies.css'
 import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
@@ -14,7 +14,7 @@ function DisplayRemedies({ history }) {
   const location=useLocation();
   const diseasename=location.state.id;
   console.log(diseasename)
-  const remedyArray= diseaseRemedies[diseasename];
+  const remedyArray= RemediesList[diseasename];
 
   useEffect(() => {
     window.scrollTo({top: 60, left: 0, behavior: 'smooth'});
@@ -55,15 +55,7 @@ function DisplayRemedies({ history }) {
             <div className="dremedies-row">
             <div className='dremedies-b2'>
               <h3>To Know More</h3>
-                <ul>
-                {currentTip.bodysrc.map((src, index) => (
-                  <li key={index}>
-                    <a href={src} target="_blank" rel="noopener noreferrer">
-                    {src}
-                    </a>
-                  </li>
-                ))}
-              </ul>
+                <p>{currentTip.bodysrc}</p>
             </div>
             <div className="dremedies-img">
               <img src={currentTip.imgurl} alt="" />
