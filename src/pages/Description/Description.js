@@ -67,7 +67,7 @@ function Description() {
             <div class="desc-col desc-card" onClick={()=>redirectpage("remedies")}>
                 <img src={descimg2} alt="" />
                 <h3>Get Remedies</h3>
-                <p>Empowering health through knowledge and care, our remedies are crafted with precision to embrace the art of healing </p>
+                <p>Empowering health through knowledge and care, our remedies are crafted with precision and accuracy to embrace the art of healing </p>
             </div>
             <div class="desc-col desc-card" onClick={()=>redirectpage("doctor")}>
                 <img src={descimg3} alt="" />
