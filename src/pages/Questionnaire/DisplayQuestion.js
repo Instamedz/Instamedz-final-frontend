@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useState } from 'react';
 import {useNavigate} from 'react-router-dom';
 import './Questionnaire.css';
-import SoulCare from '../../sources/SoulCare'
+import QuestList from '../../sources/QuestList'
 import {useEffect} from 'react';
 
 function DisplayQuestion(props) {
@@ -14,7 +14,7 @@ function DisplayQuestion(props) {
 
   const navigate = useNavigate();
   const diseasename=props.diseasename;
-  const questions= SoulCare[diseasename];
+  const questions= QuestList[diseasename];
   
   var flag=0;
   const [score, setScore] = useState(0);

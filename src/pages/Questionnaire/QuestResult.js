@@ -1,11 +1,9 @@
-import React from 'react'
-import { useLocation } from 'react-router-dom';
+import React,{useEffect}  from 'react'
+import { useLocation, useNavigate } from 'react-router-dom';
 import img4 from'../../assets/questionnaire/img4.png'
 import img3 from'../../assets/questionnaire/img3.png'
-import {useNavigate} from 'react-router-dom';
 import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
-import {useEffect} from 'react';
 
 function QuestResult() {
   useEffect(() => {

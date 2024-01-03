@@ -176,7 +176,7 @@ heart:[
   
   {
     name: "Congestive Heart Failure (CHF)",
-    description: "Congestive Heart Failure is a chronic condition, heart unable to pump blood efficiently, leading to fluid buildup and potential organ dysfunction.",
+    description: "Congestive Heart Failure is a chronic condition, heart unable to pump blood efficiently, leading potential organ dysfunction.",
     definition: "Congestive Heart Failure results from the heart's inability to effectively pump blood, causing fluid retention and insufficient oxygen delivery to organs. Common causes include coronary artery disease, heart attack, and hypertension. As the heart weakens, symptoms like fatigue, shortness of breath, and swelling in the legs emerge. CHF may be categorized as left-sided or right-sided heart failure, each impacting different parts of the circulatory system.",
     types:["Left-Sided Heart Failure: Impairs the heart's ability to pump oxygenated blood to the body.",
     "Right-Sided Heart Failure: Affects the heart's ability to pump blood returning from the body to the lungs for oxygenation."
@@ -185,7 +185,7 @@ heart:[
   },
   {
     name: "High Blood Pressure",
-    description: "High Blood Pressure, or Hypertension, is a common medical condition where the force of blood against artery walls is consistently too high.",
+    description: "High Blood Pressure, or Hypertension,where the force of blood against artery walls is consistently too high.",
     definition: "High Blood Pressure occurs when the long-term force exerted by blood against the walls of arteries is elevated. This condition, often asymptomatic, can lead to severe health issues, including heart disease and stroke. Lifestyle factors such as a high-sodium diet, lack of physical activity, and smoking can contribute.",
     types: [
       "Primary (Essential) Hypertension: Develops gradually over time with no identifiable cause.",
@@ -195,7 +195,7 @@ heart:[
   },
   {
     name: "Shortness of Breath",
-    description: "Shortness of breath, or dyspnea, is the sensation of difficulty or discomfort in breathing, often indicating an underlying medical condition.",
+    description: "Shortness of breath, or dyspnea, is the sensation of difficulty or discomfort in breathing",
     definition: "Shortness of breath can result from various factors, including respiratory or cardiovascular issues, anxiety, or strenuous physical activity. It may present as a feeling of breathlessness, tightness in the chest, or rapid breathing. Underlying causes range from asthma, chronic obstructive pulmonary disease (COPD), to heart problems.",
     types: [
       "Acute Shortness of Breath: Sudden onset, often requiring immediate medical attention.",
@@ -215,7 +215,7 @@ heart:[
   },
   {
     name: "Coronary Artery Disease (CAD)",
-    description: "Coronary Artery Disease (CAD) is a cardiovascular condition characterized by the narrowing or blockage of the coronary arteries, leading to reduced blood flow to the heart muscle.",
+    description: "Coronary Artery Disease (CAD) is a cardiovascular condition characterized by the narrowing or blockage of the coronary arteries.",
     definition: "Coronary Artery Disease develops when cholesterol-containing deposits (plaques) accumulate in the coronary arteries, impairing blood flow to the heart. This reduced blood supply can cause chest pain (angina) and, in severe cases, lead to heart attacks. Risk factors include high blood pressure, high cholesterol, smoking, diabetes, and a sedentary lifestyle. ",
     types: [
       "Atherosclerosis: Buildup of plaques in the coronary arteries",
@@ -403,7 +403,8 @@ child:[
   },
   {
     name: "Gastroenteritis",
-    description: "Gastroenteritis in children is typically caused by viral or bacterial infections. Rotavirus is a common viral cause in young children. Symptoms include diarrhea, vomiting, abdominal pain, and sometimes fever. It spreads through contaminated food, water, or contact with infected individuals.",
+    description:"Gastroenteritis in children is typically caused by viral or bacterial infections. Rotavirus is a common viral cause in young children. ",
+    definition: "Gastroenteritis in children is typically caused by viral or bacterial infections. Rotavirus is a common viral cause in young children. Symptoms include diarrhea, vomiting, abdominal pain, and sometimes fever. It spreads through contaminated food, water, or contact with infected individuals.",
     types: [
       "Viral Gastroenteritis: Often caused by rotavirus or norovirus.",
       "Bacterial Gastroenteritis: Caused by bacteria like Salmonella or Escherichia coli (E. coli)."
@@ -412,7 +413,7 @@ child:[
   },
   {
     name: "Allergies",
-    description: "Allergies in children occur when the immune system reacts to substances like pollen, pet dander, or certain foods, triggering symptoms ranging from sneezing and itching to more severe reactions.",
+    description: "Allergies in children occur when the immune system reacts to substances like pollen, pet dander, or certain foods",
     definition: "Childhood allergies result from the immune system's hypersensitivity to certain substances, known as allergens. Common allergens include pollen, mold spores, animal dander, insect bites, certain foods, and medications.",
     types: [
       "Seasonal Allergies: Triggered by pollen during specific seasons.",
@@ -424,7 +425,7 @@ child:[
   },
   {
     name: "Measles",
-    description: "Measles, a highly contagious viral infection, primarily affects children and is characterized by a distinctive rash, fever, and respiratory symptoms.",
+    description: "Measles, a highly contagious viral infection, primarily affects children and is characterized by a distinctive rash, fever",
     definition: "Measles is caused by the measles virus and is one of the most contagious infectious diseases. It spreads through respiratory droplets and manifests with symptoms such as high fever, cough, runny nose, and a distinctive red rash.",
     types: [
       "Typical Measles: Classic form with characteristic symptoms.",
@@ -649,7 +650,7 @@ dental:[
   },
   {
     name: "Facial Swelling",
-    description: "Facial swelling related to dental problems can occur due to various oral issues, affecting the face's appearance and requiring prompt dental attention.",
+    description: "Facial swelling related to dental problems can occur due to various oral issues, affecting the face's appearance",
     definition: "Facial swelling resulting from dental problems may stem from conditions such as infected teeth, abscesses, or gum infections. These issues can lead to the accumulation of pus, causing localized swelling in the face. The severity of swelling may vary, ranging from mild to pronounced, and can be accompanied by pain and redness. ",
     types: [
       "Gum Abscess: Infection in the gums leading to pus accumulation.",
@@ -660,7 +661,7 @@ dental:[
   },
   {
     name: "Gum Problems in Diabetic Patients",
-    description: "Diabetes increases the risk of oral health issues, affecting the gums and teeth, but proper dental care and diabetes management can mitigate these risks.",
+    description: "Diabetes increases the risk of oral health issues, affecting the gums and teeth, but proper dental care can mitigate these risks.",
     definition: "Diabetes can impact oral health, elevating the risk of gum infections, cavities, and bone-related issues. Individuals over 50 with diabetes face heightened risks. Unmanaged diabetes can lead to dry mouth, fostering conditions like soreness, ulcers, and tooth decay. Gum inflammation (gingivitis) and periodontitis become more severe due to compromised immunity and restricted blood flow. ",
     types: [
       "Dry Mouth: Reduced saliva flow, leading to soreness and increased vulnerability to infections.",

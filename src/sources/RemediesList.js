@@ -386,61 +386,61 @@ Redness:[
         heading: "Chill Out with Cold Compresses",
         bodydesc: "Apply a cool compress to closed eyes three times a day. The gentle touch of cold helps constrict blood vessels and reduce eye redness.",
         bodysrc: "https://my.clevelandclinic.org/health/symptoms/17690-red-eye",
-        imgurl:""
+        imgurl:"https://us.123rf.com/450wm/mything/mything1710/mything171000064/mything171000064.jpg?ver=6"
     },
     {
         heading: "Revitalize with Saline Soothe",
         bodydesc: "Wash away irritation with a refreshing saline or saltwater eye wash. This natural solution helps cleanse and soothe your eyes, providing relief from redness.",
         bodysrc: "https://www.healthline.com/health/eye-health/home-remedies-for-eye-infection",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/man-using-gel-foam-washing-face-bathroom-near-sink-cosmetic-men_517969-159.jpg?w=740"
     },
     {
         heading: "Tea Time for Tranquil Eyes",
         bodydesc: "Harness the power of chamomile, rooibos, or black tea bags. Use them as compresses on your eyes for a calming effect. Their anti-inflammatory properties can work wonders against redness.",
         bodysrc: "https://www.healthline.com/health/eye-health/home-remedies-for-eye-infection",
-        imgurl:""
+        imgurl:"https://img.freepik.com/free-vector/tea-cup-concept-illustration_114360-19768.jpg?w=740&t=st=1704255489~exp=1704256089~hmac=6e2644140119a75f69797adbfd9b764e7964f3d8a03ee5ffb6531d5176cf8ba7"
     },
     {
         heading: "Linen Love",
         bodydesc: "Keep your surroundings redness-free by washing linens daily. Fresh, clean sheets and pillowcases prevent exacerbation of eye redness and contribute to an overall soothing environment.",
         bodysrc: "https://www.healthline.com/health/eye-health/home-remedies-for-eye-infection",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/happy-woman-arranging-pillow-cleaning-bed-bedroom-doing-household-housework_199628-169.jpg?w=900"
     },
     {
         heading: "Cucumber Coolness",
         bodydesc: "Take a cue from nature's hydrating hero. Soak cotton pads in cold cucumber juice from the fridge and gently apply them to your closed eyes for 10 minutes, three times a day. Cucumber's natural coolness can alleviate redness and leave your eyes feeling revitalized.",
         bodysrc: "https://www.stylecraze.com/articles/home-remedies-for-red-eyes/#ChamomileTea",
-        imgurl:""
+        imgurl:"https://png.pngtree.com/png-vector/20191207/ourmid/pngtree-cucumber-mask-on-girl-illustration-vector-on-white-background-png-image_2046312.jpg"
     },
     {
         heading: "Rosewater Respite",
         bodydesc: "Delight in the cooling sensation of cotton pads soaked in cold rose water. Gently place them on closed eyes for 10 minutes, four times a day. Let the floral freshness soothe and revive your eyes.",
         bodysrc: "https://www.stylecraze.com/articles/home-remedies-for-red-eyes/#ChamomileTea",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/cosmetic-package-moisturizing-toner-micellar-water-with-rose-extract-illustration_368602-1980.jpg?w=740"
     },
     {
         heading: "Coconut Calm",
         bodydesc: "Nourish your eyes by putting two drops of coconut oil at the eye corners. This natural elixir can provide a protective and moisturizing layer, easing discomfort and promoting eye wellness.",
         bodysrc: "https://www.stylecraze.com/articles/home-remedies-for-red-eyes/#ChamomileTea",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/fresh-coconut-food-oil-glass-jar-realistic-vector-illustration_1284-66043.jpg?w=900"
     },
     {
         heading: "Potato Perfection",
         bodydesc: "Experience the wonders of potatoes by placing thin slices on your eyes for 20 to 30 minutes. The anti-inflammatory properties can work wonders in reducing puffiness and alleviating redness.",
         bodysrc: "https://www.stylecraze.com/articles/home-remedies-for-red-eyes/#ChamomileTea",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/potatoes-realistic-composition-with-view-whole-sliced-potatoes-bunch-blank-background-with-shadows-vector-illustration_1284-76448.jpg?w=900"
     },
     {
         heading: "Berry Boost with Bilberry",
         bodydesc: "Integrate bilberry extract into your routine. Take it after meals thrice a day for added support. Bilberries are rich in antioxidants that promote eye health and may assist in reducing redness.",
         bodysrc: "https://www.stylecraze.com/articles/home-remedies-for-red-eyes/#ChamomileTea",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/superfood-acai-smoothie-with-fresh-berries-striped-tubule-glass-jar-vector-clipart_530505-246.jpg?w=740"
     },
     {
         heading: "Colorful Diet for Clear Eyes",
         bodydesc: "Enhance your diet with citrus fruits, fish, and carrots. These eye-friendly foods are rich in vitamins and nutrients, promoting overall eye health and reducing the likelihood of redness.",
         bodysrc: "https://www.stylecraze.com/articles/home-remedies-for-red-eyes/#ChamomileTea",
-        imgurl:""
+        imgurl:"https://img.freepik.com/free-vector/citrus-fruits-collection-realistic-composition_1284-15784.jpg?w=900&t=st=1704255174~exp=1704255774~hmac=27de07f8948558ba760fb5544ca1e1acdbf1bd4d838f79d3f373ee82e28f543f"
     }
 ],
 Eyelid:[
@@ -448,56 +448,56 @@ Eyelid:[
         heading: "Dynamic Stimulation",
         bodydesc: "Utilize stimulating devices like an electronic toothbrush for direct stimulation. Dedicate several minutes each day to this invigorating practice for a revitalized gaze.",
         bodysrc: "https://www.healthline.com/health/droopy-eyelid-exercises",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/woman-who-moisturizes-by-applying-lotion-filled-cotton-her-face-white-background_16237400.htm"
         
     },
     {
         heading: "Forcible Blinks and Rolls",
         bodydesc: "Combat droopiness with forcible blinks and eye rolls every four hours for one minute. This quick routine helps keep your eye muscles engaged and promotes a more alert appearance.",
         bodysrc: "https://www.healthline.com/health/droopy-eyelid-exercises",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/training-your-eye_33306836.htm"
     },
     {
         heading: "Tulsi Oil Massage",
         bodydesc: "Rejuvenate your eyelids and promote circulation by massaging them with Tulsi oil. Extend this therapeutic care to your head for an extra boost of relaxation.",
         bodysrc: "https://www.healthline.com/health/droopy-eyelid-exercises",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/glass-jar-with-basil-oil-white-background_27940846.htm"
     },
     {
         heading: "Tea Tree Tonic",
         bodydesc: "Apply a mixture of two drops of tea tree essential oil and half a teaspoon of coconut oil to your eyelids. This natural concoction provides a refreshing solution, contributing to a lifted and vibrant look.",
         bodysrc: "https://www.ayurprakash.com/diseases/eye-diseases/ptosis/",
-        imgurl:""
+        imgurl:"https://images.app.goo.gl/YkChP55Pt3WM6Lz2A"
     },
     {
         heading: "Black Tea Treatment",
         bodydesc: "Address droopiness by drinking black tea twice a day. Harness its potential benefits for your eyelids, offering a soothing remedy based on traditional practices.",
         bodysrc: "https://www.ayurprakash.com/diseases/eye-diseases/ptosis/",
-        imgurl:""
+        imgurl:"https://images.app.goo.gl/2QXATaniGeDuAACa7"
     },
     {
         heading: "Cow Ghee Nightcap",
         bodydesc: "Before bedtime, enhance your eyelid care by putting two drops of cow ghee. This gentle and nourishing practice adds a touch of moisture and care for overnight rejuvenation.",
         bodysrc: "https://www.ayurprakash.com/diseases/eye-diseases/ptosis/",
-        imgurl:""
+        imgurl:"https://images.app.goo.gl/kVsMisuNW8hxwKoM6"
     },
     {
         heading: "Trataka Vitality",
         bodydesc: "Engage in Trataka, a yogic eye exercise, focusing on a point without blinking. Dedicate a few minutes daily, gradually increasing, for enhanced concentration and ocular vitality.",
         bodysrc: "https://www.healthline.com/health/droopy-eyelid-exercises",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/training-your-eye_33306836.htm"
     },
     {
         heading: "B12 Vitality",
         bodydesc: "Boost your energy and support nerve health by incorporating vitamin B12-rich foods into your diet. Consider including sources like fish, lean meats, and fortified cereals to ensure you meet your daily B12 needs for optimal well-being.",
         bodysrc: "https://draxe.com/health/ptosis/",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/vitamin-b12-enriched-food-cartoon-collection-set-organic-meat-fish-milk-cheese-tuna-shrimp-curd-eggs-containing-vitamin-isolated-white-background-balanced-diet-meal-healthcare-concept_28480928.htm"
     },
     {
         heading: "Crispy Kale Delight",
         bodydesc: "Satisfy your snack cravings guilt-free with baked kale chips. Packed with vitamins and fiber, this crunchy treat not only delights your taste buds but also contributes to a wholesome and nutritious snacking experience.",
         bodysrc: "https://draxe.com/health/ptosis/",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/kale-vegetable-icon-cartoon-vector-illustration-isolated-white-background_33041843.htm"
     }
 ],
 Cloudy:[
@@ -505,43 +505,43 @@ Cloudy:[
         heading: "Nutrient-Rich Diet",
         bodydesc: "Incorporate foods rich in vitamins A, C, and E, as well as antioxidants, to support overall eye health. Carrots, leafy greens, and berries are excellent choices.",
         bodysrc: "https://www.medicalnewstoday.com/articles/326758#vitamin-e",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/realistic-healthy-food_783211.htm"
     },
     {
         heading: "Hydration for Eye Health",
         bodydesc: "Stay well-hydrated to prevent dry eyes, a common cause of blurred vision. Ensure 8L of water intake to maintain eye moisture.",
         bodysrc: "https://www.advvisioncenters.com/eye-health/is-drinking-water-good-for-your-eyes-to-keep-them-hydrated/",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/positive-people-drinking-water-cooler_9176241.htm"
     },
     {
         heading: "Eye Exercises",
         bodydesc: "Practice eye exercises to strengthen eye muscles and improve focus. Simple exercises like eye rolls and focusing on distant objects for 5 minutes every 2 hours can be beneficial.",
         bodysrc: "https://kraffeye.com/blog/8-easy-eye-exercises-to-improve-vision-techniques-and-tips",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/training-your-eye_33306836.htm"
     },
     {
         heading: "Blinking Breaks",
         bodydesc: "Take regular breaks, especially when engaged in prolonged screen time. Blink consciously to lubricate the eyes and reduce strain.",
         bodysrc: "https://my.clevelandclinic.org/health/symptoms/24262-blurred-vision",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/training-your-eye_33306836.htm"
     },
     {
         heading: "Herbal Eyewash",
         bodydesc: "Consider using a gentle herbal eyewash, like chamomile tea, to soothe and refresh your eyes. Ensure the solution is cool before applying.",
         bodysrc: "https://www.medicalnewstoday.com/articles/326300",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/woman-using-gel-foam-washing-face-bathroom-near-sink-cosmetic-women_27919222.htm"
     },
     {
         heading: "Omega-3 Fatty Acids",
         bodydesc: "Include foods rich in omega-3 fatty acids, such as fish or flaxseeds, to promote eye lubrication and reduce inflammation.",
         bodysrc: "https://www.aao.org/eye-health/tips-prevention/fabulous-foods-your-eyes",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/omega-3-6-9-acids-isometric-composition-with-oil-rich-products-vector-illustration_28795200.htm"
     },
     {
         heading: "Reduce Eye Strain",
         bodydesc: "Adjust lighting conditions and ensure proper screen positioning to minimize eye strain. Implement the 20-20-20 rule: every 20 minutes, look at something 20 feet away for at least 20 seconds.",
         bodysrc: "https://www.healthline.com/health/eye-health/how-to-cure-blurry-vision-naturally#natural-treatments",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/fall-is-coming-concept-illustration_7441051.htm"
     }
 ],
 Crossed:[
@@ -549,43 +549,43 @@ Crossed:[
         heading: "Cross-Gaze Focus",
         bodydesc: "Cross your eyes slightly while focusing on a near object. Hold for a few seconds, then gradually move the object away. Repeat for a few minutes daily to enhance eye alignment.",
         bodysrc: "https://draxe.com/health/strabismus/#Natural_Ways_to_Improve_Strabismus_Symptoms",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/flat-business-persons-searching-new-work-opportunities_33125991.htm"
     },
     {
         heading: "Ghee Elixir for Bedtime Bliss",
         bodydesc: "Nourish your eyes with a bedtime ritual. Place two drops of ghee in each eye before sleep—a soothing practice that supports eye health and moisturizes tired eyes.",
         bodysrc: "https://www.ayurprakash.com/diseases/eye-diseases/strabismus-squint/",
-        imgurl:""
+        imgurl:"https://images.app.goo.gl/kVsMisuNW8hxwKoM6"
     },
     {
         heading: "Triphala Tonic Magic",
         bodydesc: "Revitalize your eyes with a potent tonic. Mix one teaspoon of Triphala powder with one teaspoon of ghee and two teaspoons of honey. Consume this concoction twice daily with milk to fortify eye muscles and nerves, fostering strength and resilience.",
         bodysrc: "https://www.ayurprakash.com/diseases/eye-diseases/strabismus-squint/",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/triphala-herbs-organic-ayurvedic-herbs-medicine_24557989.htm"
     },
     {
         heading: "Citrus Symphony for Eye Health",
         bodydesc: "Incorporate tangerines, tomatoes, and lemons into your diet—they're rich in Vitamin C, a crucial antioxidant that supports eye health.",
         bodysrc: "https://www.mtatva.com/en/disease/strabismus-treatment-diet-and-home-remedies/#Food_and_Nutrition",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/citrus-fruits-collection-realistic-composition_4026534.htm"
     },
     {
         heading: "Zinc Guardian for Light Defense",
         bodydesc: "Fortify your eyes against light damage with zinc-rich foods. Include peas, beans, lean red meat, poultry, and fortified cereals in your meals.",
         bodysrc: "https://www.mtatva.com/en/disease/strabismus-treatment-diet-and-home-remedies/#Food_and_Nutrition",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/omega-3-6-9-acids-isometric-composition-with-oil-rich-products-vector-illustration_28795200.htm"
     },
     {
         heading: "Golden Morning Bliss: Apricot Milkshake Delight",
         bodydesc: "Start your day with a delightful twist! Blend fresh apricots into a creamy milkshake for a golden, nutrient-packed treat.",
         bodysrc: "https://www.mtatva.com/en/disease/strabismus-treatment-diet-and-home-remedies/#Food_and_Nutrition",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/realistic-fruits-composition-with-images-whole-sliced-apricot-fruit-blank-background-vector-illustration_23129033.htm"
     },
     {
         heading: "Eye Patch Alignment",
         bodydesc: "Gently place an eye patch over the stronger eye for a designated period each day. This encourages the weaker eye to strengthen its focus, promoting improved alignment over time.",
         bodysrc: "https://www.thehealthsite.com/diseases-conditions/strabismus/",
-        imgurl:""
+        imgurl:"https://images.app.goo.gl/RZWWTaTMLcHKuwpK8"
     }
 ],
 Farsightedness:[
@@ -593,49 +593,49 @@ Farsightedness:[
         heading: "Palms of Serenity",
         bodydesc: "Warm your hands, cover your eyes with gentle palms, and breathe deeply for 10 minutes. This Bates-inspired exercise fosters relaxation, supporting your eyes' well-being.",
         bodysrc: "https://prasadnetralaya.com/how-to-tell-if-you-have-farsightedness/#How_You_Can_Treat_Farsightedness",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/closing-eyes-with-hands-want-see-eyes-shut-concept_12832212.htm"
     },
     {
         heading: "Sunlit Safeguard: Embrace Sunglasses Daily",
         bodydesc: "Safeguard your eyes from sunlight by wearing sunglasses during the day. This simple practice shields your eyes from harmful rays, reducing the risk of glare, eye strain, and long-term sun-related damage.",
         bodysrc: "https://www.mayoclinic.org/diseases-conditions/farsightedness/diagnosis-treatment/drc-20372499",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/vector-illustration-graphic-style-digital-art_17916672.htm"
     },
     {
         heading: "Ocean's Bounty: The Deep Dive Diet",
         bodydesc: "Elevate your diet with deep water fishes like mackerel, sardines, anchovies, mullet, or herring. Packed with omega-3 fatty acids, these culinary delights offer a nutritional boost for overall well-being.",
         bodysrc: "https://www.mayoclinic.org/diseases-conditions/farsightedness/diagnosis-treatment/drc-20372499",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/seafood-plate-composition_1537306.htm"
     },
     {
         heading: "Morning Glow, Evening Peace: Garden Escape",
         bodydesc: "Prioritize 40 minutes outdoors during the early morning or evening in your garden sanctuary. Revel in the natural surroundings, breathe in fresh air, and let the gentle ambiance be your screen-free retreat.",
         bodysrc: "https://prasadnetralaya.com/how-to-tell-if-you-have-farsightedness/#How_You_Can_Treat_Farsightedness",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/woman-sitting-bench-reading-book-park-city-relaxation-flat-vector-illustration-weekend-nature-concept_10613859.htm"
     },
     {
         heading: "Lemon Infusion: Boosting Eye Circulation",
         bodydesc: "Kickstart your day by drinking ample water infused with lemon on an empty stomach. This hydrating ritual not only jumpstarts your metabolism but also promotes improved blood circulation to the eyes, contributing to overall ocular vitality.",
         bodysrc: "https://www.mayoclinic.org/diseases-conditions/farsightedness/diagnosis-treatment/drc-20372499",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/gin-tonic-cocktail-glass-white-background_30155475.htm"
     },
     {
         heading: "Swing to Clarity",
         bodydesc: "Embrace 10 minutes of long swings daily, focusing on the distant horizon. This rhythmic eye exercise promotes relaxation and visual well-being, fostering a refreshing routine for your eyes.",
         bodysrc: "https://www.hannerobinson.org/blog/4/7/2018/how-to-improve-farsightedness",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/walking-around-concept-illustration_10804398.htm"
     },
     {
         heading: "MSM Massage Magic",
         bodydesc: "Indulge in a 10-minute daily eye massage with MSM cream. Gently apply the cream around the eyes using circular motions, promoting circulation and relaxation. This soothing routine supports eye health and vitality.",
         bodysrc: "https://www.hannerobinson.org/blog/4/7/2018/how-to-improve-farsightedness",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/girl-uses-cosmetic-facial-cream_24908738.htm"
     },
     {
         heading: "20-20-20 Rule Remedy",
         bodydesc: "Combat eyestrain with the 20-20-20 rule. Every 20 minutes, take a 20-second break from your computer or close work, and gaze at something 20 feet away.",
         bodysrc: "https://www.mayoclinic.org/diseases-conditions/farsightedness/diagnosis-treatment/drc-20372499",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/fall-is-coming-concept-illustration_7441051.htm"
     }
 ],
 Shortsightedness:[
@@ -643,37 +643,37 @@ Shortsightedness:[
         heading: "Focus Fitness for Myopia",
         bodydesc: "Reduce eyestrain with myopia-focused exercises. Practice close-far focusing and figure-eight patterns to enhance vision health. Follow the 20-20-20 rule for short breaks, promoting relief from eye fatigue.",
         bodysrc: "https://www.nikonlenswear.com/in/expert-advice/improve-your-myopia-with-natural-remedies/",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/fall-is-coming-concept-illustration_7441051.htm"
     },
     {
         heading: "Swing to Clarity",
         bodydesc: "Embrace 10 minutes of long swings daily, focusing on the distant horizon. This rhythmic eye exercise promotes relaxation and visual well-being, fostering a refreshing routine for your eyes.",
         bodysrc: "https://www.stylecraze.com/articles/home-remedies-for-myopia/",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/girl-with-dog-cartoon_5039587.htm"
     },
     {
         heading: "Citrus Chill Pops: Eye-Caring Orange Popsicles",
         bodydesc: "Craft delicious popsicles from freshly squeezed orange juice for a refreshing eye treat. Packed with vitamin C, these frozen delights not only satisfy your taste buds but also contribute to eye health. Enjoy these zesty popsicles as a cool and beneficial post-lunch indulgence.",
         bodysrc: "https://www.stylecraze.com/articles/home-remedies-for-myopia/",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/orange-piece-popsicle-icon-cartoon-orange-piece-popsicle-vector-icon-web-design-isolated-white-background_67246036.htm"
     },
     {
         heading: "Licorice Harmony Elixir",
         bodydesc: "Divide licorice in two; blend half with honey, the other with ghee. Enjoy each mix with hot milk for a soothing elixir that supports overall well-being.",
         bodysrc: "https://www.stylecraze.com/articles/home-remedies-for-myopia/#how-to-cure-myopia-naturally",
-        imgurl:""
+        imgurl:"https://images.app.goo.gl/W7XMeJAwjaozhH2Y7"
     },
     {
         heading: "Amla Honey Fusion",
         bodydesc: "Blend amla juice with a teaspoon of honey for a potent elixir. Rich in antioxidants, this concoction supports immune health and adds a sweet twist to your daily wellness routine.",
         bodysrc: "https://www.stylecraze.com/articles/home-remedies-for-myopia/",
-        imgurl:""
+        imgurl:"https://images.app.goo.gl/hGM2WZ5T8sCKjgNS8"
     },
     {
         heading: "Minty Fresh Start: Coconut Water Infusion",
         bodydesc: "Kickstart your mornings with coconut water and crushed mint on an empty stomach. This refreshing blend not only hydrates but also invigorates, promoting digestion and a cool burst of vitality to begin your day.",
         bodysrc: "https://www.stylecraze.com/articles/home-remedies-for-myopia/",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/hand-drawn-coconut-illustration_4421017.htm"
     }
 ],
 Dry:[
@@ -681,43 +681,43 @@ Dry:[
         heading: "Flaxseed Nourishment",
         bodydesc: "Incorporate flaxseeds into your diet for omega-3 fatty acids, promoting eye lubrication and alleviating dryness.",
         bodysrc: "https://www.webmd.com/eye-health/dry-eyes-home-remedies",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/captivating-isometric-icon-flax-seeds_25910750.htm"
     },
     {
         heading: "Oil Swap Brilliance",
         bodydesc: "Replace vegetable oil with canola or soybean oil. These alternatives may contribute to reducing inflammation and supporting eye moisture.",
         bodysrc: "https://www.webmd.com/eye-health/dry-eyes-home-remedies",
-        imgurl:""
+        imgurl:"https://stock.adobe.com/in/images/id/325475533?clickref=1100ly6ziTAM&mv=affiliate&mv2=Freepik&as_camptype=test-landing-a&as_channel=affiliate&as_source=partnerize&as_campaign=Freepik&as_content=api&as_audience=srp&sdid=6WTV6YJ5"
     },
     {
         heading: "Watermelon Hydration Boost",
         bodydesc: "Enjoy watermelon twice a day for its high water content, providing essential hydration to combat dry eyes.",
         bodysrc: "https://www.webmd.com/eye-health/dry-eyes-home-remedies",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/half-fresh-watermelon-watercolor-painting-isolated_57162098.htm"
     },
     {
         heading: "Desk Oasis with Ylang Ylang",
         bodydesc: "Introduce a desk humidifier with a few drops of ylang-ylang oil. This aromatic addition creates a soothing atmosphere, relieving dry eye discomfort.",
         bodysrc: "https://www.webmd.com/eye-health/dry-eyes-home-remedies",
-        imgurl:""
+        imgurl:"https://images.app.goo.gl/1sWfCFZioxynq5B49"
     },
     {
         heading: "Air Filter Haven",
         bodydesc: "Enhance your environment with an air filter to reduce irritants. Create a clean space where you spend the most time, fostering relief from dry eyes.",
         bodysrc: "https://www.webmd.com/eye-health/dry-eyes-home-remedies",
-        imgurl:""
+        imgurl:"https://stock.adobe.com/in/images/id/495665673?clickref=1011ly7ocVpI&mv=affiliate&mv2=Freepik&as_camptype=test-landing-a&as_channel=affiliate&as_source=partnerize&as_campaign=Freepik&as_content=api&as_audience=srp&sdid=6WTV6YJ5"
     },
     {
         heading: "Castor Oil Comfort",
         bodydesc: "Apply castor oil as a lubricant for your eyes. Its moisturizing properties can provide relief and nourishment for dry eyes.",
         bodysrc: "https://www.medicalnewstoday.com/articles/315854",
-        imgurl:""
+        imgurl:"https://images.app.goo.gl/ojUDyEvsrefD2KyQA"
     },
     {
         heading: "Baby Shampoo Soothe",
         bodydesc: "Wash your eyelids with mild baby shampoo every morning, evening, and before sleeping. This gentle routine helps cleanse and maintain eye hygiene, reducing dryness and discomfort.",
         bodysrc: "https://www.medicalnewstoday.com/articles/315854",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/female-teen-cleaning-face-sink_43848929.htm"
     }
 ],
 Blurry:[
@@ -725,37 +725,37 @@ Blurry:[
         heading: "20-20-20 Vision Break",
         bodydesc: "Adhere to the 20-20-20 rule. Every 20 minutes, take a 20-second break, and look at something 20 feet away to reduce eye strain and refresh your vision.",
         bodysrc: "https://www.lybrate.com/topic/how-to-cure-blurry-vision-naturally/661f96db3f9f28370a7f0dd250537bf1",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/fall-is-coming-concept-illustration_7441051.htm"
     },
     {
         heading: "Home Oasis with Humidifier",
         bodydesc: "Introduce a humidifier at home to maintain optimal moisture levels, preventing dryness that can contribute to blurry vision.",
         bodysrc: "https://www.lybrate.com/topic/how-to-cure-blurry-vision-naturally/661f96db3f9f28370a7f0dd250537bf1",
-        imgurl:""
+        imgurl:"https://stock.adobe.com/in/images/id/495665673?clickref=1011ly7ocVpI&mv=affiliate&mv2=Freepik&as_camptype=test-landing-a&as_channel=affiliate&as_source=partnerize&as_campaign=Freepik&as_content=api&as_audience=srp&sdid=6WTV6YJ5"
     },
     {
         heading: "Vitamin A Capsule Boost",
         bodydesc: "Consider vitamin A capsules to support eye health. Consult a healthcare professional for personalized dosage recommendations.",
         bodysrc: "https://www.lybrate.com/topic/how-to-cure-blurry-vision-naturally/661f96db3f9f28370a7f0dd250537bf1",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/vitamin-c-colorful-plastic-container-oranges-with-green-leaves-white-background-3d_4341214.htm"
     },
     {
         heading: "Provitamin A Rich Delights",
         bodydesc: "Incorporate provitamin A carotenoids into your diet. Enjoy butternut squash, carrots, and spinach to provide essential nutrients for clear vision.",
         bodysrc: "https://www.lybrate.com/topic/how-to-cure-blurry-vision-naturally/661f96db3f9f28370a7f0dd250537bf1",
-        imgurl:""
+        imgurl:"https://images.app.goo.gl/1ifprHUb6FDJMNYJ8"
     },
     {
         heading: "Sweet Potato Snack Sensation",
         bodydesc: "Snack on sweet potatoes, rich in beta-carotene and vitamin A. These delicious treats promote eye health and contribute to clearer vision.",
         bodysrc: "https://www.lybrate.com/topic/how-to-cure-blurry-vision-naturally/661f96db3f9f28370a7f0dd250537bf1",
-        imgurl:""
+        imgurl:"https://images.app.goo.gl/L1bcrsGfTxmFxq2E6"
     },
     {
         heading: "Kale Chips Brilliance",
         bodydesc: "Indulge in kale chips for a crunchy snack loaded with nutrients like lutein and zeaxanthin, supporting overall eye health and combating cloudiness.",
         bodysrc: "https://www.lybrate.com/topic/how-to-cure-blurry-vision-naturally/661f96db3f9f28370a7f0dd250537bf1",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/kale-vegetable-icon-cartoon-vector-illustration-isolated-white-background_33041843.htm"
     }
 ],
 Squinting:[
@@ -763,43 +763,43 @@ Squinting:[
         heading: "Ghee Nightly Nourishment",
         bodydesc: "Apply 2 drops of ghee in your eyes at bedtime for a nourishing ritual. The soothing properties of ghee may contribute to eye health.",
         bodysrc: "https://www.ayurprakash.com/diseases/eye-diseases/strabismus-squint/#Home_Remedies_for_Squint",
-        imgurl:""
+        imgurl:"https://images.app.goo.gl/kVsMisuNW8hxwKoM6"
     },
     {
         heading: "Citrus Infusion Brilliance",
         bodydesc: "Enrich your daily diet with vitamin-C rich fruits like berries and citrus. These antioxidants support overall eye health and may aid in managing squinting.",
         bodysrc: "https://www.ayurprakash.com/diseases/eye-diseases/strabismus-squint/#Home_Remedies_for_Squint",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/citrus-fruits-collection-realistic-composition_4026534.htm"
     },
     {
         heading: "Triphala Tonic Harmony",
         bodydesc: "Boost the strength of eye muscles with a daily tonic. Mix one teaspoon of Triphala powder with ghee and honey, taking it twice daily with milk for comprehensive nourishment.",
         bodysrc: "https://www.ayurprakash.com/diseases/eye-diseases/strabismus-squint/#Home_Remedies_for_Squint",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/triphala-herbs-organic-ayurvedic-herbs-medicine_24557989.htm"
     },
     {
         heading: "Pencil Pushup Power",
         bodydesc: "Hold a pencil at arm's length, focusing on a mark. Slowly bring it toward your nose, stopping when vision blurs. Repeat in sets for improved eye convergence.",
         bodysrc: "https://www.healthline.com/health/eye-health/strabismus-exercises#brock-string",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/concept-studying-young-woman-with-big-pencil-vector-illustration_36175957.htm"
     },
     {
         heading: "Brock String Harmony",
         bodydesc: "Improve eye coordination with the Brock string exercise. Secure one end to a fixed point, hold the other end close to your nose, and focus on each colored bead in a consistent X pattern. Ensure proper focus by avoiding crossed or blurred strings, enhancing visual alignment.",
         bodysrc: "https://www.healthline.com/health/eye-health/strabismus-exercises#brock-string",
-        imgurl:""
+        imgurl:"https://images.app.goo.gl/DrZzHuJNP5NHJnST6"
     },
     {
         heading: "Vitamin A Visionary Feast",
         bodydesc: "Indulge in the orange allure of carrots, sweet potatoes, and the verdant bounty of spinach. Elevate your eye health with Vitamin A, a protective force against oxidative stress.",
         bodysrc: "https://jeevansparsheyehospital.com/understanding-squint-eyes/",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/healthy-foods-containing-vitamin-balanced-diet_77993040.htm"
     },
     {
         heading: "Vitamin E Nutrient Elegance",
         bodydesc: "Delight in the crunch of almonds, the richness of sunflower seeds, and the leafy embrace of spinach. Vitamin E's antioxidant prowess in these delights nurtures your eyes, fostering lasting vitality.",
         bodysrc: "https://jeevansparsheyehospital.com/understanding-squint-eyes/",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/educational-group-food-containing-vitamin-e_86390458.htm"
     }
 ],
 Double:[
@@ -807,37 +807,37 @@ Double:[
         heading: "Zeaxanthin Wonder Foods",
         bodydesc: "Incorporate zeaxanthin-rich foods like Brussels sprouts for eye health, reducing the risk of double vision.",
         bodysrc: "https://www.amblyoplay.com/how-to-cure-double-vision-naturally/",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/brussels-sprout_33111636.htm"
     },
     {
         heading: "Egg Yolk Elixir",
         bodydesc: "Embrace the benefits of egg yolk in your diet, a source of essential nutrients supporting eye function and minimizing double vision.",
         bodysrc: "https://www.amblyoplay.com/how-to-cure-double-vision-naturally/",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/fried-eggs-realistic_1531430.htm"
     },
     {
         heading: "20-20-20 Visual Breaks",
         bodydesc: "Follow the 20-20-20 rule to alleviate eye strain and prevent double vision. Take breaks every 20 minutes, focusing on something 20 feet away for 20 seconds.",
         bodysrc: "https://www.amblyoplay.com/how-to-cure-double-vision-naturally/",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/fall-is-coming-concept-illustration_7441051.htm"
     },
     {
         heading: "Screen Time Moderation",
         bodydesc: "Reduce screen time to minimize eye strain, a contributing factor to double vision. Opt for regular breaks and maintain a comfortable viewing distance.",
         bodysrc: "https://www.amblyoplay.com/how-to-cure-double-vision-naturally/",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/woman-with-tablet-computer-clock-vector-illustration-flat-style_60016420.htm"
     },
     {
         heading: "Stress-Busting Palming Method",
         bodydesc: "Manage stress through the palming method—cover closed eyes with warm palms, promoting relaxation and reducing the likelihood of double vision.",
         bodysrc: "https://www.amblyoplay.com/how-to-cure-double-vision-naturally/",
-        imgurl:""
+        imgurl:"https://www.freepik.com/premium-vector/closing-eyes-with-hands-want-see-eyes-shut-concept_12832212.htm"
     },
     {
         heading: "Lutein Brilliance with Pistachios Shake",
         bodydesc: "Boost your lutein intake by enjoying a pistachio milkshake. Lutein-rich foods contribute to eye health, potentially alleviating double vision.",
         bodysrc: "https://www.amblyoplay.com/how-to-cure-double-vision-naturally/",
-        imgurl:""
+        imgurl:"https://www.freepik.com/free-vector/vector-realistic-pistachio-nuts-with-nutshell-side-view-isolated-white-background_11058493.htm"
     }
 ],
 //DentalCare

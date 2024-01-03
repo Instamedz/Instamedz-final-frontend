@@ -56,7 +56,7 @@ const titleCard=[
     {
         id:"nutri",
         title:"NUTRI CARE",
-        subtitle:"Get assistance on your diet and eating disorders by nutrition specialist",
+        subtitle:"Get assistance on your diet and eating disorders by nutrition specialist to improve your physical health",
         img1:nutri1,
         img2:nutri2,
         img3:nutri3,
