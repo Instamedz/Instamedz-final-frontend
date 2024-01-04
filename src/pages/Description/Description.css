@@ -65,26 +65,29 @@
 }
 .desc-bg{
     background-image: url("../../assets/questionnaire/descbg.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-repeat: repeat-y;
+    background-size: contain;
 }
 .desc-card{
     width: 30%;
     height:30%;
     color: #143566;
-    background-color: #ececec;
+    background-color: white;
     padding: 20px;
     margin: 10px;
     text-align: center;
     transition: transform .2s;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: #000000;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
 }
 .desc-card h3{
     color: #000000;
     font-size: 15px;
 }
 .desc-card p{
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #143566;
 }
 .desc-cardsection{
     width: 100%;

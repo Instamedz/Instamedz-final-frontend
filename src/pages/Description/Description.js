@@ -57,7 +57,6 @@ function Description() {
             <p className='pt-2'>{diseasedetails.symptoms}</p>
           </div>
         </div>
-        </div>
         <div className="desc-row desc-cardsection">
             <div class="desc-col desc-card" onClick={()=>redirectpage("test")}>
                 <img src={descimg1} alt="" />
@@ -74,6 +73,7 @@ function Description() {
                 <h3>Connect with Doctor</h3>
                 <p>Expert care for every ailment. Trust our dedicated doctors to guide you through the journey of healing and process of well-being.</p>
             </div>
+        </div>
         </div>
       <Footer />
     </div>
