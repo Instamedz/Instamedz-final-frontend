@@ -1207,11 +1207,149 @@ const QuestList={
       ],
     },
   ],
+  Peripheral:[
+    {
+      text: "Have you ever been diagnosed with cardiovascular disease?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
+      ],
+    },
+    {
+      text: "Do you have a history of diabetes?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Have you ever experienced chest pain or discomfort?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Do you smoke or have a history of smoking?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
+      ],
+    },
+    {
+      text: "Have you noticed any of the following symptoms in your legs?",
+      options: [
+        { id: 0, text: "Pain or cramping during walking or exercising", isCorrect: true },
+        { id: 1, text: "Numbness or weakness", isCorrect: true },
+        { id: 2, text: "Sores or wounds that are slow to heal", isCorrect: true },
+        { id: 3, text: "Changes in skin color or temperature", isCorrect: true },
+        { id: 4, text: "None of the above", isCorrect: false },
+      ],
+    },
+    {
+      text: "Have you been diagnosed with high cholesterol?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Any family history of Peripheral Artery Disease? (Yes/No)",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+  ],
+  Coronary:[
+    {
+      text: "Do you have a history of heart disease or stroke?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Have you been diagnosed with high blood pressure?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Do you have diabetes?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Have you ever been diagnosed with high cholesterol?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Do you smoke?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Do you engage in regular physical activity?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "What is your Body Mass Index (BMI)?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Do you experience chest pain or discomfort?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Do you have shortness of breath, especially during physical activity?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Have you ever felt lightheaded or dizzy?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "How many hours of sleep do you get per night?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Do you experience chronic stress or anxiety?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+  ],
   Diabetes:[],
   High:[],
   Shortness:[],
-  Peripheral:[],
-  Coronary:[],
   //EyeCare
   Redness:[
     {
@@ -1683,8 +1821,113 @@ const QuestList={
       ],
     },
   ],
-  Crossed:[],
-  Shortsightedness:[],
+  Crossed:[
+    {
+      text: "Do you currently have any eye-related health conditions? (e.g., glaucoma, cataracts)",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Have you undergone any eye surgeries in the past? If yes, please provide details.",
+      options: [
+        { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Do you experience double vision?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Have you experienced any of the following symptoms?",
+      options: [
+        { id: 0, text: "Double vision", isCorrect: true },
+        { id: 0, text: "Blurred vision", isCorrect: true },
+        { id: 0, text: "Eye strain", isCorrect: true },
+        { id: 0, text: "Headaches", isCorrect: true },
+        { id: 0, text: "Difficulty focusing", isCorrect: true },
+        { id: 1, text: "None of the above", isCorrect: false },
+      ],
+    },
+    {
+      text: "Have you observed any changes in your vision recently?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Is there a family history of crossed eyes or related eye conditions?",
+      options: [
+        { id: 0, text: "Space", isCorrect: false },
+      ],
+    },
+    {
+      text: "Please use this space to provide any additional details or concerns related to your eye health.",
+      options: [
+        { id: 0, text: "Space", isCorrect: false },
+      ],
+    },
+  ],
+  Shortsightedness:[
+    {
+      text: "Do you experience blurred vision when looking at distant objects?",
+      options: [
+        { id: 0, text: "Always", isCorrect: true },
+        { id: 1, text: "Often", isCorrect: true },
+        { id: 2, text: "Occasionally", isCorrect: true },
+        { id: 3, text: "Rarely", isCorrect: true },
+        { id: 4, text: "Never", isCorrect: false },
+      ],
+    },
+    {
+      text: "Do you find it difficult to see clearly while driving or watching TV?",
+      options: [
+        { id: 0, text: "Always", isCorrect: true },
+        { id: 1, text: "Often", isCorrect: true },
+        { id: 2, text: "Occasionally", isCorrect: true },
+        { id: 3, text: "Rarely", isCorrect: true },
+        { id: 4, text: "Never", isCorrect: false },
+      ],
+    },
+    {
+      text: "On average, how many hours per day do you spend on digital devices (e.g., computer, smartphone, tablet)?",
+      options: [
+        { id: 0, text: "Less than 1 hour", isCorrect: true },
+        { id: 1, text: "1-2 hours", isCorrect: true },
+        { id: 2, text: "2-4 hours", isCorrect: true },
+        { id: 3, text: "4-6 hours", isCorrect: true },
+        { id: 4, text: "More than 6 hours", isCorrect: true },
+      ],
+    },
+    {
+      text: "Is there a family history of shortsightedness (myopia)?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
+        { id: 2, text: "Not sure", isCorrect: true },
+      ],
+    },
+    {
+      text: "Have you noticed any changes in your night vision?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Do you frequently experience eye strain or headaches, particularly after reading or using digital devices?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+  ],
   Blurry:[],
   //DentalCare
   Carious:[
@@ -2018,10 +2261,114 @@ const QuestList={
       ],
     },
   ],
+  Gum:[
+    {
+      text: "Do you have a history of gum disease (gingivitis or periodontitis)?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: false },
+        { id: 1, text: "No", isCorrect: false },
+        { id: 2, text: "Not sure", isCorrect: false },
+      ],
+    },
+    {
+      text: "Have you had any recent dental procedures or surgeries? If yes, please provide details.",
+      options: [
+        { id: 0, text: "Space", isCorrect: false },
+      ],
+    },
+    {
+      text: "Are you experiencing any of the following symptoms?(Choose one that suits most)",
+      options: [
+        { id: 0, text: "Gum pain", isCorrect: true },
+        { id: 1, text: "Swollen or tender gums", isCorrect: true },
+        { id: 2, text: "Bad breath", isCorrect: true },
+        { id: 3, text: "Receding gums", isCorrect: true },
+        { id: 4, text: "Loose teeth", isCorrect: true },
+        { id: 5, text: "Bleeding gums", isCorrect: true },
+        { id: 6, text: "None of the above", isCorrect: false },
+      ],
+    },
+    {
+      text: "How often do you brush your teeth?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: false },
+        { id: 1, text: "No", isCorrect: false },
+        { id: 2, text: "Not sure", isCorrect: false },
+      ],
+    },
+    {
+      text: "How often do you floss your teeth?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: false },
+        { id: 1, text: "No", isCorrect: false },
+        { id: 2, text: "Not sure", isCorrect: false },
+      ],
+    },
+    {
+      text: "Do you smoke or use tobacco products?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: false },
+        { id: 1, text: "No", isCorrect: false },
+        { id: 2, text: "Not sure", isCorrect: false },
+      ],
+    },
+    {
+      text: "Have you experienced any recent trauma or injury to your teeth or jaw?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: false },
+        { id: 1, text: "No", isCorrect: false },
+        { id: 2, text: "Not sure", isCorrect: false },
+      ],
+    },
+    {
+      text: "Are you currently experiencing any pain or discomfort in your teeth or gums?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: false },
+        { id: 1, text: "No", isCorrect: false },
+        { id: 2, text: "Not sure", isCorrect: false },
+      ],
+    },
+    {
+      text: "Please provide a brief history of any previous dental treatments or surgeries",
+      options: [
+        { id: 0, text: "Space", isCorrect: false },
+      ],
+    },
+    {
+      text: "Do you notice any loose teeth or changes in the alignment of your teeth?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Are there any specific triggers that worsen your dental discomfort or pain? (e.g., hot/cold temperatures, chewing, etc.)",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "How often do you brush your teeth each day?",
+      options: [
+        { id: 0, text: "Once", isCorrect: false },
+        { id: 1, text: "Twice", isCorrect: false },
+        { id: 2, text: "Three times", isCorrect: false },
+        { id: 3, text: "More than three times", isCorrect: false },
+      ],
+    },
+    {
+      text: "Do you use dental floss regularly?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: false },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+  ],
   Bad:[],
   Mobility:[],
   Facial:[],
-  Gum:[],
+ 
   //ChildCare
   Common:[
     {
@@ -2345,9 +2692,182 @@ const QuestList={
       ],
     },
   ],
-  Fever:[],
-  Sore:[],
-  Allergies:[],
+  Fever:[
+    {
+      text: "Has your child been generally healthy in the past 14 days?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true},
+      ],
+    },
+    {
+      text: "Has your child experienced a fever (temperature above 100.4°F or 38°C) in the past 48 hours?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false},
+      ],
+    },
+    {
+      text: "If yes, please provide the highest recorded temperature:",
+      options: [
+        { id: 0, text: "Space", isCorrect: false },
+      ],
+    },
+    {
+      text: "If yes, please provide the highest recorded temperature:",
+      options: [
+        { id: 0, text: "Cough", isCorrect: true },
+        { id: 1, text: "Runny nose", isCorrect: true },
+        { id: 2, text: "Sore throat", isCorrect: true },
+        { id: 3, text: "Shortness of breath", isCorrect: true },
+        { id: 4, text: "Fatigue", isCorrect: true },
+        { id: 5, text: "Headache", isCorrect: true },
+        { id: 6, text: "Muscle or body aches", isCorrect: true },
+        { id: 7, text: "Loss of taste or smell", isCorrect: true },
+        { id: 8, text: "Nausea or vomiting", isCorrect: true },
+        { id: 9, text: "Diarrhea", isCorrect: true },
+        { id: 10, text:"None of the above", isCorrect: false },
+      ],
+    },
+    {
+      text: "Has your child been in close contact with anyone who has tested positive for COVID-19 in the past 14 days?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true},
+      ],
+    },
+    {
+      text: "Has your child travelled internationally or domestically in the past 14 days?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true},
+      ],
+    },
+  ],
+  Sore:[
+    {
+      text: "Onset of Sore Throat",
+      options: [
+        { id: 0, text: "Suddenly", isCorrect: false },
+        { id: 1, text: "Gradually", isCorrect: false},
+      ],
+    },
+    {
+      text: "Duration of Sore Throat",
+      options: [
+        { id: 0, text: "Less than 24 hours", isCorrect: true },
+        { id: 1, text: "1-3 days", isCorrect: true},
+        { id: 2, text: "3-5 days", isCorrect: true},
+        { id: 3, text: "More than 5 days", isCorrect: true},
+      ],
+    },
+    {
+      text: "Severity of Sore Throat",
+      options: [
+        { id: 0, text: "Mild", isCorrect: false },
+        { id: 1, text: "Moderate", isCorrect: true},
+        { id: 2, text: "Severe", isCorrect: true},
+      ],
+    },
+    {
+      text: "Is the Sore Throat Accompanied by",
+      options: [
+        { id: 0, text: "Fever", isCorrect: true },
+        { id: 1, text: "Cough", isCorrect: true},
+        { id: 1, text: "Runny nose", isCorrect: true},
+        { id: 1, text: "Difficulty Swallowing", isCorrect: true},
+        { id: 1, text: "Hoarseness", isCorrect: true},
+        { id: 1, text: "Rash", isCorrect: true},
+      ],
+    },
+    {
+      text: "Any known exposure to COVID-19?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: false },
+        { id: 1, text: "No", isCorrect: false},
+        { id: 2, text: "Not sure", isCorrect: false},
+      ],
+    },
+    {
+      text: "Does the child have any known allergies?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: false },
+        { id: 1, text: "No", isCorrect: false},
+      ],
+    },
+    {
+      text: "Does your child have a history of respiratory conditions? (e.g., asthma, allergies, etc.)",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false},
+      ],
+    },
+  ],
+  Allergies:[
+    {
+      text: "Has your child ever been diagnosed with allergies?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true},
+      ],
+    },
+    {
+      text: "Has your child experienced any adverse reactions to medications or vaccines?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true},
+      ],
+    },
+    {
+      text: "Does your child have a history of respiratory symptoms such as sneezing, coughing, or wheezing?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true},
+      ],
+    },
+    {
+      text: "Any skin-related symptoms like hives, rashes, or itching?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true},
+      ],
+    },
+    {
+      text: "Gastrointestinal symptoms, including nausea, vomiting, or diarrhea?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true},
+      ],
+    },
+    {
+      text: "Are there specific environments or seasons when your child's symptoms worsen?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true},
+      ],
+    },
+    {
+      text: "Any exposure to pets, pollen, dust mites, or other potential allergens at home?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true},
+      ],
+    },
+    {
+      text: "Has your child ever experienced an allergic reaction to any specific foods?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true},
+      ],
+    },
+    {
+      text: "Please list any known food allergies or intolerances.",
+      options: [
+        { id: 0, text: "Space", isCorrect: false },
+      ],
+    },
+
+  ],
   //CovidCare
   Dyspnea:[
     {
@@ -2717,8 +3237,47 @@ const QuestList={
       ],
     },
   ],
+  Clear:[
+    {
+      text: "Skin Type",
+      options: [
+        { id: 0, text: "Oily", isCorrect: false},
+        { id: 1, text: "Dry", isCorrect:false},
+        { id: 1, text: "Combination", isCorrect: false },
+        { id: 1, text: "Sensitive", isCorrect: false },
+        { id: 1, text: "Normal", isCorrect: false},
+      ],
+    },
+    {
+      text: "Skin Concerns(Choose one that nearly matches)",
+      options: [
+        { id: 0, text: "Acne", isCorrect: true},
+        { id: 1, text: "Dark Spots", isCorrect:true},
+        { id: 2, text: "Fine Lines/Wrinkles", isCorrect: true },
+        { id: 3, text: "Redness/Irritation", isCorrect: true },
+        { id: 4, text: "Others", isCorrect: true },
+        { id: 5, text: "None of the above", isCorrect: false},
+      ],
+    },
+    {
+      text: "Current Skincare Routine",
+      options: [
+        { id: 0, text: "Cleanser", isCorrect: true},
+        { id: 1, text: "Toner", isCorrect:true},
+        { id: 2, text: "Moisturizer", isCorrect: true },
+        { id: 3, text: "Sunscreen", isCorrect: true },
+        { id: 4, text: "Treatment Products (if any)", isCorrect: true },
+      ],
+    },
+    {
+      text: "Any existing skin conditions or allergies?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true},
+        { id: 1, text: "No", isCorrect:false},
+      ],
+    },
+  ],
   Perfect:[],
-  Clear:[],
   Pregnancy:[],
 };
 

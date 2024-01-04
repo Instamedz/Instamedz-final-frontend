@@ -131,7 +131,26 @@ function DisplayQuestion(props) {
                       onClick={() => calculateScore(option.isCorrect)}
                     />
                   </>
-                ) : (
+                ) :
+                option.text === "Space" ? (
+                  <>
+                    <input
+                      required
+                      type="radio"
+                      id={`radiobtn${optionIndex}`}
+                      name={`question${index}`}
+                      checked={answersText[index]}
+                      onChange={() => handleAnswerSelect(index, optionIndex)}
+                    />
+                    <input
+                      className='display-textfield'
+                      type="text"
+                      value={answersText[index] || ""}
+                      onChange={(e) => handleTextAnswerChange(index, e.target.value)}
+                      onClick={() => calculateScore(option.isCorrect)}
+                    />
+                  </>
+                ):(
                   <>
                     <input
                       required
@@ -145,7 +164,8 @@ function DisplayQuestion(props) {
                     &nbsp;
                     {option.text}
                   </>
-                )}
+                )
+              }
               </label>
             </li>
             ))}
