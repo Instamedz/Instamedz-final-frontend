@@ -2013,55 +2013,55 @@ Common:[
       heading: "Steam Serenity",
       bodydesc: "Embrace Relief for Your Child's Cold with Tranquil Vapors! Ease your child's breathing difficulties during a cold by introducing a soothing steam session. Create a comforting atmosphere by heating water in a bowl and allowing the child to inhale the warm vapors for 10 to 15 minutes. This gentle practice can offer relief from congestion.",
       bodysrc: "https://www.medicoverhospitals.in/articles/8-home-remedies-for-cold-and-cough-in-kids",
-      imgurl:""
+      imgurl:"https://t4.ftcdn.net/jpg/04/50/64/49/360_F_450644950_74pDFpkyg0Y85jKT4Ec6rDYjmQJneKuL.jpg"
     },
     {
       heading: "Honey Harmonies",
       bodydesc: "Soothe Coughs and Drift into Sweet Slumber with Nature's Elixir! Navigate the realm of natural cough relief with the sweet notes of honey. Choose dark honey like buckwheat honey for its antioxidant properties, known to soothe a sore throat. Enhance your child's sleep and alleviate coughing discomfort with this golden elixir.",
       bodysrc: "https://www.medicoverhospitals.in/articles/8-home-remedies-for-cold-and-cough-in-kids",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/jar-honey-spoon-honey-white-background-honey-drips-background_372769-272.jpg"
     },
     {
       heading: "Carom Seeds Concerto",
       bodydesc: "Relieve Cough Symphony and Decongest with Aromatic Harmony! Compose a comforting blend by boiling water with carom seeds (ajwain) and tulsi leaves. This concoction serves as a melody of relief, aiding in cough relief and chest decongestion. Embrace the aromatic and healing qualities of carom seeds to support your child's recovery.",
       bodysrc: "https://www.medicoverhospitals.in/articles/8-home-remedies-for-cold-and-cough-in-kids",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/cumin-seeds-white-background-spice_530689-928.jpg?w=2000"
     },
     {
       heading: "Massage Melodies",
       bodydesc: "Tender Tunes of Comfort for Your Little One's Ailments! Tenderly massage your baby's chest, back, and neck with a blend of mustard oil and garlic. Extend the comfort by covering the palms and feet with this soothing oil. This gentle massage composition is particularly beneficial for infants under two years old.",
       bodysrc: "https://www.medicoverhospitals.in/articles/8-home-remedies-for-cold-and-cough-in-kids",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/relaxing-massage-concept-illustration_114360-15851.jpg?w=740&t=st=1704300081~exp=1704300681~hmac=25bff948d40018307f528ca71f520630cd900c4ad2b5620edf7ea232ff6d8f0c"
     },
     {
       heading: "Hydration Sonata",
       bodydesc: "Maintain Balance and Wellness with the Fluid Refrain! Maintain a harmonious balance by keeping your child well-hydrated during bouts of sneezing and coughing. Regular water intake helps combat the common cold, soothes the throat, and flushes out infections. Explore other fluid options like warm soup or fresh juice to replenish lost energy.",
       bodysrc: "https://www.medicoverhospitals.in/articles/8-home-remedies-for-cold-and-cough-in-kids",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/toddler-selffeeding-isolated-cartoon-vector-illustration_107173-28034.jpg?w=740"
     },
     {
       heading: "Salt Gargle Serenade",
       bodydesc: "Soothe Throat Woes with Gentle Melodies of Relief! For older children, orchestrate a salt gargling routine to soothe a sore throat. Instruct them to gargle with lukewarm salt water twice daily for immediate relief from pain and throat infection. Note that this practice is not recommended for children below six years who may struggle with proper gargling.",
       bodysrc: "https://www.medicoverhospitals.in/articles/8-home-remedies-for-cold-and-cough-in-kids",
-      imgurl:""
+      imgurl:"https://media.istockphoto.com/id/1297202358/vector/gargle-boys-and-girls.jpg?s=612x612&w=0&k=20&c=ANe_H9XPGSd_LCr_ua_ZmiJ3cfC31ww1HOeSji19Gto="
     },
     {
       heading: "Turmeric Milk Rhapsody",
       bodydesc: "Embrace Nightly Healing with Golden Elixirs of Comfort! Embrace the healing properties of turmeric by crafting a warm glass of turmeric milk for your child every night. This comforting elixir, enriched with antiseptic qualities, aids in relieving a sore throat and addressing a runny nose. The calcium-rich milk adds an extra layer of nourishment.",
       bodysrc: "https://www.medicoverhospitals.in/articles/8-home-remedies-for-cold-and-cough-in-kids",
-      imgurl:""
+      imgurl:"https://media.istockphoto.com/id/1271467401/vector/turmeric-hot-tea.jpg?s=612x612&w=0&k=20&c=yIsPeaO5iPdP3xUILrs6d4LnOzqJJ8bOrNlW6dMeNRc="
     },
     {
       heading: "Chicken Soup Symphony",
       bodydesc: "Warmth and Comfort in a Bowl – Nourishing Body and Soul! Elevate the comfort level with the classic chicken noodle soup, a time-tested remedy. This warm and flavorful concoction exhibits anti-inflammatory qualities, soothing sore throats and acting as a nasal passage vaporizer. Its nurturing warmth can help alleviate congestion and coughing discomfort.",
       bodysrc: "https://www.medicoverhospitals.in/articles/8-home-remedies-for-cold-and-cough-in-kids",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/hand-drawn-tasty-pozole-illustration_23-2149209438.jpg?w=740&t=st=1704300388~exp=1704300988~hmac=dc045e4ddb48744f93c26e5e9cee4468b83a7e30c808b5701006cd5bc013a24f"
     },
     {
       heading: "Remedy: Cool Breeze Comfort",
       bodydesc: "Enchanting Relief with a Cool-Mist Humidifier When your little one battles the common cold, turn to the magic of a cool-mist humidifier. Its gentle vapors dance in the air, providing a symphony of relief. Ensure safety by opting for the cool variant to avoid burns. Cultivate the habit of changing the water daily, orchestrating a refreshing performance for your child's comfort.",
       bodysrc: "https://www.healthychildren.org/English/health-issues/conditions/chest-lungs/Pages/Coughs-and-Colds-Medicines-or-Home-Remedies.aspx",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/humidifier-with-house-plants-equipment-home-office_189033-926.jpg?w=900"
     }
 ],
 Fever:[
@@ -2069,37 +2069,37 @@ Fever:[
       heading: "Light Attire Serenade",
       bodydesc: "Harmonize with the healing rhythm by dressing your child in light clothing. Avoid overheating, allowing the body's natural cooling process to unfold gracefully.",
       bodysrc: "https://www.nationwidechildrens.org/conditions/fever",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/boy-sleeping-red-pillow_1308-71175.jpg?w=360&t=st=1704300515~exp=1704301115~hmac=15ca2f2705ac423b3220af086a465ed27367a1e77e449978bf7c4e892ae0771a"
     },
     {
       heading: "Liquid Crescendo",
       bodydesc: "Compose a liquid crescendo for your child's wellness. For babies under age 1, continue the melody of breast milk and formula. Children over age 1, offer a symphony of extra liquids like water, diluted 100% juice, and popsicles to keep the fever's temperature in check.",
       bodysrc: "https://www.nationwidechildrens.org/conditions/fever",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/happy-cute-kids-eating-ice-cream_193692-539.jpg?w=740"
     },
     {
       heading: "Aqua Lullaby",
       bodydesc: "Immerse your child in the soothing waters of an aqua lullaby. Whether through sponge baths or gentle tub soaks, let lukewarm water embrace their body. Recheck the temperature after this aqueous ballet, and if the fever persists, repeat the performance until the fever bows out.",
       bodysrc: "https://www.nationwidechildrens.org/conditions/fever",
-      imgurl:""
+      imgurl:"https://cdn2.vectorstock.com/i/1000x1000/17/26/cute-boy-taking-bath-in-bubble-bathtub-preschool-vector-31891726.jpg"
     },
     {
       heading: "Chamomile Symphony",
       bodydesc: "Brew the calming notes of chamomile tea to orchestrate relief for fever. This gentle remedy, even safe for babies, embraces their senses and lulls the fever's unrest.",
       bodysrc: "https://klay.co.in/blog/how-to-reduce-fever-in-child-naturally/",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/tea-cup-concept-illustration_114360-19768.jpg?w=740&t=st=1704293733~exp=1704294333~hmac=355487586f3dab12477b9b9855d6ac7d56730ab5b8908dc23227304a7571d08e"
     },
     {
       heading: "Peppermint Harmony",
       bodydesc: "Compose a peppermint tea melody to settle a troubled tummy and ease congested airways. Elevate the experience with a teaspoon of honey, infusing both taste and antibacterial powers into the symphony.",
       bodysrc: "https://klay.co.in/blog/how-to-reduce-fever-in-child-naturally/",
-      imgurl:""
+      imgurl:"https://us.123rf.com/450wm/nutelapancake/nutelapancake1706/nutelapancake170600336/81167340-transparent-cup-of-green-tea-with-mint-and-sugar-isolated-on-white-background-vector.jpg?ver=6"
     },
     {
       heading: "Probiotic Overture",
       bodydesc: "Craft a daily probiotic overture for your child's well-being, akin to sipping on the richness of yogurt. This nutritional ensemble not only aids in recovery but also conducts a preventive melody against future illnesses.",
       bodysrc: "https://klay.co.in/blog/how-to-reduce-fever-in-child-naturally/",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/strawberry-yogurt-with-spoon-inside-white-background_61747-103.jpg"
     }
 ],
 Malnutrition:[
@@ -2107,55 +2107,55 @@ Malnutrition:[
       heading: "Hydration Symphony",
       bodydesc: "Compose a harmonious blend by encouraging your child to drink more than 1.5 liters of water daily. This hydrating symphony ensures a balanced rhythm for their overall well-being.",
       bodysrc: "https://parenting.firstcry.com/articles/malnutrition-in-children-causes-symptoms-remedies/#treatmentofmalnutritioninkids",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/teenage-boy-drinking-water-from-glass_1308-133351.jpg?w=740&t=st=1704301036~exp=1704301636~hmac=a2cdeff443bdf8e20e3ad610bae9a05f67504c2fbcf079cff25080aa37c84962"
     },
     {
       heading: "Dairy Delight",
       bodydesc: "Create a nutritional trio by incorporating dairy delights – milk, cheese, and yoghurt – into your child's daily diet thrice a day. This dairy symphony plays a key role in fortifying their nutritional composition.",
       bodysrc: "https://www.wikihow.com/Fix-Malnutrition",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/fresh-organic-milk-products-set-with-cheese-butter_1284-14075.jpg?w=740&t=st=1704271367~exp=1704271967~hmac=8563986accbf2ef9edea1d46def25eab4db4522eaba7976c33890d8b709b87b7"
     },
     {
       heading: "Starchy Serenade",
       bodydesc: "Weave a starchy serenade into your child's meals with rice, potato, cereals, and other starch-rich delights during lunch and dinner. This melody of carbohydrates adds a comforting and nutritious tune to their daily diet.",
       bodysrc: "https://www.wikihow.com/Fix-Malnutrition",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/handdrawing-breakfast-cereal-milk-colorful-illustration-mascot-crayon_917697-50.jpg?w=740"
     },
     {
       heading: "Protein Prelude",
       bodydesc: "Compose a protein-rich prelude by introducing meat, fish, eggs, beans, and other protein-packed foods into your child's diet. This nutritional ensemble ensures a robust foundation for their growth and development.",
       bodysrc: "https://www.medicalnewstoday.com/articles/179316",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/main-food-groups-macronutrients-vector_1308-130035.jpg?w=740&t=st=1704301168~exp=1704301768~hmac=1704a030a15941dbc8879c70463f12338e635adcf4918c5ee43fe48e41e06c37"
     },
     {
       heading: "Morning Egg Sonata",
       bodydesc: "Start the day with a morning egg sonata, featuring the harmonious duo of two boiled eggs accompanied by a glass of milk. This nutrient-rich performance kickstarts your child's day with vitality and strength.",
       bodysrc: "https://www.medicalnewstoday.com/articles/179316",
-      imgurl:""
+      imgurl:"https://i.pinimg.com/736x/d0/aa/ba/d0aaba62684dc26f56e664d8dfbe2750.jpg"
     },
     {
       heading: "Evening Apple Duet",
       bodydesc: "Craft an evening apple duet by serving fruit juice and salad in harmony. This refreshing duet not only satisfies their taste buds but also nourishes their body with essential vitamins and minerals.",
       bodysrc: "https://www.medicalnewstoday.com/articles/179316",
-      imgurl:""
+      imgurl:"https://thumbs.dreamstime.com/b/bowl-salad-made-fresh-exotic-fruits-glass-orange-juice-nuts-lying-plate-isolated-white-background-tasty-103986367.jpg"
     },
     {
       heading: "Vegetable Variations",
       bodydesc: "Enrich lunch and dinner with a vegetable symphony, featuring a vibrant salad ensemble. Follow this nutritional crescendo with a bowl of any fruit, concluding the meal with a flourish of wholesome goodness.",
       bodysrc: "https://www.medicalnewstoday.com/articles/179316",
-      imgurl:""
+      imgurl:"https://static.vecteezy.com/system/resources/previews/003/918/059/non_2x/top-view-of-fruit-salad-bowl-on-white-background-free-vector.jpg"
     },
     {
       heading: "Nutrient Elevation",
       bodydesc: "Commence the day with a nutrient-rich overture by incorporating a medley of dry fruits into your child's morning routine. Whether enjoyed as is or blended into a wholesome milkshake, this symphony of flavors delivers essential nutrients for a vibrant start.",
       bodysrc: "https://www.medicalnewstoday.com/articles/179316",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/heap-different-nuts-isolated-white-background_267448-93.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1704240000&semt=ais"
     },
     {
       heading: "Evening Rejuvenation",
       bodydesc: "As the day winds down, treat your child to an evening serenade with the rejuvenating notes of dry fruits. Whether savored on their own or transformed into a delightful milkshake, this evening encore ensures sustained energy and nourishment.",
       bodysrc: "https://www.medicalnewstoday.com/articles/179316",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/heap-different-nuts-isolated-white-background_267448-93.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1704240000&semt=ais"
     }
 ],
 Sore:[
@@ -2163,73 +2163,73 @@ Sore:[
       heading: "Warm Nectar Soothe",
       bodydesc: "Embark on a journey of comfort with warm, soothing liquids designed to caress your child's sore throat. Whether it's a comforting broth or a gentle herbal tea, this warm nectar is a remedy crafted for relief.",
       bodysrc: "https://kidshealth.org/en/parents/sore-throat-sheet.html",
-      imgurl:""
+      imgurl:"https://static.vecteezy.com/system/resources/previews/011/203/697/original/a-mug-of-herbal-tea-stock-illustration-hot-drink-with-lemon-and-oregano-leaves-isolated-on-a-white-background-green-tea-logo-vector.jpg"
     },
     {
       heading: "Frozen Elixir Relief",
       bodydesc: "Introduce a refreshing twist to throat care with cold or frozen delights that alleviate discomfort. From soothing ice pops to icy concoctions, this remedy brings a cool reprieve to your child's sore throat.",
       bodysrc: "https://kidshealth.org/en/parents/sore-throat-sheet.html",
-      imgurl:""
+      imgurl:"https://cdn.stockmediaserver.com/smsimg33/pv/IsignstockContributors/ISS_21848_03604.jpg?token=saOSuZJZFEnMLxwG_tZmdDbWjcUvIAPQkcIPpTykFXE&class=pv&smss=52&expires=4102358400"
     },
     {
       heading: "Saltwater Symphony",
       bodydesc: "Immerse your child in the harmonious tones of a saltwater gargle, a natural elixir that soothes and heals. This saltwater symphony is a gentle yet effective remedy to ease the woes of a sore throat.",
       bodysrc: "https://kidshealth.org/en/parents/sore-throat-sheet.html",
-      imgurl:""
+      imgurl:"https://thumbs.dreamstime.com/b/salt-water-icon-trendy-modern-flat-linear-vector-salt-water-ico-salt-water-icon-trendy-modern-flat-linear-vector-salt-water-icon-130956175.jpg"
     },
     {
       heading: "Lozenge Lullaby",
       bodydesc: "For older kids (ages 4 and up), let the gentle hum of throat lozenges or hard candy create a lullaby of comfort. This sweet melody offers relief and a touch of delight to tender throats.",
       bodysrc: "https://kidshealth.org/en/parents/sore-throat-sheet.html",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/sweet-candies-flat-elements-set_1284-34170.jpg?w=740&t=st=1704345771~exp=1704346371~hmac=bf732f247d209b65921eb916a3a4ca503b570f9c55d2c7a514722bd6b18a1b16"
     },
     {
       heading: "Marshmallow Root Symphony",
       bodydesc: "Envelop your child in the soothing embrace of marshmallow root, a herbal wonder containing mucilage. Boil it into a comforting tea with a touch of honey (for kids above 1) to create a gentle melody of relief for sore throats.",
       bodysrc: "https://www.healthline.com/health/cold-flu/sore-throat-natural-remedies#fa-qs",
-      imgurl:""
+      imgurl:"https://t3.ftcdn.net/jpg/03/38/96/68/360_F_338966840_5R5J2EgFU87opFreLUsWivpPQqguJrbF.jpg"
     },
     {
       heading: "Licorice Root Elixir",
       bodydesc: "Craft a healing elixir with licorice root tea, sweetened with the golden touch of honey (for kids above 1). This honeyed harmony brings comfort to throats in need, providing a soothing remedy.",
       bodysrc: "https://www.healthline.com/health/cold-flu/sore-throat-natural-remedies#fa-qs",
-      imgurl:""
+      imgurl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOQbE4kiWSPM69gqWzl91eRzvsrLCqd188UefwjLxSv-XwNB0pKzvluKdUxJbLdFEUBeU&usqp=CAU"
     },
     {
       heading: "Chicken Soup Serenade",
       bodydesc: "Partake in the time-honored tradition of chicken soup as a serenade for respiratory and throat well-being. Let this savory remedy create a symphony of comfort and nourishment during challenging times.",
       bodysrc: "https://www.healthline.com/health/cold-flu/sore-throat-natural-remedies#fa-qs",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/bowl-soup-sticker-white-background_1308-64486.jpg?w=996&t=st=1704346113~exp=1704346713~hmac=6414afeff4590e28de1b850a48cb07252954c80119d1e703a6550e5e8068444e"
     },
     {
       heading: "Steamy Inhalation Ballet",
       bodydesc: "Indulge in a steamy ballet of inhalation, a simple yet effective technique to ease sore throat discomfort. With just-boiled water, a bowl, and a towel, create an ambiance of warm, soothing air for your child.",
       bodysrc: "https://www.healthline.com/health/cold-flu/sore-throat-natural-remedies#fa-qs",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/humidifier-with-house-plants-equipment-home-office_189033-926.jpg?w=900"
     },
     {
       heading: "Humidifier Harmony",
       bodydesc: "Embrace the harmonious presence of a humidifier, creating an environment of moist air that can alleviate throat discomfort. Let this humidifier harmony be a comforting companion during moments of respiratory unease.",
       bodysrc: "https://www.healthline.com/health/cold-flu/sore-throat-natural-remedies#fa-qs",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/humidifier-with-house-plants-equipment-home-office_189033-926.jpg?w=900"
     },
     {
       heading: "Restful Interlude",
       bodydesc: "Allow your child's body to restore and rejuvenate with a restful interlude. When a sore throat lingers, ensure your child takes it easy, finding solace in peaceful slumber for a harmonious recovery.",
       bodysrc: "https://www.healthline.com/health/cold-flu/sore-throat-natural-remedies#fa-qs",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/girl-sleeping-soundly_1308-82561.jpg?uid=R132856271&ga=GA1.1.265335673.1704185489&semt=ais"
     },
     {
       heading: "Chamomile Symphony",
       bodydesc: "Brew the calming notes of chamomile tea to orchestrate relief for fever. This gentle remedy, even safe for babies, embraces their senses and lulls the fever's unrest.",
       bodysrc: "https://klay.co.in/blog/how-to-reduce-fever-in-child-naturally/",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/tea-cup-concept-illustration_114360-19768.jpg?w=740&t=st=1704293733~exp=1704294333~hmac=355487586f3dab12477b9b9855d6ac7d56730ab5b8908dc23227304a7571d08e"
     },
     {
       heading: "Peppermint Harmony",
       bodydesc: "Compose a peppermint tea melody to settle a troubled tummy and ease congested airways. Elevate the experience with a teaspoon of honey, infusing both taste and antibacterial powers into the symphony.",
       bodysrc: "https://klay.co.in/blog/how-to-reduce-fever-in-child-naturally/",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/tea-cartoon-illustration-food-drink-concept-isolated_884500-22284.jpg?w=996"
     }
 ],
 Ear:[
@@ -2237,37 +2237,37 @@ Ear:[
       heading: "Warm Cloth Comfort",
       bodydesc: "Ease your child's ear pain with the tender touch of a lukewarm cloth. Applying it to the ear creates a comforting sensation, providing relief and a moment of calm during discomfort.",
       bodysrc: "https://www.healthline.com/health/childrens-health/remedies-for-baby-ear-infection#antibiotics",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/red-towel-stack-icon-realistic-illustration-red-towel-stack-vector-icon-web-design-isolated-white-background_98402-29366.jpg?w=740"
     },
     {
       heading: "Elevated Slumber Serenade",
       bodydesc: "Transform bedtime into a soothing serenade by adjusting your child's sleep posture. Raise the affected ear during sleep, either by sleeping with the ear raised or elevating the head with extra pillows. This simple adjustment promotes better ear drainage, contributing to a peaceful night's sleep and relief from ear pain.",
       bodysrc: "https://www.healthline.com/health/childrens-health/remedies-for-baby-ear-infection#antibiotics",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/girl-sleep-side-with-bent-legs-female-character-sleeping-pose-woman-wear-pajama-sleep-lying-comfortable-bed_1016-13700.jpg?w=1380"
     },
     {
       heading: "Herbal Harmony Eardrops",
       bodydesc: "Embrace the healing power of homeopathic eardrops, crafted with extracts of garlic, mullein, lavender, calendula, and St. John’s wort in nourishing olive oil. This botanical blend is designed to alleviate inflammation and provide relief from ear pain, creating a gentle and natural solution for your child's comfort.",
       bodysrc: "https://www.healthline.com/health/childrens-health/remedies-for-baby-ear-infection#antibiotics",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/watercolor-jojoba-plant-illustration_52683-56737.jpg?w=740&t=st=1704346567~exp=1704347167~hmac=94bfe34bccb0ced38e4e8b845cb91c2c7e1bfe85b131bcf14f39d72d0346be41"
     },
     {
       heading: "Fluidic Liberation",
       bodydesc: "Encourage your child to sip fluids regularly, orchestrating a harmonious balance. Swallowing aids in opening the eustachian tube, facilitating the drainage of trapped fluid. This simple act of hydration contributes to a fluidic liberation, easing ear discomfort and promoting well-being.",
       bodysrc: "https://www.healthline.com/health/childrens-health/remedies-for-baby-ear-infection#antibiotics",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/positive-people-drinking-water-cooler_74855-6626.jpg?w=900&t=st=1704265289~exp=1704265889~hmac=283d31bd451f590e815d24897b5bd3d6dad05e9a94d09ac8b860ef43329c9b58"
     },
     {
       heading: "Onion Aura Therapy",
       bodydesc: "Unlock the soothing essence of onions for a comforting remedy. Slice an onion in half and gently warm it before placing it over the ear like a snug ear muff. The natural warmth emanating from the onion creates an enveloping embrace, offering relief to your child's ear discomfort.",
       bodysrc: "https://www.lybrate.com/topic/natural-remedies-for-ear-infections-in-child/6b31ca8814ca53fae0bdf43d9c339a57",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/realistic-onion-composition_1284-72135.jpg?w=826&t=st=1704346801~exp=1704347401~hmac=260201c895b4e56756f26dd9ebd759401b5991083c256ab51c66a5e54a452eb2"
     },
     {
       heading: "Oil Elixir Embrace",
       bodydesc: "Embark on a journey of comfort with the Oil Elixir Embrace. Pouring a few drops of warm olive oil or sesame oil gently nurtures your child's ears by opening up the eustachian tube.",
       bodysrc: "https://www.lybrate.com/topic/natural-remedies-for-ear-infections-in-child/6b31ca8814ca53fae0bdf43d9c339a57",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/realistic-oil-pipette-with-oil-drop-brown-blank-bottle-cosmetic-skin-care-hair-care-essence-natural-medicine-product-mockup-organic-eucalyptus-essence-product-with-no-brand_208581-1185.jpg?w=740"
     }
 ],
 Asthma:[
@@ -2275,73 +2275,73 @@ Asthma:[
       heading: "Dehumidify Delight",
       bodydesc: "Maintain a low humidity haven by using a dehumidifier, ensuring your child breathes air that's crisp and comfortable.",
       bodysrc: "https://www.mayoclinic.org/diseases-conditions/childhood-asthma/diagnosis-treatment/drc-20351513",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/humidifier-with-house-plants-equipment-home-office_189033-926.jpg?w=900"
     },
     {
       heading: "Cleanse and Purify",
       bodydesc: "Regularly inspect and clean your air conditioning system, change filters, and consider using small-particle filters for enhanced air quality.",
       bodysrc: "https://www.mayoclinic.org/diseases-conditions/childhood-asthma/diagnosis-treatment/drc-20351513",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/isometric-smart-speaker-with-led-light-white-background-vector-illustration_1284-66670.jpg?w=740&t=st=1704346907~exp=1704347507~hmac=d27acf2d4cbae6a67c72a12729a0f40812c965f60fc801fd4027dd7204368ff3"
     },
     {
       heading: "Pet Protection Protocol",
       bodydesc: "Reduce exposure to pet dander by avoiding furry or feathery companions, or groom pets regularly to minimize allergens.",
       bodysrc: "https://www.mayoclinic.org/diseases-conditions/childhood-asthma/diagnosis-treatment/drc-20351513",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/hand-drawn-animal-sterilization-illustration_23-2150085163.jpg?w=740&t=st=1704347070~exp=1704347670~hmac=4a72b469c002380ae26392b4060226bb418838fab1e1c9c7aef003181ae20e95"
     },
     {
       heading: "Cool Air Comfort",
       bodydesc: "Leverage air conditioning to filter out airborne pollen, lower humidity, and diminish dust mite exposure, fostering a fresh and cool environment.",
       bodysrc: "https://www.mayoclinic.org/diseases-conditions/childhood-asthma/diagnosis-treatment/drc-20351513",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/refreshing-from-summer-heat-concept-illustration_114360-5805.jpg?w=996&t=st=1704347124~exp=1704347724~hmac=a8c172269296d9bd8751fa2b9266faec17333240795782d8893cb1ac17787b79"
     },
     {
       heading: "Dust-Free Dwelling",
       bodydesc: "Encase pillows and mattresses with dustproof covers, consider hard flooring over carpets, and opt for washable curtains and blinds to minimize dust.",
       bodysrc: "https://www.mayoclinic.org/diseases-conditions/childhood-asthma/diagnosis-treatment/drc-20351513",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/girl-making-bed-white-background_1308-9182.jpg?w=1060&t=st=1704347259~exp=1704347859~hmac=db84ec04bb8ca956a9a04eb2c0d5507199b71519c4211de55c968ca60aef10d6"
     },
     {
       heading: "Weekly Rituals of Cleanliness",
       bodydesc: "Make regular cleaning a part of your weekly routine to banish allergens and create a pristine living space.",
       bodysrc: "https://www.mayoclinic.org/diseases-conditions/childhood-asthma/diagnosis-treatment/drc-20351513",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/man-cleaning-sofa-with-vacuum-cleaner_701961-767.jpg?w=996"
     },
     {
       heading: "Warmth Without Worry",
       bodydesc: "Mitigate the impact of cold air by having your child wear a face mask during outdoor activities, providing a shield against potential triggers.",
       bodysrc: "https://www.mayoclinic.org/diseases-conditions/childhood-asthma/diagnosis-treatment/drc-20351513",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/sticker-template-with-boy-wearing-medical-mask-cartoon-character_1308-70061.jpg?w=360&t=st=1704347373~exp=1704347973~hmac=99265d8510c5ce192b6f6cbc37f7438c2af990ba2e9489b1d58bf743802df21b"
     },
     {
       heading: "Power of Black Seed",
       bodydesc: "Discover the potential benefits of black seed as a herbal remedy for asthma relief.",
       bodysrc: "https://www.mayoclinic.org/diseases-conditions/childhood-asthma/diagnosis-treatment/drc-20351513",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/logo-illustration-chia-seeds-bowl_499212-1877.jpg?w=740"
     },
     {
       heading: "Omega-3 Wonders",
       bodydesc: "Incorporate fish oil, rich in omega-3, into your child's diet as a potential supplement for managing asthma symptoms.",
       bodysrc: "https://www.mayoclinic.org/diseases-conditions/childhood-asthma/diagnosis-treatment/drc-20351513",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/omega-3-6-9-acids-isometric-composition-with-oil-rich-products-vector-illustration_1284-74490.jpg?w=826&t=st=1704265307~exp=1704265907~hmac=f81f142df04ffc2da3e7bcdc604dbe02c52aa1e8f68e57faf4579d7da5d40765"
     },
     {
       heading: "Magnificent Magnesium",
       bodydesc: "Explore the role of magnesium supplements in supporting asthma management, always consulting with your child's healthcare provider for personalized advice.",
       bodysrc: "https://www.mayoclinic.org/diseases-conditions/childhood-asthma/diagnosis-treatment/drc-20351513",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/green-vegetables-mix-white_98292-5108.jpg?w=826&t=st=1704285988~exp=1704286588~hmac=75f2f01ca12f720b4586c7b2c2d7682bba3001660763f1bc86459bd09de75553"
     },
     {
       heading: "Structured Breathing Bliss",
       bodydesc: "Explore techniques like Buteyko and pranayama to instill structured and calming breathing patterns. Practice these techniques for about 10–15 minutes, two to three times a day, to enhance respiratory well-being.",
       bodysrc: "https://www.mayoclinic.org/diseases-conditions/childhood-asthma/diagnosis-treatment/drc-20351513",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/breathing-exercise-concept-illustration_114360-8960.jpg?w=740&t=st=1704285863~exp=1704286463~hmac=5c0cc94c96cd2f222d6488c844028e638de15e8f2bcdd39f4182c98e8a72feb5"
     },
     {
       heading: "Relaxation Retreat",
       bodydesc: "Introduce relaxation practices such as meditation, biofeedback, hypnosis, and progressive muscle relaxation to reduce tension and stress. Dedicate 15–20 minutes daily to these techniques, providing a daily dose of serenity for your child's respiratory comfort.",
       bodysrc: "https://www.mayoclinic.org/diseases-conditions/childhood-asthma/diagnosis-treatment/drc-20351513",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/vector-illustration-yoga-day_730767-655.jpg?w=740"
     }
 ],
 Gastroenteritis:[
@@ -2349,43 +2349,43 @@ Gastroenteritis:[
       heading: "Hydration Highway",
       bodydesc: "Ensure your little one cruises the Hydration Highway by drinking plenty of clear fluids. Aim for at least 8 glasses of water daily to keep them well-hydrated and on the road to recovery.",
       bodysrc: "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/gastroenteritis-in-children#how-to-prevent-dehydration-in-children-with-gastroenteritis",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/positive-people-drinking-water-cooler_74855-6626.jpg?w=900&t=st=1704265289~exp=1704265889~hmac=283d31bd451f590e815d24897b5bd3d6dad05e9a94d09ac8b860ef43329c9b58"
     },
     {
       heading: "Morning Refreshment Ritual",
       bodydesc: "Kickstart the day with a glass of watermelon juice. Its refreshing qualities can provide a hydrating and soothing start, offering comfort to your child's tummy.",
       bodysrc: "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/gastroenteritis-in-children#how-to-prevent-dehydration-in-children-with-gastroenteritis",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/watermelon-juicy-slices-juice-with-mint-leaves-red-watermelon-vector-illustration-flat-cart_715072-297.jpg?w=740"
     },
     {
       heading: "Handwashing Harmony",
       bodydesc: "Encourage a Handwashing Harmony to prevent the spread of germs. Instruct your child to wash their hands with warm water and soap after using the toilet and both before and after meals. This simple practice is a powerful defense against gastroenteritis.",
       bodysrc: "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/gastroenteritis-in-children#how-to-prevent-dehydration-in-children-with-gastroenteritis",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/hand-cleaning-white-background_1308-43039.jpg?w=900&t=st=1704347973~exp=1704348573~hmac=6a5410a4b9885f9885cc411541ec39a2abb92ff61a5119a2d667f5ad1d4a53b9"
     },
     {
       heading: "Juice Dilution Delight",
       bodydesc: "For a gentle and flavorful option, consider diluted fruit juice. Mix 1 tablespoon of natural fruit juice with 4 tablespoons of water. This concoction offers a palatable choice that aligns with your child's sensitive stomach during the recovery phase.",
       bodysrc: "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/gastroenteritis-in-children#how-to-prevent-dehydration-in-children-with-gastroenteritis",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/vector-kumquat-slice-with-juice-stream-glass-isolated-white-background_1284-45439.jpg?w=360&t=st=1704348011~exp=1704348611~hmac=ecc32068bd74510c5678d014d774c7bc515008599bc66a31fc12e5f106ff2d88"
     },
     {
       heading: "Electrolyte Elixir",
       bodydesc: "Equip your child with an oral electrolyte solution, providing a crucial blend of fluids and essential nutrients. Administer small sips, approximately 1 or 2 teaspoons, every few minutes, especially after vomiting. This strategy ensures a gradual and steady replenishment of fluids.",
       bodysrc: "https://kidshealth.org/en/parents/gastroenteritis.html",
-      imgurl:""
+      imgurl:"https://media.istockphoto.com/id/1378901528/vector/electrolyte-drink-bottle-icon-electrolyte-enriched-product.jpg?s=612x612&w=0&k=20&c=bnQBeTFTqCRC-K9AWoBeCl2E_AvxJgDUK6m-ODj63iI="
     },
     {
       heading: "Baby-Friendly Hydration",
       bodydesc: "For babies facing dehydration, refrain from offering plain water. Instead, opt for oral rehydration solution designed with the right balance of nutrients tailored for their delicate systems. This specialized solution provides the necessary hydration and nutrients to aid recovery.",
       bodysrc: "https://kidshealth.org/en/parents/gastroenteritis.html",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/medicine-glass-illustration_1284-5722.jpg?w=740&t=st=1704348091~exp=1704348691~hmac=c0203ae0145b2007c34748f1edc8d20c059a16678679954bf8995955cfebe025"
     },
     {
       heading: "Cooling Comfort Popsicles",
       bodydesc: "Introduce a tasty twist to rehydration with frozen electrolyte popsicles. Not only do they offer relief, but the cool sensation can also be soothing for your child. Encourage them to enjoy these popsicles to make the recovery process a bit more enjoyable.",
       bodysrc: "https://kidshealth.org/en/parents/gastroenteritis.html",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/fruit-popsicles-ice-cream-assortment-realistic-composition-with-images-ice-lollies-confectionery-product-range_1284-33074.jpg?w=740&t=st=1704348145~exp=1704348745~hmac=029a994698c039df1eb311746e4d177a2bed8752610b991fa8767957e0c8936c"
     }
 ],
 Allergies:[
@@ -2393,61 +2393,61 @@ Allergies:[
       heading: "Creamy Antihistamine Soothe",
       bodydesc: "Gently apply antihistamine creams or lotions to the affected areas. These topical solutions provide relief from itching and discomfort caused by allergies.",
       bodysrc: "https://www.healthline.com/health/natural-remedies-childrens-allergies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/cosmetic-realistic-liquid-soap-with-jasmine-flower_107791-245.jpg?w=1060&t=st=1704348202~exp=1704348802~hmac=d01fb51cf6e03fc6bb259332df26375cf326515a54aaace575dc71c0a59f5c1e"
     },
     {
       heading: "Gentle Bath Bliss",
       bodydesc: "Ease the irritation by bathing the affected area with warm water and mild soap. This simple yet effective practice helps cleanse and soothe the skin, providing a refreshing sensation.",
       bodysrc: "https://www.healthline.com/health/natural-remedies-childrens-allergies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/caring-smiling-mother-washing-her-baby-child_3446-536.jpg?w=740&t=st=1704348238~exp=1704348838~hmac=4cfc2f6f594661b10f405296ae1a77aafa4f1a97de5a7b829cb3cb4c84a1c341"
     },
     {
       heading: "Aloe Vera and Calendula Comfort",
       bodydesc: "Consider the calming properties of aloe vera gel or calendula cream. Applying these natural remedies can offer additional relief, promoting a soothing effect on irritated skin.",
       bodysrc: "https://www.healthline.com/health/natural-remedies-childrens-allergies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/realistic-aloe-leaves_1284-35956.jpg?w=740&t=st=1704279810~exp=1704280410~hmac=1e0862bcdc486651013b594ac0e06b7bdbff0a2113a9bf4c60a583e28095cdfa"
     },
     {
       heading: "Hive Healing Chill",
       bodydesc: "Combat hives with the cool touch of a wet cloth applied to the affected areas. This method helps alleviate the discomfort associated with hives, providing a refreshing sensation.",
       bodysrc: "https://www.healthline.com/health/natural-remedies-childrens-allergies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/boy-cleaning-hands-white-background_1308-43345.jpg?w=360&t=st=1704348383~exp=1704348983~hmac=fbef4caa129ffc49bd34bb8c7cdc464008b2f1fd860ccf46d3ef8da21115b7c3"
     },
     {
       heading: "Moisture Magic",
       bodydesc: "For dry skin, embrace fragrance-free moisturizing creams or ointments. Keeping the skin well-hydrated contributes to overall comfort and accelerates the healing process.",
       bodysrc: "https://www.healthline.com/health/natural-remedies-childrens-allergies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/cosmetic-realistic-liquid-soap-with-jasmine-flower_107791-245.jpg?w=1060&t=st=1704348202~exp=1704348802~hmac=d01fb51cf6e03fc6bb259332df26375cf326515a54aaace575dc71c0a59f5c1e"
     },
     {
       heading: "Bathwater Bliss",
       bodydesc: "Enhance bath time with the addition of baking soda or oatmeal to the water. This simple remedy contributes to a soothing effect, addressing discomfort associated with allergies.",
       bodysrc: "https://www.healthline.com/health/natural-remedies-childrens-allergies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/metal-silver-spoon-full-salt-baking-cooking-ingredient-vector-teaspoon-isolated-white_168129-2785.jpg?w=740"
     },
     {
       heading: "Sinus Steam Serenity",
       bodydesc: "Ease congested sinuses by allowing your child to breathe in steam from a bowl of hot water. This natural method provides relief and helps clear nasal passages for improved breathing.",
       bodysrc: "https://www.healthline.com/health/natural-remedies-childrens-allergies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/humidifier-with-house-plants-equipment-home-office_189033-926.jpg?w=900"
     },
     {
       heading: "Nasal Nirvana with Neti",
       bodydesc: "For older children willing to cooperate, consider using a neti pot to flush nasal cavities with water. This practice can be effective in alleviating nasal congestion related to allergies.",
       bodysrc: "https://www.healthline.com/health/natural-remedies-childrens-allergies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/sticker-template-kettle-with-boiling-water-isolated_1308-65905.jpg?w=740&t=st=1704348547~exp=1704349147~hmac=3b9bb87ad41f866f591f5e74408eb2efbe5975cd59a3850e350601ce795e6bd6"
     },
     {
       heading: "Digestive Delicacies",
       bodydesc: "Adjust your child's diet to manage allergy-related symptoms. Incorporate easily digestible foods like rice, toast, bananas, and applesauce to alleviate issues such as diarrhea.",
       bodysrc: "https://www.healthline.com/health/natural-remedies-childrens-allergies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/two-realistic-triangular-slices-wheat-bread-sandwiches-isolated-vector-illustration_1284-66746.jpg?w=740&t=st=1704348581~exp=1704349181~hmac=daa2575d3ee9d8447220f178e493e1efac776c5a6a4e0fb81c7e925bc8608283"
     },
     {
       heading: "Tranquil Rest for Nausea",
       bodydesc: "Encourage rest and stillness if your child experiences nausea. Providing a calm environment and allowing them to rest can contribute to a quicker recovery from allergy-induced discomfort.",
       bodysrc: "https://www.healthline.com/health/natural-remedies-childrens-allergies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/cute-boy-sleeping-clipart_1308-114617.jpg?w=996&t=st=1704348631~exp=1704349231~hmac=8ebaaf01df0d0a32c24dad852f4a2e3bac76b571b3adaae3955d744ed969d25a"
     }
 ],
 Measles:[
@@ -2455,55 +2455,55 @@ Measles:[
       heading: "Neem Nurturing Soak",
       bodydesc: "Indulge in the natural goodness of margosa leaves to combat measles discomfort. Add these leaves to hot bathing water and let the patient soak for at least 20 minutes. The antiviral and antiseptic properties work wonders in relieving itching caused by the rash.",
       bodysrc: "https://www.thehealthsite.com/diseases-conditions/top-9-ways-to-cure-measles-naturally-626253/",
-      imgurl:""
+      imgurl:"https://media.istockphoto.com/id/1439703734/vector/neem-leaf.jpg?s=612x612&w=0&k=20&c=B1_rXaVwPbP3ZtbcqwOFpM8PwXOpPi6IjUe2tiJSkGo="
     },
     {
       heading: "Tamarind-Turmeric Tonic",
       bodydesc: "Craft a healing blend with equal parts of powdered tamarind seeds and turmeric. Administer this mix (350 gm to 425 gm) thrice daily to the patient for an efficient boost against measles.",
       bodysrc: "https://www.thehealthsite.com/diseases-conditions/top-9-ways-to-cure-measles-naturally-626253/",
-      imgurl:""
+      imgurl:"https://t4.ftcdn.net/jpg/04/37/70/19/360_F_437701911_1zusXeOS2Acl01t2xjmyZm1xtUyGggmY.jpg"
     },
     {
       heading: "Liquorice Lullaby",
       bodydesc: "Harness the power of liquorice by grinding half a teaspoon of liquorice root into powder and adding a drop of honey. This effective concoction should be consumed daily during the infection to aid in the healing process.",
       bodysrc: "https://www.thehealthsite.com/diseases-conditions/top-9-ways-to-cure-measles-naturally-626253/",
-      imgurl:""
+      imgurl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOQbE4kiWSPM69gqWzl91eRzvsrLCqd188UefwjLxSv-XwNB0pKzvluKdUxJbLdFEUBeU&usqp=CAU"
     },
     {
       heading: "Garlic Guardian",
       bodydesc: "Unlock the natural healing properties of garlic by powdering cloves and consuming them with honey. This garlic-honey blend accelerates recovery from measles.",
       bodysrc: "https://www.thehealthsite.com/diseases-conditions/top-9-ways-to-cure-measles-naturally-626253/",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/garlic-cartoon-style-isolated_1308-126754.jpg?w=900&t=st=1704264046~exp=1704264646~hmac=76c9839c96fb3746390c3c1fb3cfb00207ec2aa5b6e18c6c13502071bb03bd55"
     },
     {
       heading: "Lemonade Lifesaver",
       bodydesc: "Embrace the goodness of lemon juice during a measles episode. Squeeze 15 to 25ml of lemon juice into water and make it a refreshing natural therapy to combat measles.",
       bodysrc: "https://www.thehealthsite.com/diseases-conditions/top-9-ways-to-cure-measles-naturally-626253/",
-      imgurl:""
+      imgurl:"https://static.vecteezy.com/system/resources/previews/006/209/529/original/glass-of-lemonade-with-a-straw-and-lemon-on-a-white-background-vector.jpg"
     },
     {
       heading: "Coconut Comfort Combo",
       bodydesc: "Revel in the nutrient-rich benefits of coconut water and flesh to combat measles. Coconut water acts as a cleanser for the body, while the coconut flesh speeds up the recovery process, thanks to its antioxidants.",
       bodysrc: "https://www.thehealthsite.com/diseases-conditions/top-9-ways-to-cure-measles-naturally-626253/",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/hand-drawn-coconut-illustration_23-2148160083.jpg?w=740&t=st=1704265652~exp=1704266252~hmac=191703a5636b21c6fdfd9337688a717cbe0892359cf29a369747af708a0be980"
     },
     {
       heading: "Amla Elixir",
       bodydesc: "Experience relief from burning and itching sensations during measles by mixing amla with water. For an added boost, consider taking a shower in amla-rinsed water.",
       bodysrc: "https://www.thehealthsite.com/diseases-conditions/top-9-ways-to-cure-measles-naturally-626253/",
-      imgurl:""
+      imgurl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Kd979dBR763ZUFADVNGSNBXTRv5WdAhhqrMPvfY2igVcL8U4s9OfkxNw3AnbxiiYBUA&usqp=CAU"
     },
     {
       heading: "Barley Bliss Brew",
       bodydesc: "Tackle coughs with the soothing properties of barley water. Sweeten the barley water with almond oil to provide immense relief to those suffering from measles.",
       bodysrc: "https://www.thehealthsite.com/diseases-conditions/top-9-ways-to-cure-measles-naturally-626253/",
-      imgurl:""
+      imgurl:"https://media.istockphoto.com/id/1410809880/vector/spikelets-of-wheat-rye-barley-or-oats-ripe-cereals-plants-for-bread-production-hand-drawing.jpg?s=612x612&w=0&k=20&c=eoyPPPRMvFX62H66H8lrb4gc1TMuyWWUoUmyD6dtOSU="
     },
     {
       heading: "Bitter Gourd Turmeric Tango",
       bodydesc: "Though it may not be the tastiest, bitter gourd leaves and turmeric root work as a measles savior. Juice the bitter gourd leaves, combine them with turmeric root and honey, and combat measles naturally.",
       bodysrc: "https://www.thehealthsite.com/diseases-conditions/top-9-ways-to-cure-measles-naturally-626253/",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/bitter-gourd-gives-bitter-taste-cooking_68708-2014.jpg"
     }
 ],
 //CovidCare
@@ -2512,43 +2512,43 @@ Dyspnea:[
       heading: "Abdominal Anthem: Breathe Easy with Deep Harmony!",
       bodydesc: "As you lie down, hands tenderly placed on the abdomen, inhale deeply through the nose, allowing the abdomen to expand, and feel the lungs fill with air. A momentary pause, then exhale slowly through the mouth, releasing the breath with ease. This rhythmic exercise, done several times a day, becomes a soothing cadence, fostering a sense of calm with each intentional breath.",
       bodysrc: "https://www.medicalnewstoday.com/articles/319175#home-remedies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/breathing-exercise-concept-illustration_114360-8960.jpg?w=740&t=st=1704285863~exp=1704286463~hmac=5c0cc94c96cd2f222d6488c844028e638de15e8f2bcdd39f4182c98e8a72feb5"
     },
     {
       heading: "Pursed Lip Symphony: Melody of Relief for Shortness of Breath!",
       bodydesc: "Take a seat and engage in the pursed lip breathing ritual, a harmonious practice for combating shortness of breath. With an upright posture and relaxed shoulders, press the lips together, creating a small gap. Inhale gracefully through the nose, then exhale gently through pursed lips. This breathing symphony, repeated as needed throughout the day, becomes a comforting melody, providing relief in the midst of breathlessness.",
       bodysrc: "https://www.medicalnewstoday.com/articles/319175#home-remedies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/breathing-exercise-concept-illustration_114360-8960.jpg?w=740&t=st=1704285863~exp=1704286463~hmac=5c0cc94c96cd2f222d6488c844028e638de15e8f2bcdd39f4182c98e8a72feb5"
     },
     {
       heading: "Fan Finesse: Breathe with the Wind's Embrace!",
       bodydesc: "Experience the transformative power of a handheld fan. As you feel the gentle breeze caress your nose and face, inhale, allowing the force of air to create an illusion of expanded breath. Let the fan's embrace become a dance partner, guiding you through moments of breathlessness with its soothing rhythm and comforting touch.",
       bodysrc: "https://www.medicalnewstoday.com/articles/319175#home-remedies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/folding-japanese-fan-vector-design_1308-130648.jpg?w=900&t=st=1704349439~exp=1704350039~hmac=3a7fa509244c8ff223368d6fa100fc61859f2fac8df396978879df082a7220f2"
     },
     {
       heading: "Steam Serenade: Clearing the Air for Easy Breathing!",
       bodydesc: "Indulge in the therapeutic embrace of steam, a serenade for clear breathing. Inhale the warm vapors, keeping nasal passages clear, and feel the gentle warmth breaking down lung mucus. With each breath, experience the clarity and relief, letting steam become a comforting presence in moments of breathlessness.",
       bodysrc: "https://www.medicalnewstoday.com/articles/319175#home-remedies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/glass-kettle-with-boiling-water-steam_67515-16.jpg?w=740"
     },
     {
       heading: "Coffee Cadence: Caffeinated Liberation for Airway Relaxation!",
       bodydesc: "Sip the black coffee elixir, a comforting cadence for airway relaxation. Allow the caffeine to ease muscle tightness in the airway, sip by sip. Feel the liberation of breath with each comforting draught, making coffee a soothing companion in moments of breathlessness.",
       bodysrc: "https://www.medicalnewstoday.com/articles/319175#home-remedies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/realistic-picture-coffee-cup-coffee-beans-isolated-white-background-vector-illustration_433751-9.jpg?w=740&t=st=1704349515~exp=1704350115~hmac=a528bc14a1c01d47ff119e4d6e831ddc0c66b789b5423c39ec152762511912d7"
     },
     {
       heading: "Ginger Groove: Spice of Relief for Respiratory Rhythms!",
       bodydesc: "Incorporate the spice of fresh ginger for breathlessness from respiratory infections. Whether enjoyed directly or in a cup of hot water, feel the soothing rhythm as ginger reduces shortness of breath. Let ginger become your respiratory dance partner, bringing relief sip by sip in a comforting, rhythmic groove.",
       bodysrc: "https://www.medicalnewstoday.com/articles/319175#home-remedies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/ginger-watercolor-clipart_191095-5103.jpg?w=740"
     },
     {
       heading: "Essential Elevation: Inhale Tranquility with Aromatherapy Steam!",
       bodydesc: "Elevate your well-being with the essence of essential oils in a serene ritual. A few drops of peppermint or eucalyptus oil transform a simple bowl of steam into a sanctuary of tranquility. As you place your face over the bowl, shrouded in the comforting embrace of a towel, take deep breaths, inhaling the aromatic steam. Feel the soothing waves of tranquility wash over you, making aromatherapy steam a breath of fresh air in moments of rejuvenation.",
       bodysrc: "https://aimshealthcare.ae/blog/how-to-cure-shortness-of-breath-at-home/",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/realistic-burning-handmade-aroma-candles-with-pine-cone-cinnamon-sticks-green-leaves-home-decoration-vector-illustration_1284-71789.jpg?w=900&t=st=1704292497~exp=1704293097~hmac=b147a188e5fe15eaa99125fbb305c6dfb60656ebb69e9da4f596f1f2299495c8"
     }
 ],
 Runny:[
@@ -2556,67 +2556,67 @@ Runny:[
       heading: "Herbal Haven: Tea Tales for a Clear Path!",
       bodydesc: "Embark on a soothing journey with herbal teas that unveil the secrets of decongestion. Choose blends adorned with anti-inflammatory and antihistamine herbs like chamomile, creating a cup of hot herbal tea that beckons relief. Before sipping, inhale the aromatic steam, letting the essence of the herbs weave a story of comfort.",
       bodysrc: "https://www.healthline.com/health/how-to-stop-a-runny-nose#coping",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/tea-cup-concept-illustration_114360-19768.jpg?w=740&t=st=1704293733~exp=1704294333~hmac=355487586f3dab12477b9b9855d6ac7d56730ab5b8908dc23227304a7571d08e"
     },
     {
       heading: "Ginger Zing: Thrice-Daily Elixir for Sinus Symphony!",
       bodydesc: "Breathe in the invigorating zing of ginger tea, a thrice-daily elixir that dances with warmth. Let each sip be a step towards alleviating the discomfort of a runny nose, as the ginger elixir becomes a comforting rhythm in your day.",
       bodysrc: "https://www.healthline.com/health/how-to-stop-a-runny-nose#coping",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/ginger-watercolor-clipart_191095-5103.jpg?w=740"
     },
     {
       heading: "Minty Fresh Moments: A Thrice-Daily Ritual of Relief!",
       bodydesc: "Indulge in the minty freshness of thrice-daily mint tea, a ritual that soothes and rejuvenates. With each sip, let the cool embrace of mint create moments of relief, making it a refreshing companion in your quest for a clear nasal passage.",
       bodysrc: "https://www.healthline.com/health/how-to-stop-a-runny-nose#coping",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/illustration-glass-teapot-cups-with-herbal-mint-tea-white-background_460232-1308.jpg"
     },
     {
       heading: "Nettle Nectar: Sip Twice Daily for Serenity!",
       bodydesc: "Sip on the serenity of nettle tea, a twice-daily elixir that holds the promise of relief. As the herbal infusion unfolds, let the nettle nectar be a calming companion, turning each sip into a moment of tranquility.",
       bodysrc: "https://www.healthline.com/health/how-to-stop-a-runny-nose#coping",
-      imgurl:""
+      imgurl:"https://png.pngtree.com/png-vector/20230907/ourlarge/pngtree-herbal-tea-in-a-mug-with-nettles-cutout-png-image_9978648.png"
     },
     {
       heading: "Humidifier Harmony: Breathe Easy in the Misty Symphony!",
       bodydesc: "Embrace the misty symphony of a humidifier, turning your space into a haven of moisture. Inhale the gentle mist that dances in the air, bringing comfort to your nasal passages and making the humidifier a silent ally in your quest for relief.",
       bodysrc: "https://www.healthline.com/health/how-to-stop-a-runny-nose#coping",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/humidifier-with-house-plants-equipment-home-office_189033-926.jpg?w=900"
     },
     {
       heading: "Aromatic Oasis: Steam Serenade with Essential Oils!",
       bodydesc: "Embark on a 10-minute steam serenade, infused with the essence of Eucalyptus, peppermint, pine, rosemary, sage, spearmint, tea tree (melaleuca), and thyme essential oils. Let the aromatic oasis envelop you, offering a breath of fresh air in moments of nasal relief.",
       bodysrc: "https://www.healthline.com/health/how-to-stop-a-runny-nose#coping",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/realistic-burning-handmade-aroma-candles-with-pine-cone-cinnamon-sticks-green-leaves-home-decoration-vector-illustration_1284-71789.jpg?w=900&t=st=1704292497~exp=1704293097~hmac=b147a188e5fe15eaa99125fbb305c6dfb60656ebb69e9da4f596f1f2299495c8"
     },
     {
       heading: "Shower Symphony: 20-Minute Harmony in the Heat!",
       bodydesc: "Immerse yourself in a 20-minute shower symphony, with your face directly in the steam. Feel the warm cascade create a comforting cocoon, making the shower a sanctuary of relief.",
       bodysrc: "https://www.healthline.com/health/how-to-stop-a-runny-nose#coping",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/taking-shower-concept-illustration_114360-2585.jpg"
     },
     {
       heading: "Saline Elevation: Nasal Nirvana with a Gentle Spray!",
       bodydesc: "Ascend to nasal nirvana with a saline nasal spray, offering gentle relief in each soothing spray. Make it a part of your routine, turning the saline elevation into a breath of freshness throughout the day.",
       bodysrc: "https://www.healthline.com/health/how-to-stop-a-runny-nose#coping",
-      imgurl:""
+      imgurl:"https://www.freepik.com/premium-vector/man-using-gel-foam-washing-face-bathroom-near-sink-cosmetic-men_23921017.htm"
     },
     {
       heading: "Warm Embrace: DIY Compress for Forehead and Nose!",
       bodydesc: "Craft a warm embrace with a DIY compress at home. Immerse a clean cloth in hot tap water and place it across your forehead and nose for 15 to 20 minutes. Let the warmth become a comforting touch, reapplying as needed.",
       bodysrc: "https://www.healthline.com/health/how-to-stop-a-runny-nose#coping",
-      imgurl:""
+      imgurl:"https://thumbs.dreamstime.com/b/woman-headache-applying-cold-hot-compress-to-relieve-pain-vector-isolated-flu-treatment-female-person-migraine-274088436.jpg"
     },
     {
       heading: "Spicy Essence: A Fiery Blend to Unclog Passageways!",
       bodydesc: "Ignite your senses with hot spices like cayenne pepper, ghost pepper, habanero, wasabi, horseradish, or ginger. Allow the fiery blend to unclog passageways, offering a spicy essence that brings relief to sinus issues.",
       bodysrc: "https://www.healthline.com/health/how-to-stop-a-runny-nose#coping",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/chinese-spices-traditional-oriental-cuisine-condiments-spicy-sauce-natural-fresh-dry-powder-pungent-taste-ingredients-organic-peppercorns-bay-leaf-vector-seasoning-set_176516-4625.jpg"
     },
     {
       heading: "Hydration Harmony: Sip Water, Savor Relief!",
       bodydesc: "Sip on the elixir of hydration, savoring at least 8 glasses of water throughout the day. Let each sip be a drop of relief, creating a harmonious balance in your quest for clear nasal passages.",
       bodysrc: "https://www.healthline.com/health/how-to-stop-a-runny-nose#coping",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/positive-people-drinking-water-cooler_74855-6626.jpg?w=900&t=st=1704265289~exp=1704265889~hmac=283d31bd451f590e815d24897b5bd3d6dad05e9a94d09ac8b860ef43329c9b58"
     },
 ],
 Headache:[
@@ -2624,43 +2624,43 @@ Headache:[
       heading: "Hydration Haven: Conquer Headaches with the Elixir of Water!",
       bodydesc: "Embark on a quest against dehydration headaches by prioritizing the elixir of water. Aim for a minimum of 10 glasses throughout the day, creating a hydration haven that keeps headaches at bay.",
       bodysrc: "https://www.healthline.com/nutrition/headache-remedies#remedies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/positive-people-drinking-water-cooler_74855-6626.jpg?w=900&t=st=1704265289~exp=1704265889~hmac=283d31bd451f590e815d24897b5bd3d6dad05e9a94d09ac8b860ef43329c9b58"
     },
     {
       heading: "Sleep Symphony: 7-9 Hours for Headache-Free Nights!",
       bodydesc: "Indulge in the sleep symphony, aiming for the sweet spot of 7-9 hours of rejuvenating rest per night. Let each night be a harmonious melody, providing the foundation for headache-free days.",
       bodysrc: "https://www.healthline.com/nutrition/headache-remedies#remedies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/sleeping-peace-woman-illustration_619097-399.jpg?w=740"
     },
     {
       heading: "Essential Oils Euphoria: Diffuse and Apply for Relief!",
       bodydesc: "Immerse yourself in essential oils euphoria by diffusing or applying a blend of peppermint or lavender oil. Let the aromatic embrace be your ally against headaches, turning each inhalation into a breath of relief.",
       bodysrc: "https://www.healthline.com/nutrition/headache-remedies#remedies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/lavender-essential-oil-hand-drawn-watercolor-illustration-vintage-bottle-aromatherapy-white-isolated-background-drawing-old-flacon-with-flowers-cosmetic-alternative-medicine_616608-844.jpg?w=740"
     },
     {
       heading: "Slumber Serenade: Diffuser Duo for Nighttime Bliss!",
       bodydesc: "Transform your nights into a slumber serenade with a diffuser duo of essential oils, such as peppermint or lavender. Let the soothing scents dance in the air, creating a nighttime bliss that invites headache relief.",
       bodysrc: "https://www.healthline.com/nutrition/headache-remedies#remedies",
-      imgurl:""
+      imgurl:"https://t4.ftcdn.net/jpg/04/31/79/17/240_F_431791720_UKyy5Hz33uwmPslFQkW36XVcQ6jTmhI7.jpg"
     },
     {
       heading: "B-Complex Boost: Dietary Symphony for Headache Harmony!",
       bodydesc: "Harmonize your diet with a B-complex vitamin, adding a supplement symphony to your daily routine. Let each dose be a note in the dietary composition that supports headache harmony.",
       bodysrc: "https://www.healthline.com/nutrition/headache-remedies#remedies",
-      imgurl:""
+      imgurl:"https://media.istockphoto.com/id/1466339469/vector/vitamin-b-in-food-icon-vector.jpg?s=612x612&w=0&k=20&c=C1IQze0NDAfbF9vIUeMDAq_RI4yUiujncRpXzcM6yRM="
     },
     {
       heading: "Cold Compress Cadence: Soothing Rhythms for Headache Relief!",
       bodydesc: "Embrace the cold compress cadence, letting the soothing rhythms alleviate your headache symptoms. Feel the cool embrace create a comforting cadence against the throbbing pain.",
       bodysrc: "https://www.healthline.com/nutrition/headache-remedies#remedies",
-      imgurl:""
+      imgurl:"https://thumbs.dreamstime.com/b/ice-pack-injured-hand-302270258.jpg?w=768"
     },
     {
       heading: "Caffeine Concerto: Sip Away Headache Discomfort!",
       bodydesc: "Savor a caffeine concerto by sipping on beverages like tea or coffee to find relief during headache episodes. Let each sip be a note of comfort, orchestrating a symphony that eases your headache woes.",
       bodysrc: "https://www.healthline.com/nutrition/headache-remedies#remedies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/realistic-picture-coffee-cup-coffee-beans-isolated-white-background-vector-illustration_433751-9.jpg?w=740&t=st=1704349515~exp=1704350115~hmac=a528bc14a1c01d47ff119e4d6e831ddc0c66b789b5423c39ec152762511912d7"
     }
 ],
 SoreThroat:[
@@ -2668,73 +2668,73 @@ SoreThroat:[
       heading: "Honey Harmony: Tea Infusion for Throat Bliss!",
       bodydesc: "Embark on the honey harmony journey, infusing tea or savoring it on its own as a common remedy for a sore throat. Let each sip be a melody of relief, soothing your throat with sweetness.",
       bodysrc: "https://www.healthline.com/health/cold-flu/sore-throat-natural-remedies#home-remedies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/honey-dripping-from-wooden-dipper-into-glass-jar_267448-10.jpg?w=740"
     },
     {
       heading: "Saltwater Serenade: Gargle Cadence for Throat Resonance!",
       bodydesc: "Join the saltwater serenade, where gargling with warm salt water becomes a ritual four times a day. Feel the resonance of relief as you cleanse and comfort your sore throat.",
       bodysrc: "https://www.healthline.com/health/cold-flu/sore-throat-natural-remedies#home-remedies",
-      imgurl:""
+      imgurl:"https://thumbs.dreamstime.com/b/salt-water-icon-trendy-modern-flat-linear-vector-salt-water-ico-salt-water-icon-trendy-modern-flat-linear-vector-salt-water-icon-130956175.jpg"
     },
     {
       heading: "Baking Soda Symphony: Mixture Magic for Throat Soothing!",
       bodydesc: "Participate in the baking soda symphony, creating a mixture with saltwater to relieve your sore throat. Perform this soothing melody four times a day, finding comfort in the gentle harmony.",
       bodysrc: "https://www.healthline.com/health/cold-flu/sore-throat-natural-remedies#home-remedies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/metal-silver-spoon-full-salt-baking-cooking-ingredient-vector-teaspoon-isolated-white_168129-2785.jpg?w=740"
     },
     {
       heading: "Chamomile Concerto: Tea Elixir for Throat Serenity!",
       bodydesc: "Indulge in the chamomile concerto, sipping tea twice a day to serenade your throat with serenity. Let the gentle infusion be a healing elixir, bringing comfort to your sore throat.",
       bodysrc: "https://www.healthline.com/health/cold-flu/sore-throat-natural-remedies#home-remedies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/tea-cup-concept-illustration_114360-19768.jpg?w=740&t=st=1704293733~exp=1704294333~hmac=355487586f3dab12477b9b9855d6ac7d56730ab5b8908dc23227304a7571d08e"
     },
     {
       heading: "Peppermint Prelude: Tea Ritual for Throat Refreshment!",
       bodydesc: "Engage in the peppermint prelude, sipping tea twice a day to refresh your throat. Let the invigorating notes of peppermint create a soothing symphony for your sore throat.",
       bodysrc: "https://www.healthline.com/health/cold-flu/sore-throat-natural-remedies#home-remedies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/illustration-glass-teapot-cups-with-herbal-mint-tea-white-background_460232-1308.jpg"
     },
     {
       heading: "Fenugreek Fusion: Seed Serenity for Throat Relief!",
       bodydesc: "Experience the fenugreek fusion, incorporating the soothing seeds into your routine. Chew on fenugreek seeds as a remedy that brings serenity and relief to your sore throat.",
       bodysrc: "https://www.healthline.com/health/cold-flu/sore-throat-natural-remedies#home-remedies",
-      imgurl:""
+      imgurl:"https://cdn2.vectorstock.com/i/1000x1000/15/16/fenugreek-in-a-bowl-vector-22751516.jpg"
     },
     {
       heading: "Marshmallow Melody: Tea Harmony for Throat Comfort!",
       bodydesc: "Embrace the marshmallow melody, sipping root tea twice a day to harmonize with throat comfort. Let the gentle infusion be a soothing rhythm for your sore throat.",
       bodysrc: "https://www.healthline.com/health/cold-flu/sore-throat-natural-remedies#home-remedies",
-      imgurl:""
+      imgurl:"https://media.istockphoto.com/id/1356730089/vector/vector-drawing-marsh-mallow.jpg?s=612x612&w=0&k=20&c=QJBoR6pgcK5HzM2GMWgrNSk06SkDZfM1_rorWcSuJFM="
     },
     {
       heading: "Licorice Lullaby: Root Ritual for Throat Calm!",
       bodydesc: "Chew on the licorice root twice a day, engaging in the licorice lullaby for throat calmness. Let the comforting routine become a soothing ritual for your sore throat.",
       bodysrc: "https://www.healthline.com/health/cold-flu/sore-throat-natural-remedies#home-remedies",
-      imgurl:""
+      imgurl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOQbE4kiWSPM69gqWzl91eRzvsrLCqd188UefwjLxSv-XwNB0pKzvluKdUxJbLdFEUBeU&usqp=CAU"
     },
     {
       heading: "Slippery Elm Sonata: Bark Elixir for Throat Ease!",
       bodydesc: "Compose the slippery elm sonata, preparing an elixir by pouring boiling water over powdered bark. Stir and drink this soothing potion for throat ease.",
       bodysrc: "https://www.healthline.com/health/cold-flu/sore-throat-natural-remedies#home-remedies",
-      imgurl:""
+      imgurl:"https://png.pngtree.com/png-vector/20191206/ourmid/pngtree-herbal-tea-vector-or-color-illustration-png-image_2030739.jpg"
     },
     {
       heading: "Garlic Groove: Clove Cadence for Throat Comfort!",
       bodydesc: "Enter the garlic groove by sucking on or chewing a garlic clove, finding comfort and relief for your sore throat. Let the garlic's natural properties create a comforting cadence.",
       bodysrc: "https://www.healthline.com/health/cold-flu/sore-throat-natural-remedies#home-remedies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/garlic-cartoon-style-isolated_1308-126754.jpg?w=900&t=st=1704264046~exp=1704264646~hmac=76c9839c96fb3746390c3c1fb3cfb00207ec2aa5b6e18c6c13502071bb03bd55"
     },
     {
       heading: "Chicken Soup Serenity: Broth Bliss for Throat Comfort!",
       bodydesc: "Savor the chicken soup serenity, indulging in the warmth of broth as a comforting elixir for your sore throat. Let each spoonful bring a soothing symphony to your throat.",
       bodysrc: "https://www.healthline.com/health/cold-flu/sore-throat-natural-remedies#home-remedies",
-      imgurl:""
+      imgurl:"https://png.pngtree.com/png-vector/20221116/ourlarge/pngtree-vector-chicken-soup-png-image_6458548.png"
     },
     {
       heading: "Peppermint Steam Serenade: Inhalation Harmony for Throat Relief!",
       bodydesc: "Immerse yourself in the peppermint steam serenade, inhaling the essence with steam for throat relief. Let the invigorating inhalation create a harmonious melody, bringing comfort to your sore throat.",
       bodysrc: "https://www.healthline.com/health/cold-flu/sore-throat-natural-remedies#home-remedies",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/humidifier-with-house-plants-equipment-home-office_189033-926.jpg?w=900"
     }
 ],
 Muscles:[
@@ -2742,49 +2742,49 @@ Muscles:[
       heading: "Turmeric Tonic: Spice Symphony for Muscle Relief!",
       bodydesc: "Engage in the turmeric tonic, available as a supplement or tea. Harness the power of turmeric, especially potent when mixed with a dash of black pepper. Let this spice symphony be your remedy for soothing muscle pain.",
       bodysrc: "https://www.healthline.com/health/home-remedies-for-body-pain-and-tiredness#nutrition",
-      imgurl:""
+      imgurl:"https://media.istockphoto.com/id/1271467401/vector/turmeric-hot-tea.jpg?s=612x612&w=0&k=20&c=yIsPeaO5iPdP3xUILrs6d4LnOzqJJ8bOrNlW6dMeNRc="
     },
     {
       heading: "Heat Wrap Harmony: Soothing Serenade for Sore Muscles!",
       bodydesc: "Wrap yourself in heat wrap harmony, as studies suggest its effectiveness in soothing sore muscles. Feel the warmth envelop you, bringing relief to your aching body.",
       bodysrc: "https://www.healthline.com/health/home-remedies-for-body-pain-and-tiredness#nutrition",
-      imgurl:""
+      imgurl:"https://thumbs.dreamstime.com/b/classic-heating-pad-home-rubber-heat-warmer-winter-vector-isolated-illustration-white-background-cartoon-style-260386206.jpg"
     },
     {
       heading: "Icy Cadence: Cool Rhythms for Onset Pain!",
       bodydesc: "Dance to the icy cadence by applying ice at the onset of pain. Utilize an ice pack or frozen peas for a 20-minute session, creating cool rhythms that alleviate muscle discomfort.",
       bodysrc: "https://www.healthline.com/health/home-remedies-for-body-pain-and-tiredness#nutrition",
-      imgurl:""
+      imgurl:"https://thumbs.dreamstime.com/b/ice-pack-injured-hand-302270258.jpg?w=768"
     },
     {
       heading: "Massage Melody: Stress-Relief Serenade for Muscles!",
       bodydesc: "Immerse yourself in the massage melody, a relaxing tune that reduces stress and aids in muscle release. Let the healing touch be your remedy for soothing muscle pain.",
       bodysrc: "https://www.healthline.com/health/home-remedies-for-body-pain-and-tiredness#nutrition",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/therapist-massaging-patient-s-back-person-lying-couch-enjoying-body-spa-treatment-wellness-physiotherapy-salon-colored-flat-cartoon-vector-illustration-isolated-white-background_198278-12048.jpg?w=2000"
     },
     {
       heading: "Hot Bath Harmony: Relaxation Anthem for Muscles!",
       bodydesc: "Submerge yourself in the hot bath harmony, letting the warmth penetrate and relax your muscles. Allow the soothing waters to become an anthem of relaxation for your body.",
       bodysrc: "https://www.healthline.com/health/home-remedies-for-body-pain-and-tiredness#nutrition",
-      imgurl:""
+      imgurl:"https://static.vecteezy.com/system/resources/previews/020/357/267/original/hot-bath-icon-cartoon-water-bath-vector.jpg"
     },
     {
       heading: "Cherry Juice Crescendo: Anti-Inflammatory Elixir for Muscles!",
       bodydesc: "Indulge in the cherry juice crescendo, rich in anthocyanins with anti-inflammatory properties. Let this fruity elixir be your refreshing remedy for muscle pain.",
       bodysrc: "https://www.healthline.com/health/home-remedies-for-body-pain-and-tiredness#nutrition",
-      imgurl:""
+      imgurl:"https://static.vecteezy.com/system/resources/previews/023/078/015/non_2x/glass-of-cherry-juice-and-cherries-isolated-on-white-background-for-labels-menus-poster-print-or-packaging-design-illustration-vector.jpg"
     },
     {
       heading: "Egg Energizer: Protein-Packed Powerhouse for Muscle Recovery!",
       bodydesc: "Recharge with the egg energizer, a protein-packed powerhouse loaded with healthy fats and leucine. Let this nutrient-rich fuel be your remedy for muscle recovery.",
       bodysrc: "https://www.healthline.com/health/home-remedies-for-body-pain-and-tiredness#nutrition",
-      imgurl:""
+      imgurl:"https://static.vecteezy.com/system/resources/previews/025/796/598/non_2x/eggs-on-white-background-half-a-raw-egg-isolated-realistic-illustration-vector.jpg"
     },
     {
       heading: "Banana Beats: Potassium-Packed Percussion for Muscles!",
       bodydesc: "Savor the banana beats, high in potassium, an electrolyte and mineral essential for muscle function. Let this potassium-packed fruit be your rhythmic remedy for muscle pain.",
       bodysrc: "https://www.healthline.com/health/home-remedies-for-body-pain-and-tiredness#nutrition",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/illustration-vector-banana-white-background_444663-1381.jpg?w=2000"
     }
 ],
 Loss:[
@@ -2792,37 +2792,37 @@ Loss:[
       heading: "Castor Oil Caliber: Nostril Nourishment for Sensory Restoration!",
       bodydesc: "Revitalize your senses with the castor oil caliber, one warm drop in each nostril, twice a day. This practice aids in eliminating inflammation, offering a remedy for restoring lost taste and smell.",
       bodysrc: "https://www.healthshots.com/healthy-eating/superfoods/6-home-remedies-to-get-your-taste-and-smell-back-after-covid-19/",
-      imgurl:""
+      imgurl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzQR3DwJo8XLyRSf7bgE4LJislbLDALCVsuw&usqp=CAU"
     },
     {
       heading: "Garlic Infusion Anthem: A Culinary Symphony for Sensory Renewal!",
       bodydesc: "Compose your sensory renewal with the garlic infusion anthem. Boil 2 to 3 chopped garlic pods in a cup of water, strain the melody, and drink. Let this aromatic remedy bring back the notes of taste and smell.",
       bodysrc: "https://www.healthshots.com/healthy-eating/superfoods/6-home-remedies-to-get-your-taste-and-smell-back-after-covid-19/",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/garlic-cartoon-style-isolated_1308-126754.jpg?w=900&t=st=1704264046~exp=1704264646~hmac=76c9839c96fb3746390c3c1fb3cfb00207ec2aa5b6e18c6c13502071bb03bd55"
     },
     {
       heading: "Lemon-Honey Harmony: Citrus Serenade for Sensory Resurgence!",
       bodydesc: "Savor the lemon-honey harmony by adding them to a glass of water. Drink this mixture promptly, allowing the citrus serenade to bring back the zest to your taste and smell.",
       bodysrc: "https://www.healthshots.com/healthy-eating/superfoods/6-home-remedies-to-get-your-taste-and-smell-back-after-covid-19/",
-      imgurl:""
+      imgurl:"https://us.123rf.com/450wm/maneerat8989/maneerat89892010/maneerat8989201000043/158037041-honey-in-a-clear-jar-and-honey-dripper-with-lemon-sliced-on-white-background-vector-illustration.jpg?ver=6"
     },
     {
       heading: "Ginger Groove: A Spicy Swing for Sensory Reawakening!",
       bodydesc: "Embrace the ginger groove with a piece of peeled ginger, chewed slowly or consumed as ginger tea. The strong aroma of ginger enhances your sense of smell and taste, making it a flavorful remedy.",
       bodysrc: "https://www.healthshots.com/healthy-eating/superfoods/6-home-remedies-to-get-your-taste-and-smell-back-after-covid-19/",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/ginger-watercolor-clipart_191095-5103.jpg?w=740"
     },
     {
       heading: "Peppermint Elixir: Fresh Fusion for Sensory Restoration!",
       bodydesc: "Indulge in the peppermint elixir, crafted with ten peppermint leaves in a cup of water. Add a touch of honey, and drink the solution. Let this fresh fusion be your remedy for restoring lost taste and smell.",
       bodysrc: "https://www.healthshots.com/healthy-eating/superfoods/6-home-remedies-to-get-your-taste-and-smell-back-after-covid-19/",
-      imgurl:""
+      imgurl:"https://img.freepik.com/premium-vector/illustration-glass-teapot-cups-with-herbal-mint-tea-white-background_460232-1308.jpg"
     },
     {
       heading: "Hydration Harmony: Aquatic Anthem for Sensory Clarity!",
       bodydesc: "Stay in harmony with hydration by drinking plenty of water. Keep your body hydrated to avoid problems with smell and taste, making water an essential remedy for sensory clarity.",
       bodysrc: "https://www.healthshots.com/healthy-eating/superfoods/6-home-remedies-to-get-your-taste-and-smell-back-after-covid-19/",
-      imgurl:""
+      imgurl:"https://img.freepik.com/free-vector/positive-people-drinking-water-cooler_74855-6626.jpg?w=900&t=st=1704265289~exp=1704265889~hmac=283d31bd451f590e815d24897b5bd3d6dad05e9a94d09ac8b860ef43329c9b58"
     }
 ],
 //NutriCare
@@ -2831,67 +2831,67 @@ Healthy:[
         heading: "Craft a banana bliss infusion",
         bodydesc: "Blend two egg yolks, two ripe bananas, two to three tablespoons of honey, half a cup of conditioner, and two tablespoons of olive oil until fully pureed. Let this symphony of ingredients nourish your hair for 20 to 30 minutes, then rinse with cool water.",
         bodysrc: "https://www.goodhousekeeping.com/beauty/hair/tips/g661/homemade-hair-treatments/",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/illustration-vector-banana-white-background_444663-1381.jpg?w=2000"
     },
     {
         heading: "Enhance your yolk mixture with a hint of lemon",
         bodydesc: "Minimize the egg smell. From roots to ends, apply the mixture and let it sit for 30 minutes to an hour for optimal penetration into your hair, leaving it revitalized and refreshed.",
         bodysrc: "https://www.goodhousekeeping.com/beauty/hair/tips/g661/homemade-hair-treatments/",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/lemon-vector-illustration-white-background_638232-333.jpg?w=2000"
     },
     {
         heading: "Compose the maple molasses melody",
         bodydesc: "With half a cup of molasses or maple syrup, 1/4 cup of olive oil, four tablespoons of honey, two bananas, half a cup of water, four tablespoons of lemon juice, and two tablespoons of all-purpose flour. Adjust the flour for desired thickness and let this sweet symphony enrich your hair.",
         bodysrc: "https://www.goodhousekeeping.com/beauty/hair/tips/g661/homemade-hair-treatments/",
-        imgurl:""
+        imgurl:"https://media.istockphoto.com/id/488472638/vector/bottle-of-maple-syrup.jpg?s=612x612&w=0&k=20&c=MbmzTEJEZUa3peKUyfExLGsIyYL7OAhlAaLRQf48B04="
     },
     {
         heading: "Indulge in the coconut oil serenade",
         bodydesc: "Warm a tablespoon of coconut oil, massage into damp hair, and sleep on it with a shower cap and towel on your pillow. Wake up to rejuvenated and moisturized hair by shampooing it out in the morning.",
         bodysrc: "https://www.goodhousekeeping.com/beauty/hair/tips/g661/homemade-hair-treatments/",
-        imgurl:""
+        imgurl:"https://media.istockphoto.com/id/1170061218/vector/glass-bottle-of-coconut-oil-organic-product-natural-cooking-ingredient-bottle-of-coconut-oil.jpg?s=612x612&w=0&k=20&c=xLGGW825C5RSSFnyM5dKEdzrG-Fhy3DBOn6eOF1lP0U="
     },
     {
         heading: "Create a tea tree eucalyptus harmony",
         bodydesc: "Drip three drops of the oil onto a cotton swab and dab it onto the scalp. Dilute if needed and leave the oil on overnight to moisturize, soothe, and unclog hair follicles.",
         bodysrc: "https://www.goodhousekeeping.com/beauty/hair/tips/g661/homemade-hair-treatments/",
-        imgurl:""
+        imgurl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PQFDg7f6o4P9fLIxtQp4oonEZQXKbSarGQ&usqp=CAU"
     },
     {
         heading: "Partake in the vinegar rejuvenation rinse",
         bodydesc: "Pour an apple cider vinegar mixture (a tablespoon of vinegar to half a cup of water) over damp hair, let it sit, rinse with cool water, and follow up with conditioner for clarified and smooth cuticles.",
         bodysrc: "https://www.goodhousekeeping.com/beauty/hair/tips/g661/homemade-hair-treatments/",
-        imgurl:""
+        imgurl:"https://media.istockphoto.com/id/1369255336/vector/apple-cider-vinegar-in-glass-bottle-and-red-apples-fruits-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=Rx0FFa5YyB-1nwCGXLE4lWBEh-0M_wHOggOfTDRNMAs="
     },
     {
         heading: "Adorn your hair in the castor oil barrier ballad",
         bodydesc: "A very thin layer of castor oil applied where needed creates a protective veil against external elements.",
         bodysrc: "https://www.goodhousekeeping.com/beauty/hair/tips/g661/homemade-hair-treatments/",
-        imgurl:""
+        imgurl:"https://us.123rf.com/450wm/dariaustiugova/dariaustiugova1911/dariaustiugova191100070/133869388-castor-oil-bottle-with-green-castor-fruits-beans-and-seeds-on-white.jpg?ver=6"
     },
     {
         heading: "Experience the baking soda symphony",
         bodydesc: "Combine 1/3 cup of shampoo with one to two tablespoons of baking soda. Massage into the scalp, let it sit, and rinse thoroughly for a fresh start.",
         bodysrc: "https://www.goodhousekeeping.com/beauty/hair/tips/g661/homemade-hair-treatments/",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/metal-silver-spoon-full-salt-baking-cooking-ingredient-vector-teaspoon-isolated-white_168129-2785.jpg?w=740"
     },
     {
         heading: "Indulge in the ginger elegance infusion",
         bodydesc: "Grate half a ginger root into two cups of water, boil, and add a tablespoon of lemon juice and olive oil. Mist onto the scalp, let it dry, and shampoo out for rejuvenated hair.",
         bodysrc: "https://www.goodhousekeeping.com/beauty/hair/tips/g661/homemade-hair-treatments/",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/ginger-watercolor-clipart_191095-5103.jpg?w=740"
     },
     {
         heading: "Immerse yourself in the herbal indulgence sonata",
         bodydesc: "Combine mayonnaise, honey, rosemary oil, and lavender oil. Massage onto clean, damp hair, let it sit for up to an hour, and unveil luxurious locks.",
         bodysrc: "https://www.goodhousekeeping.com/beauty/hair/tips/g661/homemade-hair-treatments/",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-photo/rosemary-isolated-white-background_146377-2009.jpg"
     },
     {
         heading: "Compose the oats and almond opus",
         bodydesc: "Mix ½ cup of oats, 2 tablespoons of almond oil, and ½ cup of regular milk. Apply the mask, leave it on for 20 to 40 minutes, then wash out and style your hair for a bouncy and lustrous resonance.",
         bodysrc: "https://www.goodhousekeeping.com/beauty/hair/tips/g661/homemade-hair-treatments/",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/heap-almond-nuts-with-leaves-isolated-white-background-3d-illustration_317810-2771.jpg?w=996"
     }
 ],
 Weight:[
@@ -2899,54 +2899,55 @@ Weight:[
         heading: "Supercharge your weight loss journey by adding protein with eggs to your daily diet.",
         bodydesc: "Incorporate eggs into your meals, ensuring a steady supply of essential nutrients to support your fitness goals.",
         bodysrc: "https://www.healthline.com/nutrition/30-ways-to-lose-weight-naturally#TOC_TITLE_HDR_31",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/broken-egg-white-background_420555-173.jpg?w=740"
     },
     {
         heading: "Compose a snack smart symphony by choosing nutritious bites for on-the-go fuel.",
         bodydesc: "Yogurt, whole fruit, nuts, carrots, and hard-boiled eggs make for convenient and healthy snacks throughout the day. Incorporate them wisely to keep your metabolism active.",
         bodysrc: "https://www.healthline.com/nutrition/30-ways-to-lose-weight-naturally#TOC_TITLE_HDR_31",
-        imgurl:""
+        imgurl:"https://img.freepik.com/free-vector/main-food-groups-macronutrients-vector_1308-127634.jpg?w=740&t=st=1704353210~exp=1704353810~hmac=11f861e85ce76a02dbdd60824bcdfa74cde0373ebf932194c97647825f70080f"
     },
     {
         heading: "In the weight loss minute, limit your intake of processed foods to avoid unnecessary calories and additives.",
         bodydesc: "Opt for whole, unprocessed foods to fuel your body with essential nutrients and support your weight loss endeavors.",
         bodysrc: "https://www.healthline.com/nutrition/30-ways-to-lose-weight-naturally#TOC_TITLE_HDR_31",
-        imgurl:""
+        imgurl:"https://media.istockphoto.com/id/1404682983/vector/organic-vegetables-in-wooden-crates-on-white-background.jpg?s=612x612&w=0&k=20&c=M0uUzXs4uLNd_VISELisSN2lt_wQciNikIXJQAmgeTU="
     },
     {
         heading: "Engage in the added sugar limitation waltz by curbing your intake of sweetened treats.",
         bodydesc: "Reduce the consumption of added sugars to support weight loss and maintain overall health.",
         bodysrc: "https://www.healthline.com/nutrition/30-ways-to-lose-weight-naturally#TOC_TITLE_HDR_31",
-        imgurl:""
+        imgurl:"https://media.istockphoto.com/id/1326435959/vector/low-sugar-badge-label-with-crossed-full-spoon.jpg?s=612x612&w=0&k=20&c=y5Y5dPPOYkieawqZ6msXd1MmSEB3phyR8T0AzLCZrl4="
     },
     {
         heading: "Embrace the coffee kickbeat with unsweetened black coffee—an elixir to kickstart your metabolism.",
         bodydesc: "Enjoy a cup in the morning or before workouts to boost energy and promote weight loss.",
         bodysrc: "https://www.healthline.com/nutrition/30-ways-to-lose-weight-naturally#TOC_TITLE_HDR_31",
-        imgurl:""
+        imgurl:"https://img.freepik.com/free-vector/realistic-cup-black-brewed-coffee-saucer-vector-illustration_1284-66002.jpg"
     },
     {
         heading: "Indulge in the green tea harmony—a soothing elixir known for its weight loss benefits.",
         bodydesc: "Sip on unsweetened green tea throughout the day, harnessing its antioxidants and metabolism-boosting properties.",
         bodysrc: "https://www.healthline.com/nutrition/30-ways-to-lose-weight-naturally#TOC_TITLE_HDR_31",
-        imgurl:""
+        imgurl:"https://img.freepik.com/free-vector/realistic-green-tea-cup-with-spoon-vector-illustration_1284-30567.jpg?w=740&t=st=1704266067~exp=1704266667~hmac=555c860ae299a1e9e6b7b16d115942968ccdf693daba684855b52eb2f992aad1"
     },
     {
         heading: "Incorporate the probiotic cadence into your routine to support gut health and aid weight management.",
         bodydesc: "Take probiotics as recommended to maintain a healthy balance of gut flora.",
         bodysrc: "https://www.healthline.com/nutrition/30-ways-to-lose-weight-naturally#TOC_TITLE_HDR_31",
-        imgurl:""
+        imgurl:"https://img.freepik.com/free-vector/ketogenic-diet-food-flowchart_1284-64948.jpg?w=740&t=st=1704353637~exp=1704354237~hmac=80077eee8bb1f2099641cdedcd779db7f9d14d2b183b9568da8d06ed5dcf9e74"
     },
     {
         heading: "Embark on the fitness fusion with cardio crescendo—jogging, running, cycling, power walking, or hiking.",
         bodydesc: "Aim for at least 30 minutes a day, five days a week, to burn calories, boost mood, and enhance overall health.",
         bodysrc: "https://www.healthline.com/nutrition/30-ways-to-lose-weight-naturally#TOC_TITLE_HDR_31",
-        imgurl:""
+        imgurl:"https://img.freepik.com/free-vector/group-athletes-heart-cardio_18591-77162.jpg?w=900&t=st=1704353718~exp=1704354318~hmac=cb76a8da9737a4e1a4ca251bc05a0693911e3925aa20e26d856e473b3d1c470b"
     },
     {
         heading: "Join the strength symphony by incorporating resistance exercises like lifting weights.",
         bodydesc: "This musical routine helps preserve muscle mass, supporting your weight loss journey and overall fitness. Aim for at least two sessions per week to reap the benefits.",
-        bodysrc: "https://www.healthline.com/nutrition/30-ways-to-lose-weight-naturally#TOC_TITLE_HDR_31"
+        bodysrc: "https://www.healthline.com/nutrition/30-ways-to-lose-weight-naturally#TOC_TITLE_HDR_31",
+        imgurl:"https://img.freepik.com/free-vector/social-distance-gym-concept_23-2148599583.jpg?w=996&t=st=1704353752~exp=1704354352~hmac=9a6829ed67b88e8a64145de0645bd0df54f522079d24e20b66154f8aac021265"
     }
 ],
 Perfect:[
@@ -2954,43 +2955,43 @@ Perfect:[
         heading: "Infuse your diet with the carotenoid cascade—Vitamins A, C, and E, plus zinc—to promote radiant eyesight.",
         bodydesc: "Embrace trendy juices rich in these nutrients or incorporate foods like sweet potatoes, oranges, almonds, and lean meats into your daily meals.",
         bodysrc: "https://www.healthline.com/health/how-to-improve-eyesight#_noHeaderPrefixedContent",
-        imgurl:""
+        imgurl:"https://img.freepik.com/free-vector/fruits-vegetables-background_23-2148498952.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697587200&semt=ais"
     },
     {
         heading: "Indulge in the leafy luminance salad feast, featuring lutein and zeaxanthin-rich foods like leafy greens, broccoli, zucchini, and eggs.",
         bodydesc: "Create a vibrant salad to nourish your eyes, enjoying it at least once a day as a wholesome addition to your meals.",
         bodysrc: "https://www.healthline.com/health/how-to-improve-eyesight#_noHeaderPrefixedContent",
-        imgurl:""
+        imgurl:"https://static.vecteezy.com/system/resources/thumbnails/003/698/824/small/healthy-meal-with-fresh-vegetable-salad-bowl-free-vector.jpg"
     },
     {
         heading: "Embark on the active optics journey with regular exercise to maintain a healthy weight and support vision vitality.",
         bodydesc: "Engage in sports like brisk walking, swimming, or cycling at least three to four times a week, fostering overall well-being.",
         bodysrc: "https://www.healthline.com/health/how-to-improve-eyesight#_noHeaderPrefixedContent",
-        imgurl:""
+        imgurl:"https://img.freepik.com/free-vector/group-athletes-heart-cardio_18591-77162.jpg?w=900&t=st=1704353718~exp=1704354318~hmac=cb76a8da9737a4e1a4ca251bc05a0693911e3925aa20e26d856e473b3d1c470b"
     },
     {
         heading: "Conduct the sunshield symphony by wearing protective eyewear during sunlight exposure.",
         bodydesc: "Choose sunglasses that block harmful UV rays, safeguarding your eyes and preserving long-term vision health.",
         bodysrc: "https://www.healthline.com/health/how-to-improve-eyesight#_noHeaderPrefixedContent",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/beautiful-girl-sunglasses-vector-illustration_606560-31.jpg"
     },
     {
         heading: "Incorporate the 20-20-20 rule ritual into your daily activities to combat digital eye strain.",
         bodydesc: "Every 20 minutes, take a 20-second break and look at something 20 feet away. This cadence helps alleviate eye fatigue and maintains optimal visual comfort.",
         bodysrc: "https://www.healthline.com/health/how-to-improve-eyesight#_noHeaderPrefixedContent",
-        imgurl:""
+        imgurl:"https://img.freepik.com/free-vector/fall-is-coming-concept-illustration_114360-1663.jpg?w=740&t=st=1704259916~exp=1704260516~hmac=2e01ca85df58127322437dfe961910c501c40a0c77d289777453df3a7d97ba7c"
     },
     {
         heading: "Embrace the eye guardian protocol by refraining from touching your eyes frequently.",
         bodydesc: "This simple yet impactful practice minimizes the risk of introducing harmful agents to the delicate structures of your eyes, promoting a serene optical oasis.",
         bodysrc: "https://www.stylecraze.com/articles/eye-care-tips/#TipstoImproveEyesight",
-        imgurl:""
+        imgurl:"https://static.vecteezy.com/system/resources/previews/002/504/344/original/avoid-touching-eyes-to-prevent-the-spread-of-covid19-line-and-file-icon-free-vector.jpg"
     },
     {
         heading: "Harmonize your hand hygiene as a prelude to vision vigilance.",
         bodydesc: "Prioritize washing your hands thoroughly with soap and water before any instance of touching your eyes. This not only shields your eyes from potential contaminants but also fosters an environment of optical wellness.",
         bodysrc: "https://www.stylecraze.com/articles/eye-care-tips/#TipstoImproveEyesight",
-        imgurl:""
+        imgurl:"https://st4.depositphotos.com/1642684/20193/v/450/depositphotos_201930704-stock-illustration-vector-illustration-washing-hands.jpg"
     }
 ],
 Clear:[
@@ -2998,67 +2999,67 @@ Clear:[
         heading: "Begin your journey to clear skin by incorporating the Tea Tree Tonic. Dilute tea tree oil with a carrier oil like olive, coconut, or almond oil.",
         bodydesc: "Gently apply this elixir to your skin, allowing its purifying properties to unveil a complexion of pristine purity.",
         bodysrc: "https://pharmeasy.in/blog/home-remedies-for-clear-skin/#Suggested_Home_Remedies_For_Clear_Skin",
-        imgurl:""
+        imgurl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PQFDg7f6o4P9fLIxtQp4oonEZQXKbSarGQ&usqp=CAU"
     },
     {
         heading: "Craft a Green Tea Glow by creating a face mask using honey, green tea, and baking soda.",
         bodydesc: "Combine these elements to form a paste, applying it generously for clear, rejuvenated skin. Let the amalgamation of natural wonders work its magic, unveiling a radiant canvas.",
         bodysrc: "https://pharmeasy.in/blog/home-remedies-for-clear-skin/#Suggested_Home_Remedies_For_Clear_Skin",
-        imgurl:""
+        imgurl:"https://img.freepik.com/free-vector/realistic-green-tea-cup-with-spoon-vector-illustration_1284-30567.jpg?w=740&t=st=1704266067~exp=1704266667~hmac=555c860ae299a1e9e6b7b16d115942968ccdf693daba684855b52eb2f992aad1"
     },
     {
         heading: "Elevate your skincare regimen with the Aloe Aura. Directly apply aloe vera gel to your face, massaging gently.",
         bodydesc: "This versatile gel can also be infused into homemade face masks, enhancing its soothing and clarifying effects for a skin-transforming experience.",
         bodysrc: "https://pharmeasy.in/blog/home-remedies-for-clear-skin/#Suggested_Home_Remedies_For_Clear_Skin",
-        imgurl:""
+        imgurl:"https://img.freepik.com/free-vector/realistic-aloe-leaves_1284-35956.jpg?w=740&t=st=1704279810~exp=1704280410~hmac=1e0862bcdc486651013b594ac0e06b7bdbff0a2113a9bf4c60a583e28095cdfa"
     },
     {
         heading: "Indulge in the Rosewater Rhapsody to rejuvenate your skin. Gently apply rosewater to your face, either massaging it in with your palms or delicately using cotton.",
         bodydesc: "Let the refreshing touch of rosewater unveil a complexion that radiates with vitality.",
         bodysrc: "https://pharmeasy.in/blog/home-remedies-for-clear-skin/#Suggested_Home_Remedies_For_Clear_Skin",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/cosmetic-package-moisturizing-toner-micellar-water-with-rose-extract-illustration_368602-1980.jpg?w=740"
     },
     {
         heading: "Unveil the Walnut Wonder for a nutrient-rich skincare renewal. Create a walnut face mask by blending honey, besan (gram flour), and ground walnuts.",
         bodydesc: "This paste, when applied, offers a revitalizing experience. For a walnut scrub, combine ground walnuts with olive oil, gently massaging it onto your skin for a transformative exfoliation.",
         bodysrc: "https://pharmeasy.in/blog/home-remedies-for-clear-skin/#Suggested_Home_Remedies_For_Clear_Skin",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/walnut-flat-style-vector-illustration-walnut-white-background_787461-1906.jpg?w=2000"
     },
     {
         heading: "Immerse yourself in the Orange Zest Zen by utilizing orange peel powder for rejuvenating face packs.",
         bodydesc: "Mix orange peel powder with yogurt to create a paste, applying it for clear and healthy skin. Let the citrus bliss of oranges revitalize your complexion.",
         bodysrc: "https://pharmeasy.in/blog/home-remedies-for-clear-skin/#Suggested_Home_Remedies_For_Clear_Skin",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-photo/orange-peel-cut-spiral-white-backgroundxa_648344-4283.jpg"
     },
     {
         heading: "Paint a clear skin canvas with the Coriander Canvas. Mix freshly ground coriander leaves with aloe vera gel and apply it evenly to your face.",
         bodydesc: "Through gentle massage, this natural fusion works to bring clarity to your skin.",
         bodysrc: "https://pharmeasy.in/blog/home-remedies-for-clear-skin/#Suggested_Home_Remedies_For_Clear_Skin",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/bunch-coriander-isolated-white-edible-plant_421321-202.jpg"
     },
     {
         heading: "Experience the Lavender Luminescence by applying lavender oil, harmoniously blended with carrier oils like olive or coconut.",
         bodydesc: "Gently massage this aromatic mixture onto your face, embracing the tranquil elegance that lavender imparts for clear, glowing skin.",
         bodysrc: "https://pharmeasy.in/blog/home-remedies-for-clear-skin/#Suggested_Home_Remedies_For_Clear_Skin",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/bunch-lavender-flowers-white-background-vector-illustration_966580-45.jpg?w=2000"
     },
     {
         heading: "Embark on a Citrus Symphony by harnessing the power of lemon juice. Mix a small quantity with honey and delicately apply it to your face.",
         bodydesc: "Let this lemon honey serenade unveil the clarity and radiance your skin craves.",
         bodysrc: "https://pharmeasy.in/blog/home-remedies-for-clear-skin/#Suggested_Home_Remedies_For_Clear_Skin",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/lemon-vector-illustration-white-background_638232-333.jpg?w=2000"
     },
     {
         heading: "Dive into Neem Nirvana by crushing a few neem leaves to form a paste.",
         bodydesc: "Apply this herbal remedy to areas with acne, letting the natural potency of neem bring clarity to your skin.",
         bodysrc: "https://pharmeasy.in/blog/home-remedies-for-clear-skin/#Suggested_Home_Remedies_For_Clear_Skin",
-        imgurl:""
+        imgurl:"https://media.istockphoto.com/id/1439703734/vector/neem-leaf.jpg?s=612x612&w=0&k=20&c=B1_rXaVwPbP3ZtbcqwOFpM8PwXOpPi6IjUe2tiJSkGo="
     },
     {
         heading: "Foster clear brilliance with Nutrient Nourishment. Embrace a diet rich in vegetables, fruits, seeds, nuts, and fish.",
         bodydesc: "Tomatoes, spinach, salmon, and avocados can become your allies, infusing your skin with essential minerals and vitamins that amplify its health and radiance.",
         bodysrc: "https://pharmeasy.in/blog/home-remedies-for-clear-skin/#Suggested_Home_Remedies_For_Clear_Skin",
-        imgurl:""
+        imgurl:"https://img.freepik.com/free-vector/vegetables-mix-white_98292-5109.jpg?w=826&t=st=1704292621~exp=1704293221~hmac=1cd3af7d61a73eaae5226d1c96e1ccc02f855e7bf5240c6cf76c075547e054ae"
     }
 ],
 Pregnancy:[
@@ -3066,49 +3067,49 @@ Pregnancy:[
         heading: "Embark on your pregnancy journey with Vitamin Vitality. Take a prenatal vitamin to ensure you and your baby receive essential nutrients for optimal health and development.",
         bodydesc: "Consult with your healthcare provider to select the right supplement tailored to your needs.",
         bodysrc: "https://www.parents.com/pregnancy/my-body/pregnancy-health/healthy-pregnancy-tips/",
-        imgurl:""
+        imgurl:"https://www.shutterstock.com/image-vector/vitamins-complex-tiny-people-jar-600nw-1956154963.jpg"
     },
     {
         heading: "Engage in a Gentle Movement Melody to keep your body active and vibrant.",
         bodydesc: "Consider activities like walking, prenatal exercise classes, Pilates, yoga, or swimming. Ensure your exercise routine is moderate, taking care not to overheat. Aim for 15 to 20 minutes of daily movement in cool, shaded areas or indoor spaces.",
         bodysrc: "https://www.parents.com/pregnancy/my-body/pregnancy-health/healthy-pregnancy-tips/",
-        imgurl:""
+        imgurl:"https://static.vecteezy.com/system/resources/previews/007/342/416/original/woman-is-doing-flexibility-exercises-pilates-yoga-athletic-gymnastic-wellness-concept-sport-healthy-lifestyle-flat-simply-shapes-illustration-on-white-background-isolated-vector.jpg"
     },
     {
         heading: "Cultivate Kegel Serenity to fortify your pelvic floor muscles.",
         bodydesc: "Practice Kegel exercises by imagining you're halting the flow of urine. Hold for three seconds, then relax for three. Repeat this calming routine ten times for a complete set. Strengthening these muscles supports your bladder, bowels, and uterus.",
         bodysrc: "https://www.parents.com/pregnancy/my-body/pregnancy-health/healthy-pregnancy-tips/",
-        imgurl:""
+        imgurl:"https://thumbs.dreamstime.com/b/exercises-to-strengthen-muscles-vagina-pelvic-floor-muscles-exercises-to-strengthen-muscles-vagina-197703743.jpg"
     },
     {
         heading: "Savor the Hydration Symphony by drinking eight to ten glasses of water daily.",
         bodydesc: "Elevate your water experience with a squeeze of lime or a splash of fruit juice. Hydration is key for your well-being and the well-being of your growing baby.",
         bodysrc: "https://www.parents.com/pregnancy/my-body/pregnancy-health/healthy-pregnancy-tips/",
-        imgurl:""
+        imgurl:"https://img.freepik.com/free-vector/realistic-ftuiys-juice-splash-burst-composition-with-spray-images-ripe-tropical-fruits-blank_1284-29364.jpg"
     },
     {
         heading: "Indulge in the Folate Feast by incorporating folate-rich foods into your diet.",
         bodydesc: "Enjoy asparagus, lentils, wheat germ, oranges, and orange juice to provide the natural form of this essential nutrient. Folate is vital for supporting the early development of your baby's neural tube.",
         bodysrc: "https://www.parents.com/pregnancy/my-body/pregnancy-health/healthy-pregnancy-tips/",
-        imgurl:""
+        imgurl:"https://img.freepik.com/premium-vector/asparagus-image-asparagus-twigs-fresh-vitamin-vegetables-vegetarian-organic-product-fresh-asparagus-vector-illustration-isolated-white-background_538993-749.jpg"
     },
     {
         heading: "Experience the Fruitful Energy Elixir by relishing the natural sugars in fruits like bananas and apples.",
         bodydesc: "These sweet delights provide a wholesome lift to your energy levels, ensuring you stay vibrant and nourished throughout your pregnancy.",
         bodysrc: "https://www.parents.com/pregnancy/my-body/pregnancy-health/healthy-pregnancy-tips/",
-        imgurl:""
+        imgurl:"https://previews.123rf.com/images/lupascoroman/lupascoroman1707/lupascoroman170700311/82310321-heap-of-natural-fruits-isolated-on-white-background-cartoon-and-flat-style-vector-illustration.jpg"
     },
     {
         heading: "Delight in Oceanic Delights by incorporating fish into your diet.",
         bodydesc: "Fish offers essential omega-3 fatty acids that contribute to the healthy development of your baby's brain and eyes. Choose low-mercury options like salmon, trout, or sardines for a delectable and nutritious addition to your meals.",
         bodysrc: "https://www.parents.com/pregnancy/my-body/pregnancy-health/healthy-pregnancy-tips/",
-        imgurl:""
+        imgurl:"https://img.freepik.com/free-vector/seafood-plate-composition_1284-4631.jpg?w=740&t=st=1704265551~exp=1704266151~hmac=3681b59b083c2fb84a79b6c8dbfdef8968cae6778b8fc9bff0095cf99db6362a"
     },
     {
         heading: "Cherish the gift of Soothing Slumber during pregnancy.",
         bodydesc: "Prioritize rest by adjusting your schedule, aiming for early bedtimes, and embracing rejuvenating naps when needed. Quality sleep supports your overall well-being and ensures you have the energy needed for this transformative journey.",
         bodysrc: "https://www.parents.com/pregnancy/my-body/pregnancy-health/healthy-pregnancy-tips/",
-        imgurl:""
+        imgurl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScd9u6umZ4ORHFDfKqxZZRcmTut0iuiMWtZg&usqp=CAU"
     }
 ],
 

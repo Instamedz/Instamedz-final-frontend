@@ -1347,9 +1347,168 @@ const QuestList={
       ],
     },
   ],
-  Diabetes:[],
-  High:[],
-  Shortness:[],
+  Shortness:[
+    {
+      text: "Have you been diagnosed with any heart condition?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+        { id: 2, text: "Not sure", isCorrect: true },
+      ],
+    },
+    {
+      text: "Do you have a history of high blood pressure?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+        { id: 2, text: "Not sure", isCorrect: true },
+      ],
+    },
+    {
+      text: "Are you currently experiencing shortness of breath?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+        { id: 2, text: "Occasionally", isCorrect: true },
+      ],
+    },
+    {
+      text: "On a scale of 1 to 10, with 1 being mild and 10 being severe, how would you rate the intensity of your shortness of breath?",
+      options: [
+        { id: 0, text: "1-5", isCorrect: false },
+        { id: 1, text: "6-10", isCorrect: true },
+      ],
+    },
+    {
+      text: "How long have you been experiencing shortness of breath?",
+      options: [
+        { id: 0, text: "Less than a week", isCorrect: true },
+        { id: 1, text: "1-2 weeks", isCorrect: true },
+        { id: 2, text: "2-4 weeks", isCorrect: true },
+        { id: 3, text: "More than a month", isCorrect: true },
+      ],
+    },
+    {
+      text: "Have you noticed any specific triggers for your shortness of breath? (e.g., exertion, stress, lying down)",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+        { id: 2, text: "Not sure", isCorrect: true },
+      ],
+    },
+  ],
+  Diabetes:[
+    {
+      text: "Do you have a history of diabetes?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Have you ever been diagnosed with heart disease?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
+      ],
+    },
+    {
+      text: "Do you smoke?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
+      ],
+    },
+    {
+      text: "How often do you engage in physical activity? (Choose one)",
+      options: [
+        { id: 0, text: "Rarely", isCorrect: false },
+        { id: 1, text: "Occasionally", isCorrect: false },
+        { id: 2, text: "Regularly", isCorrect: false },
+      ],
+    },
+    {
+      text: "Does anyone in your immediate family have a history of diabetes or heart disease?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
+      ],
+    },
+    {
+      text: "Does anyone in your immediate family have a history of diabetes or heart disease?",
+      options: [
+        { id: 0, text: "Increased thirst", isCorrect: true },
+        { id: 1, text: "Frequent urination", isCorrect: true },
+        { id: 2, text: "Unexplained weight loss", isCorrect: true },
+        { id: 3, text: "Chest pain or discomfort", isCorrect: true },
+        { id: 4, text: "Shortness of breath", isCorrect: true },
+        { id: 5, text: "Fatigue", isCorrect: true },
+        { id: 6, text: "No", isCorrect: false },
+      ],
+    },
+  ],
+  High:[
+    {
+      text: "Have you been diagnosed with high blood pressure before?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
+      ],
+    },
+    {
+      text: "Do you have a family history of heart diseases?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
+        { id: 2, text: "Not sure", isCorrect: true }, 
+      ],
+    },
+    {
+      text: "Are you currently taking any medications?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
+      ],
+    },
+    {
+      text: "Do you smoke?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
+      ],
+    },
+    {
+      text: "How many hours of physical activity do you engage in per week?",
+      options: [
+        { id: 0, text: "None", isCorrect: true },
+        { id: 1, text: "1-2 hours", isCorrect: true },
+        { id: 2, text: "3-5 hours", isCorrect: true },
+        { id: 3, text: "6 or more hours", isCorrect: true },
+      ],
+    },
+    {
+      text: "Have you measured your blood pressure in the last month?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
+      ],
+    },
+    {
+      text: " If yes, please provide your most recent blood pressure readings (systolic/diastolic)",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
+      ],
+    },
+    {
+      text: "Are you currently experiencing any symptoms such as chest pain, shortness of breath, or dizziness?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+  ],
+  
   //EyeCare
   Redness:[
     {
@@ -1928,7 +2087,6 @@ const QuestList={
       ],
     },
   ],
-  Blurry:[],
   //DentalCare
   Carious:[
     {
@@ -2365,9 +2523,223 @@ const QuestList={
       ],
     },
   ],
-  Bad:[],
-  Mobility:[],
-  Facial:[],
+  Bad:[
+    {
+      text: "How would you describe the frequency of your bad breath?",
+      options: [
+        { id: 0, text: "Occasionally", isCorrect: true },
+        { id: 1, text: "Frequently", isCorrect: true },
+        { id: 2, text: "constantly", isCorrect: true },
+        { id: 3, text: "Not Applicable", isCorrect: false },
+      ],
+    },
+    {
+      text: "How often do you brush your teeth?",
+      options: [
+        { id: 0, text: "Twice a day", isCorrect: true },
+        { id: 1, text: "Once a day", isCorrect: true },
+        { id: 2, text: "Occasionally", isCorrect: true },
+        { id: 3, text: "Rarely", isCorrect: true },
+      ],
+    },
+    {
+      text: "Do you use dental floss or an interdental cleaner regularly?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
+      ],
+    },
+    {
+      text: "Have you noticed any bleeding or sensitivity while brushing or flossing?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
+        { id: 2, text: "Not applicable", isCorrect: false },
+      ],
+    },
+    {
+      text: "Do you smoke or use tobacco products?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
+      ],
+    },
+    {
+      text: "How would you describe your daily water intake?",
+      options: [
+        { id: 0, text: "Sufficient", isCorrect: true },
+        { id: 1, text: "Insufficient", isCorrect: true },
+      ],
+    },
+    {
+      text: "Are you a regular consumer of foods or drinks known to cause bad breath? (e.g., garlic, onions, coffee)",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
+      ],
+    },
+  ],
+  Mobility:[
+    {
+      text: "Have you experienced any recent trauma or injury to your teeth or jaw?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
+      ],
+    },
+    {
+      text: "Are you currently experiencing any pain or discomfort in your teeth or gums?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Please provide a brief history of any previous dental treatments or surgeries",
+      options: [
+        { id: 0, text: "Space", isCorrect: true },
+      ],
+    },
+    {
+      text: "Rate the level of pain or discomfort you are currently experiencing on a scale of 1 to 10 (1 being no pain, 10 being severe pain)",
+      options: [
+        { id: 0, text: "Yes", isCorrect: false },
+        { id: 1, text: "No", isCorrect: true },
+      ],
+    },
+    {
+      text: "Do you notice any loose teeth or changes in the alignment of your teeth?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Are there any specific triggers that worsen your dental discomfort or pain? (e.g., hot/cold temperatures, chewing, etc.)",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "How often do you brush your teeth each day?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Do you use dental floss regularly?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Please list any dental care products you currently use (toothpaste, mouthwash, etc.)",
+      options: [
+        { id: 0, text: "Space", isCorrect: true },
+      ],
+    },
+  ],
+  Facial:[
+    {
+      text: "Severity of Swelling",
+      options: [
+        { id: 0, text: "Mild", isCorrect: false },
+        { id: 1, text: "Moderate", isCorrect: true },
+        { id: 2, text: "Severe", isCorrect: true },
+      ],
+    },
+    {
+      text: "Rate your current pain level on a scale of 1 to 10 (1 being no pain, 10 being severe pain)",
+      options: [
+        { id: 0, text: "1-4", isCorrect: false },
+        { id: 1, text: "5-10", isCorrect: true },
+      ],
+    },
+    {
+      text: "Describe the nature of the pain",
+      options: [
+        { id: 0, text: "Throbbing", isCorrect: true },
+        { id: 1, text: "sharp", isCorrect: true },
+        { id: 2, text: "constant", isCorrect: true },
+      ],
+    },
+    {
+      text: "Are you experiencing toothache or discomfort?",
+      options: [
+        { id: 0, text: "No", isCorrect: false },
+        { id: 1, text: "Yes", isCorrect: true },
+      ],
+    },
+    {
+      text: "If yes, please specify the tooth/teeth involved",
+      options: [
+        { id: 0, text: "Space", isCorrect: false },
+      ],
+    },
+    {
+      text: "Have you noticed any changes in tooth color or sensitivity?",
+      options: [
+        { id: 0, text: "No", isCorrect: false },
+        { id: 1, text: "Yes", isCorrect: true },
+      ],
+    },
+    {
+      text: "List any pre-existing medical conditions",
+      options: [
+        { id: 0, text: "Space", isCorrect: false },
+      ],
+    },
+    {
+      text: "Allergies (if any)",
+      options: [
+        { id: 0, text: "Space", isCorrect: false },
+      ],
+    },
+    {
+      text: "Any recent dental procedures or treatments",
+      options: [
+        { id: 0, text: "Space", isCorrect: false },
+      ],
+    },
+    {
+      text: "Known dental issues (cavities, gum disease, etc.)",
+      options: [
+        { id: 0, text: "No", isCorrect: false },
+        { id: 1, text: "Yes", isCorrect: true },
+      ],
+    },
+    {
+      text: "Have you had any recent facial trauma or injury?",
+      options: [
+        { id: 0, text: "No", isCorrect: false },
+        { id: 1, text: "Yes", isCorrect: true },
+      ],
+    },
+    {
+      text: " Is there a history of dental problems in your family?",
+      options: [
+        { id: 0, text: "No", isCorrect: false },
+        { id: 1, text: "Yes", isCorrect: true },
+      ],
+    },
+    {
+      text: "Have you been diagnosed with any dental issues in the past? (e.g., cavities, gum disease)",
+      options: [
+        { id: 0, text: "No", isCorrect: false },
+        { id: 1, text: "Yes", isCorrect: true },
+      ],
+    },
+    {
+      text: " Are you currently undergoing any dental treatment?",
+      options: [
+        { id: 0, text: "No", isCorrect: false },
+        { id: 1, text: "Yes", isCorrect: true },
+      ],
+    },
+  ],
  
   //ChildCare
   Common:[
@@ -3143,8 +3515,106 @@ const QuestList={
       ],
     },
   ],
-  SoreThroat:[],
-  Loss:[],
+  SoreThroat:[
+    {
+      text: "Have you experienced a sore throat recently?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true},
+      ],
+    },
+    {
+      text: "On a scale of 1 to 10, how would you rate the severity of your sore throat?",
+      options: [
+        { id: 0, text: "Mild(1-3)", isCorrect: false },
+        { id: 1, text: "Moderate(4-6)", isCorrect: true},
+        { id: 2, text: "Severe(7-10)", isCorrect: true},
+      ],
+    },
+    {
+      text: "Are you experiencing any of the following symptoms along with your sore throat?",
+      options: [
+        { id: 0, text: "Fever", isCorrect: true },
+        { id: 1, text: "Cough", isCorrect: true},
+        { id: 2, text: "Shortness of breath", isCorrect: true},
+        { id: 3, text: "Loss of taste or smell", isCorrect: true},
+        { id: 4, text: "Fatigue", isCorrect: true},
+        { id: 5, text: "Body aches", isCorrect: true},
+        { id: 6, text: "Headache", isCorrect: true},
+        { id: 7, text: "None of the above", isCorrect: true},
+      ],
+    },
+    {
+      text: "In the last 14 days, have you been in close contact with someone confirmed to have COVID-19?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true},
+        { id: 2, text: "Not sure", isCorrect: true},
+      ],
+    },
+    {
+      text: "Have you recently travelled to an area with a high prevalence of COVID-19?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true},
+      ],
+    },
+    {
+      text: "Do you have any underlying health conditions that may increase your risk of severe illness from COVID-19? (e.g., diabetes, heart disease, lung disease)",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true},
+      ],
+    },
+  ],
+  Loss:[
+    {
+      text: "Please indicate whether you are currently experiencing any of the following symptoms.",
+      options: [
+        { id: 0, text: "Fever", isCorrect: true },
+        { id: 1, text: "Cough", isCorrect: true},
+        { id: 2, text: "Shortness of breath", isCorrect: true},
+        { id: 3, text: "Loss of taste or smell", isCorrect: true},
+        { id: 4, text: "Fatigue", isCorrect: true},
+        { id: 5, text: "Body aches", isCorrect: true},
+        { id: 6, text: "Headache", isCorrect: true},
+        { id: 7, text: "Sore throat", isCorrect: true},
+        { id: 8, text: "Congestion or runny nose", isCorrect: true},
+        { id: 9, text: "Nausea or vomiting", isCorrect: true},
+        { id: 10, text: "Diarrhea", isCorrect: true},
+        { id: 11, text: "Others", isCorrect: true},
+        { id: 12, text: "None of the above", isCorrect: false},
+      ],
+    },
+    {
+      text: "Have you noticed a recent loss of smell?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false},
+      ],
+    },
+    {
+      text: "Have you noticed a recent loss of taste?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false},
+      ],
+    },
+    {
+      text: "Have you travelled internationally or to any areas with known COVID-19 outbreaks in the past 14 days?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true},
+      ],
+    },
+    {
+      text: "Have you been in close contact with anyone who has tested positive for COVID-19 in the past 14 days?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false},
+      ],
+    },
+  ],
   //NutriCare
   Healthy:[
     {
@@ -3277,7 +3747,65 @@ const QuestList={
       ],
     },
   ],
-  Perfect:[],
+  Perfect:[
+    {
+      text: "Have you been diagnosed with any eye conditions or diseases? (e.g., glaucoma, cataracts)",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "Are you currently taking any medications that may affect your vision?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "How would you rate your overall vision?",
+      options: [
+        { id: 0, text: "Excellent", isCorrect: true },
+        { id: 1, text: "Good", isCorrect: true },
+        { id: 2, text: "Fair", isCorrect: false },
+        { id: 3, text: "Poor", isCorrect: false },
+      ],
+    },
+    {
+      text: "Do you experience any of the following symptoms?",
+      options: [
+        { id: 0, text: "Blurred vision", isCorrect: true },
+        { id: 1, text: "Double vision", isCorrect: true },
+        { id: 2, text: "Eye pain or discomfort", isCorrect: true },
+        { id: 3, text: "Difficulty focusing", isCorrect: true },
+        { id: 4, text: "Others", isCorrect: true },
+        { id: 5, text: "None of the above", isCorrect: false },
+      ],
+    },
+    {
+      text: "Have you noticed any sudden changes in your vision recently?",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: "How often do you use electronic devices? (e.g., computer, smartphone, tablet)",
+      options: [
+        { id: 0, text: "Rarely", isCorrect: false },
+        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 2, text: "Frequently", isCorrect: true },
+        { id: 3, text: "Constantly", isCorrect: true },
+      ],
+    },
+    {
+      text: "Do you engage in activities that may strain your eyes? (e.g., prolonged screen time, reading in low light)",
+      options: [
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
+      ],
+    },
+  ],
   Pregnancy:[],
 };
 
