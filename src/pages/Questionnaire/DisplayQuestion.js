@@ -14,6 +14,7 @@ function DisplayQuestion(props) {
 
   const navigate = useNavigate();
   const diseasename=props.diseasename;
+  const care=props.care;
   const questions= QuestList[diseasename];
   
   var flag=0;
@@ -62,7 +63,7 @@ function DisplayQuestion(props) {
         Email:email,
         Contact:phone,
         Feedback:feedback,
-        Form_For:'soulcare / '+disease
+        Form_For: care +" / "+ disease
       }]
     })
     if(resultresp){
