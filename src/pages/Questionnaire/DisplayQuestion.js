@@ -178,8 +178,8 @@ function DisplayQuestion(props) {
           <input type="textaddress" id="textbox"/>
       </div>
       <div className='display-input'>
-          <label for="textbox" >By submitting this form, I consent to the collection and use of my personal and health information for the purpose of telemedicine consultation.(Type "YES")</label>
-          <input type="textaddress" id="textbox"/>
+          <label for="textbox" >By submitting this form, I consent to the collection and use of my personal and health information for the purpose of telemedicine consultation.(Type "YES" in the space below)</label>
+          <input required type="textaddress" id="textbox"/>
       </div>
       
       <button onClick={onsubmit}  class="display-btn" id="callback">Submit</button>        

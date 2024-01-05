@@ -38,7 +38,7 @@ function DisplayRemedies({ history }) {
   }
 
     return (
-      <>
+      <div>
         <Navbar/>
         <div class="dremedies-bg">
           <div>
@@ -68,7 +68,7 @@ function DisplayRemedies({ history }) {
           </div>
         </div>
         <Footer />
-      </> 
+      </div> 
     )
   }
   export default DisplayRemedies

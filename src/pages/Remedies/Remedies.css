@@ -29,7 +29,6 @@
 .dremedies-bg{
   background-image: url("../../assets/remedies/remediesdispl.png");
   background-repeat: no-repeat;
-  height: 100vh;
   
 }
 .dremedies-bg h1{
@@ -78,16 +77,13 @@
   text-align: center;
   font-size: 15px;
   font-weight: 700;
-  position: absolute;
-  top: 20px;
-  right: 10px;
 }
 .dremedies-img img{
   width: 200px;
   height: 200px;
 }
 .dremedies-btncontainer{
-  position: relative;
+  text-align: right;
   width: 100%;
   padding: 10px;
 }
