@@ -63,7 +63,7 @@ function DisplayQuestion(props) {
         Email:email,
         Contact:phone,
         Feedback:feedback,
-        Form_For: care +" / "+ disease
+        Form_For: care+" / "+disease
       }]
     })
     if(resultresp){
@@ -173,6 +173,15 @@ function DisplayQuestion(props) {
           </ol>
         </div>
       ))}
+      <div className='display-input'>
+          <label for="textbox" >Please provide any additional information or concerns you would like to share</label>
+          <input type="textaddress" id="textbox"/>
+      </div>
+      <div className='display-input'>
+          <label for="textbox" >By submitting this form, I consent to the collection and use of my personal and health information for the purpose of telemedicine consultation.(Type "YES")</label>
+          <input type="textaddress" id="textbox"/>
+      </div>
+      
       <button onClick={onsubmit}  class="display-btn" id="callback">Submit</button>        
     </div>
     

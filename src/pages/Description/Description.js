@@ -25,7 +25,7 @@ function Description() {
 
   const redirectpage = (flag) => {
     const idname=diseasedetails.name;
-    if(flag==='test') navigate('/quest',{state:{id:diseasedetails.name,care:care}});
+    if(flag==='test') navigate('/quest',{state:{disease:diseasedetails.name,care:care}});
     if(flag==='remedies') navigate('/remedies',{state:{id:idname.split(" ")[0]}});
     if(flag==='doctor') navigate(`/appointdoctor/${care}`);
   };
