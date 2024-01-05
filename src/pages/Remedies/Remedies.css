@@ -2,7 +2,6 @@
   background-image: url("../../assets/remedies/remediesbg.png");
   background-repeat: no-repeat;
   background-size: cover; 
-  height: 90vh;
 }
 .remedies-bg h1{
   color:#143566;
@@ -22,7 +21,6 @@
 }
 .remedies-imgdiv{
   flex-direction: column;
-  justify-content: flex-end;
   align-items: center;
   display: flex;
 }
@@ -118,7 +116,7 @@
     margin-top: 40px;
     width: 90%;
     border-radius: 5px;
-    border: 35px solid #D1D1D1;
+    border: 25px solid #D1D1D1;
   }
 
   .dremedies-row {
@@ -153,7 +151,12 @@
   .dremedies-b2 h3{
     font-size: 12px;
     font-weight: 800;
-
+    text-align: center;
+  }
+  .dremedies-b2 p{
+    text-align: center;
+    margin: auto;
+    font-size: 8px;
   }
   
 }
