@@ -1523,7 +1523,7 @@ const QuestList={
     {
       text: "How would you rate the severity of the redness in your eyes?",
       options: [
-        { id: 0, text: "Mild(barely noticeable", isCorrect: true },
+        { id: 0, text: "Mild(barely noticeable)", isCorrect: true },
         { id: 1, text: "Moderate(noticeable but not severe)", isCorrect: false },
         { id: 2, text: "Severe(very noticeable and concerning)", isCorrect:false },
       ],
@@ -1531,49 +1531,42 @@ const QuestList={
     {
       text: "Are you experiencing any discomfort or pain in your eyes associated with the redness?",
       options: [
-        { id: 0, text: "Mild(barely noticeable", isCorrect: true },
-        { id: 1, text: "Moderate(noticeable but not severe)", isCorrect: false },
-        { id: 2, text: "Severe(very noticeable and concerning)", isCorrect:false },
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Do you have any other symptoms accompanying the redness in your eyes? (e.g., itching, burning, discharge)",
       options: [
-        { id: 0, text: "Mild(barely noticeable", isCorrect: true },
-        { id: 1, text: "Moderate(noticeable but not severe)", isCorrect: false },
-        { id: 2, text: "Severe(very noticeable and concerning)", isCorrect:false },
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "How long have you been experiencing these symptoms, including redness in your eyes?",
       options: [
-        { id: 0, text: "Mild(barely noticeable", isCorrect: true },
-        { id: 1, text: "Moderate(noticeable but not severe)", isCorrect: false },
-        { id: 2, text: "Severe(very noticeable and concerning)", isCorrect:false },
+        { id: 0, text: "Space", isCorrect: true },
       ],
     },
     {
       text: "Have you been exposed to any known allergens or irritants that could be contributing to the redness in your eyes?",
       options: [
-        { id: 0, text: "Mild(barely noticeable", isCorrect: true },
-        { id: 1, text: "Moderate(noticeable but not severe)", isCorrect: false },
-        { id: 2, text: "Severe(very noticeable and concerning)", isCorrect:false },
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Do you wear contact lenses?",
       options: [
-        { id: 0, text: "Mild(barely noticeable", isCorrect: true },
-        { id: 1, text: "Moderate(noticeable but not severe)", isCorrect: false },
-        { id: 2, text: "Severe(very noticeable and concerning)", isCorrect:false },
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
       ],
     },
     {
       text: "Do you have any pre-existing medical conditions related to eye health (e.g., dry eye syndrome, conjunctivitis)?",
       options: [
-        { id: 0, text: "Mild(barely noticeable", isCorrect: true },
-        { id: 1, text: "Moderate(noticeable but not severe)", isCorrect: false },
-        { id: 2, text: "Severe(very noticeable and concerning)", isCorrect:false },
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: true },
       ],
     },
   ],
@@ -1649,19 +1642,21 @@ const QuestList={
   ],
   Double:[
     {
-      text: " Do you have any existing medical conditions? If yes, please specify:",
+      text: " Do you have any existing medical conditions?",
       options: [
         { id: 0, text: "Diabetes", isCorrect: true },
         { id: 1, text: "Hypertension", isCorrect: true },
         { id: 2, text: "Neurological conditions", isCorrect: true },
         { id: 3, text: "Others", isCorrect: true },
         { id: 4, text: "None of the above", isCorrect: true },
+        { id: 5, text: "No", isCorrect: false},
       ],
     },
     {
       text: "Are you currently taking any medications? If yes, please list them:",
       options: [
         { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1698,7 +1693,7 @@ const QuestList={
       text: " Do you spend prolonged periods of time using electronic devices (computers, smartphones, etc.)?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1713,8 +1708,8 @@ const QuestList={
     {
       text: "Have you had any recent eye examinations? If yes, please provide details:",
       options: [
-        { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1729,14 +1724,14 @@ const QuestList={
     {
       text: "Have you been diagnosed with any chronic medical conditions? If yes, please specify.",
       options: [
-        { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Are you currently taking any medications? If yes, please provide details.",
       options: [
-        { id: 0, text: "Yes", isCorrect: true },
+        { id: 0, text: "Space", isCorrect: true },
         { id: 1, text: "No", isCorrect: true },
       ],
     },
@@ -1764,7 +1759,7 @@ const QuestList={
     {
       text: "Have you had any previous eye surgeries? If yes, please provide details.",
       options: [
-        { id: 0, text: "Yes", isCorrect: true },
+        { id: 0, text: "Space", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
       ],
     },
@@ -1864,7 +1859,7 @@ const QuestList={
   ],
   Eyelid:[
     {
-      text: "Do you spend extended periods of time staring at digital screens (e.g., computers, smartphones, tablets)?",
+      text: " Do you currently experience drooping of one or both eyelids??",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: true },
@@ -1891,20 +1886,20 @@ const QuestList={
       text: "Do you have a history of any eye-related conditions or surgeries?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
+        { id: 1, text: "No", isCorrect: true },
       ],
     },
     {
       text: "Are you currently taking any medications? If yes, please list them:",
       options: [
-        { id: 0, text: "Yes", isCorrect: true },
+        { id: 0, text: "Space", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Do you have any known allergies? If yes, please specify",
       options: [
-        { id: 0, text: "Yes", isCorrect: true },
+        { id: 0, text: "Space", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
       ],
     },
@@ -2023,13 +2018,7 @@ const QuestList={
     {
       text: "Is there a family history of crossed eyes or related eye conditions?",
       options: [
-        { id: 0, text: "Space", isCorrect: false },
-      ],
-    },
-    {
-      text: "Please use this space to provide any additional details or concerns related to your eye health.",
-      options: [
-        { id: 0, text: "Space", isCorrect: false },
+        { id: 0, text: "Space", isCorrect: true },
       ],
     },
   ],
@@ -2313,7 +2302,7 @@ const QuestList={
     {
       text: "If yes, please specify the nature of the issue(s)",
       options: [
-        { id: 0, text: "Yes", isCorrect: true },
+        { id: 0, text: "Space", isCorrect: true },
         { id: 1, text: "No", isCorrect: true },
       ],
     },
@@ -2449,25 +2438,26 @@ const QuestList={
     {
       text: "How often do you brush your teeth?",
       options: [
-        { id: 0, text: "Yes", isCorrect: false },
-        { id: 1, text: "No", isCorrect: false },
-        { id: 2, text: "Not sure", isCorrect: false },
+        { id: 0, text: "Once a day", isCorrect: false },
+        { id: 1, text: "Twice a day", isCorrect: false },
+        { id: 2, text: "Three times a day", isCorrect: false },
+        { id: 3, text: "Less than once a day", isCorrect: false },
       ],
     },
     {
       text: "How often do you floss your teeth?",
       options: [
-        { id: 0, text: "Yes", isCorrect: false },
-        { id: 1, text: "No", isCorrect: false },
-        { id: 2, text: "Not sure", isCorrect: false },
+        { id: 0, text: "Once a day", isCorrect: false },
+        { id: 1, text: "Twice a day", isCorrect: false },
+        { id: 2, text: "Three times a day", isCorrect: false },
+        { id: 3, text: "Less than once a day", isCorrect: false },
       ],
     },
     {
       text: "Do you smoke or use tobacco products?",
       options: [
-        { id: 0, text: "Yes", isCorrect: false },
+        { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
-        { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
     {
@@ -2475,15 +2465,13 @@ const QuestList={
       options: [
         { id: 0, text: "Yes", isCorrect: false },
         { id: 1, text: "No", isCorrect: false },
-        { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
     {
       text: "Are you currently experiencing any pain or discomfort in your teeth or gums?",
       options: [
-        { id: 0, text: "Yes", isCorrect: false },
+        { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
-        { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
     {
@@ -2677,6 +2665,7 @@ const QuestList={
       text: "If yes, please specify the tooth/teeth involved",
       options: [
         { id: 0, text: "Space", isCorrect: false },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2689,19 +2678,23 @@ const QuestList={
     {
       text: "List any pre-existing medical conditions",
       options: [
-        { id: 0, text: "Space", isCorrect: false },
+        { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+        
       ],
     },
     {
       text: "Allergies (if any)",
       options: [
-        { id: 0, text: "Space", isCorrect: false },
+        { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Any recent dental procedures or treatments",
       options: [
-        { id: 0, text: "Space", isCorrect: false },
+        { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2822,8 +2815,9 @@ const QuestList={
     {
       text: "How would you describe your child's appetite?",
       options: [
-        { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
+        { id: 0, text: "Poor", isCorrect: true },
+        { id: 1, text: "Average", isCorrect: true },
+        { id: 2, text: "good", isCorrect: false },
       ],
     },
     {
@@ -3184,6 +3178,13 @@ const QuestList={
       ],
     },
     {
+      text: "If yes, please provide details",
+      options: [
+        { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false},
+      ],
+    },
+    {
       text: "Has your child experienced any adverse reactions to medications or vaccines?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
@@ -3194,42 +3195,42 @@ const QuestList={
       text: "Does your child have a history of respiratory symptoms such as sneezing, coughing, or wheezing?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
       text: "Any skin-related symptoms like hives, rashes, or itching?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
       text: "Gastrointestinal symptoms, including nausea, vomiting, or diarrhea?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
       text: "Are there specific environments or seasons when your child's symptoms worsen?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
       text: "Any exposure to pets, pollen, dust mites, or other potential allergens at home?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
       text: "Has your child ever experienced an allergic reaction to any specific foods?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
