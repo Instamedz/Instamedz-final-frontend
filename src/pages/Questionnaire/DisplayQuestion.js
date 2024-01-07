@@ -136,6 +136,7 @@ function DisplayQuestion(props) {
                 option.text === "Space" ? (
                   <>
                     <input
+                      required
                       type="radio"
                       id={`radiobtn${optionIndex}`}
                       name={`question${index}`}

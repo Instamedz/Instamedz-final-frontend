@@ -303,17 +303,6 @@ eye:[
       symptoms: "Discomfort: Feeling of dryness or grittiness in the eyes. Blurred Vision: Vision may become temporarily blurred. Redness: Eyes may appear red or bloodshot. Sensitivity to Light: Increased sensitivity to light. Stringy Mucus: Excessive mucus around the eyes. Difficulty Wearing Contact Lenses: Discomfort with contact lens use. Tearing: Paradoxical tearing in response to dryness. Eye Fatigue: Tired or fatigued eyes, especially after prolonged activities."
     },
     {
-      name: "Blurry or Cloudy Vision",
-      description: "Blurry or cloudy vision refers to a visual impairment where objects appear unclear or hazy, affecting daily activities.",
-      definition: "Blurry or cloudy vision occurs when light entering the eyes is not properly focused on the retina, leading to a lack of sharpness in vision. Various factors, including refractive errors, eye conditions, or underlying health issues, can contribute to this impairment. Types of blurry vision may include nearsightedness, farsightedness, or conditions like cataracts. Symptoms range from a general haziness to a specific difficulty in focusing on near or distant objects, often necessitating corrective measures such as glasses, contact lenses, or medical interventions.",
-      types: [
-        "Nearsightedness (Myopia): Difficulty seeing distant objects clearly.",
-        "Farsightedness (Hyperopia): Difficulty seeing nearby objects clearly.",
-        "Cataracts: Clouding of the eye's lens, leading to blurred vision."
-      ],
-      symptoms: "General Blurriness: Lack of sharpness in vision. Difficulty Focusing: Challenges in focusing on near or distant objects. Halos Around Lights: Perception of halos or glare around light sources. Eye Strain: Discomfort or fatigue in the eyes. Headaches: Associated with prolonged eye strain. Sensitivity to Light: Increased sensitivity to light. Changes in Prescription: Frequent adjustments in glasses or contact lenses."
-    },
-    {
       name: "Squinting",
       description: "Squinting, or strabismus, occurs when the eyes are not aligned, with one eye turning slightly inward, outward, upward, or downward.",
       definition: "Strabismus, commonly known as squinting, results from the eyes not pointing in the same direction. The most typical form involves one eye turning slightly inward, often toward the nose, while the opposite eye focuses ahead. Squinting may also involve one eye turning outward, upward, or downward. Causes include nerve damage, weak eye muscles, or general health issues. Squinting is crucially evaluated, especially in young children, to prevent the development of a lazy eye and ensure proper vision development.",

@@ -39,11 +39,10 @@ const QuestList={
         text: "Do you often experience breathlessness during anxiety episodes?",
         options: [
           { id: 0, text: "Not at all", isCorrect: false },
-          { id: 1, text: "Occasionally", isCorrect: true },
+          { id: 1, text: "Occasionally", isCorrect: false },
           { id: 2, text: "Frequently", isCorrect: true },
           { id: 3, text: "Almost always", isCorrect: true},
           { id: 4, text: "None of the above", isCorrect: false },
-          { id: 5, text: "Others", isCorrect: true },
         ],
       },
       {
@@ -95,7 +94,7 @@ const QuestList={
         { id: 0, text: "Talk therapy with a psychologist or therapist.", isCorrect: true },
         { id: 1, text: "Medication prescribed by a psychiatrist.", isCorrect: true },
         { id: 2, text: "Support groups for individuals with anxiety.", isCorrect: true },
-        { id: 3, text: "Mindfulness and relaxation techniques, like meditation or yoga.", isCorrect: true },
+        { id: 3, text: "Mindfulness and relaxation techniques, like meditation or yoga.", isCorrect: false },
         { id: 4, text: "Others", isCorrect: true },
         ],
       },
@@ -107,7 +106,7 @@ const QuestList={
         text: "Over the past two weeks, how often have you felt little interest or pleasure in doing things you usually enjoy?",
         options: [
           { id: 0, text: "Not at all", isCorrect: false },
-          { id: 1, text: "Several days", isCorrect: true },
+          { id: 1, text: "Several days", isCorrect: false },
           { id: 2, text: "More than half the days", isCorrect: true },
           { id: 3, text: "Nearly every day", isCorrect: true },
         ],
@@ -116,7 +115,7 @@ const QuestList={
         text: "During the past two weeks, how often have you felt down, depressed, or hopeless?",
         options: [
           { id: 0, text: "Not at all", isCorrect: false },
-          { id: 1, text: "Several days", isCorrect: true },
+          { id: 1, text: "Several days", isCorrect: false },
           { id: 2, text: "More than half the days", isCorrect: true },
           { id: 3, text: "Nearly every day", isCorrect: true },
         ],
@@ -127,14 +126,14 @@ const QuestList={
           { id: 0, text: "No", isCorrect: false },
           { id: 1, text: "Yes, weight loss", isCorrect: true },
           { id: 2, text: "Yes, weight gain", isCorrect: true },
-          { id: 3, text: "Maybe", isCorrect: true },
+          { id: 3, text: "Maybe", isCorrect: false },
         ],
       },
       {
         text: " How often have you had trouble falling asleep, staying asleep, or sleeping too much in the past two weeks?",
         options: [
           { id: 0, text: "Not at all", isCorrect: false },
-          { id: 1, text: "Several days", isCorrect: true },
+          { id: 1, text: "Several days", isCorrect: false },
           { id: 2, text: "More than half the days", isCorrect: true },
           { id: 3, text: "Nearly every day", isCorrect: true },
         ],
@@ -143,7 +142,7 @@ const QuestList={
         text: "In the past two weeks, how often have you felt tired or had little energy?",
         options: [
           { id: 0, text: "Not at all", isCorrect: false },
-          { id: 1, text: "Several days", isCorrect: true },
+          { id: 1, text: "Several days", isCorrect: false },
           { id: 2, text: "More than half the days", isCorrect: true },
           { id: 3, text: "Nearly every day", isCorrect: true },
         ],
@@ -152,7 +151,7 @@ const QuestList={
       text: "Have you felt bad about yourself, that you're a failure, or that you've let yourself or your family down in the past two weeks?",
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
-        { id: 1, text: "Several days", isCorrect: true },
+        { id: 1, text: "Several days", isCorrect: false },
         { id: 2, text: "More than half the days", isCorrect: true },
         { id: 3, text: "Nearly every day", isCorrect: true },
         ],
@@ -161,7 +160,7 @@ const QuestList={
       text: "Have you had trouble concentrating on things such as reading, watching TV, or making decisions over the past two weeks?",
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
-        { id: 1, text: "Several days", isCorrect: true },
+        { id: 1, text: "Several days", isCorrect: false },
         { id: 2, text: "More than half the days", isCorrect: true },
         { id: 3, text: "Nearly every day", isCorrect: true },
         ],
@@ -170,7 +169,7 @@ const QuestList={
       text: "In the past two weeks, how often have you thought about harming yourself or that you would be better off dead?",
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
-        { id: 1, text: "Several days", isCorrect: true },
+        { id: 1, text: "Several days", isCorrect: false },
         { id: 2, text: "More than half the days", isCorrect: true },
         { id: 3, text: "Nearly every day", isCorrect: true },
         ],
@@ -179,7 +178,7 @@ const QuestList={
       text: "Are these feelings or symptoms causing significant distress or impairment in your daily life and functioning?",
       options: [
         { id: 0, text: "No", isCorrect: false },
-        { id: 1, text: "Mild distress or impairment", isCorrect: true },
+        { id: 1, text: "Mild distress or impairment", isCorrect: false },
         { id: 2, text: "Moderate distress or impairment", isCorrect: true },
         { id: 3, text: "Severe distress or impairment", isCorrect: true },
           ],
@@ -189,7 +188,6 @@ const QuestList={
       options: [
         { id: 0, text: "No", isCorrect: false },
         { id: 1, text: "Yes", isCorrect: true },
-        { id: 2, text: "Others", isCorrect: true },
         ],
       },
       
@@ -199,7 +197,7 @@ const QuestList={
       text: " I have experienced sudden and intense feelings of fear or discomfort.",
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
-        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 1, text: "Occasionally", isCorrect: false },
         { id: 2, text: "Frequently", isCorrect: true },
         { id: 3, text: "Almost all the time", isCorrect: true },
         { id: 4, text: "Others", isCorrect: true },
@@ -209,7 +207,7 @@ const QuestList={
       text: " During a panic attack, I have had a racing heartbeat or palpitations.",
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
-        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 1, text: "Occasionally", isCorrect: false },
         { id: 2, text: "Frequently", isCorrect: true },
         { id: 3, text: "Almost all the time", isCorrect: true },
         { id: 4, text: "Others", isCorrect: true },
@@ -219,7 +217,7 @@ const QuestList={
       text: "  I have had difficulty breathing or felt like I was choking during a panic attack.",
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
-        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 1, text: "Occasionally", isCorrect: false },
         { id: 2, text: "Frequently", isCorrect: true },
         { id: 3, text: "Almost all the time", isCorrect: true },
         { id: 4, text: "Others", isCorrect: true },
@@ -229,7 +227,7 @@ const QuestList={
       text: "  I have felt dizzy, lightheaded, or faint during a panic attack.",
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
-        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 1, text: "Occasionally", isCorrect: false },
         { id: 2, text: "Frequently", isCorrect: true},
         { id: 3, text: "Almost all the time", isCorrect: true },
         { id: 4, text: "Others", isCorrect: true },
@@ -239,7 +237,7 @@ const QuestList={
       text: " I have experienced trembling or shaking during a panic attack",
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
-        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 1, text: "Occasionally", isCorrect: false },
         { id: 2, text: "Frequently", isCorrect: true },
         { id: 3, text: "Almost all the time", isCorrect: true },
         { id: 4, text: "Others", isCorrect: true },
@@ -249,7 +247,7 @@ const QuestList={
       text: " I have had chest pain or discomfort during a panic attack",
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
-        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 1, text: "Occasionally", isCorrect: false },
         { id: 2, text: "Frequently", isCorrect: true },
         { id: 3, text: "Almost all the time", isCorrect: true },
       ],
@@ -258,7 +256,7 @@ const QuestList={
       text: " I have avoided situations or places because I was afraid of having a panic attack",
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
-        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 1, text: "Occasionally", isCorrect: false },
         { id: 2, text: "Frequently", isCorrect: true},
         { id: 3, text: "Almost all the time", isCorrect: true },
       ],
@@ -269,7 +267,7 @@ const QuestList={
         { id: 0, text: "Yes, I am currently receiving treatment", isCorrect: true },
         { id: 1, text: "Yes, but I am not currently receiving treatment", isCorrect: true },
         { id: 2, text: "No, but I am considering seeking help", isCorrect: true },
-        { id: 3, text: "No, I have not considered seeking help", isCorrect: true },
+        { id: 3, text: "No, I have not considered seeking help", isCorrect: false },
         { id: 4, text: "Others", isCorrect: true },
       ],
     },
@@ -279,7 +277,7 @@ const QuestList={
       text: "How often do you find yourself having repetitive, unwanted, and distressing thoughts or mental images (obsessions) that cause anxiety?",
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
-        { id: 1, text: "Occasionally", isCorrect: true},
+        { id: 1, text: "Occasionally", isCorrect: false},
         { id: 2, text: "Frequently", isCorrect: true },
         { id: 3, text: "Almost all the time", isCorrect: true },
       ],
@@ -288,7 +286,7 @@ const QuestList={
       text: "Do you feel compelled to perform certain behaviors or mental acts (compulsions) in response to the obsessive thoughts, even though you recognize that these actions are excessive or irrational?",
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
-        { id: 1, text: "Occasionally",isCorrect: true },
+        { id: 1, text: "Occasionally",isCorrect: false },
         { id: 2, text: "Frequently", isCorrect: true},
         { id: 3, text: "Almost all the time", isCorrect: true },
         { id: 4, text: "Others", isCorrect: true },
@@ -298,7 +296,7 @@ const QuestList={
       text: "How much time do you spend each day on these obsessions or compulsions?",
       options: [
         { id: 0, text: "Less than 1 hour", isCorrect: false },
-        { id: 1, text: "1-3 hours", isCorrect: true },
+        { id: 1, text: "1-3 hours", isCorrect: false },
         { id: 2, text: "3-6 hours", isCorrect: true },
         { id: 3, text: "More than 6 hours", isCorrect: true },
         { id: 4, text: "Others", isCorrect: true },
@@ -308,7 +306,7 @@ const QuestList={
       text: " Have these obsessions or compulsions significantly interfered with your daily functioning, relationships, or work/school responsibilities?",
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
-        { id: 1, text: "Mild interference", isCorrect: true },
+        { id: 1, text: "Mild interference", isCorrect: false },
         { id: 2, text: "Moderate interference", isCorrect: true },
         { id: 3, text: "Severe interference", isCorrect: true },
         { id: 4, text: "Others", isCorrect: true },
@@ -318,7 +316,7 @@ const QuestList={
       text: " Are you able to control these obsessions or compulsions despite your efforts to stop or ignore them?",
       options: [
         { id: 0, text: "Yes, always", isCorrect: false },
-        { id: 1, text: "Yes, sometimes", isCorrect: true },
+        { id: 1, text: "Yes, sometimes", isCorrect: false },
         { id: 2, text: "No, rarely", isCorrect: true },
         { id: 3, text: "No, never", isCorrect: true },
         { id: 4, text: "Others", isCorrect: true },
@@ -328,7 +326,7 @@ const QuestList={
       text: " Do you experience significant distress or anxiety if you are unable to perform the compulsive behaviors or rituals?",
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
-        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 1, text: "Occasionally", isCorrect: false },
         { id: 2, text: "Frequently", isCorrect: true },
         { id: 3, text: "Almost all the time", isCorrect: true },
         { id: 4, text: "Others", isCorrect: true },
@@ -338,7 +336,7 @@ const QuestList={
       text: " Have you attempted to avoid situations or places that trigger your obsessions or compulsions?",
       options: [
         { id: 0, text: "Not at all", isCorrect: false },
-        { id: 1, text: "Occasionally", isCorrect: true},
+        { id: 1, text: "Occasionally", isCorrect: false},
         { id: 2, text: "Frequently", isCorrect: true },
         { id: 3, text: "Almost all the time", isCorrect: true },
         { id: 4, text: "Others", isCorrect: true },
@@ -348,7 +346,7 @@ const QuestList={
       text: "Do you recognize that your obsessions or compulsions are not based in reality, yet you still find it difficult to control them?",
       options: [
         { id: 0, text: "Yes, always", isCorrect: false },
-        { id: 1, text: "Yes, sometimes", isCorrect: true},
+        { id: 1, text: "Yes, sometimes", isCorrect: false},
         { id: 2, text: "No, rarely", isCorrect: true },
         { id: 3, text: "No, never", isCorrect: true },
         { id: 4, text: "Others", isCorrect: true },
@@ -357,7 +355,7 @@ const QuestList={
     {
       text: " How long have you been experiencing these symptoms?",
       options: [
-        { id: 0, text: "Less than 1 month", isCorrect: true },
+        { id: 0, text: "Less than 1 month", isCorrect: false },
         { id: 1, text: "1-6 months", isCorrect: true },
         { id: 2, text: "6 months to 1 year", isCorrect: true },
         { id: 3, text: "More than 1 year",isCorrect: true},
@@ -368,8 +366,7 @@ const QuestList={
       text: " Have you ever been diagnosed with OCD by a healthcare professional?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
-        { id: 4, text: "Others", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
   ],
@@ -378,7 +375,7 @@ const QuestList={
       text: "Do you experience intense, irrational fears that disrupt your daily life?",
       options: [
         { id: 0, text: "Never", isCorrect: false },
-        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 1, text: "Occasionally", isCorrect: false },
         { id: 2, text: "Frequently", isCorrect: true },
         { id: 3, text: "Rarely", isCorrect: true },
       ],
@@ -387,7 +384,7 @@ const QuestList={
       text: "Have your phobias affected your ability to work or attend social events?",
       options: [
         { id: 0, text: "Never", isCorrect: false },
-        { id: 1, text: "Significantly", isCorrect: true},
+        { id: 1, text: "Significantly", isCorrect: false},
         { id: 2, text: "Moderately", isCorrect: true},
       ],
     },
@@ -395,7 +392,7 @@ const QuestList={
       text: " Do you actively avoid situations or places that trigger your phobias?",
       options: [
         { id: 0, text: "Never", isCorrect: false },
-        { id: 1, text: "Significantly", isCorrect: true},
+        { id: 1, text: "Significantly", isCorrect: false},
         { id: 2, text: "Moderately", isCorrect: true},
       ],
     },
@@ -421,7 +418,7 @@ const QuestList={
         { id: 1, text: "2", isCorrect: false },
         { id: 2, text: "3", isCorrect: false },
         { id: 3, text: "4", isCorrect: false },
-        { id: 4, text: "5", isCorrect: true },
+        { id: 4, text: "5", isCorrect: false },
         { id: 5, text: "6", isCorrect: true },
         { id: 6, text: "7", isCorrect: true },
         { id: 7, text: "8", isCorrect: true },
@@ -436,7 +433,7 @@ const QuestList={
       options: [
         { id: 0, text: "Every Night", isCorrect: true },
         { id: 1, text: "Several times a week", isCorrect: true },
-        { id: 2, text: "About once a week", isCorrect: true },
+        { id: 2, text: "About once a week", isCorrect: false },
         { id: 3, text: "Rarely or never", isCorrect: false },
         { id: 4, text: "Others", isCorrect: true },
       ],
@@ -446,7 +443,7 @@ const QuestList={
       options: [
         { id: 0, text: "Every Night", isCorrect: true },
         { id: 1, text: "Several times a week", isCorrect: true },
-        { id: 2, text: "About once a week", isCorrect: true },
+        { id: 2, text: "About once a week", isCorrect: false },
         { id: 3, text: "Rarely or never", isCorrect: false },
         { id: 4, text: "Others", isCorrect: true },
       ],
@@ -456,7 +453,7 @@ const QuestList={
       options: [
         { id: 0, text: "Every Night", isCorrect: true },
         { id: 1, text: "Several times a week", isCorrect: true },
-        { id: 2, text: "About once a week", isCorrect: true },
+        { id: 2, text: "About once a week", isCorrect: false },
         { id: 3, text: "Rarely or never", isCorrect: false },
         { id: 4, text: "Others", isCorrect: true },
       ],
@@ -465,8 +462,8 @@ const QuestList={
       text: "How long does it usually take you to fall asleep once you are in bed?",
       options: [
         { id: 0, text: "Less than 15 minutes", isCorrect: false },
-        { id: 1, text: "15-30 minutes", isCorrect: true },
-        { id: 2, text: "30 minutes to 1 hour", isCorrect: true},
+        { id: 1, text: "15-30 minutes", isCorrect: false },
+        { id: 2, text: "30 minutes to 1 hour", isCorrect: false},
         { id: 3, text: "More than 1 hour", isCorrect: true},
         { id: 4, text: "Others", isCorrect: true },
       ],
@@ -485,7 +482,7 @@ const QuestList={
       text: "Do you often feel irritable, anxious, or have difficulty concentrating during the day due to lack of sleep?",
       options: [
         { id: 0, text: "Yes, frequently", isCorrect: true },
-        { id: 1, text: "Yes, occasionally", isCorrect: true },
+        { id: 1, text: "Yes, occasionally", isCorrect: false },
         { id: 3, text: "No, not usually", isCorrect: false },
       ],
     },
@@ -493,7 +490,7 @@ const QuestList={
       text: "Have you noticed a significant decrease in your ability to function at work, school, or in your daily activities due to lack of sleep?",
       options: [
         { id: 0, text: "Yes, significantly", isCorrect: true },
-        { id: 1, text: "Yes, moderately", isCorrect: true },
+        { id: 1, text: "Yes, moderately", isCorrect: false },
         { id: 2, text: "No, not really", isCorrect: false },
         { id: 3, text: "Others", isCorrect: true },
       ],
@@ -501,7 +498,7 @@ const QuestList={
     {
       text: "How long have you been experiencing these sleep problems?",
       options: [
-        { id: 0, text: "Less than 1 month", isCorrect:true},
+        { id: 0, text: "Less than 1 month", isCorrect:false},
         { id: 1, text: "1-3months", isCorrect: true },
         { id: 2, text: "3-6months", isCorrect: true },
         { id: 3, text: "6 months to 1 year", isCorrect: true },
@@ -511,7 +508,7 @@ const QuestList={
     {
       text: "Have you tried any remedies or strategies to improve your sleep (e.g., relaxation techniques, herbal supplements, sleep apps) and found them ineffective?",
       options: [
-        { id: 0, text: "Yes", isCorrect:true},
+        { id: 0, text: "Yes", isCorrect:false},
         { id: 1, text: "No", isCorrect: true },
       ],
     },
@@ -519,7 +516,7 @@ const QuestList={
       text: "Do you have a history of mental health conditions or chronic illnesses that might be contributing to your sleep problems?",
       options: [
         { id: 0, text: "Yes", isCorrect:true},
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
 
@@ -536,7 +533,7 @@ const QuestList={
       text: "How often do you feel fatigued during the day?",
       options: [
         { id: 0, text: "Rarely", isCorrect: false },
-        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 1, text: "Occasionally", isCorrect: false },
         { id: 2, text: "Frequently", isCorrect: true},
         { id: 3, text: "Constantly", isCorrect: true },
       ],
@@ -575,7 +572,7 @@ const QuestList={
       text: " I find it difficult to initiate or maintain conversations with others",
       options: [
         { id: 0, text: "Not at all", isCorrect:false },
-        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 1, text: "Occasionally", isCorrect: false },
         { id: 2, text: "Often", isCorrect: true },
         { id: 3, text: "Very often", isCorrect: true },
         { id: 4, text: "Others", isCorrect: true },
@@ -585,7 +582,7 @@ const QuestList={
       text: " I have difficulty understanding jokes or sarcasm.",
       options: [
         { id: 0, text: "Not at all", isCorrect:false },
-        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 1, text: "Occasionally", isCorrect: false },
         { id: 2, text: "Often", isCorrect: true },
         { id: 3, text: "Very often", isCorrect: true },
         { id: 4, text: "Others", isCorrect: true },
@@ -595,7 +592,7 @@ const QuestList={
       text: " I struggle to understand social cues and body language",
       options: [
         { id: 0, text: "Not at all", isCorrect:false },
-        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 1, text: "Occasionally", isCorrect: false },
         { id: 2, text: "Often", isCorrect: true},
         { id: 3, text: "Very often", isCorrect:true },
         { id: 4, text: "Others", isCorrect: true },
@@ -605,7 +602,7 @@ const QuestList={
       text: "  I prefer to engage in activities alone rather than with others",
       options: [
         { id: 0, text: "Not at all", isCorrect:false},
-        { id: 1, text: "Occasionally", isCorrect: true},
+        { id: 1, text: "Occasionally", isCorrect: false},
         { id: 2, text: "Often", isCorrect: true},
         { id: 3, text: "Very often", isCorrect: true},
         { id: 4, text: "Others", isCorrect: true },
@@ -615,7 +612,7 @@ const QuestList={
       text: " I have specific routines and get upset if they are disrupted",
       options: [
         { id: 0, text: "Not at all", isCorrect:false},
-        { id: 1, text: "Occasionally", isCorrect: true},
+        { id: 1, text: "Occasionally", isCorrect: false},
         { id: 2, text: "Often", isCorrect: true},
         { id: 3, text: "Very often", isCorrect: true},
         { id: 4, text: "Others", isCorrect: true },
@@ -625,7 +622,7 @@ const QuestList={
       text: " I engage in repetitive movements or activities (e.g., hand flapping, rocking)",
       options: [
         { id: 0, text: "Not at all", isCorrect:false},
-        { id: 1, text: "Occasionally", isCorrect: true},
+        { id: 1, text: "Occasionally", isCorrect: false},
         { id: 2, text: "Often", isCorrect: true},
         { id: 3, text: "Very often", isCorrect: true},
         { id: 4, text: "Others", isCorrect: true },
@@ -635,7 +632,7 @@ const QuestList={
       text: "I am unusually sensitive to lights, sounds, textures, or smells",
       options: [
         { id: 0, text: "Not at all", isCorrect:false},
-        { id: 1, text: "Occasionally", isCorrect: true},
+        { id: 1, text: "Occasionally", isCorrect: false},
         { id: 2, text: "Often", isCorrect: true},
         { id: 3, text: "Very often", isCorrect: true},
         { id: 4, text: "Others", isCorrect: true },
@@ -645,7 +642,7 @@ const QuestList={
       text: "  I find it difficult to tolerate certain fabrics or clothing textures",
       options: [
         { id: 0, text: "Not at all", isCorrect:false},
-        { id: 1, text: "Occasionally", isCorrect: true},
+        { id: 1, text: "Occasionally", isCorrect: false},
         { id: 2, text: "Often", isCorrect: true},
         { id: 3, text: "Very often", isCorrect: true},
         { id: 4, text: "Others", isCorrect: true },
@@ -655,7 +652,7 @@ const QuestList={
       text: "I have intense interests in specific topics and can talk about them for hours",
       options: [
         { id: 0, text: "Not at all", isCorrect:false},
-        { id: 1, text: "Occasionally", isCorrect: true},
+        { id: 1, text: "Occasionally", isCorrect: false},
         { id: 2, text: "Often", isCorrect: true},
         { id: 3, text: "Very often", isCorrect: true},
         { id: 4, text: "Others", isCorrect: true },
@@ -665,7 +662,7 @@ const QuestList={
       text: "I engage in repetitive play or activities that involve specific patterns or sequences",
       options: [
         { id: 0, text: "Not at all", isCorrect:false},
-        { id: 1, text: "Occasionally", isCorrect: true},
+        { id: 1, text: "Occasionally", isCorrect: false},
         { id: 2, text: "Often", isCorrect: true},
         { id: 3, text: "Very often", isCorrect: true},
         { id: 4, text: "Others", isCorrect: true },
@@ -684,7 +681,7 @@ const QuestList={
       text: " Over the past two weeks, have you experienced periods of unusually elevated mood, energy, or irritability that lasted for several days and were different from your typical behavior?",
       options: [
         { id: 0, text: "Not at all", isCorrect:false},
-        { id: 1, text: "Occasionally", isCorrect: true},
+        { id: 1, text: "Occasionally", isCorrect: false},
         { id: 2, text: "Frequently", isCorrect: true},
         { id: 3, text: "Almost every day", isCorrect: true},
       ],
@@ -693,7 +690,7 @@ const QuestList={
       text: "Have you experienced periods of feeling excessively sad, hopeless, or lacking interest or pleasure in most activities, lasting for several days and interfering with your daily functioning?",
       options: [
         { id: 0, text: "Not at all", isCorrect:false},
-        { id: 1, text: "Occasionally", isCorrect: true},
+        { id: 1, text: "Occasionally", isCorrect: false},
         { id: 2, text: "Frequently", isCorrect: true},
         { id: 3, text: "Almost every day", isCorrect: true},
       ],
@@ -702,7 +699,7 @@ const QuestList={
       text: "During elevated or manic periods, have you engaged in impulsive or risky activities such as excessive spending, reckless driving, or risky behavior?",
       options: [
         { id: 0, text: "Not at all", isCorrect:false},
-        { id: 1, text: "Occasionally", isCorrect: true},
+        { id: 1, text: "Occasionally", isCorrect: false},
         { id: 2, text: "Frequently", isCorrect: true},
         { id: 3, text: "Almost every day", isCorrect: true},
       ],
@@ -711,7 +708,7 @@ const QuestList={
       text: "Have you noticed significant changes in your sleep patterns, such as insomnia (difficulty falling or staying asleep) or hypersomnia (excessive sleep), during these mood episodes?",
       options: [
         { id: 0, text: "Not at all", isCorrect:false},
-        { id: 1, text: "Occasionally", isCorrect: true},
+        { id: 1, text: "Occasionally", isCorrect: false},
         { id: 2, text: "Frequently", isCorrect: true},
         { id: 3, text: "Almost every day", isCorrect: true},
       ],
@@ -720,7 +717,7 @@ const QuestList={
       text: "Do you experience racing thoughts, rapid speech, or an inability to concentrate during elevated periods, which is significantly different from your usual behavior?",
       options: [
         { id: 0, text: "Not at all", isCorrect:false},
-        { id: 1, text: "Occasionally", isCorrect: true},
+        { id: 1, text: "Occasionally", isCorrect: false},
         { id: 2, text: "Frequently", isCorrect: true},
         { id: 3, text: "Almost every day", isCorrect: true},
       ],
@@ -729,7 +726,7 @@ const QuestList={
       text: "Have you ever had thoughts of death or suicide, or have you made suicide attempts, during periods of depression or low mood?",
       options: [
         { id: 0, text: "Not at all", isCorrect:false},
-        { id: 1, text: "Occasionally", isCorrect: true},
+        { id: 1, text: "Occasionally", isCorrect: false},
         { id: 2, text: "Frequently", isCorrect: true},
         { id: 3, text: "Almost every day", isCorrect: true},
       ],
@@ -738,7 +735,7 @@ const QuestList={
       text: "Have your mood swings caused significant distress or impairment in your social, occupational, or other important areas of functioning?",
       options: [
         { id: 0, text: "Not at all", isCorrect:false},
-        { id: 1, text: "Occasionally", isCorrect: true},
+        { id: 1, text: "Occasionally", isCorrect: false},
         { id: 2, text: "Frequently", isCorrect: true},
         { id: 3, text: "Almost every day", isCorrect: true},
       ],
@@ -770,7 +767,7 @@ const QuestList={
     {
       text: " How frequently do these hallucinations occur?",
       options: [
-        { id: 0, text: "Rarely(Once a month or less)", isCorrect:true },
+        { id: 0, text: "Rarely(Once a month or less)", isCorrect:false },
         { id: 1, text: "Occasionally(Several times a month)", isCorrect:true },
         { id: 2, text: "Frequently(Several times a week)", isCorrect:true },
         { id: 3, text: "Constantly(Every day)", isCorrect:true },
@@ -821,20 +818,20 @@ const QuestList={
     },
 
   ],
-  //HeartCare
+//HeartCare
   Heart:[
     {
       text: "Do you have a history of heart disease in your family?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Have you ever been diagnosed with a heart murmur?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -863,27 +860,21 @@ const QuestList={
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
-        { id: 2, text: "Occasionally", isCorrect: true},
+        { id: 2, text: "Occasionally", isCorrect: false},
       ],
     },
     {
       text: "Have you noticed swelling in your ankles, legs, or abdomen?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Do you smoke or use tobacco products?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
-      ],
-    },
-    {
-      text: " Please use this space to provide any additional information or comments relevant to your cardiovascular health:",
-      options: [
-        { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
 
@@ -933,7 +924,7 @@ const QuestList={
       text: "Do you have a history of heart disease or related conditions?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -947,7 +938,7 @@ const QuestList={
       text: " Do you have a history of diabetes?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -961,14 +952,14 @@ const QuestList={
       text: "Do you smoke?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "How often do you engage in physical activity?",
       options: [
         { id: 0, text: "Rarely", isCorrect: true },
-        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 1, text: "Occasionally", isCorrect: false },
         { id: 2, text: "Regularly", isCorrect: false },
       ],
     },
@@ -979,13 +970,14 @@ const QuestList={
       text: "Have you experienced dizziness before?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "If yes, please provide details on when the dizziness started and any known triggers.",
       options: [
         { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -999,7 +991,7 @@ const QuestList={
       text: "How often do you experience dizziness?",
       options: [
         { id: 0, text: "Daily", isCorrect: true },
-        { id: 1, text: "Weekly", isCorrect: true },
+        { id: 1, text: "Weekly", isCorrect: false },
         { id: 2, text: "Monthly", isCorrect: false },
       ],
     },
@@ -1014,6 +1006,7 @@ const QuestList={
       text: "If yes, please provide details.",
       options: [
         { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1034,7 +1027,7 @@ const QuestList={
       text: "Do you smoke?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1056,8 +1049,8 @@ const QuestList={
     {
       text: "When did you first notice these symptoms?",
       options: [
-        { id: 0, text: "Less than a week ago", isCorrect: true },
-        { id: 1, text: "1-2 weeks ago", isCorrect: true },
+        { id: 0, text: "Less than a week ago", isCorrect: false },
+        { id: 1, text: "1-2 weeks ago", isCorrect: false },
         { id: 2, text: "2-4 weeks ago", isCorrect: true },
         { id: 3, text: "More than a month ago", isCorrect: true },
       ],
@@ -1066,7 +1059,7 @@ const QuestList={
       text: "Do you have a history of heart conditions or cardiovascular diseases?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1080,6 +1073,7 @@ const QuestList={
       text: "Are you currently taking any medications for heart-related issues or respiratory conditions? If yes, please list them:",
       options: [
         { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1096,32 +1090,44 @@ const QuestList={
       text: "Do you smoke?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
   ],
   Racing:[
     {
-      text: "Do you have any existing medical conditions? If yes, please specify.",
+      text: "Do you have any existing medical conditions?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
-        { id: 2, text: "Space", isCorrect:true},
+      ],
+    },
+    {
+      text: "If yes, please provide details.",
+      options: [
+        { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Have you ever been diagnosed with heart-related issues?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
-      text: "Are you currently taking any medications? If yes, please list them.",
+      text: "Are you currently taking any medications?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
-        { id: 2, text: "Space", isCorrect:true},
+      ],
+    },
+    {
+      text: "If yes, please provide details.",
+      options: [
+        { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1158,11 +1164,17 @@ const QuestList={
   ],
   Congestive:[
     {
-      text: "Have you been previously diagnosed with Congestive Heart Failure (CHF)?,If yes, please specify",
+      text: "Have you been previously diagnosed with Congestive Heart Failure (CHF)?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
-        { id: 2, text: "Space", isCorrect:true},
+      ],
+    },
+    {
+      text: "If yes, please provide details.",
+      options: [
+        { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1181,7 +1193,7 @@ const QuestList={
       text: " Do you smoke?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1195,7 +1207,7 @@ const QuestList={
       text: " Do you have a history of diabetes?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1212,7 +1224,7 @@ const QuestList={
       text: "Have you ever been diagnosed with cardiovascular disease?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1233,7 +1245,7 @@ const QuestList={
       text: "Do you smoke or have a history of smoking?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1361,7 +1373,7 @@ const QuestList={
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
-        { id: 2, text: "Not sure", isCorrect: true },
+        { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
     {
@@ -1369,7 +1381,7 @@ const QuestList={
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
-        { id: 2, text: "Occasionally", isCorrect: true },
+        { id: 2, text: "Occasionally", isCorrect: false },
       ],
     },
     {
@@ -1382,7 +1394,7 @@ const QuestList={
     {
       text: "How long have you been experiencing shortness of breath?",
       options: [
-        { id: 0, text: "Less than a week", isCorrect: true },
+        { id: 0, text: "Less than a week", isCorrect: false },
         { id: 1, text: "1-2 weeks", isCorrect: true },
         { id: 2, text: "2-4 weeks", isCorrect: true },
         { id: 3, text: "More than a month", isCorrect: true },
@@ -1393,7 +1405,7 @@ const QuestList={
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
-        { id: 2, text: "Not sure", isCorrect: true },
+        { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
   ],
@@ -1409,14 +1421,14 @@ const QuestList={
       text: "Have you ever been diagnosed with heart disease?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Do you smoke?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1431,7 +1443,7 @@ const QuestList={
       text: "Does anyone in your immediate family have a history of diabetes or heart disease?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1452,14 +1464,14 @@ const QuestList={
       text: "Have you been diagnosed with high blood pressure before?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Do you have a family history of heart diseases?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
         { id: 2, text: "Not sure", isCorrect: true }, 
       ],
     },
@@ -1467,14 +1479,14 @@ const QuestList={
       text: "Are you currently taking any medications?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Do you smoke?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1482,22 +1494,22 @@ const QuestList={
       options: [
         { id: 0, text: "None", isCorrect: true },
         { id: 1, text: "1-2 hours", isCorrect: true },
-        { id: 2, text: "3-5 hours", isCorrect: true },
-        { id: 3, text: "6 or more hours", isCorrect: true },
+        { id: 2, text: "3-5 hours", isCorrect: false },
+        { id: 3, text: "6 or more hours", isCorrect: false },
       ],
     },
     {
       text: "Have you measured your blood pressure in the last month?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: " If yes, please provide your most recent blood pressure readings (systolic/diastolic)",
       options: [
-        { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1546,6 +1558,7 @@ const QuestList={
       text: "How long have you been experiencing these symptoms, including redness in your eyes?",
       options: [
         { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1559,14 +1572,14 @@ const QuestList={
       text: "Do you wear contact lenses?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Do you have any pre-existing medical conditions related to eye health (e.g., dry eye syndrome, conjunctivitis)?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
   ],
@@ -1575,20 +1588,21 @@ const QuestList={
       text: " Have you ever been diagnosed with a vision-related condition?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: " If yes, please provide details:",
       options: [
         { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Have you had any eye surgery or procedures in the past?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1604,8 +1618,8 @@ const QuestList={
     {
       text: "When did you first notice these symptoms?",
       options: [
-        { id: 0, text: "Less than a week ago", isCorrect: true },
-        { id: 1, text: "1-2 weeks ago", isCorrect: true },
+        { id: 0, text: "Less than a week ago", isCorrect:false },
+        { id: 1, text: "1-2 weeks ago", isCorrect: false},
         { id: 2, text: "2-4 weeks ago", isCorrect: true },
         { id: 3, text: "More than a month ago", isCorrect: true },
       ],
@@ -1614,14 +1628,14 @@ const QuestList={
       text: "Do you spend prolonged periods of time in front of digital screens?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Are you exposed to environmental factors that may affect your vision, such as dust, smoke, or allergens?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1636,7 +1650,7 @@ const QuestList={
       text: "Do you have a family history of eye conditions?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
   ],
@@ -1648,8 +1662,7 @@ const QuestList={
         { id: 1, text: "Hypertension", isCorrect: true },
         { id: 2, text: "Neurological conditions", isCorrect: true },
         { id: 3, text: "Others", isCorrect: true },
-        { id: 4, text: "None of the above", isCorrect: true },
-        { id: 5, text: "No", isCorrect: false},
+        { id: 4, text: "No", isCorrect: false},
       ],
     },
     {
@@ -1662,7 +1675,7 @@ const QuestList={
     {
       text: "When did you first notice double vision?",
       options: [
-        { id: 0, text: "Within the last week", isCorrect: true },
+        { id: 0, text: "Within the last week", isCorrect: false },
         { id: 1, text: "Within the last month", isCorrect: true },
         { id: 2, text: "Within the last six months", isCorrect: true },
         { id: 3, text: "More than six months ago", isCorrect: true },
@@ -1699,8 +1712,8 @@ const QuestList={
     {
       text: "How often do you engage in activities that may strain your eyes, such as reading or working on a computer?",
       options: [
-        { id: 0, text: "Rarely", isCorrect: true },
-        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 0, text: "Rarely", isCorrect: false},
+        { id: 1, text: "Occasionally", isCorrect: false },
         { id: 2, text: "Frequently", isCorrect: true },
         { id: 3, text: "Constantly", isCorrect: true },
       ],
@@ -1716,7 +1729,7 @@ const QuestList={
       text: "Have you had any recent changes in your vision or prescription for glasses or contact lenses?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
   ],
@@ -1732,14 +1745,14 @@ const QuestList={
       text: "Are you currently taking any medications? If yes, please provide details.",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Do you currently wear corrective lenses (glasses or contact lenses)?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1753,7 +1766,7 @@ const QuestList={
       text: "Have you ever been diagnosed with a lazy eye (amblyopia)?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1818,7 +1831,7 @@ const QuestList={
       text: "Do you wear contact lenses regularly?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1832,28 +1845,28 @@ const QuestList={
       text: "Are you currently using any eye medications or prescribed treatments?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Do you have a history of autoimmune diseases (e.g., rheumatoid arthritis, Sjögren's syndrome)?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
       text: "Have you undergone any eye surgeries in the past?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Are you currently taking medications that may cause dry eye symptoms (e.g., antihistamines, decongestants)?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
   ],
@@ -1862,13 +1875,13 @@ const QuestList={
       text: " Do you currently experience drooping of one or both eyelids??",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "When did you first notice the eyelid drooping?",
       options: [
-        { id: 0, text: "Within the last week", isCorrect: true },
+        { id: 0, text: "Within the last week", isCorrect: false },
         { id: 1, text: "Within the last month", isCorrect: true },
         { id: 2, text: "Within the last six months", isCorrect: true },
         { id: 3, text: "More than six months ago", isCorrect: true },
@@ -1886,7 +1899,7 @@ const QuestList={
       text: "Do you have a history of any eye-related conditions or surgeries?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1940,8 +1953,8 @@ const QuestList={
       options: [
         { id: 0, text: "Always", isCorrect: true },
         { id: 1, text: "Often", isCorrect: true },
-        { id: 2, text: "Occasionally", isCorrect: true },
-        { id: 3, text: "Rarely", isCorrect: true },
+        { id: 2, text: "Occasionally", isCorrect: false },
+        { id: 3, text: "Rarely", isCorrect: false },
         { id: 4, text: "Never", isCorrect: false },
       ],
     },
@@ -1950,8 +1963,8 @@ const QuestList={
       options: [
         { id: 0, text: "Always", isCorrect: true },
         { id: 1, text: "Often", isCorrect: true },
-        { id: 2, text: "Occasionally", isCorrect: true },
-        { id: 3, text: "Rarely", isCorrect: true },
+        { id: 2, text: "Occasionally", isCorrect: false },
+        { id: 3, text: "Rarely", isCorrect: false },
         { id: 4, text: "Never", isCorrect: false },
       ],
     },
@@ -1970,7 +1983,7 @@ const QuestList={
       options: [
         { id: 0, text: "Yes,regularly", isCorrect: true },
         { id: 1, text: "Occasionally", isCorrect: true },
-        { id: 2, text: "Rarely", isCorrect: true },
+        { id: 2, text: "Rarely", isCorrect: false },
         { id: 3, text: "Never", isCorrect: false },
       ],
     },
@@ -2019,6 +2032,7 @@ const QuestList={
       text: "Is there a family history of crossed eyes or related eye conditions?",
       options: [
         { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
   ],
@@ -2028,8 +2042,8 @@ const QuestList={
       options: [
         { id: 0, text: "Always", isCorrect: true },
         { id: 1, text: "Often", isCorrect: true },
-        { id: 2, text: "Occasionally", isCorrect: true },
-        { id: 3, text: "Rarely", isCorrect: true },
+        { id: 2, text: "Occasionally", isCorrect: false },
+        { id: 3, text: "Rarely", isCorrect: false },
         { id: 4, text: "Never", isCorrect: false },
       ],
     },
@@ -2038,17 +2052,17 @@ const QuestList={
       options: [
         { id: 0, text: "Always", isCorrect: true },
         { id: 1, text: "Often", isCorrect: true },
-        { id: 2, text: "Occasionally", isCorrect: true },
-        { id: 3, text: "Rarely", isCorrect: true },
+        { id: 2, text: "Occasionally", isCorrect: false },
+        { id: 3, text: "Rarely", isCorrect: false },
         { id: 4, text: "Never", isCorrect: false },
       ],
     },
     {
       text: "On average, how many hours per day do you spend on digital devices (e.g., computer, smartphone, tablet)?",
       options: [
-        { id: 0, text: "Less than 1 hour", isCorrect: true },
-        { id: 1, text: "1-2 hours", isCorrect: true },
-        { id: 2, text: "2-4 hours", isCorrect: true },
+        { id: 0, text: "Less than 1 hour", isCorrect: false },
+        { id: 1, text: "1-2 hours", isCorrect: false },
+        { id: 2, text: "2-4 hours", isCorrect: false },
         { id: 3, text: "4-6 hours", isCorrect: true },
         { id: 4, text: "More than 6 hours", isCorrect: true },
       ],
@@ -2057,8 +2071,8 @@ const QuestList={
       text: "Is there a family history of shortsightedness (myopia)?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
-        { id: 2, text: "Not sure", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+        { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
     {
@@ -2124,14 +2138,14 @@ const QuestList={
       text: "Do you consume sugary foods and beverages regularly?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Do you smoke or use tobacco products?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2153,8 +2167,8 @@ const QuestList={
     {
       text: "How long have you been experiencing toothache symptoms?",
       options: [
-        { id: 0, text: "Less than 24 hours", isCorrect: true },
-        { id: 1, text: "1-3 days", isCorrect: true },
+        { id: 0, text: "Less than 24 hours", isCorrect: false },
+        { id: 1, text: "1-3 days", isCorrect: false },
         { id: 2, text: "4-7 days", isCorrect: true },
         { id: 3, text: "More than a week", isCorrect: true },
       ],
@@ -2188,15 +2202,15 @@ const QuestList={
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
-        { id: 2, text: "Not sure", isCorrect: true },
+        { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
     {
       text: " Do you have any history of dental issues or recent dental procedures?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
-        { id: 2, text: "Not sure", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+        { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
     {
@@ -2214,8 +2228,8 @@ const QuestList={
       text: "Do you have any known allergies to medications or dental materials?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
-        { id: 2, text: "Not Sure", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+        { id: 2, text: "Not Sure", isCorrect: false },
       ],
     },
     {
@@ -2238,7 +2252,7 @@ const QuestList={
       text: "Have you ever been diagnosed with any bleeding disorders (e.g., hemophilia)?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
         { id: 2, text: "Not sure", isCorrect: true },
       ],
     },
@@ -2247,15 +2261,15 @@ const QuestList={
       options: [
         { id: 0, text: "Twice a day", isCorrect: true },
         { id: 1, text: "Once a day", isCorrect: true },
-        { id: 2, text: "Less than once a day", isCorrect: true },
+        { id: 2, text: "Less than once a day", isCorrect: false },
       ],
     },
     {
       text: "How often do you floss your teeth?",
       options: [
         { id: 0, text: "Daily", isCorrect: true },
-        { id: 1, text: "Occasionally", isCorrect: true },
-        { id: 2, text: "Rarely or Never", isCorrect: true },
+        { id: 1, text: "Occasionally", isCorrect: false },
+        { id: 2, text: "Rarely or Never", isCorrect: false },
       ],
     },
     {
@@ -2263,7 +2277,7 @@ const QuestList={
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
-        { id: 2, text: "Not sure", isCorrect: true },
+        { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
     {
@@ -2271,7 +2285,7 @@ const QuestList={
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
-        { id: 2, text: "Occasionally", isCorrect: true },
+        { id: 2, text: "Occasionally", isCorrect: false },
       ],
     },
     {
@@ -2279,7 +2293,7 @@ const QuestList={
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
-        { id: 2, text: "Occasionally", isCorrect: true },
+        { id: 2, text: "Occasionally", isCorrect: false },
       ],
     },
     {
@@ -2287,7 +2301,7 @@ const QuestList={
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
-        { id: 2, text: "Occasionally", isCorrect: true },
+        { id: 2, text: "Occasionally", isCorrect: false },
       ],
     },
   ],
@@ -2296,21 +2310,21 @@ const QuestList={
       text: "Do you have a history of dental issues?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "If yes, please specify the nature of the issue(s)",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "When did you first notice the discoloration of your teeth?",
       options: [
-        { id: 0, text: "Less than a week ago", isCorrect: true },
-        { id: 1, text: "1-2 weeks ago", isCorrect: true },
+        { id: 0, text: "Less than a week ago", isCorrect: false },
+        { id: 1, text: "1-2 weeks ago", isCorrect: false },
         { id: 2, text: "2-4 weeks ago", isCorrect: true },
         { id: 3, text: "More than a month ago", isCorrect: true },
       ],
@@ -2336,14 +2350,14 @@ const QuestList={
       text: "Do you smoke or use tobacco products?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "How frequently do you consume beverages known to stain teeth (coffee, tea, red wine)?",
       options: [
-        { id: 0, text: "Rarely", isCorrect: true },
-        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 0, text: "Rarely", isCorrect: false },
+        { id: 1, text: "Occasionally", isCorrect: false },
         { id: 2, text: "Frequently", isCorrect: true },
       ],
     },
@@ -2351,7 +2365,7 @@ const QuestList={
       text: "Do you have any underlying health conditions that may affect your oral health?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
   ],
@@ -2360,7 +2374,7 @@ const QuestList={
       text: " Do you currently experience tooth sensitivity to cold stimuli (e.g., cold drinks, ice cream, cold air)?",
       options: [
         { id: 0, text: "Never", isCorrect: false },
-        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 1, text: "Occasionally", isCorrect: false },
         { id: 2, text: "Frequently", isCorrect: true },
         { id: 3, text: "Always", isCorrect: true },
       ],
@@ -2369,7 +2383,7 @@ const QuestList={
       text: " Do you currently experience tooth sensitivity to hot stimuli (e.g., hot drinks, warm food)?",
       options: [
         { id: 0, text: "Never", isCorrect: false },
-        { id: 1, text: "Occasionally", isCorrect: true },
+        { id: 1, text: "Occasionally", isCorrect: false },
         { id: 2, text: "Frequently", isCorrect: true },
         { id: 3, text: "Always", isCorrect: true },
       ],
@@ -2378,14 +2392,14 @@ const QuestList={
       text: "Do you consume acidic foods and beverages regularly? (e.g., citrus fruits, soda)",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: " Do you use any teeth-whitening products? (e.g., whitening toothpaste, over-the-counter whitening strips)",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2403,8 +2417,8 @@ const QuestList={
       text: "Do you have any known dental conditions or diseases? (e.g., cavities, gum disease)",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
-        { id: 2, text: "Not sure", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+        { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
   ],
@@ -2412,7 +2426,7 @@ const QuestList={
     {
       text: "Do you have a history of gum disease (gingivitis or periodontitis)?",
       options: [
-        { id: 0, text: "Yes", isCorrect: false },
+        { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
         { id: 2, text: "Not sure", isCorrect: false },
       ],
@@ -2420,7 +2434,8 @@ const QuestList={
     {
       text: "Have you had any recent dental procedures or surgeries? If yes, please provide details.",
       options: [
-        { id: 0, text: "Space", isCorrect: false },
+        { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2438,19 +2453,19 @@ const QuestList={
     {
       text: "How often do you brush your teeth?",
       options: [
-        { id: 0, text: "Once a day", isCorrect: false },
+        { id: 0, text: "Once a day", isCorrect: true },
         { id: 1, text: "Twice a day", isCorrect: false },
         { id: 2, text: "Three times a day", isCorrect: false },
-        { id: 3, text: "Less than once a day", isCorrect: false },
+        { id: 3, text: "Less than once a day", isCorrect: true },
       ],
     },
     {
       text: "How often do you floss your teeth?",
       options: [
-        { id: 0, text: "Once a day", isCorrect: false },
+        { id: 0, text: "Once a day", isCorrect: true },
         { id: 1, text: "Twice a day", isCorrect: false },
         { id: 2, text: "Three times a day", isCorrect: false },
-        { id: 3, text: "Less than once a day", isCorrect: false },
+        { id: 3, text: "Less than once a day", isCorrect: true },
       ],
     },
     {
@@ -2463,7 +2478,7 @@ const QuestList={
     {
       text: "Have you experienced any recent trauma or injury to your teeth or jaw?",
       options: [
-        { id: 0, text: "Yes", isCorrect: false },
+        { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
       ],
     },
@@ -2477,7 +2492,8 @@ const QuestList={
     {
       text: "Please provide a brief history of any previous dental treatments or surgeries",
       options: [
-        { id: 0, text: "Space", isCorrect: false },
+        { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2497,16 +2513,16 @@ const QuestList={
     {
       text: "How often do you brush your teeth each day?",
       options: [
-        { id: 0, text: "Once", isCorrect: false },
+        { id: 0, text: "Once", isCorrect: true },
         { id: 1, text: "Twice", isCorrect: false },
         { id: 2, text: "Three times", isCorrect: false },
-        { id: 3, text: "More than three times", isCorrect: false },
+        { id: 3, text: "More than three times", isCorrect: true },
       ],
     },
     {
       text: "Do you use dental floss regularly?",
       options: [
-        { id: 0, text: "Yes", isCorrect: false },
+        { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false },
       ],
     },
@@ -2515,7 +2531,7 @@ const QuestList={
     {
       text: "How would you describe the frequency of your bad breath?",
       options: [
-        { id: 0, text: "Occasionally", isCorrect: true },
+        { id: 0, text: "Occasionally", isCorrect: false },
         { id: 1, text: "Frequently", isCorrect: true },
         { id: 2, text: "constantly", isCorrect: true },
         { id: 3, text: "Not Applicable", isCorrect: false },
@@ -2524,24 +2540,24 @@ const QuestList={
     {
       text: "How often do you brush your teeth?",
       options: [
-        { id: 0, text: "Twice a day", isCorrect: true },
-        { id: 1, text: "Once a day", isCorrect: true },
-        { id: 2, text: "Occasionally", isCorrect: true },
-        { id: 3, text: "Rarely", isCorrect: true },
+        { id: 0, text: "Once", isCorrect: true },
+        { id: 1, text: "Twice", isCorrect: false },
+        { id: 2, text: "Three times", isCorrect: false },
+        { id: 3, text: "More than three times", isCorrect: true },
       ],
     },
     {
       text: "Do you use dental floss or an interdental cleaner regularly?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Have you noticed any bleeding or sensitivity while brushing or flossing?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
         { id: 2, text: "Not applicable", isCorrect: false },
       ],
     },
@@ -2549,13 +2565,13 @@ const QuestList={
       text: "Do you smoke or use tobacco products?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "How would you describe your daily water intake?",
       options: [
-        { id: 0, text: "Sufficient", isCorrect: true },
+        { id: 0, text: "Sufficient", isCorrect: false },
         { id: 1, text: "Insufficient", isCorrect: true },
       ],
     },
@@ -2563,7 +2579,7 @@ const QuestList={
       text: "Are you a regular consumer of foods or drinks known to cause bad breath? (e.g., garlic, onions, coffee)",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
   ],
@@ -2572,7 +2588,7 @@ const QuestList={
       text: "Have you experienced any recent trauma or injury to your teeth or jaw?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2586,13 +2602,14 @@ const QuestList={
       text: "Please provide a brief history of any previous dental treatments or surgeries",
       options: [
         { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Rate the level of pain or discomfort you are currently experiencing on a scale of 1 to 10 (1 being no pain, 10 being severe pain)",
       options: [
-        { id: 0, text: "Yes", isCorrect: false },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 0, text: "1-5", isCorrect: false },
+        { id: 1, text: "6-10", isCorrect: true },
       ],
     },
     {
@@ -2627,6 +2644,7 @@ const QuestList={
       text: "Please list any dental care products you currently use (toothpaste, mouthwash, etc.)",
       options: [
         { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
   ],
@@ -3621,9 +3639,9 @@ const QuestList={
     {
       text: "How would you describe the current condition of your hair? (Choose one)",
       options: [
-        { id: 0, text: "Health", isCorrect: true },
-        { id: 1, text: "Dry", isCorrect: true},
-        { id: 2, text: "Oily", isCorrect: true},
+        { id: 0, text: "Healthy", isCorrect: false },
+        { id: 1, text: "Dry", isCorrect: false},
+        { id: 2, text: "Oily", isCorrect: false},
         { id: 3, text: "Brittle", isCorrect: true},
         { id: 4, text: "Damaged", isCorrect: true},
         { id: 5, text: "Others", isCorrect: true},
@@ -3646,8 +3664,8 @@ const QuestList={
     {
       text: "How often do you wash your hair?",
       options: [
-        { id: 0, text: "Daily", isCorrect: true },
-        { id: 1, text: "Every other day", isCorrect: true},
+        { id: 0, text: "Daily", isCorrect: false },
+        { id: 1, text: "Every other day", isCorrect: false},
         { id: 2, text: "Twice a week", isCorrect: true},
         { id: 3, text: "Once a week", isCorrect: true},
         { id: 4, text: "Less than once a week", isCorrect: true},
@@ -3657,13 +3675,14 @@ const QuestList={
       text: "Do you use heat styling tools on your hair? (e.g., flat iron, curling iron)",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
       text: "Please provide a brief history of any major hair treatments or procedures you've undergone in the past year (e.g., coloring, perming, straightening)",
       options: [
         { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
@@ -3677,9 +3696,9 @@ const QuestList={
     {
       text: "Do you follow a balanced diet that includes foods rich in vitamins and minerals essential for hair health? (Select one",
       options: [
-        { id: 0, text: "Yes", isCorrect: true },
+        { id: 0, text: "Yes", isCorrect: false },
         { id: 1, text: "No", isCorrect: true},
-        { id: 2, text: "I'm not sure", isCorrect: true},
+        { id: 2, text: "I'm not sure", isCorrect: false},
       ],
     },
   ],
@@ -3692,19 +3711,21 @@ const QuestList={
         { id: 2, text: "Cardiovascular disease", isCorrect: true},
         { id: 3, text: "Thyroid disorders", isCorrect: true},
         { id: 4, text: "Others", isCorrect: true},
-        { id: 5, text: "None of the above", isCorrect: false},
+        { id: 5, text: "No", isCorrect: false},
       ],
     },
     {
       text: "What is your primary goal for weight loss?",
       options: [
         { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
       text: "Are there any specific challenges or obstacles you have faced in previous attempts at weight loss?",
       options: [
         { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
   ],
@@ -3720,14 +3741,15 @@ const QuestList={
       ],
     },
     {
-      text: "Skin Concerns(Choose one that nearly matches)",
+      text: "Skin Concerns(Choose most suitable one)",
       options: [
         { id: 0, text: "Acne", isCorrect: true},
         { id: 1, text: "Dark Spots", isCorrect:true},
         { id: 2, text: "Fine Lines/Wrinkles", isCorrect: true },
         { id: 3, text: "Redness/Irritation", isCorrect: true },
         { id: 4, text: "Others", isCorrect: true },
-        { id: 5, text: "None of the above", isCorrect: false},
+        { id: 5, text: "No", isCorrect: false},
+        
       ],
     },
     {
