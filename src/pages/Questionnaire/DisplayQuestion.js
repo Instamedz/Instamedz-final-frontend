@@ -40,7 +40,7 @@ function DisplayQuestion(props) {
     }
   };
   const isFormValid = () => {
-    return cname.trim() !== '' && phone.trim() !== '' && email.trim() !== '' && answers.every(answer => answer !== null);
+    return cname.trim() !== '' && phone.trim() !== '' && email.trim() !== '';
   };
   
 
@@ -49,6 +49,7 @@ function DisplayQuestion(props) {
   const [cname,setCname]=useState("")
   const [phone,setPhone]=useState("")
   let feedback;
+
   const onsubmit=async()=>{
 
     if (isFormValid()) {
@@ -111,45 +112,35 @@ function DisplayQuestion(props) {
             {question.options.map((option, optionIndex) => (
               <li key={optionIndex} className='display-list'>
               <label>
-                {option.text === "Others" ? (
+                {option.text === "Space" ? (
                   <>
-                    <input
-                      required
-                      type="radio"
-                      id={`radiobtn${optionIndex}`}
-                      name={`question${index}`}
-                      checked={answersText[index]}
-                      onChange={() => handleAnswerSelect(index, optionIndex)}
-                    />
-                    &nbsp;
-                    Others :
-                    &nbsp;
-                    <input
-                      className='display-textfield'
-                      type="text"
-                      value={answersText[index] || ""}
-                      onChange={(e) => handleTextAnswerChange(index, e.target.value)}
-                      onClick={() => calculateScore(option.isCorrect)}
-                    />
-                  </>
+                  <input
+                    className='display-textfield'
+                    type="text"
+                  />
+                </>
                 ) :
-                option.text === "Space" ? (
+                option.text === "Others" ? (
                   <>
-                    <input
-                      type="radio"
-                      id={`radiobtn${optionIndex}`}
-                      name={`question${index}`}
-                      checked={answersText[index]}
-                      onChange={() => handleAnswerSelect(index, optionIndex)}
-                    />
-                    <input
-                      className='display-textfield'
-                      type="text"
-                      value={answersText[index] || ""}
-                      onChange={(e) => handleTextAnswerChange(index, e.target.value)}
-                      onClick={() => calculateScore(option.isCorrect)}
-                    />
-                  </>
+                  <input
+                    required
+                    type="radio"
+                    id={`radiobtn${optionIndex}`}
+                    name={`question${index}`}
+                    checked={answersText[index]}
+                    onChange={() => handleAnswerSelect(index, optionIndex)}
+                  />
+                  &nbsp;
+                  Others :
+                  &nbsp;
+                  <input
+                    className='display-textfield'
+                    type="text"
+                    value={answersText[index] || ""}
+                    onChange={(e) => handleTextAnswerChange(index, e.target.value)}
+                    onClick={() => calculateScore(option.isCorrect)}
+                  />
+                </>
                 ):(
                   <>
                     <input
