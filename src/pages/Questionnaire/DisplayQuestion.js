@@ -40,7 +40,7 @@ function DisplayQuestion(props) {
     }
   };
   const isFormValid = () => {
-    return cname.trim() !== '' && phone.trim() !== '' && email.trim() !== '';
+    return cname.trim() !== '' && phone.trim() !== '' && email.trim() !== '' && consent.trim() !=='';
   };
   
 
@@ -48,6 +48,7 @@ function DisplayQuestion(props) {
   const [email,setemail]=useState("")
   const [cname,setCname]=useState("")
   const [phone,setPhone]=useState("")
+  const [consent,setConsent]=useState("")
   let feedback;
 
   const onsubmit=async()=>{
@@ -74,6 +75,7 @@ function DisplayQuestion(props) {
     setCname("")
     setPhone("")
     setemail("")
+    setConsent("")
     }
     else {
       alert('Please fill in all fields and answer all questions before submitting.');
@@ -169,7 +171,7 @@ function DisplayQuestion(props) {
       </div>
       <div className='display-input'>
           <label for="textbox" >By submitting this form, I consent to the collection and use of my personal and health information for the purpose of telemedicine consultation.(Type "YES" in the space below)</label>
-          <input required type="textaddress" id="textbox"/>
+          <input required type="textaddress" onChange={(e)=>setConsent(e.target.value)}  id="textbox" value={consent}/>
       </div>
       
       <button onClick={onsubmit}  class="display-btn" id="callback">Submit</button>        
