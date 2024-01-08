@@ -792,7 +792,6 @@ const QuestList={
       text: "If you answered 'YES' ,please specify",
       options: [
         { id: 0, text: "Space", isCorrect:true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -977,7 +976,6 @@ const QuestList={
       text: "If yes, please provide details on when the dizziness started and any known triggers.",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1006,7 +1004,6 @@ const QuestList={
       text: "If yes, please provide details.",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1073,7 +1070,6 @@ const QuestList={
       text: "Are you currently taking any medications for heart-related issues or respiratory conditions? If yes, please list them:",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1106,7 +1102,6 @@ const QuestList={
       text: "If yes, please provide details.",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1127,7 +1122,6 @@ const QuestList={
       text: "If yes, please provide details.",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1174,7 +1168,6 @@ const QuestList={
       text: "If yes, please provide details.",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1509,7 +1502,6 @@ const QuestList={
       text: " If yes, please provide your most recent blood pressure readings (systolic/diastolic)",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1558,7 +1550,6 @@ const QuestList={
       text: "How long have you been experiencing these symptoms, including redness in your eyes?",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1595,7 +1586,6 @@ const QuestList={
       text: " If yes, please provide details:",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1669,7 +1659,6 @@ const QuestList={
       text: "Are you currently taking any medications? If yes, please list them:",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1722,7 +1711,6 @@ const QuestList={
       text: "Have you had any recent eye examinations? If yes, please provide details:",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1738,14 +1726,12 @@ const QuestList={
       text: "Have you been diagnosed with any chronic medical conditions? If yes, please specify.",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Are you currently taking any medications? If yes, please provide details.",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1773,7 +1759,6 @@ const QuestList={
       text: "Have you had any previous eye surgeries? If yes, please provide details.",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -1906,14 +1891,12 @@ const QuestList={
       text: "Are you currently taking any medications? If yes, please list them:",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Do you have any known allergies? If yes, please specify",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2000,7 +1983,6 @@ const QuestList={
       text: "Have you undergone any eye surgeries in the past? If yes, please provide details.",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2032,7 +2014,6 @@ const QuestList={
       text: "Is there a family history of crossed eyes or related eye conditions?",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
   ],
@@ -2317,7 +2298,6 @@ const QuestList={
       text: "If yes, please specify the nature of the issue(s)",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2435,7 +2415,6 @@ const QuestList={
       text: "Have you had any recent dental procedures or surgeries? If yes, please provide details.",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2493,7 +2472,6 @@ const QuestList={
       text: "Please provide a brief history of any previous dental treatments or surgeries",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2602,7 +2580,6 @@ const QuestList={
       text: "Please provide a brief history of any previous dental treatments or surgeries",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2644,7 +2621,6 @@ const QuestList={
       text: "Please list any dental care products you currently use (toothpaste, mouthwash, etc.)",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
   ],
@@ -2683,7 +2659,6 @@ const QuestList={
       text: "If yes, please specify the tooth/teeth involved",
       options: [
         { id: 0, text: "Space", isCorrect: false },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2696,23 +2671,19 @@ const QuestList={
     {
       text: "List any pre-existing medical conditions",
       options: [
-        { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
-        
+        { id: 0, text: "Space", isCorrect: true },        
       ],
     },
     {
       text: "Allergies (if any)",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
       text: "Any recent dental procedures or treatments",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2772,7 +2743,6 @@ const QuestList={
       text: " If yes, please describe the type of cough (dry, productive, barking, etc.).",
       options: [
         { id: 0, text: "Space", isCorrect:true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2793,7 +2763,6 @@ const QuestList={
       text: " If yes, provide the highest temperature recorded.",
       options: [
         { id: 0, text: "Space", isCorrect:true },
-        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2829,16 +2798,13 @@ const QuestList={
     {
       text: "Current Weight (in kilograms):",
       options: [
-        { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "Don't prefer to say", isCorrect: false },
-        
+        { id: 0, text: "Space", isCorrect: true },       
       ],
     },
     {
       text: "Height (in centimeters):",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "Don't prefer to say", isCorrect: false },
       ],
     },
     {
@@ -3113,7 +3079,6 @@ const QuestList={
       text: "If yes, please provide the highest recorded temperature:",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
@@ -3218,7 +3183,6 @@ const QuestList={
       text: "If yes, please provide details",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
@@ -3274,7 +3238,6 @@ const QuestList={
       text: "Please list any known food allergies or intolerances.",
       options: [
         { id: 0, text: "Space", isCorrect: true},
-        { id: 1, text: "No", isCorrect: false},
       ],
     },
 
@@ -3397,7 +3360,6 @@ const QuestList={
       text: "If 'YES' ,please specify",
       options: [
         { id: 0, text: "Space", isCorrect:true },
-        { id: 1, text: "False", isCorrect: false },
       ],
     },
   ],
@@ -3708,7 +3670,6 @@ const QuestList={
       text: "Please provide a brief history of any major hair treatments or procedures you've undergone in the past year (e.g., coloring, perming, straightening)",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
@@ -3744,14 +3705,12 @@ const QuestList={
       text: "What is your primary goal for weight loss?",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
       text: "Are there any specific challenges or obstacles you have faced in previous attempts at weight loss?",
       options: [
         { id: 0, text: "Space", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false},
       ],
     },
   ],
