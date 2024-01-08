@@ -791,8 +791,8 @@ const QuestList={
     {
       text: "If you answered 'YES' ,please specify",
       options: [
-        { id: 0, text: "True", isCorrect:true },
-        { id: 1, text: "False", isCorrect: false },
+        { id: 0, text: "Space", isCorrect:true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2762,9 +2762,16 @@ const QuestList={
       ],
     },
     {
-      text: "Is your child experiencing a cough? If yes, please describe the type of cough (dry, productive, barking, etc.).",
+      text: "Is your child experiencing a cough?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: " If yes, please describe the type of cough (dry, productive, barking, etc.).",
+      options: [
+        { id: 0, text: "Space", isCorrect:true },
         { id: 1, text: "No", isCorrect: false },
       ],
     },
@@ -2776,9 +2783,16 @@ const QuestList={
       ],
     },
     {
-      text: "Has your child had a fever in the last 24 hours? If yes, provide the highest temperature recorded.",
+      text: "Has your child had a fever in the last 24 hours? ",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+      ],
+    },
+    {
+      text: " If yes, provide the highest temperature recorded.",
+      options: [
+        { id: 0, text: "Space", isCorrect:true },
         { id: 1, text: "No", isCorrect: false },
       ],
     },
@@ -2816,18 +2830,22 @@ const QuestList={
       text: "Current Weight (in kilograms):",
       options: [
         { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "Don't prefer to say", isCorrect: false },
+        
       ],
     },
     {
       text: "Height (in centimeters):",
       options: [
         { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "Don't prefer to say", isCorrect: false },
       ],
     },
     {
       text: "Has there been a noticeable change in your child's weight or height recently?",
       options: [
-        { id: 0, text: "Space", isCorrect: true },
+        { id: 0, text: "Yes", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
     {
@@ -2866,7 +2884,7 @@ const QuestList={
     {
       text: "Onset of Ear Pain",
       options: [
-        { id: 0, text: "Less than 24 hours", isCorrect: true },
+        { id: 0, text: "Less than 24 hours", isCorrect: false },
         { id: 1, text: "1-3 days", isCorrect: true },
         { id: 2, text: "4-7 days", isCorrect: true },
         { id: 3, text: "More than a week", isCorrect: true },
@@ -2885,8 +2903,8 @@ const QuestList={
     {
       text: "Location of Pain",
       options: [
-        { id: 0, text: "Left ear", isCorrect: true },
-        { id: 1, text: "Right ear", isCorrect: true },
+        { id: 0, text: "Left ear", isCorrect: false },
+        { id: 1, text: "Right ear", isCorrect: false },
         { id: 2, text: "Both ears", isCorrect: true },
       ],
     },
@@ -2910,16 +2928,16 @@ const QuestList={
       text: "Does your child uses earphones or headphones regularly?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
-        { id: 2, text: "Not applicable", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
+        { id: 2, text: "Not applicable", isCorrect: false },
       ],
     },
     {
       text: "History of Ear Infections",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
-        { id: 2, text: "Not sure", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false},
+        { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
   ],
@@ -2970,7 +2988,7 @@ const QuestList={
       text: "Is there a family history of asthma or respiratory conditions?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
   ],
@@ -2988,7 +3006,7 @@ const QuestList={
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false},
-        { id: 2, text: "Not sure", isCorrect: true },
+        { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
     {
@@ -2996,7 +3014,7 @@ const QuestList={
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false},
-        { id: 2, text: "Not sure", isCorrect: true },
+        { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
     {
@@ -3004,7 +3022,7 @@ const QuestList={
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false},
-        { id: 2, text: "Not sure", isCorrect: true },
+        { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
     {
@@ -3019,7 +3037,7 @@ const QuestList={
       text: "Is your child able to keep liquids down?",
       options: [
         { id: 0, text: "Yes,without difficulty", isCorrect: false },
-        { id: 1, text: "Yes,with some difficulty", isCorrect: true},
+        { id: 1, text: "Yes,with some difficulty", isCorrect: false},
         { id: 2, text: "No, unable to keep liquids down", isCorrect: true },
       ],
     },
@@ -3029,7 +3047,7 @@ const QuestList={
       text: "Has your child been in contact with someone diagnosed with measles in the past 21 days?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
@@ -3048,7 +3066,7 @@ const QuestList={
     {
       text: "If you answered 'Yes' to any of the symptoms, please provide details",
       options: [
-        { id: 0, text: "onset", isCorrect: true },
+        { id: 0, text: "onset", isCorrect: false },
         { id: 1, text: "severity", isCorrect: true},
       ],
     },
@@ -3056,7 +3074,7 @@ const QuestList={
       text: "Does your child have red eyes or conjunctivitis?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
         { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
@@ -3064,7 +3082,7 @@ const QuestList={
       text: "Is there a presence of small white spots on the inner cheeks and mouth?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
         { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
@@ -3072,7 +3090,7 @@ const QuestList={
       text: "Does your child have any pre-existing health conditions or a compromised immune system?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
   ],
@@ -3081,7 +3099,7 @@ const QuestList={
       text: "Has your child been generally healthy in the past 14 days?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
@@ -3094,7 +3112,8 @@ const QuestList={
     {
       text: "If yes, please provide the highest recorded temperature:",
       options: [
-        { id: 0, text: "Space", isCorrect: false },
+        { id: 0, text: "Space", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
@@ -3117,14 +3136,14 @@ const QuestList={
       text: "Has your child been in close contact with anyone who has tested positive for COVID-19 in the past 14 days?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
       text: "Has your child travelled internationally or domestically in the past 14 days?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
   ],
@@ -3139,7 +3158,7 @@ const QuestList={
     {
       text: "Duration of Sore Throat",
       options: [
-        { id: 0, text: "Less than 24 hours", isCorrect: true },
+        { id: 0, text: "Less than 24 hours", isCorrect: false },
         { id: 1, text: "1-3 days", isCorrect: true},
         { id: 2, text: "3-5 days", isCorrect: true},
         { id: 3, text: "More than 5 days", isCorrect: true},
@@ -3149,7 +3168,7 @@ const QuestList={
       text: "Severity of Sore Throat",
       options: [
         { id: 0, text: "Mild", isCorrect: false },
-        { id: 1, text: "Moderate", isCorrect: true},
+        { id: 1, text: "Moderate", isCorrect: false},
         { id: 2, text: "Severe", isCorrect: true},
       ],
     },
@@ -3167,7 +3186,7 @@ const QuestList={
     {
       text: "Any known exposure to COVID-19?",
       options: [
-        { id: 0, text: "Yes", isCorrect: false },
+        { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false},
         { id: 2, text: "Not sure", isCorrect: false},
       ],
@@ -3175,7 +3194,7 @@ const QuestList={
     {
       text: "Does the child have any known allergies?",
       options: [
-        { id: 0, text: "Yes", isCorrect: false },
+        { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false},
       ],
     },
@@ -3192,7 +3211,7 @@ const QuestList={
       text: "Has your child ever been diagnosed with allergies?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
@@ -3206,7 +3225,7 @@ const QuestList={
       text: "Has your child experienced any adverse reactions to medications or vaccines?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
@@ -3254,7 +3273,8 @@ const QuestList={
     {
       text: "Please list any known food allergies or intolerances.",
       options: [
-        { id: 0, text: "Space", isCorrect: false },
+        { id: 0, text: "Space", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
 
@@ -3266,21 +3286,21 @@ const QuestList={
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false},
-        { id: 2, text: "Not sure", isCorrect: true },
+        { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
     {
       text: "Are you currently experiencing shortness of breath?",
       options: [
         { id: 0, text: "Yes,continuously", isCorrect: true },
-        { id: 1, text: "Yes,occasionally", isCorrect: true },
+        { id: 1, text: "Yes,occasionally", isCorrect: false },
         { id: 2, text: "No", isCorrect: false},
       ],
     },
     {
       text: "If yes, when did you first notice the shortness of breath?",
       options: [
-        { id: 0, text: "Less than 24 hours ago", isCorrect: true },
+        { id: 0, text: "Less than 24 hours ago", isCorrect: false },
         { id: 1, text: "1-2 days ago", isCorrect: true},
         { id: 2, text: "3-5 days ago", isCorrect: true },
         { id: 3, text: "More than 5 days ago", isCorrect: true },
@@ -3291,7 +3311,7 @@ const QuestList={
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false},
-        { id: 2, text: "Not sure", isCorrect: true },
+        { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
     {
@@ -3299,7 +3319,7 @@ const QuestList={
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false},
-        { id: 2, text: "Not sure", isCorrect: true },
+        { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
     {
@@ -3307,7 +3327,7 @@ const QuestList={
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false},
-        { id: 2, text: "Not sure", isCorrect: true },
+        { id: 2, text: "Not sure", isCorrect: false },
       ],
     },
   ],
@@ -3315,8 +3335,8 @@ const QuestList={
     {
       text: "When did you first notice a runny nose?",
       options: [
-        { id: 0, text: "Today", isCorrect: true },
-        { id: 1, text: "Within the last 3 days", isCorrect: true},
+        { id: 0, text: "Today", isCorrect: false },
+        { id: 1, text: "Within the last 3 days", isCorrect: false},
         { id: 2, text: "Within the last week", isCorrect: true },
         { id: 2, text: "More than a week ago", isCorrect: true },
       ],
@@ -3326,14 +3346,14 @@ const QuestList={
       options: [
         { id: 0, text: "Thin and watery", isCorrect: true },
         { id: 1, text: "Thick and colored (yellow or green)", isCorrect: true},
-        { id: 2, text: "I don't know", isCorrect: true },
+        { id: 2, text: "I don't know", isCorrect: false },
       ],
     },
     {
       text: "Have you experienced any other respiratory symptoms along with the runny nose? (e.g., cough, shortness of breath)",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
@@ -3356,22 +3376,28 @@ const QuestList={
       text: "Have you traveled internationally within the last 14 days?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
       text: "Have you been in close contact with someone diagnosed with COVID-19 in the last 14 days?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
-      text: "Do you have any pre-existing respiratory conditions? If yes, please specify.",
+      text: "Do you have any pre-existing respiratory conditions?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
         { id: 1, text: "No", isCorrect: false},
-        { id: 2, text: "Space", isCorrect: true },
+      ],
+    },
+    {
+      text: "If 'YES' ,please specify",
+      options: [
+        { id: 0, text: "Space", isCorrect:true },
+        { id: 1, text: "False", isCorrect: false },
       ],
     },
   ],
@@ -3380,7 +3406,7 @@ const QuestList={
       text: "Have you tested positive for COVID-19 within the last 14 days?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
         { id: 2, text: "Not sure", isCorrect: true},
       ],
     },
@@ -3404,7 +3430,7 @@ const QuestList={
       text: "Have you experienced headaches within the last 14 days?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
@@ -3427,7 +3453,7 @@ const QuestList={
       text: " Do you have a history of chronic headaches or migraines?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
@@ -3452,7 +3478,7 @@ const QuestList={
       text: "Have you tested positive for COVID-19 within the last 14 days?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
         { id: 2, text: "Not sure", isCorrect: true},
       ],
     },
@@ -3530,7 +3556,7 @@ const QuestList={
       text: "Do you have any pre-existing conditions or chronic illnesses that may affect your musculoskeletal system? (e.g., arthritis, fibromyalgia)",
       options: [
         { id: 0, text: "Yes", isCorrect: true},
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
   ],
@@ -3539,7 +3565,7 @@ const QuestList={
       text: "Have you experienced a sore throat recently?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
@@ -3560,14 +3586,14 @@ const QuestList={
         { id: 4, text: "Fatigue", isCorrect: true},
         { id: 5, text: "Body aches", isCorrect: true},
         { id: 6, text: "Headache", isCorrect: true},
-        { id: 7, text: "None of the above", isCorrect: true},
+        { id: 7, text: "None of the above", isCorrect: false},
       ],
     },
     {
       text: "In the last 14 days, have you been in close contact with someone confirmed to have COVID-19?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
         { id: 2, text: "Not sure", isCorrect: true},
       ],
     },
@@ -3575,14 +3601,14 @@ const QuestList={
       text: "Have you recently travelled to an area with a high prevalence of COVID-19?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
       text: "Do you have any underlying health conditions that may increase your risk of severe illness from COVID-19? (e.g., diabetes, heart disease, lung disease)",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
   ],
@@ -3623,7 +3649,7 @@ const QuestList={
       text: "Have you travelled internationally or to any areas with known COVID-19 outbreaks in the past 14 days?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true},
+        { id: 1, text: "No", isCorrect: false},
       ],
     },
     {
@@ -3689,7 +3715,7 @@ const QuestList={
       text: "How would you describe your current stress level?",
       options: [
         { id: 0, text: "Low", isCorrect: false },
-        { id: 1, text: "Moderate", isCorrect: true},
+        { id: 1, text: "Moderate", isCorrect: false},
         { id: 2, text: "High", isCorrect: true},
       ],
     },
@@ -3825,7 +3851,7 @@ const QuestList={
       text: "Do you engage in activities that may strain your eyes? (e.g., prolonged screen time, reading in low light)",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: true },
+        { id: 1, text: "No", isCorrect: false },
       ],
     },
   ],
