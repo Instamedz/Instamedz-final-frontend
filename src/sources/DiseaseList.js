@@ -173,16 +173,6 @@ heart:[
     ],
     symptoms:"Chest Pain or Discomfort: Especially during physical exertion,Shortness of Breath: Difficulty breathing, even at rest,Fatigue: Persistent tiredness and weakness,Swelling: Accumulation of fluid in the legs and ankles,Irregular Heartbeat: Arrhythmias may occur in individuals with diabetes and heart disease."
   },
-  
-  {
-    name: "Congestive Heart Failure (CHF)",
-    description: "Congestive Heart Failure is a chronic condition, heart unable to pump blood efficiently, leading potential organ dysfunction.",
-    definition: "Congestive Heart Failure results from the heart's inability to effectively pump blood, causing fluid retention and insufficient oxygen delivery to organs. Common causes include coronary artery disease, heart attack, and hypertension. As the heart weakens, symptoms like fatigue, shortness of breath, and swelling in the legs emerge. CHF may be categorized as left-sided or right-sided heart failure, each impacting different parts of the circulatory system.",
-    types:["Left-Sided Heart Failure: Impairs the heart's ability to pump oxygenated blood to the body.",
-    "Right-Sided Heart Failure: Affects the heart's ability to pump blood returning from the body to the lungs for oxygenation."
-    ],
-    symptoms:"Shortness of Breath: Especially during physical activity or when lying down,Persistent Coughing: Resulting from fluid accumulation in the lungs,Fatigue and Weakness: Due to inadequate blood flow to vital organs,Swelling (Edema): Particularly in the legs, ankles, and abdomen,Rapid or Irregular Heartbeat: Palpitations may occur."
-  },
   {
     name: "High Blood Pressure",
     description: "High Blood Pressure, or Hypertension,where the force of blood against artery walls is consistently too high.",

@@ -1156,62 +1156,6 @@ const QuestList={
       ],
     },
   ],
-  Congestive:[
-    {
-      text: "Have you been previously diagnosed with Congestive Heart Failure (CHF)?",
-      options: [
-        { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
-      ],
-    },
-    {
-      text: "If yes, please provide details.",
-      options: [
-        { id: 0, text: "Space", isCorrect: true },
-      ],
-    },
-    {
-      text: " Do you currently experience any of the following symptoms associated with CHF?",
-      options: [
-        { id: 0, text: "Shortness of breath", isCorrect: true },
-        { id: 1, text: "Fatigue", isCorrect: true },
-        { id: 2, text: "Swelling in the ankles or legs", isCorrect:true},
-        { id: 3, text: "Persistent coughing", isCorrect:true},
-        { id: 4, text: "Rapid or irregular heartbeat", isCorrect:true},
-        { id: 5, text: "Sudden weight gain", isCorrect:true},
-        { id: 6, text: "None of the above", isCorrect:false},
-      ],
-    },
-    {
-      text: " Do you smoke?",
-      options: [
-        { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
-      ],
-    },
-    {
-      text: "Have you been diagnosed with hypertension (high blood pressure)?",
-      options: [
-        { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
-      ],
-    },
-    {
-      text: " Do you have a history of diabetes?",
-      options: [
-        { id: 0, text: "Yes", isCorrect: true },
-        { id: 1, text: "No", isCorrect: false },
-      ],
-    },
-    {
-      text: "Describe your typical diet:",
-      options: [
-        { id: 0, text: "Healthy and balanced", isCorrect: false },
-        { id: 1, text: "Mostly healthy with occasional indulgences", isCorrect: false },
-        { id: 2, text: "Often includes processed or unhealthy foods", isCorrect:true},
-      ],
-    },
-  ],
   Peripheral:[
     {
       text: "Have you ever been diagnosed with cardiovascular disease?",
@@ -1425,14 +1369,6 @@ const QuestList={
       ],
     },
     {
-      text: "How often do you engage in physical activity? (Choose one)",
-      options: [
-        { id: 0, text: "Rarely", isCorrect: false },
-        { id: 1, text: "Occasionally", isCorrect: false },
-        { id: 2, text: "Regularly", isCorrect: false },
-      ],
-    },
-    {
       text: "Does anyone in your immediate family have a history of diabetes or heart disease?",
       options: [
         { id: 0, text: "Yes", isCorrect: true },
@@ -1440,7 +1376,25 @@ const QuestList={
       ],
     },
     {
-      text: "Does anyone in your immediate family have a history of diabetes or heart disease?",
+      text: "What is your typical fasting blood sugar level (before any food or drink) in the morning?",
+      options: [
+        { id: 0, text: "99 mg/dL or lower is normal", isCorrect: false },
+        { id: 1, text: "100 to 125 mg/dL", isCorrect: true },
+        { id: 2, text: "126 mg/dL", isCorrect: true },
+        { id: 3, text: "Others", isCorrect: true },
+      ],
+    },
+    {
+      text: "What is your typical blood sugar level 2 hours after a meal?",
+      options: [
+        { id: 0, text: "Less than 140 mg/dL", isCorrect: false },
+        { id: 1, text: "140 - 199 mg/dL", isCorrect: true },
+        { id: 2, text: "200 mg/dL or higher", isCorrect: true },
+        { id: 3, text: "Others", isCorrect: true },
+      ],
+    },
+    {
+      text: "Are you currently experiencing any of the following symptoms? (Check all that apply)",
       options: [
         { id: 0, text: "Increased thirst", isCorrect: true },
         { id: 1, text: "Frequent urination", isCorrect: true },
@@ -1501,7 +1455,9 @@ const QuestList={
     {
       text: " If yes, please provide your most recent blood pressure readings (systolic/diastolic)",
       options: [
-        { id: 0, text: "Space", isCorrect: true },
+        { id: 0, text: "systolic: less than 120 mm Hg diastolic: less than 80 mm Hg", isCorrect: false },
+        { id: 1, text: "systolic: 120–139 mm Hg diastolic: 80–89 mm Hg", isCorrect: true },
+        { id: 2, text: "systolic: 140 mm Hg or higher diastolic: 90 mm Hg or higher", isCorrect: true },
       ],
     },
     {
