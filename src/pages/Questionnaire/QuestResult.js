@@ -11,7 +11,7 @@ function QuestResult() {
   }, []);
 
   const location=useLocation();
-  const {flag,diseasename}=location.state;
+  const {flag,diseasename,care}=location.state;
   const showPosResults = flag;
   const navigate = useNavigate();
 
@@ -19,7 +19,7 @@ function QuestResult() {
 
   const handleClick =(flag)=>{
     if(flag==="remedies") navigate('/remedies',{state:{id:diseasename.split(" ")[0]}});
-    if(flag==="doctor") navigate('/appointdoctor/soul');
+    if(flag==="doctor") navigate(`/appointdoctor/${care}`);
   }
   return (
     <div className='result-bg'>
@@ -38,7 +38,10 @@ function QuestResult() {
           <img src={img3} alt="" className='result-img'/>
           <h2>Moderate to Severe</h2>
           <p>Your responses indicate a potential concern, we strongly recommend consulting a mental health professional for a comprehensive assessment and appropriate guidance</p>
-          <button className='result-btn' onClick={()=>handleClick("doctor")}>Connect With Doctor</button>
+          <div className="result-btncontainer">
+            <button className='result-btn' onClick={()=>handleClick("doctor")}>Connect With Doctor</button>
+            <button className='result-btn' onClick={()=>handleClick("remedies")}>Get Remedies Instead</button>
+          </div>
         </div>
       )}
       <Footer />

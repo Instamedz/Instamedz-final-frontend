@@ -104,6 +104,7 @@
 }
 .result-card p{
   width: 100%;
+  margin-bottom: 20px;
   color: #000000;
   text-align: center;
   font-size: 20px;
@@ -116,12 +117,18 @@
   width: 200px;
   height: 60px;
   flex-shrink: 0;
+  margin-bottom: 20px;
   border-radius: 10px;
   border: #32C0D4;
   background: #32C0D4;
   color: white;
   font-weight: 700;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+}
+.result-btncontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Optional: Center the buttons horizontally */
 }
 @media screen and (max-width: 768px)
 {
@@ -210,6 +217,7 @@
     height: 50px;
     font-size: 14px;
   }
+ 
   .result-img{
     display: block;
     margin:auto;

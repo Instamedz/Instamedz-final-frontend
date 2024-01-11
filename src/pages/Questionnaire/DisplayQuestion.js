@@ -69,7 +69,7 @@ function DisplayQuestion(props) {
       }]
     })
     if(resultresp){
-      navigate('/result',{state:{flag:flag,diseasename:diseasename}});
+      navigate('/result',{state:{flag:flag,diseasename:diseasename,care:care}});
     }
     console.log(resultresp)
     setCname("")
