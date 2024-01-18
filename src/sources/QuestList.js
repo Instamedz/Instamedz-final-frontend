@@ -4,7 +4,7 @@ const QuestList={
       {
         text: "What specific fears or phobias are causing you anxiety?",
         options: [
-          { id: 0, text: "Arachnophobia (fear of spiders)", isCorrect: true },
+          { id: 0, text: "Arachnophobia (fear of spiders)", isCorrect: false },
           { id: 1, text: "Ophidiophobia (fear of snakes)", isCorrect: true },
           { id: 2, text: "Trypophobia (fear of clustered holes)", isCorrect: true },
           { id: 3, text: "Aviophobia (fear of flying)", isCorrect: true },
